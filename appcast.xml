@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.25</title>
+            <pubDate>Thu, 16 Jul 2026 02:47:55 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>43</sparkle:version>
+            <sparkle:shortVersionString>2.10.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.25
+
+- Rebuilt the volume popover with macOS 27's native interactive clear-glass surface.
+- Matched Apple's compact 140 × 20 small-slider geometry while preserving the existing popover size and animation.
+- Removed the simulated blur, shimmer, border, and shadow layers for genuine system-rendered transparency and refraction.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.25/Now-2.10.25.zip" length="2974592" type="application/octet-stream" sparkle:edSignature="Bu578MKisbrh3N1Q4cLiti1P1KqWzKUXabDxCISvhqnVjSyjaHWFbWCFXFpapo5qwggZlD163cpBC/XG12G4Ag=="/>
+        </item>
+        <item>
             <title>2.10.24</title>
             <pubDate>Wed, 15 Jul 2026 20:36:39 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +46,6 @@
 - Fixed the volume panel's closing jump by preventing a pre-dismiss layout refresh from repositioning it.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.23/Now-2.10.23.zip" length="2975983" type="application/octet-stream" sparkle:edSignature="zBkTDlJRj8ONI94dVAXHvCyJo3iPslfLK4ThByMkWNeeReKvyC9AE+W1MLI7r86p3Z3SFmLhrbYd1mpN8wdkCw=="/>
-        </item>
-        <item>
-            <title>2.10.22</title>
-            <pubDate>Wed, 15 Jul 2026 20:11:19 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>40</sparkle:version>
-            <sparkle:shortVersionString>2.10.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.22
-
-- Removed the elegant overlay's positional settling during show and hide.
-- Volume panel now fades out in place instead of drifting upward when dismissed.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.22/Now-2.10.22.zip" length="2975860" type="application/octet-stream" sparkle:edSignature="vBviq36wsTqRPUF4uOXoDz97s/BobtE04Xp4Rj+4XbkpqaJdEKBGwfu+YUQcE+cMfYt82Si4mhy5d9ZE9bfKCA=="/>
         </item>
     </channel>
 </rss>
