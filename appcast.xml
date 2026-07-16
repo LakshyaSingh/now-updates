@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.22</title>
+            <pubDate>Wed, 15 Jul 2026 20:11:19 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>2.10.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.22
+
+- Removed the elegant overlay's positional settling during show and hide.
+- Volume panel now fades out in place instead of drifting upward when dismissed.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.22/Now-2.10.22.zip" length="2975860" type="application/octet-stream" sparkle:edSignature="vBviq36wsTqRPUF4uOXoDz97s/BobtE04Xp4Rj+4XbkpqaJdEKBGwfu+YUQcE+cMfYt82Si4mhy5d9ZE9bfKCA=="/>
+        </item>
+        <item>
             <title>2.10.21</title>
             <pubDate>Wed, 15 Jul 2026 20:05:23 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +46,6 @@
 - Added native Force Touch haptic feedback to the previous, play/pause, and next controls.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.20/Now-2.10.20.zip" length="2993122" type="application/octet-stream" sparkle:edSignature="CzB81jTEcc3wuZcxXZRNysqbmLZRzJMp1RqF5EP4eZk87bzUrWjoyYqcwRHzHbwHeG7Co58l3xxPJsrwqEEDAQ=="/>
-        </item>
-        <item>
-            <title>2.10.19</title>
-            <pubDate>Wed, 15 Jul 2026 19:51:20 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>37</sparkle:version>
-            <sparkle:shortVersionString>2.10.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.19
-
-- Aligned the right speaker endpoint with the slider row, rather than the overall panel center.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.19/Now-2.10.19.zip" length="2992859" type="application/octet-stream" sparkle:edSignature="pCfiFraB58uYOLSyuoQL+QCjBkn14Qxw9BoiVzb+rp4uhWl1+dUrcvZOiLGIfkyRc87+5Qs1e+wqbCBwzm1UCg=="/>
         </item>
     </channel>
 </rss>
