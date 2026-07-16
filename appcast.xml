@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.29</title>
+            <pubDate>Thu, 16 Jul 2026 03:48:51 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>2.10.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.29
+
+- Added a smooth, continuous marquee for song titles that are too long to fit in the overlay.
+- Short titles remain still, while long titles pause briefly before beginning to scroll.
+- Marquee motion respects the macOS Reduce Motion accessibility setting.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.29/Now-2.10.29.zip" length="3015316" type="application/octet-stream" sparkle:edSignature="XBMIEvk4Iou5ZX7+rLaJbqQYFFGD7IghOnOZhQoA7f5MYJCQhLUUgXIVCnkzHkeaHzOvEQ367GfDvS2gY9TaAw=="/>
+        </item>
+        <item>
             <title>2.10.28</title>
             <pubDate>Thu, 16 Jul 2026 03:39:07 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
