@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.15</title>
+            <pubDate>Wed, 15 Jul 2026 19:33:40 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>2.10.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.15
+
+- Rebuilt the volume HUD around macOS’s compact system-volume proportions.
+- Replaced the oversized control surface with a smaller device label, narrow native slider, and restrained mute action.
+- Preserves the existing expand and collapse animation.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.15/Now-2.10.15.zip" length="2988988" type="application/octet-stream" sparkle:edSignature="6JhxKS2uY8qXwrt3uL5uc1CQs7V5Inj4PcoicTe7r2oR6EK0/DkiGTQx3EvyM2mmVLXRkWKwcwhfWWlqvPrHDw=="/>
+        </item>
+        <item>
             <title>2.10.14</title>
             <pubDate>Wed, 15 Jul 2026 19:30:04 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +47,6 @@
 - Includes the native-root Liquid Glass volume HUD correction from 2.10.12.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.13/Now-2.10.13.zip" length="2983587" type="application/octet-stream" sparkle:edSignature="qpm+XUgGll4kElgastCCdlrjyzlDtGSsh7VN9aEkT48nMU1wTmCp+2wwFZuOkW1ipde3PJnYyZmIJMz3jqUEBQ=="/>
-        </item>
-        <item>
-            <title>2.10.12</title>
-            <pubDate>Wed, 15 Jul 2026 19:21:58 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>30</sparkle:version>
-            <sparkle:shortVersionString>2.10.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.12
-
-- Corrected the volume HUD’s Liquid Glass composition by moving the native glass effect to the popover’s root view, where macOS can render it dynamically.
-- Removed the redundant flat blur beneath the volume controls and retained the fast reveal and return animation.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.12/Now-2.10.12.zip" length="2983586" type="application/octet-stream" sparkle:edSignature="U4A52Ae9f4tYTsnFLae9QO/UNuH19GNw73+ql8csKVgE3aWq2BUXELSC2hkCEiq5/5S11vhHC8eqOxM7gk2LBA=="/>
         </item>
     </channel>
 </rss>
