@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.32</title>
+            <pubDate>Thu, 16 Jul 2026 13:28:11 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>50</sparkle:version>
+            <sparkle:shortVersionString>2.10.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.32
+
+- Kept the play/pause icon synchronized with the music player's confirmed playback state.
+- Removed premature icon changes while browser or native playback commands are still being processed.
+- Preserved immediate button feedback and rapid-click coalescing without displaying an incorrect state.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.32/Now-2.10.32.zip" length="3014379" type="application/octet-stream" sparkle:edSignature="u+BtDlIeoMp0wBLb7SpAd7fa2a57ppwGkRi63JyToOUyu0t7rW3UqxslSB1vL6tKvDpVxoavbZrD3O5+xasrBw=="/>
+        </item>
+        <item>
             <title>2.10.31</title>
             <pubDate>Thu, 16 Jul 2026 13:04:23 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,22 +50,6 @@
 - Prevented LinkedIn, YouTube, and other Chrome media tabs from intercepting play, pause, next, or previous commands.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.30/Now-2.10.30.zip" length="3015461" type="application/octet-stream" sparkle:edSignature="xKSM/wC0ibOyv6fYlc7QEvF/Qrf9vcFDPPOOTm+1elhv+4Ip6pXZajMln01RYRkp2/KmjI/fc+HJ1I8GJWelAg=="/>
-        </item>
-        <item>
-            <title>2.10.29</title>
-            <pubDate>Thu, 16 Jul 2026 03:48:51 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>2.10.29</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.29
-
-- Added a smooth, continuous marquee for song titles that are too long to fit in the overlay.
-- Short titles remain still, while long titles pause briefly before beginning to scroll.
-- Marquee motion respects the macOS Reduce Motion accessibility setting.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.29/Now-2.10.29.zip" length="3015316" type="application/octet-stream" sparkle:edSignature="XBMIEvk4Iou5ZX7+rLaJbqQYFFGD7IghOnOZhQoA7f5MYJCQhLUUgXIVCnkzHkeaHzOvEQ367GfDvS2gY9TaAw=="/>
         </item>
     </channel>
 </rss>
