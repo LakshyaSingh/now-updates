@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.20</title>
+            <pubDate>Wed, 15 Jul 2026 19:56:27 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>2.10.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.20
+
+- Refined the right speaker endpoint spacing so it sits closer to the slider with balanced visual rhythm.
+- Added native Force Touch haptic feedback to the previous, play/pause, and next controls.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.20/Now-2.10.20.zip" length="2993122" type="application/octet-stream" sparkle:edSignature="CzB81jTEcc3wuZcxXZRNysqbmLZRzJMp1RqF5EP4eZk87bzUrWjoyYqcwRHzHbwHeG7Co58l3xxPJsrwqEEDAQ=="/>
+        </item>
+        <item>
             <title>2.10.19</title>
             <pubDate>Wed, 15 Jul 2026 19:51:20 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - Added endpoint feedback: drag to zero to bounce the left icon, or to full volume to bounce the right icon.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.18/Now-2.10.18.zip" length="2992862" type="application/octet-stream" sparkle:edSignature="cOycboZ/zfbrLhDIgSE0t33geOf3a3kGsKbFEewDq9XzHA8mFdwxQMbC7zQRFDksQSzX1yecQWGC7NQAobUGDg=="/>
-        </item>
-        <item>
-            <title>2.10.17</title>
-            <pubDate>Wed, 15 Jul 2026 19:40:36 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>35</sparkle:version>
-            <sparkle:shortVersionString>2.10.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.17
-
-- Removed the separate right-hand volume pill so the HUD reads as one continuous glass surface.
-- Restored the distinct full-volume speaker icon while aligning both speaker icons in matching visual frames.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.17/Now-2.10.17.zip" length="2988451" type="application/octet-stream" sparkle:edSignature="IATSKfIndKkudi5PMK3UbWNz29LOY+0EyF0JM+7bmF/91uxtulgGQ+CQ2xWnWpGJIFggFqOWlpBxPjP7XvCwCw=="/>
         </item>
     </channel>
 </rss>
