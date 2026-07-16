@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.36</title>
+            <pubDate>Thu, 16 Jul 2026 14:09:48 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>54</sparkle:version>
+            <sparkle:shortVersionString>2.10.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.36
+
+- Kept interactive artwork movement directly synchronized with the trackpad until release.
+- Removed the mid-gesture acceleration when swiping toward the previous track.
+- Prefetched the next queued cover so forward swipes no longer reveal an empty tile.
+- Added a smooth late-artwork fallback and hardened the transition handoff after a committed swipe.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.36/Now-2.10.36.zip" length="3034858" type="application/octet-stream" sparkle:edSignature="xflDmtyDEuchNCWd5cZDaRt8n1sBdWfic9I25jZp52QoYLlDBzm3abMweu1tj3MSEONzttf51twtpwTOsg1cDw=="/>
+        </item>
+        <item>
             <title>2.10.35</title>
             <pubDate>Thu, 16 Jul 2026 14:00:03 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,22 +51,6 @@
 - Added direction normalization, diagonal rejection, momentum filtering, and one action per physical gesture.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.34/Now-2.10.34.zip" length="3016092" type="application/octet-stream" sparkle:edSignature="74DeVoQlISDBi/LSEOi5+dlZK6rxpIVHhHCxkgwDSSa7YfjksfrWyvL9uzW+MEXBd1DlmPUTrIWNH3gqMJheDA=="/>
-        </item>
-        <item>
-            <title>2.10.33</title>
-            <pubDate>Thu, 16 Jul 2026 13:38:06 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>51</sparkle:version>
-            <sparkle:shortVersionString>2.10.33</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.33
-
-- Removed the playback-control latency introduced by an unnecessary debounce and browser metadata probe.
-- Sent commands immediately to the cached, URL-verified YouTube Music or Spotify Web tab.
-- Preserved protection against unrelated Chrome media while rediscovering and retrying only when the music tab moves or closes.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.33/Now-2.10.33.zip" length="3013855" type="application/octet-stream" sparkle:edSignature="9n5IpB75TzqFNpVF27J/AnVaaOAJKjvEPZ95ir86QEuvCqJanddCRHB6iqPBmyUdsvnZjR3XjshGGszy+s4ABA=="/>
         </item>
     </channel>
 </rss>
