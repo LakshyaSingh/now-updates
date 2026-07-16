@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.17</title>
+            <pubDate>Wed, 15 Jul 2026 19:40:36 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>2.10.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.17
+
+- Removed the separate right-hand volume pill so the HUD reads as one continuous glass surface.
+- Restored the distinct full-volume speaker icon while aligning both speaker icons in matching visual frames.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.17/Now-2.10.17.zip" length="2988451" type="application/octet-stream" sparkle:edSignature="IATSKfIndKkudi5PMK3UbWNz29LOY+0EyF0JM+7bmF/91uxtulgGQ+CQ2xWnWpGJIFggFqOWlpBxPjP7XvCwCw=="/>
+        </item>
+        <item>
             <title>2.10.16</title>
             <pubDate>Wed, 15 Jul 2026 19:37:09 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +47,6 @@
 - Preserves the existing expand and collapse animation.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.15/Now-2.10.15.zip" length="2988988" type="application/octet-stream" sparkle:edSignature="6JhxKS2uY8qXwrt3uL5uc1CQs7V5Inj4PcoicTe7r2oR6EK0/DkiGTQx3EvyM2mmVLXRkWKwcwhfWWlqvPrHDw=="/>
-        </item>
-        <item>
-            <title>2.10.14</title>
-            <pubDate>Wed, 15 Jul 2026 19:30:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>32</sparkle:version>
-            <sparkle:shortVersionString>2.10.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.14
-
-- Fixed manual and scheduled update checks by giving each Sparkle check a fresh, cache-busting GitHub Release feed URL.
-- Prevents GitHub’s CDN from returning an earlier appcast immediately after a release is published.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.14/Now-2.10.14.zip" length="2988055" type="application/octet-stream" sparkle:edSignature="yEm1feUi3SVtVZYDHup2AIRQm9Vy7tf8ASEQmVUacoZ1ZTz3QgXSDwIl8Bc5q7x9FOXSMwB9L7IGJSNhc/YdCA=="/>
         </item>
     </channel>
 </rss>
