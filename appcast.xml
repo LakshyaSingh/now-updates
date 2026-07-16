@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.10</title>
+            <pubDate>Wed, 15 Jul 2026 19:09:37 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>2.10.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.10
+
+- Replaced the hand-drawn volume rail with macOS’s native slider control, which adopts the current Liquid Glass interaction and thumb treatment automatically.
+- Retained the fast volume reveal and return animation.
+- Includes the restored Sparkle update-feed URL from 2.10.9.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.10/Now-2.10.10.zip" length="2986567" type="application/octet-stream" sparkle:edSignature="PdMVwFCcCVMuh8G5m6qX4lvpvU5wMvTeAS4aqfSqTZgF+oZD6MePa+b8vQGmvGd1ZW9C3JbEZ6pCLjdH/vSuBw=="/>
+        </item>
+        <item>
             <title>2.10.9</title>
             <pubDate>Wed, 15 Jul 2026 19:04:08 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,22 +47,6 @@
 - Retained the fast expand-and-return animation from the previous release.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.8/Now-2.10.8.zip" length="2993864" type="application/octet-stream" sparkle:edSignature="C9/i0j2qOLLmaXeG/REsk6xTi6sGuTN6LlUp51leBe176diFNto1Of9HB336HnGfVH5OQ5dGaaBMLkrF0YnICQ=="/>
-        </item>
-        <item>
-            <title>2.10.7</title>
-            <pubDate>Wed, 15 Jul 2026 18:50:52 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>2.10.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.7
-
-- Redesigned the volume control around the current macOS HUD: output-device name, precise level rail, and a dedicated mute end-cap.
-- Made the volume reveal and return substantially faster, with a concise system-style expansion from the ellipsis.
-- Improved update-feed caching for new installs.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.7/Now-2.10.7.zip" length="2991959" type="application/octet-stream" sparkle:edSignature="h5X0HbwxkDkEsahbzekvoVHv9xa4soeL6UiAD0+dZd4Iu9a7bZC3knKskigQeR+Mt+lAc2VRsHx77eAqcQhyDQ=="/>
         </item>
     </channel>
 </rss>
