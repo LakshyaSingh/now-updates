@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.39</title>
+            <pubDate>Thu, 16 Jul 2026 14:32:25 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>2.10.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.39
+
+- Replaced visible queue-row scraping with YouTube Music's underlying player queue store.
+- Adjacent track previews now resolve even when Up Next rows have not been rendered onscreen.
+- Added reliable title, artist, artwork, selected-index, and video-thumbnail extraction from queue data.
+- Added queue-preview diagnostics and retained the DOM implementation as a compatibility fallback.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.39/Now-2.10.39.zip" length="3038136" type="application/octet-stream" sparkle:edSignature="Y43FLhAcgztxEXZALlBVDYuBY/Ha7Dzjky1v/nEVa8tth9CBzcruJiGYQjB2cgFtjM0DQAW9i1kryj8AzyAgCQ=="/>
+        </item>
+        <item>
             <title>2.10.38</title>
             <pubDate>Thu, 16 Jul 2026 14:25:44 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,23 +52,6 @@
 - Repeated backward swipes now move through earlier tracks instead of alternating between two covers.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.37/Now-2.10.37.zip" length="3038557" type="application/octet-stream" sparkle:edSignature="3teuR7AvsdV15ulTAtAy5EMfOyUyGBDHmrvAyjIS6JxlR9gUmoBYZBcEwlG6R1xmAF3ko+tw22pej7SZ3uS4CQ=="/>
-        </item>
-        <item>
-            <title>2.10.36</title>
-            <pubDate>Thu, 16 Jul 2026 14:09:48 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>2.10.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.36
-
-- Kept interactive artwork movement directly synchronized with the trackpad until release.
-- Removed the mid-gesture acceleration when swiping toward the previous track.
-- Prefetched the next queued cover so forward swipes no longer reveal an empty tile.
-- Added a smooth late-artwork fallback and hardened the transition handoff after a committed swipe.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.36/Now-2.10.36.zip" length="3034858" type="application/octet-stream" sparkle:edSignature="xflDmtyDEuchNCWd5cZDaRt8n1sBdWfic9I25jZp52QoYLlDBzm3abMweu1tj3MSEONzttf51twtpwTOsg1cDw=="/>
         </item>
     </channel>
 </rss>
