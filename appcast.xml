@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.35</title>
+            <pubDate>Thu, 16 Jul 2026 14:00:03 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>2.10.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.35
+
+- Added interactive artwork scrubbing for two-finger trackpad gestures.
+- A partial swipe now reveals the adjacent track cover and springs back when released.
+- A deliberate drag or quick flick commits the next or previous track with a fluid transition.
+- Added queue-aware adjacent artwork loading and Reduce Motion support.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.35/Now-2.10.35.zip" length="3030240" type="application/octet-stream" sparkle:edSignature="JVpii2cXSjm5Ygz0ksMTYRxOPLW3AIcG65iC8Hv7PgCLejxBcIHgve6N3F0GpjmUVX/KodSUU0R6uvI0JLICAg=="/>
+        </item>
+        <item>
             <title>2.10.34</title>
             <pubDate>Thu, 16 Jul 2026 13:47:49 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +50,6 @@
 - Preserved protection against unrelated Chrome media while rediscovering and retrying only when the music tab moves or closes.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.33/Now-2.10.33.zip" length="3013855" type="application/octet-stream" sparkle:edSignature="9n5IpB75TzqFNpVF27J/AnVaaOAJKjvEPZ95ir86QEuvCqJanddCRHB6iqPBmyUdsvnZjR3XjshGGszy+s4ABA=="/>
-        </item>
-        <item>
-            <title>2.10.32</title>
-            <pubDate>Thu, 16 Jul 2026 13:28:11 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>50</sparkle:version>
-            <sparkle:shortVersionString>2.10.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.32
-
-- Kept the play/pause icon synchronized with the music player's confirmed playback state.
-- Removed premature icon changes while browser or native playback commands are still being processed.
-- Preserved immediate button feedback and rapid-click coalescing without displaying an incorrect state.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.32/Now-2.10.32.zip" length="3014379" type="application/octet-stream" sparkle:edSignature="u+BtDlIeoMp0wBLb7SpAd7fa2a57ppwGkRi63JyToOUyu0t7rW3UqxslSB1vL6tKvDpVxoavbZrD3O5+xasrBw=="/>
         </item>
     </channel>
 </rss>
