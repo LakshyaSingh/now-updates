@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.30</title>
+            <pubDate>Thu, 16 Jul 2026 12:55:58 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>2.10.30</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.30
+
+- Fixed long song titles disappearing between marquee cycles; scrolling now repeats continuously after its initial pause.
+- Fixed short titles being unnecessarily truncated by giving the title column its correct layout width.
+- Made browser playback controls target the exact YouTube Music or Spotify Web tab shown in the overlay.
+- Prevented LinkedIn, YouTube, and other Chrome media tabs from intercepting play, pause, next, or previous commands.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.30/Now-2.10.30.zip" length="3015461" type="application/octet-stream" sparkle:edSignature="xKSM/wC0ibOyv6fYlc7QEvF/Qrf9vcFDPPOOTm+1elhv+4Ip6pXZajMln01RYRkp2/KmjI/fc+HJ1I8GJWelAg=="/>
+        </item>
+        <item>
             <title>2.10.29</title>
             <pubDate>Thu, 16 Jul 2026 03:48:51 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,22 +52,6 @@
 - Added safe display fallback when a selected monitor disconnects, with automatic restoration after reconnecting.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.28/Now-2.10.28.zip" length="3005447" type="application/octet-stream" sparkle:edSignature="T0QwfQnZguehD4X7YlZtr88B+rxLLELuSDKRmBGpDyzAYM41PTCb3NlNv24kAEhK9z7Z6+/3ZWc4tJsSfQD9Bw=="/>
-        </item>
-        <item>
-            <title>2.10.27</title>
-            <pubDate>Thu, 16 Jul 2026 03:06:12 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>2.10.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.27
-
-- Restored the complete volume popover implementation from Now 2.10.24.
-- Returned to the original native SwiftUI slider, material capsule, and direct panel hosting.
-- Removed the custom macOS 27 glass slider and container experiments.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.27/Now-2.10.27.zip" length="2975961" type="application/octet-stream" sparkle:edSignature="QANOGx4Z9koLqMMjTnPN98+Bmz1ltv8gACgnIB6Cf+h8W4DuPthtyAhE3JAq9xVZfNIkefeM8UjC8AI/U2/GDw=="/>
         </item>
     </channel>
 </rss>
