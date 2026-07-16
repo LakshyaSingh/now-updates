@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.6</title>
+            <pubDate>Wed, 15 Jul 2026 18:42:18 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>2.10.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.6
+
+- Added a longer, gradual next-cover dissolve during the final seconds of queued YouTube Music tracks.
+- Refined the volume control into a reflective liquid-glass capsule that grows from and compresses back into the ellipsis.
+- Fixed the volume popover’s closing geometry so the return animation is reliably visible.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.6/Now-2.10.6.zip" length="2975311" type="application/octet-stream" sparkle:edSignature="HFu8S0cYSM/he+Cupha2MgAK/TUBf5tjsdcjj3wUmpdvrhj7ut/2wtiwl84CuzLN43IfeFWTs+T+W454mBYQBg=="/>
+        </item>
+        <item>
             <title>2.10.5</title>
             <pubDate>Wed, 15 Jul 2026 18:30:19 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,20 +49,6 @@
 - Added press-and-release feedback to the overlay controls.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.4/Now-2.10.4.zip" length="2944741" type="application/octet-stream" sparkle:edSignature="yY3ZFpt45xHOjix7KwrEhWJtiG1lFbwiRltC3yk6ruGJFqSc5etcvo0k01SMJsm2s/Iflw0epvfvBysYP/uCBg=="/>
-        </item>
-        <item>
-            <title>2.10.3</title>
-            <pubDate>Wed, 15 Jul 2026 17:44:25 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>2.10.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.3
-
-- Fixed artwork transitions being skipped or falling back to an instant swap during rapid repeated playback changes.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.3/Now-2.10.3.zip" length="2941851" type="application/octet-stream" sparkle:edSignature="J+6eu+REJbBosutrJYkM4D2vl7tQol0vl2Gg02TkxqFCDCHpu4FJ+7k2Xa4wHbs4JO4uYHQD50dMbZpR5VfdCA=="/>
         </item>
     </channel>
 </rss>
