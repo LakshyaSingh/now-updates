@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.19</title>
+            <pubDate>Wed, 15 Jul 2026 19:51:20 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>2.10.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.19
+
+- Aligned the right speaker endpoint with the slider row, rather than the overall panel center.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.19/Now-2.10.19.zip" length="2992859" type="application/octet-stream" sparkle:edSignature="pCfiFraB58uYOLSyuoQL+QCjBkn14Qxw9BoiVzb+rp4uhWl1+dUrcvZOiLGIfkyRc87+5Qs1e+wqbCBwzm1UCg=="/>
+        </item>
+        <item>
             <title>2.10.18</title>
             <pubDate>Wed, 15 Jul 2026 19:48:11 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +45,6 @@
 - Restored the distinct full-volume speaker icon while aligning both speaker icons in matching visual frames.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.17/Now-2.10.17.zip" length="2988451" type="application/octet-stream" sparkle:edSignature="IATSKfIndKkudi5PMK3UbWNz29LOY+0EyF0JM+7bmF/91uxtulgGQ+CQ2xWnWpGJIFggFqOWlpBxPjP7XvCwCw=="/>
-        </item>
-        <item>
-            <title>2.10.16</title>
-            <pubDate>Wed, 15 Jul 2026 19:37:09 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>34</sparkle:version>
-            <sparkle:shortVersionString>2.10.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.16
-
-- Aligned the mute and full-volume states using matched speaker glyphs and a fixed visual frame.
-- Reduced the compact volume HUD size again for a lighter desktop presence.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.16/Now-2.10.16.zip" length="2988955" type="application/octet-stream" sparkle:edSignature="MetwXYer22XEpzEmpAXBb74imddXJUX6m0jr5sjHP1OaO4oYuAtqBUut7lXry14lPWgPLQIKjvwK8kHKpevLBQ=="/>
         </item>
     </channel>
 </rss>
