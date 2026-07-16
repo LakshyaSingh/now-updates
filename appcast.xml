@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.8</title>
+            <pubDate>Wed, 15 Jul 2026 19:01:05 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>2.10.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.8
+
+- Rebuilt the volume HUD around macOS’s native HUD material, proportions, level rail, and broad speaker end-cap.
+- Retained the fast expand-and-return animation from the previous release.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.8/Now-2.10.8.zip" length="2993864" type="application/octet-stream" sparkle:edSignature="C9/i0j2qOLLmaXeG/REsk6xTi6sGuTN6LlUp51leBe176diFNto1Of9HB336HnGfVH5OQ5dGaaBMLkrF0YnICQ=="/>
+        </item>
+        <item>
             <title>2.10.7</title>
             <pubDate>Wed, 15 Jul 2026 18:50:52 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +48,6 @@
 - Fixed the volume popover’s closing geometry so the return animation is reliably visible.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.6/Now-2.10.6.zip" length="2975311" type="application/octet-stream" sparkle:edSignature="HFu8S0cYSM/he+Cupha2MgAK/TUBf5tjsdcjj3wUmpdvrhj7ut/2wtiwl84CuzLN43IfeFWTs+T+W454mBYQBg=="/>
-        </item>
-        <item>
-            <title>2.10.5</title>
-            <pubDate>Wed, 15 Jul 2026 18:30:19 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>2.10.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.5
-
-- Made the volume bar expand from and collapse back into the ellipsis control.
-- Strengthened the layered artwork transition for natural song changes.
-- Added controls for automatic update checks, cadence, and automatic installation.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.5/Now-2.10.5.zip" length="2968201" type="application/octet-stream" sparkle:edSignature="kdDBUFVTOX9srxmhzDu1eKjdcLHK/WV1umZLjhnzhzLLL3Q4hu1rWYACXyOV6+nqy3kwHYHRRQniiJhtZCApBg=="/>
         </item>
     </channel>
 </rss>
