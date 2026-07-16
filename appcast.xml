@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.33</title>
+            <pubDate>Thu, 16 Jul 2026 13:38:06 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>2.10.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.33
+
+- Removed the playback-control latency introduced by an unnecessary debounce and browser metadata probe.
+- Sent commands immediately to the cached, URL-verified YouTube Music or Spotify Web tab.
+- Preserved protection against unrelated Chrome media while rediscovering and retrying only when the music tab moves or closes.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.33/Now-2.10.33.zip" length="3013855" type="application/octet-stream" sparkle:edSignature="9n5IpB75TzqFNpVF27J/AnVaaOAJKjvEPZ95ir86QEuvCqJanddCRHB6iqPBmyUdsvnZjR3XjshGGszy+s4ABA=="/>
+        </item>
+        <item>
             <title>2.10.32</title>
             <pubDate>Thu, 16 Jul 2026 13:28:11 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,23 +49,6 @@
 - Artist scrolling independently respects overflow and the macOS Reduce Motion setting.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.31/Now-2.10.31.zip" length="3014819" type="application/octet-stream" sparkle:edSignature="l7qqR6O1qQmV5foH7wwQYmK37nvFj6DDpOCFh3oG+35QnYCJSu7JkiQMZgf+7kTS+kojf/54Cw8pNcUr+DhRDA=="/>
-        </item>
-        <item>
-            <title>2.10.30</title>
-            <pubDate>Thu, 16 Jul 2026 12:55:58 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>48</sparkle:version>
-            <sparkle:shortVersionString>2.10.30</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.30
-
-- Fixed long song titles disappearing between marquee cycles; scrolling now repeats continuously after its initial pause.
-- Fixed short titles being unnecessarily truncated by giving the title column its correct layout width.
-- Made browser playback controls target the exact YouTube Music or Spotify Web tab shown in the overlay.
-- Prevented LinkedIn, YouTube, and other Chrome media tabs from intercepting play, pause, next, or previous commands.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.30/Now-2.10.30.zip" length="3015461" type="application/octet-stream" sparkle:edSignature="xKSM/wC0ibOyv6fYlc7QEvF/Qrf9vcFDPPOOTm+1elhv+4Ip6pXZajMln01RYRkp2/KmjI/fc+HJ1I8GJWelAg=="/>
         </item>
     </channel>
 </rss>
