@@ -3,6 +3,24 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.2</title>
+            <pubDate>Wed, 15 Jul 2026 17:37:37 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>2.10.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.2
+
+- Added more responsive overlay and volume-popover motion.
+- Added directional artwork transitions for Previous and Next controls.
+- Added a layered artwork crossfade for natural song changes.
+- Refined the Settings glass depth and removed the artificial rim shimmer.
+- Refined the DMG installer presentation.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.2/Now-2.10.2.zip" length="2941232" type="application/octet-stream" sparkle:edSignature="LaSvu/xZ1NcaJum6phLfDoH1DIzj0wIQHQJLCKSz59xBwxrVDN16GDpGwbix3hLKz10TP8Fev7MaHd4dWWACDw=="/>
+        </item>
+        <item>
             <title>2.10.1</title>
             <pubDate>Wed, 15 Jul 2026 17:16:29 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
