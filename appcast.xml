@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.37</title>
+            <pubDate>Thu, 16 Jul 2026 14:19:05 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>55</sparkle:version>
+            <sparkle:shortVersionString>2.10.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.37
+
+- Fixed forward-swipe previews by deduplicating YouTube Music queue rows and reliably resolving the next cover.
+- Added stronger current-row detection, thumbnail fallbacks, and short retries for queues that render late.
+- Reworked backward artwork history into a direction-aware stack.
+- Repeated backward swipes now move through earlier tracks instead of alternating between two covers.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.37/Now-2.10.37.zip" length="3038557" type="application/octet-stream" sparkle:edSignature="3teuR7AvsdV15ulTAtAy5EMfOyUyGBDHmrvAyjIS6JxlR9gUmoBYZBcEwlG6R1xmAF3ko+tw22pej7SZ3uS4CQ=="/>
+        </item>
+        <item>
             <title>2.10.36</title>
             <pubDate>Thu, 16 Jul 2026 14:09:48 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,22 +52,6 @@
 - Added queue-aware adjacent artwork loading and Reduce Motion support.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.35/Now-2.10.35.zip" length="3030240" type="application/octet-stream" sparkle:edSignature="JVpii2cXSjm5Ygz0ksMTYRxOPLW3AIcG65iC8Hv7PgCLejxBcIHgve6N3F0GpjmUVX/KodSUU0R6uvI0JLICAg=="/>
-        </item>
-        <item>
-            <title>2.10.34</title>
-            <pubDate>Thu, 16 Jul 2026 13:47:49 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>52</sparkle:version>
-            <sparkle:shortVersionString>2.10.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.34
-
-- Added two-finger horizontal trackpad navigation while the pointer is over the overlay.
-- Swipe right-to-left for the next track and left-to-right for the previous track.
-- Added direction normalization, diagonal rejection, momentum filtering, and one action per physical gesture.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.34/Now-2.10.34.zip" length="3016092" type="application/octet-stream" sparkle:edSignature="74DeVoQlISDBi/LSEOi5+dlZK6rxpIVHhHCxkgwDSSa7YfjksfrWyvL9uzW+MEXBd1DlmPUTrIWNH3gqMJheDA=="/>
         </item>
     </channel>
 </rss>
