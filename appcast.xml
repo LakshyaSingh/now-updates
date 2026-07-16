@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.4</title>
+            <pubDate>Wed, 15 Jul 2026 17:56:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>2.10.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.4
+
+- Fixed natural track-change artwork fades being collapsed into an instant swap.
+- Added a smooth exit animation when dismissing the volume popover.
+- Added press-and-release feedback to the overlay controls.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.4/Now-2.10.4.zip" length="2944741" type="application/octet-stream" sparkle:edSignature="yY3ZFpt45xHOjix7KwrEhWJtiG1lFbwiRltC3yk6ruGJFqSc5etcvo0k01SMJsm2s/Iflw0epvfvBysYP/uCBg=="/>
+        </item>
+        <item>
             <title>2.10.3</title>
             <pubDate>Wed, 15 Jul 2026 17:44:25 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,20 +49,6 @@
 - Refined the DMG installer presentation.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.2/Now-2.10.2.zip" length="2941232" type="application/octet-stream" sparkle:edSignature="LaSvu/xZ1NcaJum6phLfDoH1DIzj0wIQHQJLCKSz59xBwxrVDN16GDpGwbix3hLKz10TP8Fev7MaHd4dWWACDw=="/>
-        </item>
-        <item>
-            <title>2.10.1</title>
-            <pubDate>Wed, 15 Jul 2026 17:16:29 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>2.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.1
-
-- Fixed launch failure caused by the in-app updater framework not being discoverable in the standalone app bundle.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.1/Now-2.10.1.zip" length="2924867" type="application/octet-stream" sparkle:edSignature="Te+Gne+v0XVHF66AFwQGNDaOVC2rgh/OXuxMkKMnbM4DPg1LBJLFzntykPJeYsx2IFdxaa22NNSjRAXqH66dDA=="/>
         </item>
     </channel>
 </rss>
