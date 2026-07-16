@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.3</title>
+            <pubDate>Wed, 15 Jul 2026 17:44:25 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>2.10.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.3
+
+- Fixed artwork transitions being skipped or falling back to an instant swap during rapid repeated playback changes.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.3/Now-2.10.3.zip" length="2941851" type="application/octet-stream" sparkle:edSignature="J+6eu+REJbBosutrJYkM4D2vl7tQol0vl2Gg02TkxqFCDCHpu4FJ+7k2Xa4wHbs4JO4uYHQD50dMbZpR5VfdCA=="/>
+        </item>
+        <item>
             <title>2.10.2</title>
             <pubDate>Wed, 15 Jul 2026 17:37:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +47,6 @@
 - Fixed launch failure caused by the in-app updater framework not being discoverable in the standalone app bundle.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.1/Now-2.10.1.zip" length="2924867" type="application/octet-stream" sparkle:edSignature="Te+Gne+v0XVHF66AFwQGNDaOVC2rgh/OXuxMkKMnbM4DPg1LBJLFzntykPJeYsx2IFdxaa22NNSjRAXqH66dDA=="/>
-        </item>
-        <item>
-            <title>2.10.0</title>
-            <pubDate>Wed, 15 Jul 2026 17:08:37 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.0
-
-- Added secure in-app updates.
-- Refined Settings with official music-source icons and a native Now app icon.
-- Improved layout, alignment, and visual polish throughout Settings.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.0/Now-2.10.0.zip" length="2924849" type="application/octet-stream" sparkle:edSignature="e3SIrWvhMY3JTLZz810mFnvmNXP6Oie9y4j/cYzfj3EjIiijl6AQpBv5YzOUw+bmbmOJM4B4hwf+zOBChYaxCQ=="/>
         </item>
     </channel>
 </rss>
