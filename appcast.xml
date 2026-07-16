@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.18</title>
+            <pubDate>Wed, 15 Jul 2026 19:48:11 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>2.10.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.18
+
+- Made the left and right speaker icons permanent volume endpoints rather than mute-state indicators.
+- Added endpoint feedback: drag to zero to bounce the left icon, or to full volume to bounce the right icon.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.18/Now-2.10.18.zip" length="2992862" type="application/octet-stream" sparkle:edSignature="cOycboZ/zfbrLhDIgSE0t33geOf3a3kGsKbFEewDq9XzHA8mFdwxQMbC7zQRFDksQSzX1yecQWGC7NQAobUGDg=="/>
+        </item>
+        <item>
             <title>2.10.17</title>
             <pubDate>Wed, 15 Jul 2026 19:40:36 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,22 +46,6 @@
 - Reduced the compact volume HUD size again for a lighter desktop presence.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.16/Now-2.10.16.zip" length="2988955" type="application/octet-stream" sparkle:edSignature="MetwXYer22XEpzEmpAXBb74imddXJUX6m0jr5sjHP1OaO4oYuAtqBUut7lXry14lPWgPLQIKjvwK8kHKpevLBQ=="/>
-        </item>
-        <item>
-            <title>2.10.15</title>
-            <pubDate>Wed, 15 Jul 2026 19:33:40 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>33</sparkle:version>
-            <sparkle:shortVersionString>2.10.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.15
-
-- Rebuilt the volume HUD around macOS’s compact system-volume proportions.
-- Replaced the oversized control surface with a smaller device label, narrow native slider, and restrained mute action.
-- Preserves the existing expand and collapse animation.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.15/Now-2.10.15.zip" length="2988988" type="application/octet-stream" sparkle:edSignature="6JhxKS2uY8qXwrt3uL5uc1CQs7V5Inj4PcoicTe7r2oR6EK0/DkiGTQx3EvyM2mmVLXRkWKwcwhfWWlqvPrHDw=="/>
         </item>
     </channel>
 </rss>
