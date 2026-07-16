@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.31</title>
+            <pubDate>Thu, 16 Jul 2026 13:04:23 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>49</sparkle:version>
+            <sparkle:shortVersionString>2.10.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.31
+
+- Added the same smooth, continuous marquee behavior to long artist and collaborator names.
+- Kept short artist names stationary and fully visible while preserving the artist line's existing typography.
+- Artist scrolling independently respects overflow and the macOS Reduce Motion setting.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.31/Now-2.10.31.zip" length="3014819" type="application/octet-stream" sparkle:edSignature="l7qqR6O1qQmV5foH7wwQYmK37nvFj6DDpOCFh3oG+35QnYCJSu7JkiQMZgf+7kTS+kojf/54Cw8pNcUr+DhRDA=="/>
+        </item>
+        <item>
             <title>2.10.30</title>
             <pubDate>Thu, 16 Jul 2026 12:55:58 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,24 +50,6 @@
 - Marquee motion respects the macOS Reduce Motion accessibility setting.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.29/Now-2.10.29.zip" length="3015316" type="application/octet-stream" sparkle:edSignature="XBMIEvk4Iou5ZX7+rLaJbqQYFFGD7IghOnOZhQoA7f5MYJCQhLUUgXIVCnkzHkeaHzOvEQ367GfDvS2gY9TaAw=="/>
-        </item>
-        <item>
-            <title>2.10.28</title>
-            <pubDate>Thu, 16 Jul 2026 03:39:07 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>46</sparkle:version>
-            <sparkle:shortVersionString>2.10.28</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.28
-
-- Added automatic recovery from stalled Chrome, AppleScript, and MediaRemote requests without restarting Now.
-- Serialized browser polling, reused the known music tab, and force-reset stale browser processes after timeouts.
-- Made Show Overlay restart the monitoring transport while preserving the last valid track.
-- Added Active/Dock, built-in MacBook, and persistent external-display targeting in Position settings.
-- Added safe display fallback when a selected monitor disconnects, with automatic restoration after reconnecting.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.28/Now-2.10.28.zip" length="3005447" type="application/octet-stream" sparkle:edSignature="T0QwfQnZguehD4X7YlZtr88B+rxLLELuSDKRmBGpDyzAYM41PTCb3NlNv24kAEhK9z7Z6+/3ZWc4tJsSfQD9Bw=="/>
         </item>
     </channel>
 </rss>
