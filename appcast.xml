@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.34</title>
+            <pubDate>Thu, 16 Jul 2026 13:47:49 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>52</sparkle:version>
+            <sparkle:shortVersionString>2.10.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.34
+
+- Added two-finger horizontal trackpad navigation while the pointer is over the overlay.
+- Swipe right-to-left for the next track and left-to-right for the previous track.
+- Added direction normalization, diagonal rejection, momentum filtering, and one action per physical gesture.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.34/Now-2.10.34.zip" length="3016092" type="application/octet-stream" sparkle:edSignature="74DeVoQlISDBi/LSEOi5+dlZK6rxpIVHhHCxkgwDSSa7YfjksfrWyvL9uzW+MEXBd1DlmPUTrIWNH3gqMJheDA=="/>
+        </item>
+        <item>
             <title>2.10.33</title>
             <pubDate>Thu, 16 Jul 2026 13:38:06 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +49,6 @@
 - Preserved immediate button feedback and rapid-click coalescing without displaying an incorrect state.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.32/Now-2.10.32.zip" length="3014379" type="application/octet-stream" sparkle:edSignature="u+BtDlIeoMp0wBLb7SpAd7fa2a57ppwGkRi63JyToOUyu0t7rW3UqxslSB1vL6tKvDpVxoavbZrD3O5+xasrBw=="/>
-        </item>
-        <item>
-            <title>2.10.31</title>
-            <pubDate>Thu, 16 Jul 2026 13:04:23 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>2.10.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.31
-
-- Added the same smooth, continuous marquee behavior to long artist and collaborator names.
-- Kept short artist names stationary and fully visible while preserving the artist line's existing typography.
-- Artist scrolling independently respects overflow and the macOS Reduce Motion setting.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.31/Now-2.10.31.zip" length="3014819" type="application/octet-stream" sparkle:edSignature="l7qqR6O1qQmV5foH7wwQYmK37nvFj6DDpOCFh3oG+35QnYCJSu7JkiQMZgf+7kTS+kojf/54Cw8pNcUr+DhRDA=="/>
         </item>
     </channel>
 </rss>
