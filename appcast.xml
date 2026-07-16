@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.21</title>
+            <pubDate>Wed, 15 Jul 2026 20:05:23 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>2.10.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.21
+
+- Restored the original compact volume bar from Now 2.10.1.
+- Adjusted playback haptic feedback to arrive after the physical click, reducing conflict with the trackpad’s click sensation.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.21/Now-2.10.21.zip" length="2975943" type="application/octet-stream" sparkle:edSignature="MfapYZ5PK2iAqqXmHDO62dq6xUcpDUjduKvIxfEZMXLJfo1vHYWOwvwaPBXzatl59fl7L6wkfLFoek5toaWICw=="/>
+        </item>
+        <item>
             <title>2.10.20</title>
             <pubDate>Wed, 15 Jul 2026 19:56:27 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - Aligned the right speaker endpoint with the slider row, rather than the overall panel center.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.19/Now-2.10.19.zip" length="2992859" type="application/octet-stream" sparkle:edSignature="pCfiFraB58uYOLSyuoQL+QCjBkn14Qxw9BoiVzb+rp4uhWl1+dUrcvZOiLGIfkyRc87+5Qs1e+wqbCBwzm1UCg=="/>
-        </item>
-        <item>
-            <title>2.10.18</title>
-            <pubDate>Wed, 15 Jul 2026 19:48:11 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>36</sparkle:version>
-            <sparkle:shortVersionString>2.10.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.18
-
-- Made the left and right speaker icons permanent volume endpoints rather than mute-state indicators.
-- Added endpoint feedback: drag to zero to bounce the left icon, or to full volume to bounce the right icon.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.18/Now-2.10.18.zip" length="2992862" type="application/octet-stream" sparkle:edSignature="cOycboZ/zfbrLhDIgSE0t33geOf3a3kGsKbFEewDq9XzHA8mFdwxQMbC7zQRFDksQSzX1yecQWGC7NQAobUGDg=="/>
         </item>
     </channel>
 </rss>
