@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.26</title>
+            <pubDate>Thu, 16 Jul 2026 02:58:16 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>44</sparkle:version>
+            <sparkle:shortVersionString>2.10.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.26
+
+- Replaced the unchanged native volume control with a visibly redesigned macOS 27-style slider.
+- Added Apple's compact 140 × 20 geometry, a four-point translucent track, and a vertical liquid-glass thumb.
+- Preserved precise dragging, system-glass interaction, and accessibility adjustments.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.26/Now-2.10.26.zip" length="2985462" type="application/octet-stream" sparkle:edSignature="LNkUQLquzr4qmKcmV7QVi52A32P5cGpOGWWtyR2bzWJbIObG+0fsv2yMQqx3ftA3dOcdaiua3eag3/LHnPrYCw=="/>
+        </item>
+        <item>
             <title>2.10.25</title>
             <pubDate>Thu, 16 Jul 2026 02:47:55 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,20 +48,6 @@
 - Added distinct native hover cues for Previous, Play/Pause, and Next.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.24/Now-2.10.24.zip" length="2975962" type="application/octet-stream" sparkle:edSignature="UWVidtA/TUkmIac2lTFxlH0SKHMM8worKUpGASebdZvaGVmMNxFR2C/hpTMNBW5lgdnm8tcsFiCSvaW+ENo7CA=="/>
-        </item>
-        <item>
-            <title>2.10.23</title>
-            <pubDate>Wed, 15 Jul 2026 20:14:08 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>41</sparkle:version>
-            <sparkle:shortVersionString>2.10.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.23
-
-- Fixed the volume panel's closing jump by preventing a pre-dismiss layout refresh from repositioning it.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.23/Now-2.10.23.zip" length="2975983" type="application/octet-stream" sparkle:edSignature="zBkTDlJRj8ONI94dVAXHvCyJo3iPslfLK4ThByMkWNeeReKvyC9AE+W1MLI7r86p3Z3SFmLhrbYd1mpN8wdkCw=="/>
         </item>
     </channel>
 </rss>
