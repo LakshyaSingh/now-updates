@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.13</title>
+            <pubDate>Wed, 15 Jul 2026 19:24:33 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>2.10.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.13
+
+- Moved Sparkle’s public feed to the latest GitHub Release asset endpoint, avoiding stale branch-cache responses that hid available updates.
+- Includes the native-root Liquid Glass volume HUD correction from 2.10.12.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.13/Now-2.10.13.zip" length="2983587" type="application/octet-stream" sparkle:edSignature="qpm+XUgGll4kElgastCCdlrjyzlDtGSsh7VN9aEkT48nMU1wTmCp+2wwFZuOkW1ipde3PJnYyZmIJMz3jqUEBQ=="/>
+        </item>
+        <item>
             <title>2.10.12</title>
             <pubDate>Wed, 15 Jul 2026 19:21:58 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,22 +46,6 @@
 - Tuned the native volume slider to the slimmer system-HUD control size while retaining the fast reveal and return animation.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.11/Now-2.10.11.zip" length="2988608" type="application/octet-stream" sparkle:edSignature="eUXAkTJkGrX0YjYqi8txmWembyTWYlMQzX+cq719D4Su9obS+4NFEXujvmIELoiiigiTBXhBKDBfvMVG9GgVCQ=="/>
-        </item>
-        <item>
-            <title>2.10.10</title>
-            <pubDate>Wed, 15 Jul 2026 19:09:37 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>28</sparkle:version>
-            <sparkle:shortVersionString>2.10.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.10
-
-- Replaced the hand-drawn volume rail with macOS’s native slider control, which adopts the current Liquid Glass interaction and thumb treatment automatically.
-- Retained the fast volume reveal and return animation.
-- Includes the restored Sparkle update-feed URL from 2.10.9.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.10/Now-2.10.10.zip" length="2986567" type="application/octet-stream" sparkle:edSignature="PdMVwFCcCVMuh8G5m6qX4lvpvU5wMvTeAS4aqfSqTZgF+oZD6MePa+b8vQGmvGd1ZW9C3JbEZ6pCLjdH/vSuBw=="/>
         </item>
     </channel>
 </rss>
