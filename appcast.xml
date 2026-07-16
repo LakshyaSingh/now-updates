@@ -3,6 +3,24 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.28</title>
+            <pubDate>Thu, 16 Jul 2026 03:39:07 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>46</sparkle:version>
+            <sparkle:shortVersionString>2.10.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.28
+
+- Added automatic recovery from stalled Chrome, AppleScript, and MediaRemote requests without restarting Now.
+- Serialized browser polling, reused the known music tab, and force-reset stale browser processes after timeouts.
+- Made Show Overlay restart the monitoring transport while preserving the last valid track.
+- Added Active/Dock, built-in MacBook, and persistent external-display targeting in Position settings.
+- Added safe display fallback when a selected monitor disconnects, with automatic restoration after reconnecting.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.28/Now-2.10.28.zip" length="3005447" type="application/octet-stream" sparkle:edSignature="T0QwfQnZguehD4X7YlZtr88B+rxLLELuSDKRmBGpDyzAYM41PTCb3NlNv24kAEhK9z7Z6+/3ZWc4tJsSfQD9Bw=="/>
+        </item>
+        <item>
             <title>2.10.27</title>
             <pubDate>Thu, 16 Jul 2026 03:06:12 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
