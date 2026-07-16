@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.1</title>
+            <pubDate>Wed, 15 Jul 2026 17:16:29 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>2.10.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.1
+
+- Fixed launch failure caused by the in-app updater framework not being discoverable in the standalone app bundle.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.1/Now-2.10.1.zip" length="2924867" type="application/octet-stream" sparkle:edSignature="Te+Gne+v0XVHF66AFwQGNDaOVC2rgh/OXuxMkKMnbM4DPg1LBJLFzntykPJeYsx2IFdxaa22NNSjRAXqH66dDA=="/>
+        </item>
+        <item>
             <title>2.10.0</title>
             <pubDate>Wed, 15 Jul 2026 17:08:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
