@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.24</title>
+            <pubDate>Wed, 15 Jul 2026 20:36:39 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>2.10.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.24
+
+- Moved playback haptics from click time to hover entry, avoiding conflict with the trackpad’s physical click.
+- Added distinct native hover cues for Previous, Play/Pause, and Next.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.24/Now-2.10.24.zip" length="2975962" type="application/octet-stream" sparkle:edSignature="UWVidtA/TUkmIac2lTFxlH0SKHMM8worKUpGASebdZvaGVmMNxFR2C/hpTMNBW5lgdnm8tcsFiCSvaW+ENo7CA=="/>
+        </item>
+        <item>
             <title>2.10.23</title>
             <pubDate>Wed, 15 Jul 2026 20:14:08 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - Volume panel now fades out in place instead of drifting upward when dismissed.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.22/Now-2.10.22.zip" length="2975860" type="application/octet-stream" sparkle:edSignature="vBviq36wsTqRPUF4uOXoDz97s/BobtE04Xp4Rj+4XbkpqaJdEKBGwfu+YUQcE+cMfYt82Si4mhy5d9ZE9bfKCA=="/>
-        </item>
-        <item>
-            <title>2.10.21</title>
-            <pubDate>Wed, 15 Jul 2026 20:05:23 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>39</sparkle:version>
-            <sparkle:shortVersionString>2.10.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.21
-
-- Restored the original compact volume bar from Now 2.10.1.
-- Adjusted playback haptic feedback to arrive after the physical click, reducing conflict with the trackpad’s click sensation.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.21/Now-2.10.21.zip" length="2975943" type="application/octet-stream" sparkle:edSignature="MfapYZ5PK2iAqqXmHDO62dq6xUcpDUjduKvIxfEZMXLJfo1vHYWOwvwaPBXzatl59fl7L6wkfLFoek5toaWICw=="/>
         </item>
     </channel>
 </rss>
