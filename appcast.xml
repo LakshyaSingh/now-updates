@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Now</title>
+        <item>
+            <title>2.10.0</title>
+            <pubDate>Wed, 15 Jul 2026 17:08:37 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>2.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.0
+
+- Added secure in-app updates.
+- Refined Settings with official music-source icons and a native Now app icon.
+- Improved layout, alignment, and visual polish throughout Settings.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.0/Now-2.10.0.zip" length="2924849" type="application/octet-stream" sparkle:edSignature="e3SIrWvhMY3JTLZz810mFnvmNXP6Oie9y4j/cYzfj3EjIiijl6AQpBv5YzOUw+bmbmOJM4B4hwf+zOBChYaxCQ=="/>
+        </item>
+    </channel>
+</rss>
