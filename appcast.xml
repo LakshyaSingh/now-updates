@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.11</title>
+            <pubDate>Wed, 15 Jul 2026 19:15:24 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>2.10.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.11
+
+- Moved the volume popover onto macOS’s actual AppKit Liquid Glass surface on macOS 26 and later.
+- Tuned the native volume slider to the slimmer system-HUD control size while retaining the fast reveal and return animation.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.11/Now-2.10.11.zip" length="2988608" type="application/octet-stream" sparkle:edSignature="eUXAkTJkGrX0YjYqi8txmWembyTWYlMQzX+cq719D4Su9obS+4NFEXujvmIELoiiigiTBXhBKDBfvMVG9GgVCQ=="/>
+        </item>
+        <item>
             <title>2.10.10</title>
             <pubDate>Wed, 15 Jul 2026 19:09:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +47,6 @@
 - Includes the native-style volume HUD and fast expand-and-return animation from 2.10.8.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.9/Now-2.10.9.zip" length="2993875" type="application/octet-stream" sparkle:edSignature="zu1R9AL4oHldICfR+5tif/LrBpH0yB4SMBViaP5jr6a1wOsRdTdwo2fqsQ0BFh5HiAvo+CYCiCi0TiUQA8uPAQ=="/>
-        </item>
-        <item>
-            <title>2.10.8</title>
-            <pubDate>Wed, 15 Jul 2026 19:01:05 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>2.10.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.8
-
-- Rebuilt the volume HUD around macOS’s native HUD material, proportions, level rail, and broad speaker end-cap.
-- Retained the fast expand-and-return animation from the previous release.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.8/Now-2.10.8.zip" length="2993864" type="application/octet-stream" sparkle:edSignature="C9/i0j2qOLLmaXeG/REsk6xTi6sGuTN6LlUp51leBe176diFNto1Of9HB336HnGfVH5OQ5dGaaBMLkrF0YnICQ=="/>
         </item>
     </channel>
 </rss>
