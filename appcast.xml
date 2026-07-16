@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.38</title>
+            <pubDate>Thu, 16 Jul 2026 14:25:44 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>56</sparkle:version>
+            <sparkle:shortVersionString>2.10.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.38
+
+- Corrected YouTube Music queue parsing to use its current song-title and playback-state attributes.
+- Restored live next-cover previews before a forward swipe is committed.
+- Separated navigation history from artwork render timing so previously loaded covers remain available several songs deep.
+- Improved repeated backward and forward artwork transitions across longer listening history.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.38/Now-2.10.38.zip" length="3037115" type="application/octet-stream" sparkle:edSignature="8ORzAKAK391uDc1DPH1/NfF2Sw/DycxgdQozd1KOAeUMzy66H5UvOsxz/JCS8aDndzMa1wQYOyJ9u9mNwcYEBg=="/>
+        </item>
+        <item>
             <title>2.10.37</title>
             <pubDate>Thu, 16 Jul 2026 14:19:05 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,23 +52,6 @@
 - Added a smooth late-artwork fallback and hardened the transition handoff after a committed swipe.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.36/Now-2.10.36.zip" length="3034858" type="application/octet-stream" sparkle:edSignature="xflDmtyDEuchNCWd5cZDaRt8n1sBdWfic9I25jZp52QoYLlDBzm3abMweu1tj3MSEONzttf51twtpwTOsg1cDw=="/>
-        </item>
-        <item>
-            <title>2.10.35</title>
-            <pubDate>Thu, 16 Jul 2026 14:00:03 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>53</sparkle:version>
-            <sparkle:shortVersionString>2.10.35</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.35
-
-- Added interactive artwork scrubbing for two-finger trackpad gestures.
-- A partial swipe now reveals the adjacent track cover and springs back when released.
-- A deliberate drag or quick flick commits the next or previous track with a fluid transition.
-- Added queue-aware adjacent artwork loading and Reduce Motion support.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.35/Now-2.10.35.zip" length="3030240" type="application/octet-stream" sparkle:edSignature="JVpii2cXSjm5Ygz0ksMTYRxOPLW3AIcG65iC8Hv7PgCLejxBcIHgve6N3F0GpjmUVX/KodSUU0R6uvI0JLICAg=="/>
         </item>
     </channel>
 </rss>
