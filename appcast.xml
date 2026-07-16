@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.7</title>
+            <pubDate>Wed, 15 Jul 2026 18:50:52 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>2.10.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.7
+
+- Redesigned the volume control around the current macOS HUD: output-device name, precise level rail, and a dedicated mute end-cap.
+- Made the volume reveal and return substantially faster, with a concise system-style expansion from the ellipsis.
+- Improved update-feed caching for new installs.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.7/Now-2.10.7.zip" length="2991959" type="application/octet-stream" sparkle:edSignature="h5X0HbwxkDkEsahbzekvoVHv9xa4soeL6UiAD0+dZd4Iu9a7bZC3knKskigQeR+Mt+lAc2VRsHx77eAqcQhyDQ=="/>
+        </item>
+        <item>
             <title>2.10.6</title>
             <pubDate>Wed, 15 Jul 2026 18:42:18 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +49,6 @@
 - Added controls for automatic update checks, cadence, and automatic installation.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.5/Now-2.10.5.zip" length="2968201" type="application/octet-stream" sparkle:edSignature="kdDBUFVTOX9srxmhzDu1eKjdcLHK/WV1umZLjhnzhzLLL3Q4hu1rWYACXyOV6+nqy3kwHYHRRQniiJhtZCApBg=="/>
-        </item>
-        <item>
-            <title>2.10.4</title>
-            <pubDate>Wed, 15 Jul 2026 17:56:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>2.10.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.4
-
-- Fixed natural track-change artwork fades being collapsed into an instant swap.
-- Added a smooth exit animation when dismissing the volume popover.
-- Added press-and-release feedback to the overlay controls.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.4/Now-2.10.4.zip" length="2944741" type="application/octet-stream" sparkle:edSignature="yY3ZFpt45xHOjix7KwrEhWJtiG1lFbwiRltC3yk6ruGJFqSc5etcvo0k01SMJsm2s/Iflw0epvfvBysYP/uCBg=="/>
         </item>
     </channel>
 </rss>
