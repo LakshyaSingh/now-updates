@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.23</title>
+            <pubDate>Wed, 15 Jul 2026 20:14:08 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>2.10.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.23
+
+- Fixed the volume panel's closing jump by preventing a pre-dismiss layout refresh from repositioning it.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.23/Now-2.10.23.zip" length="2975983" type="application/octet-stream" sparkle:edSignature="zBkTDlJRj8ONI94dVAXHvCyJo3iPslfLK4ThByMkWNeeReKvyC9AE+W1MLI7r86p3Z3SFmLhrbYd1mpN8wdkCw=="/>
+        </item>
+        <item>
             <title>2.10.22</title>
             <pubDate>Wed, 15 Jul 2026 20:11:19 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +45,6 @@
 - Adjusted playback haptic feedback to arrive after the physical click, reducing conflict with the trackpad’s click sensation.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.21/Now-2.10.21.zip" length="2975943" type="application/octet-stream" sparkle:edSignature="MfapYZ5PK2iAqqXmHDO62dq6xUcpDUjduKvIxfEZMXLJfo1vHYWOwvwaPBXzatl59fl7L6wkfLFoek5toaWICw=="/>
-        </item>
-        <item>
-            <title>2.10.20</title>
-            <pubDate>Wed, 15 Jul 2026 19:56:27 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>38</sparkle:version>
-            <sparkle:shortVersionString>2.10.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.20
-
-- Refined the right speaker endpoint spacing so it sits closer to the slider with balanced visual rhythm.
-- Added native Force Touch haptic feedback to the previous, play/pause, and next controls.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.20/Now-2.10.20.zip" length="2993122" type="application/octet-stream" sparkle:edSignature="CzB81jTEcc3wuZcxXZRNysqbmLZRzJMp1RqF5EP4eZk87bzUrWjoyYqcwRHzHbwHeG7Co58l3xxPJsrwqEEDAQ=="/>
         </item>
     </channel>
 </rss>
