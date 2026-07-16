@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.12</title>
+            <pubDate>Wed, 15 Jul 2026 19:21:58 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>2.10.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.12
+
+- Corrected the volume HUD’s Liquid Glass composition by moving the native glass effect to the popover’s root view, where macOS can render it dynamically.
+- Removed the redundant flat blur beneath the volume controls and retained the fast reveal and return animation.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.12/Now-2.10.12.zip" length="2983586" type="application/octet-stream" sparkle:edSignature="U4A52Ae9f4tYTsnFLae9QO/UNuH19GNw73+ql8csKVgE3aWq2BUXELSC2hkCEiq5/5S11vhHC8eqOxM7gk2LBA=="/>
+        </item>
+        <item>
             <title>2.10.11</title>
             <pubDate>Wed, 15 Jul 2026 19:15:24 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +47,6 @@
 - Includes the restored Sparkle update-feed URL from 2.10.9.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.10/Now-2.10.10.zip" length="2986567" type="application/octet-stream" sparkle:edSignature="PdMVwFCcCVMuh8G5m6qX4lvpvU5wMvTeAS4aqfSqTZgF+oZD6MePa+b8vQGmvGd1ZW9C3JbEZ6pCLjdH/vSuBw=="/>
-        </item>
-        <item>
-            <title>2.10.9</title>
-            <pubDate>Wed, 15 Jul 2026 19:04:08 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>2.10.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.9
-
-- Restored the proven Sparkle update-feed URL after the alternate raw GitHub path served stale update data.
-- Includes the native-style volume HUD and fast expand-and-return animation from 2.10.8.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.9/Now-2.10.9.zip" length="2993875" type="application/octet-stream" sparkle:edSignature="zu1R9AL4oHldICfR+5tif/LrBpH0yB4SMBViaP5jr6a1wOsRdTdwo2fqsQ0BFh5HiAvo+CYCiCi0TiUQA8uPAQ=="/>
         </item>
     </channel>
 </rss>
