@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.14</title>
+            <pubDate>Wed, 15 Jul 2026 19:30:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>2.10.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.14
+
+- Fixed manual and scheduled update checks by giving each Sparkle check a fresh, cache-busting GitHub Release feed URL.
+- Prevents GitHub’s CDN from returning an earlier appcast immediately after a release is published.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.14/Now-2.10.14.zip" length="2988055" type="application/octet-stream" sparkle:edSignature="yEm1feUi3SVtVZYDHup2AIRQm9Vy7tf8ASEQmVUacoZ1ZTz3QgXSDwIl8Bc5q7x9FOXSMwB9L7IGJSNhc/YdCA=="/>
+        </item>
+        <item>
             <title>2.10.13</title>
             <pubDate>Wed, 15 Jul 2026 19:24:33 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +46,6 @@
 - Removed the redundant flat blur beneath the volume controls and retained the fast reveal and return animation.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.12/Now-2.10.12.zip" length="2983586" type="application/octet-stream" sparkle:edSignature="U4A52Ae9f4tYTsnFLae9QO/UNuH19GNw73+ql8csKVgE3aWq2BUXELSC2hkCEiq5/5S11vhHC8eqOxM7gk2LBA=="/>
-        </item>
-        <item>
-            <title>2.10.11</title>
-            <pubDate>Wed, 15 Jul 2026 19:15:24 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>29</sparkle:version>
-            <sparkle:shortVersionString>2.10.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.11
-
-- Moved the volume popover onto macOS’s actual AppKit Liquid Glass surface on macOS 26 and later.
-- Tuned the native volume slider to the slimmer system-HUD control size while retaining the fast reveal and return animation.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.11/Now-2.10.11.zip" length="2988608" type="application/octet-stream" sparkle:edSignature="eUXAkTJkGrX0YjYqi8txmWembyTWYlMQzX+cq719D4Su9obS+4NFEXujvmIELoiiigiTBXhBKDBfvMVG9GgVCQ=="/>
         </item>
     </channel>
 </rss>
