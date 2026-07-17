@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.43</title>
+            <pubDate>Thu, 16 Jul 2026 19:03:24 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>61</sparkle:version>
+            <sparkle:shortVersionString>2.10.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.43
+
+- Runs adjacent-track inspection inside YouTube Music's page execution context.
+- Bridges queue results back safely through a temporary DOM attribute.
+- Unlocks page-owned movie-player and queue-store APIs that Chrome Apple Events isolates.
+- Retains the ordinary DOM fallback and keeps playback detection unchanged.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.43/Now-2.10.43.zip" length="3050556" type="application/octet-stream" sparkle:edSignature="3IWY4D94fmdg/wVB1BIhExV/ZJRKbUVkAl/wNn6LUkvV8CEWrpMGjG3BD4z6YbSFXT1NaPuyk1dvdzL3C6FtBA=="/>
+        </item>
+        <item>
             <title>2.10.42</title>
             <pubDate>Thu, 16 Jul 2026 18:55:32 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,23 +51,6 @@
 - Retains player-playlist, queue-store, and visible-row extraction as layered fallbacks.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.41/Now-2.10.41.zip" length="3053698" type="application/octet-stream" sparkle:edSignature="MMiUDMScOpheNGs7+n0oDiO/PiwIZ4JEzQkvhPejcVHXWHxtIcOB46fG+TUuSlSfQ3yOVDOzg+eYw7hXtinFDg=="/>
-        </item>
-        <item>
-            <title>2.10.40</title>
-            <pubDate>Thu, 16 Jul 2026 18:40:26 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>2.10.40</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.40
-
-- Added YouTube's player-playlist API as an independent adjacent-artwork fallback.
-- Prefetches both previous and next artwork before trackpad gestures begin.
-- Preserves per-track queue relationships across rapid, repeated swipes.
-- Keeps queue-store and visible-row extraction as compatibility fallbacks.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.40/Now-2.10.40.zip" length="3045047" type="application/octet-stream" sparkle:edSignature="oPG3z7gXeloVEPDOm49/2re3n55RDEx7N+mygJafYY9oXgHK2yHKp6OnL0IwuPM13VbTH7WqOYo8wdTGb2O/AQ=="/>
         </item>
     </channel>
 </rss>
