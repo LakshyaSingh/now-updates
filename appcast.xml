@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.54</title>
+            <pubDate>Thu, 16 Jul 2026 21:19:05 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>72</sparkle:version>
+            <sparkle:shortVersionString>2.10.54</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.54
+
+- Fixed cancelled swipes briefly switching to the opposite artwork preview near the gesture origin.
+- Locked each physical trackpad gesture to its initially chosen direction until finger-up.
+- Prevented reverse movement velocity from accidentally committing a swipe the user was cancelling.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.54/Now-2.10.54.zip" length="3131006" type="application/octet-stream" sparkle:edSignature="vAKnaP2sQlxfWLc8rBKvFUVfS5FMxR5jiZQiSI0XuspLR2AoAnxlj5WWW2AEXqAPwl4R2rAEOivkYjIeEq70BA=="/>
+        </item>
+        <item>
             <title>2.10.53</title>
             <pubDate>Thu, 16 Jul 2026 21:05:32 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +49,6 @@
 - Kept the current cover continuously visible when a swipe preview is cancelled.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.52/Now-2.10.52.zip" length="3130623" type="application/octet-stream" sparkle:edSignature="RY84xX+HL88M9mCdqcD/WcYtLW0Skdhw3/enp/ID+MMOI0qJvdYg5KuFSLxwkVmswEPjFSz/L2XYBEckBXWABw=="/>
-        </item>
-        <item>
-            <title>2.10.51</title>
-            <pubDate>Thu, 16 Jul 2026 20:52:16 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>69</sparkle:version>
-            <sparkle:shortVersionString>2.10.51</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.51
-
-- Prevented brief YouTube Music queue synchronization races from displaying the wrong swipe-preview artwork.
-- Kept featured-artist title variants, such as a shortened MediaSession title, matched to the correct queue item.
-- Added queue-coherence details to the extension diagnostic report.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.51/Now-2.10.51.zip" length="3130562" type="application/octet-stream" sparkle:edSignature="+9jxv7rI41Hw2Yk82jzq5INKj9jJmQPNadZI51AMsUEVQ+9ijqLqCDX8Rain7Ha5dfqoPxYpl+48Ud7AvTOgAw=="/>
         </item>
     </channel>
 </rss>
