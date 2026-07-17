@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.49</title>
+            <pubDate>Thu, 16 Jul 2026 20:34:32 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>2.10.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.49
+
+- Fixed service-worker sender validation for Chrome content-script messages.
+- Validates the extension sender and the payload’s exact YouTube Music origin without relying on an optional sender URL field.
+- Bundled Chrome extension 1.3.1 with verified diagnostic forwarding.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.49/Now-2.10.49.zip" length="3111278" type="application/octet-stream" sparkle:edSignature="LUxy3xJ4u+GD823Jm0aT4DHBDhvNPWJozasCYumhSxCoxzHR+cy1Aq8+JOWz9M0M8dNIAV7daTL6YOyTk5fYCA=="/>
+        </item>
+        <item>
             <title>2.10.48</title>
             <pubDate>Thu, 16 Jul 2026 20:28:11 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,23 +50,6 @@
 - Bundled Chrome extension 1.2.0 for precise adjacent-artwork troubleshooting.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.47/Now-2.10.47.zip" length="3110207" type="application/octet-stream" sparkle:edSignature="elub8WkTM0XVxVjj/wL5xZFsuKaMclzJSbdGmclLWeGjkT+PbS+zVLdh6aOKnJmiU81VsSEXZXjOP8HlbfPfBQ=="/>
-        </item>
-        <item>
-            <title>2.10.46</title>
-            <pubDate>Thu, 16 Jul 2026 19:41:50 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>2.10.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.46
-
-- Added an optional Chrome extension that provides real previous and next YouTube Music artwork during trackpad swipes.
-- Added a private, localhost-only bridge between the extension and the native app.
-- Made swipe gestures responsive across every music source, including Apple Music, with a graceful elastic fallback when queue artwork is unavailable.
-- Added guided Chrome-extension installation to Settings and bundled the extension inside the app.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.46/Now-2.10.46.zip" length="3090467" type="application/octet-stream" sparkle:edSignature="ajJjdYsxg3sqTvU2ZYrTpRcBza51+tHrJBCuRW9zHO/QL0I0nVtDpL9a8e5vg4m8Hn3/Tpo50H+El/b9YcSKCg=="/>
         </item>
     </channel>
 </rss>
