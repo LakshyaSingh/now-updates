@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.58</title>
+            <pubDate>Thu, 16 Jul 2026 22:02:29 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>76</sparkle:version>
+            <sparkle:shortVersionString>2.10.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.58
+
+- Changed long song titles and artist names to make one smooth marquee pass per track.
+- After the pass completes, the text stays fixed instead of continuously moving and distracting.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.58/Now-2.10.58.zip" length="3135848" type="application/octet-stream" sparkle:edSignature="xBzdlDDZCsDoLXtcHqOTLoqpUvTr+QtFVWlp1XFg9s33LPe5qfw+A1+xYjK8WY3e4T3Tc8n4BbmPznMbNoilBA=="/>
+        </item>
+        <item>
             <title>2.10.57</title>
             <pubDate>Thu, 16 Jul 2026 21:49:25 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +48,6 @@
 - Prevented duplicate artwork downloads and transitions for safe featured-artist title variants.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.56/Now-2.10.56.zip" length="3133573" type="application/octet-stream" sparkle:edSignature="0X0rBav/OnkszBj4l4b25VyfoZqNpijmRuUMywVlk6uxLWkuT3vxwq9S9V1nonUYHifb0/NVTP4RF8Un32FvBQ=="/>
-        </item>
-        <item>
-            <title>2.10.55</title>
-            <pubDate>Thu, 16 Jul 2026 21:26:45 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>73</sparkle:version>
-            <sparkle:shortVersionString>2.10.55</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.55
-
-- Added seamless same-motion reversal between next and previous artwork previews.
-- Kept the current artwork centred while crossing the gesture origin, without an intermediate settling pause.
-- Added directional hysteresis so intentional reversals feel immediate while small trackpad jitter remains ignored.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.55/Now-2.10.55.zip" length="3130993" type="application/octet-stream" sparkle:edSignature="5QleuXYvX/oDSN2tnXn91n4Tsp7Fdb7iGI5fRzMoYAyEaFv162v9j2qfCdym3uFB30X0raZFTtQkkmum1/x8Bw=="/>
         </item>
     </channel>
 </rss>
