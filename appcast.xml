@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.59</title>
+            <pubDate>Fri, 17 Jul 2026 07:38:11 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>77</sparkle:version>
+            <sparkle:shortVersionString>2.10.59</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.59
+
+- Fixed the overlay sometimes remaining hidden when YouTube Music starts playing.
+- Removed a visibility race that could read the previous paused state during a fresh playback update.
+- Prevented the internal “Nothing playing” placeholder from being treated as a real track.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.59/Now-2.10.59.zip" length="3135831" type="application/octet-stream" sparkle:edSignature="tTayx6Bm3QTIc+cxAkqH76NXBmHllO+mJnHsTKEhts27fna9D9hPg/xr433YGknWqKGd8AQr2iJE86h317NwDQ=="/>
+        </item>
+        <item>
             <title>2.10.58</title>
             <pubDate>Thu, 16 Jul 2026 22:02:29 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,22 +48,6 @@
 - Recognized separately decoded copies of the same cover so artwork never animates over itself.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.57/Now-2.10.57.zip" length="3135875" type="application/octet-stream" sparkle:edSignature="MrQyDXESoPyyE/qqpw5KP15gtTHtHOR6aCXUgALo0VectOgNFxWU4oc96vkKi6LZinN3XeoZ/wihQowr2jrWBA=="/>
-        </item>
-        <item>
-            <title>2.10.56</title>
-            <pubDate>Thu, 16 Jul 2026 21:36:59 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>74</sparkle:version>
-            <sparkle:shortVersionString>2.10.56</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.56
-
-- Fixed a committed swipe cover animating over itself when track metadata arrived before the swipe settled.
-- Reused queue artwork when YouTube Music shortens the same track title after playback begins.
-- Prevented duplicate artwork downloads and transitions for safe featured-artist title variants.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.56/Now-2.10.56.zip" length="3133573" type="application/octet-stream" sparkle:edSignature="0X0rBav/OnkszBj4l4b25VyfoZqNpijmRuUMywVlk6uxLWkuT3vxwq9S9V1nonUYHifb0/NVTP4RF8Un32FvBQ=="/>
         </item>
     </channel>
 </rss>
