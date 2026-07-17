@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.57</title>
+            <pubDate>Thu, 16 Jul 2026 21:49:25 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>75</sparkle:version>
+            <sparkle:shortVersionString>2.10.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.57
+
+- Fixed one track producing two artwork transitions after a swipe or direct queue jump.
+- Kept the committed queue-track identity alive while Chrome delivers delayed playback metadata.
+- Recognized separately decoded copies of the same cover so artwork never animates over itself.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.57/Now-2.10.57.zip" length="3135875" type="application/octet-stream" sparkle:edSignature="MrQyDXESoPyyE/qqpw5KP15gtTHtHOR6aCXUgALo0VectOgNFxWU4oc96vkKi6LZinN3XeoZ/wihQowr2jrWBA=="/>
+        </item>
+        <item>
             <title>2.10.56</title>
             <pubDate>Thu, 16 Jul 2026 21:36:59 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +49,6 @@
 - Added directional hysteresis so intentional reversals feel immediate while small trackpad jitter remains ignored.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.55/Now-2.10.55.zip" length="3130993" type="application/octet-stream" sparkle:edSignature="5QleuXYvX/oDSN2tnXn91n4Tsp7Fdb7iGI5fRzMoYAyEaFv162v9j2qfCdym3uFB30X0raZFTtQkkmum1/x8Bw=="/>
-        </item>
-        <item>
-            <title>2.10.54</title>
-            <pubDate>Thu, 16 Jul 2026 21:19:05 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>72</sparkle:version>
-            <sparkle:shortVersionString>2.10.54</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.54
-
-- Fixed cancelled swipes briefly switching to the opposite artwork preview near the gesture origin.
-- Locked each physical trackpad gesture to its initially chosen direction until finger-up.
-- Prevented reverse movement velocity from accidentally committing a swipe the user was cancelling.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.54/Now-2.10.54.zip" length="3131006" type="application/octet-stream" sparkle:edSignature="vAKnaP2sQlxfWLc8rBKvFUVfS5FMxR5jiZQiSI0XuspLR2AoAnxlj5WWW2AEXqAPwl4R2rAEOivkYjIeEq70BA=="/>
         </item>
     </channel>
 </rss>
