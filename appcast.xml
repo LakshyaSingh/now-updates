@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.50</title>
+            <pubDate>Thu, 16 Jul 2026 20:43:43 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>2.10.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.50
+
+- Replaced the unreliable extension-to-localhost request with Chrome Native Messaging.
+- Added a signed native bridge helper bundled with Now and automatic per-user Chrome host registration.
+- Added a fixed extension identity and narrowly scoped native-host origin validation.
+- Bundled Chrome extension 1.4.0 and verified the complete framed-message path into the running app.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.50/Now-2.10.50.zip" length="3129919" type="application/octet-stream" sparkle:edSignature="vaHhF6RWWvnO0HmKGyrju1Ke+ZXzKGGue/v5VU+tNru/bC2VR+u/kMFezVKNpHz28Q4uxSeOD6SIGcVNltkkDg=="/>
+        </item>
+        <item>
             <title>2.10.49</title>
             <pubDate>Thu, 16 Jul 2026 20:34:32 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,23 +50,6 @@
 - Bundled Chrome extension 1.3.0 so real queue diagnostics can reach the native app reliably.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.48/Now-2.10.48.zip" length="3111220" type="application/octet-stream" sparkle:edSignature="GLbinb3PiOzgGLORR8pP7r0e9GBwT4t7GOD2M3daA2o2Nm47SzuLGlbvW7AtDZ2utkzB+rqclG0/virjWdWcCg=="/>
-        </item>
-        <item>
-            <title>2.10.47</title>
-            <pubDate>Thu, 16 Jul 2026 20:17:51 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>2.10.47</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.47
-
-- Expanded the Chrome extension’s YouTube Music queue reader with rendered Up Next rows.
-- Removed the misleading self-cover substitution when adjacent artwork is unavailable.
-- Added a local diagnostic timeline for private queue APIs, playlist state, rendered rows, and resolution paths.
-- Bundled Chrome extension 1.2.0 for precise adjacent-artwork troubleshooting.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.47/Now-2.10.47.zip" length="3110207" type="application/octet-stream" sparkle:edSignature="elub8WkTM0XVxVjj/wL5xZFsuKaMclzJSbdGmclLWeGjkT+PbS+zVLdh6aOKnJmiU81VsSEXZXjOP8HlbfPfBQ=="/>
         </item>
     </channel>
 </rss>
