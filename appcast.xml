@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.55</title>
+            <pubDate>Thu, 16 Jul 2026 21:26:45 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>73</sparkle:version>
+            <sparkle:shortVersionString>2.10.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.55
+
+- Added seamless same-motion reversal between next and previous artwork previews.
+- Kept the current artwork centred while crossing the gesture origin, without an intermediate settling pause.
+- Added directional hysteresis so intentional reversals feel immediate while small trackpad jitter remains ignored.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.55/Now-2.10.55.zip" length="3130993" type="application/octet-stream" sparkle:edSignature="5QleuXYvX/oDSN2tnXn91n4Tsp7Fdb7iGI5fRzMoYAyEaFv162v9j2qfCdym3uFB30X0raZFTtQkkmum1/x8Bw=="/>
+        </item>
+        <item>
             <title>2.10.54</title>
             <pubDate>Thu, 16 Jul 2026 21:19:05 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +49,6 @@
 - Prevented an incorrect cached cover from being committed briefly before the actual previous track arrives.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.53/Now-2.10.53.zip" length="3131002" type="application/octet-stream" sparkle:edSignature="9q3cLCu2/jPVkMY2zf2dLgFqTh0wWIy99hOexOEVRODZF+JU9wPy3gqcd6UhteL4y1/1gKERZaSd19zvfj6RAg=="/>
-        </item>
-        <item>
-            <title>2.10.52</title>
-            <pubDate>Thu, 16 Jul 2026 20:56:53 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>70</sparkle:version>
-            <sparkle:shortVersionString>2.10.52</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.52
-
-- Fixed cancelled track swipes briefly pushing the current artwork completely out of the overlay.
-- Made the artwork follow a reversed gesture all the way back to its resting position before finger-up.
-- Kept the current cover continuously visible when a swipe preview is cancelled.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.52/Now-2.10.52.zip" length="3130623" type="application/octet-stream" sparkle:edSignature="RY84xX+HL88M9mCdqcD/WcYtLW0Skdhw3/enp/ID+MMOI0qJvdYg5KuFSLxwkVmswEPjFSz/L2XYBEckBXWABw=="/>
         </item>
     </channel>
 </rss>
