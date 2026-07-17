@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.41</title>
+            <pubDate>Thu, 16 Jul 2026 18:48:44 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>2.10.41</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.41
+
+- Captures previous and next cover URLs in the normal YouTube Music metadata poll.
+- Removes the separate Chrome-request race that could leave swipe previews empty.
+- Allows artwork resolving just after finger release to finish the committed transition.
+- Retains player-playlist, queue-store, and visible-row extraction as layered fallbacks.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.41/Now-2.10.41.zip" length="3053698" type="application/octet-stream" sparkle:edSignature="MMiUDMScOpheNGs7+n0oDiO/PiwIZ4JEzQkvhPejcVHXWHxtIcOB46fG+TUuSlSfQ3yOVDOzg+eYw7hXtinFDg=="/>
+        </item>
+        <item>
             <title>2.10.40</title>
             <pubDate>Thu, 16 Jul 2026 18:40:26 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,23 +52,6 @@
 - Added queue-preview diagnostics and retained the DOM implementation as a compatibility fallback.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.39/Now-2.10.39.zip" length="3038136" type="application/octet-stream" sparkle:edSignature="Y43FLhAcgztxEXZALlBVDYuBY/Ha7Dzjky1v/nEVa8tth9CBzcruJiGYQjB2cgFtjM0DQAW9i1kryj8AzyAgCQ=="/>
-        </item>
-        <item>
-            <title>2.10.38</title>
-            <pubDate>Thu, 16 Jul 2026 14:25:44 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>56</sparkle:version>
-            <sparkle:shortVersionString>2.10.38</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.38
-
-- Corrected YouTube Music queue parsing to use its current song-title and playback-state attributes.
-- Restored live next-cover previews before a forward swipe is committed.
-- Separated navigation history from artwork render timing so previously loaded covers remain available several songs deep.
-- Improved repeated backward and forward artwork transitions across longer listening history.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.38/Now-2.10.38.zip" length="3037115" type="application/octet-stream" sparkle:edSignature="8ORzAKAK391uDc1DPH1/NfF2Sw/DycxgdQozd1KOAeUMzy66H5UvOsxz/JCS8aDndzMa1wQYOyJ9u9mNwcYEBg=="/>
         </item>
     </channel>
 </rss>
