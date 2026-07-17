@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.56</title>
+            <pubDate>Thu, 16 Jul 2026 21:36:59 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>74</sparkle:version>
+            <sparkle:shortVersionString>2.10.56</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.56
+
+- Fixed a committed swipe cover animating over itself when track metadata arrived before the swipe settled.
+- Reused queue artwork when YouTube Music shortens the same track title after playback begins.
+- Prevented duplicate artwork downloads and transitions for safe featured-artist title variants.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.56/Now-2.10.56.zip" length="3133573" type="application/octet-stream" sparkle:edSignature="0X0rBav/OnkszBj4l4b25VyfoZqNpijmRuUMywVlk6uxLWkuT3vxwq9S9V1nonUYHifb0/NVTP4RF8Un32FvBQ=="/>
+        </item>
+        <item>
             <title>2.10.55</title>
             <pubDate>Thu, 16 Jul 2026 21:26:45 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +49,6 @@
 - Prevented reverse movement velocity from accidentally committing a swipe the user was cancelling.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.54/Now-2.10.54.zip" length="3131006" type="application/octet-stream" sparkle:edSignature="vAKnaP2sQlxfWLc8rBKvFUVfS5FMxR5jiZQiSI0XuspLR2AoAnxlj5WWW2AEXqAPwl4R2rAEOivkYjIeEq70BA=="/>
-        </item>
-        <item>
-            <title>2.10.53</title>
-            <pubDate>Thu, 16 Jul 2026 21:05:32 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>71</sparkle:version>
-            <sparkle:shortVersionString>2.10.53</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.53
-
-- Fixed backward swipe previews showing the first played track after jumping several positions in a browser queue.
-- Made the live YouTube Music queue relationship override local playback history.
-- Prevented an incorrect cached cover from being committed briefly before the actual previous track arrives.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.53/Now-2.10.53.zip" length="3131002" type="application/octet-stream" sparkle:edSignature="9q3cLCu2/jPVkMY2zf2dLgFqTh0wWIy99hOexOEVRODZF+JU9wPy3gqcd6UhteL4y1/1gKERZaSd19zvfj6RAg=="/>
         </item>
     </channel>
 </rss>
