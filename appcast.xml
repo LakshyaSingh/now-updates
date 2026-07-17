@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.48</title>
+            <pubDate>Thu, 16 Jul 2026 20:28:11 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>66</sparkle:version>
+            <sparkle:shortVersionString>2.10.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.48
+
+- Fixed Chrome extension communication with the native app by moving localhost requests into an extension service worker.
+- Preserved strict YouTube Music origin validation and a narrowly scoped localhost permission.
+- Bundled Chrome extension 1.3.0 so real queue diagnostics can reach the native app reliably.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.48/Now-2.10.48.zip" length="3111220" type="application/octet-stream" sparkle:edSignature="GLbinb3PiOzgGLORR8pP7r0e9GBwT4t7GOD2M3daA2o2Nm47SzuLGlbvW7AtDZ2utkzB+rqclG0/virjWdWcCg=="/>
+        </item>
+        <item>
             <title>2.10.47</title>
             <pubDate>Thu, 16 Jul 2026 20:17:51 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,22 +51,6 @@
 - Added guided Chrome-extension installation to Settings and bundled the extension inside the app.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.46/Now-2.10.46.zip" length="3090467" type="application/octet-stream" sparkle:edSignature="ajJjdYsxg3sqTvU2ZYrTpRcBza51+tHrJBCuRW9zHO/QL0I0nVtDpL9a8e5vg4m8Hn3/Tpo50H+El/b9YcSKCg=="/>
-        </item>
-        <item>
-            <title>2.10.45</title>
-            <pubDate>Thu, 16 Jul 2026 19:21:28 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>63</sparkle:version>
-            <sparkle:shortVersionString>2.10.45</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.45
-
-- Captures every adjacent-artwork probe outcome, including Chrome errors and timeouts.
-- Writes separate next and previous queue reports so one direction cannot overwrite the other.
-- Records started, resolved, empty, malformed, injected-diagnostic, and execution-error stages.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.45/Now-2.10.45.zip" length="3057096" type="application/octet-stream" sparkle:edSignature="2L/VUVyUK2aYEWNFsHD5KcNFG75ZrnU8HrgyutSO4zzRj4EpFtBs7mC4HpLgacKMY4Zya9OZdM+GEcqet4WGBg=="/>
         </item>
     </channel>
 </rss>
