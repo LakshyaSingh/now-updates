@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.60</title>
+            <pubDate>Fri, 17 Jul 2026 12:54:28 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>2.10.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.60
+
+- Fixed long song titles disappearing after their single marquee pass.
+- Restored title and artist text to their original visible position when scrolling completes.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.60/Now-2.10.60.zip" length="3135886" type="application/octet-stream" sparkle:edSignature="HAL0nka45wAw5ETKIa0aST2brrMR/Q5GpngszOgPbp6kFPxR7Cn8hlSQiI7sDf/AdLECONmLQFQlrjU/F0LiCw=="/>
+        </item>
+        <item>
             <title>2.10.59</title>
             <pubDate>Fri, 17 Jul 2026 07:38:11 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,22 +47,6 @@
 - After the pass completes, the text stays fixed instead of continuously moving and distracting.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.58/Now-2.10.58.zip" length="3135848" type="application/octet-stream" sparkle:edSignature="xBzdlDDZCsDoLXtcHqOTLoqpUvTr+QtFVWlp1XFg9s33LPe5qfw+A1+xYjK8WY3e4T3Tc8n4BbmPznMbNoilBA=="/>
-        </item>
-        <item>
-            <title>2.10.57</title>
-            <pubDate>Thu, 16 Jul 2026 21:49:25 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>2.10.57</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.57
-
-- Fixed one track producing two artwork transitions after a swipe or direct queue jump.
-- Kept the committed queue-track identity alive while Chrome delivers delayed playback metadata.
-- Recognized separately decoded copies of the same cover so artwork never animates over itself.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.57/Now-2.10.57.zip" length="3135875" type="application/octet-stream" sparkle:edSignature="MrQyDXESoPyyE/qqpw5KP15gtTHtHOR6aCXUgALo0VectOgNFxWU4oc96vkKi6LZinN3XeoZ/wihQowr2jrWBA=="/>
         </item>
     </channel>
 </rss>
