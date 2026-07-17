@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.52</title>
+            <pubDate>Thu, 16 Jul 2026 20:56:53 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>2.10.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.52
+
+- Fixed cancelled track swipes briefly pushing the current artwork completely out of the overlay.
+- Made the artwork follow a reversed gesture all the way back to its resting position before finger-up.
+- Kept the current cover continuously visible when a swipe preview is cancelled.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.52/Now-2.10.52.zip" length="3130623" type="application/octet-stream" sparkle:edSignature="RY84xX+HL88M9mCdqcD/WcYtLW0Skdhw3/enp/ID+MMOI0qJvdYg5KuFSLxwkVmswEPjFSz/L2XYBEckBXWABw=="/>
+        </item>
+        <item>
             <title>2.10.51</title>
             <pubDate>Thu, 16 Jul 2026 20:52:16 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,22 +50,6 @@
 - Bundled Chrome extension 1.4.0 and verified the complete framed-message path into the running app.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.50/Now-2.10.50.zip" length="3129919" type="application/octet-stream" sparkle:edSignature="vaHhF6RWWvnO0HmKGyrju1Ke+ZXzKGGue/v5VU+tNru/bC2VR+u/kMFezVKNpHz28Q4uxSeOD6SIGcVNltkkDg=="/>
-        </item>
-        <item>
-            <title>2.10.49</title>
-            <pubDate>Thu, 16 Jul 2026 20:34:32 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>2.10.49</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.49
-
-- Fixed service-worker sender validation for Chrome content-script messages.
-- Validates the extension sender and the payload’s exact YouTube Music origin without relying on an optional sender URL field.
-- Bundled Chrome extension 1.3.1 with verified diagnostic forwarding.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.49/Now-2.10.49.zip" length="3111278" type="application/octet-stream" sparkle:edSignature="LUxy3xJ4u+GD823Jm0aT4DHBDhvNPWJozasCYumhSxCoxzHR+cy1Aq8+JOWz9M0M8dNIAV7daTL6YOyTk5fYCA=="/>
         </item>
     </channel>
 </rss>
