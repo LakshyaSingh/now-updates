@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.42</title>
+            <pubDate>Thu, 16 Jul 2026 18:55:32 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>2.10.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.42
+
+- Restores the proven YouTube Music metadata probe after 2.10.41 could report nothing playing.
+- Keeps adjacent-artwork work isolated from the primary playback-detection path.
+- Preserves the gesture fix that lets artwork arriving after finger release finish its transition.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.42/Now-2.10.42.zip" length="3047391" type="application/octet-stream" sparkle:edSignature="FjQ0Bnp1jBdsXtxJh4hNP5M2oqHVhtOXlsZILYSeylvpYJWn0I/R/+g0rLnHXS9gj+PxHubvByCZITS7iTngDw=="/>
+        </item>
+        <item>
             <title>2.10.41</title>
             <pubDate>Thu, 16 Jul 2026 18:48:44 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,23 +51,6 @@
 - Keeps queue-store and visible-row extraction as compatibility fallbacks.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.40/Now-2.10.40.zip" length="3045047" type="application/octet-stream" sparkle:edSignature="oPG3z7gXeloVEPDOm49/2re3n55RDEx7N+mygJafYY9oXgHK2yHKp6OnL0IwuPM13VbTH7WqOYo8wdTGb2O/AQ=="/>
-        </item>
-        <item>
-            <title>2.10.39</title>
-            <pubDate>Thu, 16 Jul 2026 14:32:25 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>57</sparkle:version>
-            <sparkle:shortVersionString>2.10.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.39
-
-- Replaced visible queue-row scraping with YouTube Music's underlying player queue store.
-- Adjacent track previews now resolve even when Up Next rows have not been rendered onscreen.
-- Added reliable title, artist, artwork, selected-index, and video-thumbnail extraction from queue data.
-- Added queue-preview diagnostics and retained the DOM implementation as a compatibility fallback.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.39/Now-2.10.39.zip" length="3038136" type="application/octet-stream" sparkle:edSignature="Y43FLhAcgztxEXZALlBVDYuBY/Ha7Dzjky1v/nEVa8tth9CBzcruJiGYQjB2cgFtjM0DQAW9i1kryj8AzyAgCQ=="/>
         </item>
     </channel>
 </rss>
