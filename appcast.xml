@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.47</title>
+            <pubDate>Thu, 16 Jul 2026 20:17:51 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>2.10.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.47
+
+- Expanded the Chrome extension’s YouTube Music queue reader with rendered Up Next rows.
+- Removed the misleading self-cover substitution when adjacent artwork is unavailable.
+- Added a local diagnostic timeline for private queue APIs, playlist state, rendered rows, and resolution paths.
+- Bundled Chrome extension 1.2.0 for precise adjacent-artwork troubleshooting.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.47/Now-2.10.47.zip" length="3110207" type="application/octet-stream" sparkle:edSignature="elub8WkTM0XVxVjj/wL5xZFsuKaMclzJSbdGmclLWeGjkT+PbS+zVLdh6aOKnJmiU81VsSEXZXjOP8HlbfPfBQ=="/>
+        </item>
+        <item>
             <title>2.10.46</title>
             <pubDate>Thu, 16 Jul 2026 19:41:50 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,22 +51,6 @@
 - Records started, resolved, empty, malformed, injected-diagnostic, and execution-error stages.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.45/Now-2.10.45.zip" length="3057096" type="application/octet-stream" sparkle:edSignature="2L/VUVyUK2aYEWNFsHD5KcNFG75ZrnU8HrgyutSO4zzRj4EpFtBs7mC4HpLgacKMY4Zya9OZdM+GEcqet4WGBg=="/>
-        </item>
-        <item>
-            <title>2.10.44</title>
-            <pubDate>Thu, 16 Jul 2026 19:13:31 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>62</sparkle:version>
-            <sparkle:shortVersionString>2.10.44</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.44
-
-- Adds isolated diagnostics for failed YouTube Music adjacent-artwork lookups.
-- Records page-world access, playlist state, queue-store structure, and rendered-row counts.
-- Writes the report to Application Support without changing playback detection or animation.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.44/Now-2.10.44.zip" length="3053668" type="application/octet-stream" sparkle:edSignature="OPxFBUtAzvPOKxbWPNIS/hA14h3dZCqRzdKthczJSiYgis4cClVClbdDK9ovH5w4+9RS07Ke3yidkVNBipYzCg=="/>
         </item>
     </channel>
 </rss>
