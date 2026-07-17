@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.46</title>
+            <pubDate>Thu, 16 Jul 2026 19:41:50 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>2.10.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.46
+
+- Added an optional Chrome extension that provides real previous and next YouTube Music artwork during trackpad swipes.
+- Added a private, localhost-only bridge between the extension and the native app.
+- Made swipe gestures responsive across every music source, including Apple Music, with a graceful elastic fallback when queue artwork is unavailable.
+- Added guided Chrome-extension installation to Settings and bundled the extension inside the app.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.46/Now-2.10.46.zip" length="3090467" type="application/octet-stream" sparkle:edSignature="ajJjdYsxg3sqTvU2ZYrTpRcBza51+tHrJBCuRW9zHO/QL0I0nVtDpL9a8e5vg4m8Hn3/Tpo50H+El/b9YcSKCg=="/>
+        </item>
+        <item>
             <title>2.10.45</title>
             <pubDate>Thu, 16 Jul 2026 19:21:28 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,23 +50,6 @@
 - Writes the report to Application Support without changing playback detection or animation.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.44/Now-2.10.44.zip" length="3053668" type="application/octet-stream" sparkle:edSignature="OPxFBUtAzvPOKxbWPNIS/hA14h3dZCqRzdKthczJSiYgis4cClVClbdDK9ovH5w4+9RS07Ke3yidkVNBipYzCg=="/>
-        </item>
-        <item>
-            <title>2.10.43</title>
-            <pubDate>Thu, 16 Jul 2026 19:03:24 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>61</sparkle:version>
-            <sparkle:shortVersionString>2.10.43</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.43
-
-- Runs adjacent-track inspection inside YouTube Music's page execution context.
-- Bridges queue results back safely through a temporary DOM attribute.
-- Unlocks page-owned movie-player and queue-store APIs that Chrome Apple Events isolates.
-- Retains the ordinary DOM fallback and keeps playback detection unchanged.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.43/Now-2.10.43.zip" length="3050556" type="application/octet-stream" sparkle:edSignature="3IWY4D94fmdg/wVB1BIhExV/ZJRKbUVkAl/wNn6LUkvV8CEWrpMGjG3BD4z6YbSFXT1NaPuyk1dvdzL3C6FtBA=="/>
         </item>
     </channel>
 </rss>
