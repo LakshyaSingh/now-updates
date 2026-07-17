@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.53</title>
+            <pubDate>Thu, 16 Jul 2026 21:05:32 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>71</sparkle:version>
+            <sparkle:shortVersionString>2.10.53</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.53
+
+- Fixed backward swipe previews showing the first played track after jumping several positions in a browser queue.
+- Made the live YouTube Music queue relationship override local playback history.
+- Prevented an incorrect cached cover from being committed briefly before the actual previous track arrives.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.53/Now-2.10.53.zip" length="3131002" type="application/octet-stream" sparkle:edSignature="9q3cLCu2/jPVkMY2zf2dLgFqTh0wWIy99hOexOEVRODZF+JU9wPy3gqcd6UhteL4y1/1gKERZaSd19zvfj6RAg=="/>
+        </item>
+        <item>
             <title>2.10.52</title>
             <pubDate>Thu, 16 Jul 2026 20:56:53 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,23 +49,6 @@
 - Added queue-coherence details to the extension diagnostic report.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.51/Now-2.10.51.zip" length="3130562" type="application/octet-stream" sparkle:edSignature="+9jxv7rI41Hw2Yk82jzq5INKj9jJmQPNadZI51AMsUEVQ+9ijqLqCDX8Rain7Ha5dfqoPxYpl+48Ud7AvTOgAw=="/>
-        </item>
-        <item>
-            <title>2.10.50</title>
-            <pubDate>Thu, 16 Jul 2026 20:43:43 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>68</sparkle:version>
-            <sparkle:shortVersionString>2.10.50</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.50
-
-- Replaced the unreliable extension-to-localhost request with Chrome Native Messaging.
-- Added a signed native bridge helper bundled with Now and automatic per-user Chrome host registration.
-- Added a fixed extension identity and narrowly scoped native-host origin validation.
-- Bundled Chrome extension 1.4.0 and verified the complete framed-message path into the running app.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.50/Now-2.10.50.zip" length="3129919" type="application/octet-stream" sparkle:edSignature="vaHhF6RWWvnO0HmKGyrju1Ke+ZXzKGGue/v5VU+tNru/bC2VR+u/kMFezVKNpHz28Q4uxSeOD6SIGcVNltkkDg=="/>
         </item>
     </channel>
 </rss>
