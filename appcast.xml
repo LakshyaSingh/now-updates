@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.45</title>
+            <pubDate>Thu, 16 Jul 2026 19:21:28 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>63</sparkle:version>
+            <sparkle:shortVersionString>2.10.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.45
+
+- Captures every adjacent-artwork probe outcome, including Chrome errors and timeouts.
+- Writes separate next and previous queue reports so one direction cannot overwrite the other.
+- Records started, resolved, empty, malformed, injected-diagnostic, and execution-error stages.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.45/Now-2.10.45.zip" length="3057096" type="application/octet-stream" sparkle:edSignature="2L/VUVyUK2aYEWNFsHD5KcNFG75ZrnU8HrgyutSO4zzRj4EpFtBs7mC4HpLgacKMY4Zya9OZdM+GEcqet4WGBg=="/>
+        </item>
+        <item>
             <title>2.10.44</title>
             <pubDate>Thu, 16 Jul 2026 19:13:31 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,22 +50,6 @@
 - Retains the ordinary DOM fallback and keeps playback detection unchanged.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.43/Now-2.10.43.zip" length="3050556" type="application/octet-stream" sparkle:edSignature="3IWY4D94fmdg/wVB1BIhExV/ZJRKbUVkAl/wNn6LUkvV8CEWrpMGjG3BD4z6YbSFXT1NaPuyk1dvdzL3C6FtBA=="/>
-        </item>
-        <item>
-            <title>2.10.42</title>
-            <pubDate>Thu, 16 Jul 2026 18:55:32 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>60</sparkle:version>
-            <sparkle:shortVersionString>2.10.42</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.42
-
-- Restores the proven YouTube Music metadata probe after 2.10.41 could report nothing playing.
-- Keeps adjacent-artwork work isolated from the primary playback-detection path.
-- Preserves the gesture fix that lets artwork arriving after finger release finish its transition.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.42/Now-2.10.42.zip" length="3047391" type="application/octet-stream" sparkle:edSignature="FjQ0Bnp1jBdsXtxJh4hNP5M2oqHVhtOXlsZILYSeylvpYJWn0I/R/+g0rLnHXS9gj+PxHubvByCZITS7iTngDw=="/>
         </item>
     </channel>
 </rss>
