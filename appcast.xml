@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.61</title>
+            <pubDate>Fri, 17 Jul 2026 23:53:43 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>2.10.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.61
+
+- Added reliable support for switching playback between multiple YouTube Music tabs.
+- When the current tab pauses, Now rescans all music tabs and follows the one that is actively playing.
+- Playback controls and queue artwork remain bound to the newly selected music tab.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.61/Now-2.10.61.zip" length="3135954" type="application/octet-stream" sparkle:edSignature="xFolk4+66RrJ25p5ObjnqFGFEe/ifKFsIZ/S02DiyWkrJEyZzlLQXURZEFm6e+kgWLoo/gftvnmv/RchgMFzAQ=="/>
+        </item>
+        <item>
             <title>2.10.60</title>
             <pubDate>Fri, 17 Jul 2026 12:54:28 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +48,6 @@
 - Prevented the internal “Nothing playing” placeholder from being treated as a real track.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.59/Now-2.10.59.zip" length="3135831" type="application/octet-stream" sparkle:edSignature="tTayx6Bm3QTIc+cxAkqH76NXBmHllO+mJnHsTKEhts27fna9D9hPg/xr433YGknWqKGd8AQr2iJE86h317NwDQ=="/>
-        </item>
-        <item>
-            <title>2.10.58</title>
-            <pubDate>Thu, 16 Jul 2026 22:02:29 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>2.10.58</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.58
-
-- Changed long song titles and artist names to make one smooth marquee pass per track.
-- After the pass completes, the text stays fixed instead of continuously moving and distracting.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.58/Now-2.10.58.zip" length="3135848" type="application/octet-stream" sparkle:edSignature="xBzdlDDZCsDoLXtcHqOTLoqpUvTr+QtFVWlp1XFg9s33LPe5qfw+A1+xYjK8WY3e4T3Tc8n4BbmPznMbNoilBA=="/>
         </item>
     </channel>
 </rss>
