@@ -3,6 +3,25 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.62</title>
+            <pubDate>Sun, 19 Jul 2026 21:40:40 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>80</sparkle:version>
+            <sparkle:shortVersionString>2.10.62</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.62
+
+- Fixed the long-running stall that could leave the overlay showing an old song while YouTube Music continued playing.
+- Chrome extension updates now drive the overlay directly, with AppleScript retained as an automatic fallback.
+- Native music app probes now run concurrently with hard deadlines, so an unresponsive paused app cannot freeze Now.
+- Playback controls now rediscover the matching YouTube Music tab after a transport reset instead of showing “Open YouTube Music.”
+- The Chrome extension listener automatically restarts if its loopback connection fails.
+- Added Restart Now to the menu bar for a safe, one-click full relaunch.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.62/Now-2.10.62.zip" length="3165339" type="application/octet-stream" sparkle:edSignature="IwLj/xbmQDaXpvG8X8ZMFBYf+vksAN26nMAUidissxstJ5tCUcIl2khlUFzs49zI6JO7u0zrpH6u0kiDFUhbDw=="/>
+        </item>
+        <item>
             <title>2.10.61</title>
             <pubDate>Fri, 17 Jul 2026 23:53:43 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,22 +51,6 @@
 - Restored title and artist text to their original visible position when scrolling completes.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.60/Now-2.10.60.zip" length="3135886" type="application/octet-stream" sparkle:edSignature="HAL0nka45wAw5ETKIa0aST2brrMR/Q5GpngszOgPbp6kFPxR7Cn8hlSQiI7sDf/AdLECONmLQFQlrjU/F0LiCw=="/>
-        </item>
-        <item>
-            <title>2.10.59</title>
-            <pubDate>Fri, 17 Jul 2026 07:38:11 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>77</sparkle:version>
-            <sparkle:shortVersionString>2.10.59</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.59
-
-- Fixed the overlay sometimes remaining hidden when YouTube Music starts playing.
-- Removed a visibility race that could read the previous paused state during a fresh playback update.
-- Prevented the internal “Nothing playing” placeholder from being treated as a real track.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.59/Now-2.10.59.zip" length="3135831" type="application/octet-stream" sparkle:edSignature="tTayx6Bm3QTIc+cxAkqH76NXBmHllO+mJnHsTKEhts27fna9D9hPg/xr433YGknWqKGd8AQr2iJE86h317NwDQ=="/>
         </item>
     </channel>
 </rss>
