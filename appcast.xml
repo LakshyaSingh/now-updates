@@ -3,6 +3,24 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.65</title>
+            <pubDate>Mon, 20 Jul 2026 18:01:28 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>83</sparkle:version>
+            <sparkle:shortVersionString>2.10.65</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.65
+
+- Live Lyrics now appears beneath the song title and artist while album artwork remains visible and unchanged.
+- Lyric transitions use a smoother spring handoff: the outgoing line lifts away as the next line rises into place.
+- Synchronized lyric lines stay aligned between browser metadata updates, pauses, and seeks.
+- Lyrics matching is deliberately conservative and automatically falls back to album art when synchronized timing is unavailable.
+- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.65/Now-2.10.65.zip" length="3219920" type="application/octet-stream" sparkle:edSignature="Ys9BqzRg9o1OcMt3S4tigqWz3bq3Rq+MIc+37a+8DE1chRQiYbPwS7/yrBFhRVVdo6PxsOK9JCfYSZ5ulPvDBA=="/>
+        </item>
+        <item>
             <title>2.10.64</title>
             <pubDate>Mon, 20 Jul 2026 17:53:15 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -36,25 +54,6 @@
 - Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.63/Now-2.10.63.zip" length="3225308" type="application/octet-stream" sparkle:edSignature="N60nCucZCMd/ShqaPPIjxXnb47j13AHUnq9NwzRhJ0NrCiBi7UtIlQBwPTpexRD5NJ0Zg3eJnyXlpStQ+KfjDA=="/>
-        </item>
-        <item>
-            <title>2.10.62</title>
-            <pubDate>Sun, 19 Jul 2026 21:40:40 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>80</sparkle:version>
-            <sparkle:shortVersionString>2.10.62</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.62
-
-- Fixed the long-running stall that could leave the overlay showing an old song while YouTube Music continued playing.
-- Chrome extension updates now drive the overlay directly, with AppleScript retained as an automatic fallback.
-- Native music app probes now run concurrently with hard deadlines, so an unresponsive paused app cannot freeze Now.
-- Playback controls now rediscover the matching YouTube Music tab after a transport reset instead of showing “Open YouTube Music.”
-- The Chrome extension listener automatically restarts if its loopback connection fails.
-- Added Restart Now to the menu bar for a safe, one-click full relaunch.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.62/Now-2.10.62.zip" length="3165339" type="application/octet-stream" sparkle:edSignature="IwLj/xbmQDaXpvG8X8ZMFBYf+vksAN26nMAUidissxstJ5tCUcIl2khlUFzs49zI6JO7u0zrpH6u0kiDFUhbDw=="/>
         </item>
     </channel>
 </rss>
