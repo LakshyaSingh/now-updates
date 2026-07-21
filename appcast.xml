@@ -3,6 +3,27 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.67</title>
+            <pubDate>Mon, 20 Jul 2026 18:20:45 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>85</sparkle:version>
+            <sparkle:shortVersionString>2.10.67</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.67
+
+- Live Lyrics now appears beneath the song title and artist while album artwork remains visible and unchanged.
+- Lyric transitions use a smoother spring handoff: the outgoing line lifts away as the next line rises into place.
+- Synchronized lyric lines stay aligned between browser metadata updates, pauses, and seeks.
+- When synchronized lyrics are unavailable, the overlay now restores the original title-and-artist layout and spacing instead of showing a status message.
+- Long lyric lines now wrap across two readable lines instead of shrinking into tiny, truncated text.
+- Fixed Apple Music lyrics freezing between play/pause events by preserving a monotonic playback clock when MediaRemote repeats a stale elapsed value.
+- Added conservative music-video title and duration matching so official videos can resolve the same synchronized lyrics as their audio release.
+- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.67/Now-2.10.67.zip" length="3220812" type="application/octet-stream" sparkle:edSignature="mL5Zup+jD7cngf1/ogtCEzQtgLslUaLu/K0d5aNTDQ4LfEH9WmjECmxtW9UDco7U09yDLt/NO9Ma0oGcu4MlDA=="/>
+        </item>
+        <item>
             <title>2.10.66</title>
             <pubDate>Mon, 20 Jul 2026 18:12:34 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -37,24 +58,6 @@
 - Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.65/Now-2.10.65.zip" length="3219920" type="application/octet-stream" sparkle:edSignature="Ys9BqzRg9o1OcMt3S4tigqWz3bq3Rq+MIc+37a+8DE1chRQiYbPwS7/yrBFhRVVdo6PxsOK9JCfYSZ5ulPvDBA=="/>
-        </item>
-        <item>
-            <title>2.10.64</title>
-            <pubDate>Mon, 20 Jul 2026 17:53:15 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>82</sparkle:version>
-            <sparkle:shortVersionString>2.10.64</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.64
-
-- Added an optional Live Lyrics media tile in Settings → Artwork & Lyrics.
-- Synchronized lyric lines stay aligned between browser metadata updates and animate smoothly as the song advances.
-- Lyrics matching is deliberately conservative and automatically falls back to album art when synchronized timing is unavailable.
-- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
-- Moved update checks to the stable public feed file instead of GitHub's stale-prone latest-release redirect.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.64/Now-2.10.64.zip" length="3225298" type="application/octet-stream" sparkle:edSignature="gIgzmFndCPw9sUFCG81YqCdUBppEI1OgPZYW8hgf0tJSibMYAmR8d+Iz6MZMM2Fpd0PDo7LEvpiaRyQC1Tp4DQ=="/>
         </item>
     </channel>
 </rss>
