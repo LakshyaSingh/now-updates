@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.76</title>
+            <pubDate>Tue, 21 Jul 2026 14:58:34 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>94</sparkle:version>
+            <sparkle:shortVersionString>2.10.76</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.76
+
+- Fixed Apple Music synchronized lyrics sometimes remaining unavailable even though Music had already loaded them.
+- Native Apple Music lyrics now interrupt a slower online fallback as soon as Music writes the matching TTML response to its cache.
+- Added a subtle, stable 120 ms lyric presentation hold so timestamp-corrected lines no longer feel slightly ahead of the audible vocal.
+- Preserved the precise 30 Hz playback clock and source-timestamp compensation; the old variable polling lag has not been restored.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.76/Now-2.10.76.zip" length="3287021" type="application/octet-stream" sparkle:edSignature="UNxNnT9Ft3wMJ1xp/VWk7IE0sOkkQXeVipyE5ePYilZqfJrYx2SYFCFuHhy43I3HJ6PB8VqAJ4n/IJac1Pn3Cg=="/>
+        </item>
+        <item>
             <title>2.10.75</title>
             <pubDate>Tue, 21 Jul 2026 01:35:36 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -37,23 +54,6 @@
 - YouTube Music’s LRCLIB fallback now checks alternate synchronized records when the canonical record contains only plain lyrics.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.74/Now-2.10.74.zip" length="3278716" type="application/octet-stream" sparkle:edSignature="VfSz/V98XEVztqsUNWyCWdOmKewxAaJk6iWyFrfIHantahoFb4D+at+FgmMFMAJIyKGrp/Pvu580Rl4Wb9KQAQ=="/>
-        </item>
-        <item>
-            <title>2.10.73</title>
-            <pubDate>Mon, 20 Jul 2026 21:43:30 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>91</sparkle:version>
-            <sparkle:shortVersionString>2.10.73</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.73
-
-- Added an “Artist with lyrics” option under Artwork & Lyrics settings.
-- When the artist is hidden, lyrics reserve a stable two-line region so short and wrapped lyric lines no longer move the title vertically.
-- The preference persists independently from the normal Track Info artist setting and defaults to the existing visible-artist behavior.
-- If synchronized lyrics are unavailable, the overlay still falls back to the original title-and-artist layout.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.73/Now-2.10.73.zip" length="3239057" type="application/octet-stream" sparkle:edSignature="f/QLdF6NfV67ACmNLLy6GhchUkQd2r0v6wvUIwNxtUyvzY20oyaASxURjW3CSR5pbtk6ouvHAQkUq5XxAoMTDw=="/>
         </item>
     </channel>
 </rss>
