@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.73</title>
+            <pubDate>Mon, 20 Jul 2026 21:43:30 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>91</sparkle:version>
+            <sparkle:shortVersionString>2.10.73</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.73
+
+- Added an “Artist with lyrics” option under Artwork & Lyrics settings.
+- When the artist is hidden, lyrics reserve a stable two-line region so short and wrapped lyric lines no longer move the title vertically.
+- The preference persists independently from the normal Track Info artist setting and defaults to the existing visible-artist behavior.
+- If synchronized lyrics are unavailable, the overlay still falls back to the original title-and-artist layout.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.73/Now-2.10.73.zip" length="3239057" type="application/octet-stream" sparkle:edSignature="f/QLdF6NfV67ACmNLLy6GhchUkQd2r0v6wvUIwNxtUyvzY20oyaASxURjW3CSR5pbtk6ouvHAQkUq5XxAoMTDw=="/>
+        </item>
+        <item>
             <title>2.10.72</title>
             <pubDate>Mon, 20 Jul 2026 21:29:16 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,23 +52,6 @@
 - When a queue preview is genuinely unavailable, the current cover now responds elastically instead of sliding away into a blank tile.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.71/Now-2.10.71.zip" length="3234388" type="application/octet-stream" sparkle:edSignature="e9cSwNX3zZcNjWpMCpQwVSvHH995dAvgD4eTJ3XzGW5X39iWOyC2bxIkTgY3g+Q2nfsjRqZtKK+KrIkxN/3ICA=="/>
-        </item>
-        <item>
-            <title>2.10.70</title>
-            <pubDate>Mon, 20 Jul 2026 18:49:22 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>88</sparkle:version>
-            <sparkle:shortVersionString>2.10.70</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.70
-
-- Fixed Check for Updates incorrectly reporting “up to date” when GitHub's raw-file CDN served a stale appcast.
-- Update checks now use the no-cache latest-release feed, with the previous release refreshed as a safe redirect fallback.
-- Publishing now reads the prior feed directly from GitHub's origin API and verifies the exact URL embedded in installed clients before declaring success.
-- Includes Apple Music previous/next artwork previews for album and playlist playback from 2.10.69.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.70/Now-2.10.70.zip" length="3230341" type="application/octet-stream" sparkle:edSignature="0q3irvNORaueeS8BbqX7fLbhLrOm3MKvEW0kb/H9aFD4pRXQI0K9nnTzhH6Kkc+PGUIIJbjU0YuWNZnLCBxqCw=="/>
         </item>
     </channel>
 </rss>
