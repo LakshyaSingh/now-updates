@@ -3,6 +3,24 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.64</title>
+            <pubDate>Mon, 20 Jul 2026 17:53:15 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>82</sparkle:version>
+            <sparkle:shortVersionString>2.10.64</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.64
+
+- Added an optional Live Lyrics media tile in Settings → Artwork & Lyrics.
+- Synchronized lyric lines stay aligned between browser metadata updates and animate smoothly as the song advances.
+- Lyrics matching is deliberately conservative and automatically falls back to album art when synchronized timing is unavailable.
+- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
+- Moved update checks to the stable public feed file instead of GitHub's stale-prone latest-release redirect.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.64/Now-2.10.64.zip" length="3225298" type="application/octet-stream" sparkle:edSignature="gIgzmFndCPw9sUFCG81YqCdUBppEI1OgPZYW8hgf0tJSibMYAmR8d+Iz6MZMM2Fpd0PDo7LEvpiaRyQC1Tp4DQ=="/>
+        </item>
+        <item>
             <title>2.10.63</title>
             <pubDate>Mon, 20 Jul 2026 17:50:55 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -37,22 +55,6 @@
 - Added Restart Now to the menu bar for a safe, one-click full relaunch.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.62/Now-2.10.62.zip" length="3165339" type="application/octet-stream" sparkle:edSignature="IwLj/xbmQDaXpvG8X8ZMFBYf+vksAN26nMAUidissxstJ5tCUcIl2khlUFzs49zI6JO7u0zrpH6u0kiDFUhbDw=="/>
-        </item>
-        <item>
-            <title>2.10.61</title>
-            <pubDate>Fri, 17 Jul 2026 23:53:43 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>79</sparkle:version>
-            <sparkle:shortVersionString>2.10.61</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.61
-
-- Added reliable support for switching playback between multiple YouTube Music tabs.
-- When the current tab pauses, Now rescans all music tabs and follows the one that is actively playing.
-- Playback controls and queue artwork remain bound to the newly selected music tab.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.61/Now-2.10.61.zip" length="3135954" type="application/octet-stream" sparkle:edSignature="xFolk4+66RrJ25p5ObjnqFGFEe/ifKFsIZ/S02DiyWkrJEyZzlLQXURZEFm6e+kgWLoo/gftvnmv/RchgMFzAQ=="/>
         </item>
     </channel>
 </rss>
