@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.63</title>
+            <pubDate>Mon, 20 Jul 2026 17:50:55 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>81</sparkle:version>
+            <sparkle:shortVersionString>2.10.63</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.63
+
+- Added an optional Live Lyrics media tile in Settings → Artwork & Lyrics.
+- Synchronized lyric lines stay aligned between browser metadata updates and animate smoothly as the song advances.
+- Lyrics matching is deliberately conservative and automatically falls back to album art when synchronized timing is unavailable.
+- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.63/Now-2.10.63.zip" length="3225308" type="application/octet-stream" sparkle:edSignature="N60nCucZCMd/ShqaPPIjxXnb47j13AHUnq9NwzRhJ0NrCiBi7UtIlQBwPTpexRD5NJ0Zg3eJnyXlpStQ+KfjDA=="/>
+        </item>
+        <item>
             <title>2.10.62</title>
             <pubDate>Sun, 19 Jul 2026 21:40:40 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -36,21 +53,6 @@
 - Playback controls and queue artwork remain bound to the newly selected music tab.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.61/Now-2.10.61.zip" length="3135954" type="application/octet-stream" sparkle:edSignature="xFolk4+66RrJ25p5ObjnqFGFEe/ifKFsIZ/S02DiyWkrJEyZzlLQXURZEFm6e+kgWLoo/gftvnmv/RchgMFzAQ=="/>
-        </item>
-        <item>
-            <title>2.10.60</title>
-            <pubDate>Fri, 17 Jul 2026 12:54:28 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>78</sparkle:version>
-            <sparkle:shortVersionString>2.10.60</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.60
-
-- Fixed long song titles disappearing after their single marquee pass.
-- Restored title and artist text to their original visible position when scrolling completes.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.60/Now-2.10.60.zip" length="3135886" type="application/octet-stream" sparkle:edSignature="HAL0nka45wAw5ETKIa0aST2brrMR/Q5GpngszOgPbp6kFPxR7Cn8hlSQiI7sDf/AdLECONmLQFQlrjU/F0LiCw=="/>
         </item>
     </channel>
 </rss>
