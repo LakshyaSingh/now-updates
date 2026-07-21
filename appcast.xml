@@ -3,6 +3,24 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.75</title>
+            <pubDate>Tue, 21 Jul 2026 01:35:36 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>93</sparkle:version>
+            <sparkle:shortVersionString>2.10.75</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.75
+
+- Fixed synchronized lyric lines appearing slightly after the matching audio in Apple Music and YouTube Music.
+- Playback positions now retain the source timestamp and compensate for MediaRemote, browser, extension, AppleScript, and refresh-debounce transport time.
+- Apple Music’s MediaRemote stream now uses microsecond elapsed and timestamp values instead of anchoring stale raw positions at receipt time.
+- Increased live lyric evaluation from 10 Hz to 30 Hz, reducing the view’s worst-case line handoff delay from 100 ms to about 33 ms.
+- Existing YouTube Music extension installations remain compatible by using their snapshot capture timestamp automatically; no manual extension reload is required.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.75/Now-2.10.75.zip" length="3284245" type="application/octet-stream" sparkle:edSignature="OliATN677Wx2sSJuLIQIEtchRKwVzCaqO5pAuJlHVo6E10efgHeqxHzfTL2WK1HXmLPclC7xOTDOhyUpv7BECg=="/>
+        </item>
+        <item>
             <title>2.10.74</title>
             <pubDate>Mon, 20 Jul 2026 21:58:57 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -36,23 +54,6 @@
 - If synchronized lyrics are unavailable, the overlay still falls back to the original title-and-artist layout.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.73/Now-2.10.73.zip" length="3239057" type="application/octet-stream" sparkle:edSignature="f/QLdF6NfV67ACmNLLy6GhchUkQd2r0v6wvUIwNxtUyvzY20oyaASxURjW3CSR5pbtk6ouvHAQkUq5XxAoMTDw=="/>
-        </item>
-        <item>
-            <title>2.10.72</title>
-            <pubDate>Mon, 20 Jul 2026 21:29:16 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>90</sparkle:version>
-            <sparkle:shortVersionString>2.10.72</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.72
-
-- Fixed Apple Music's native queue preview being skipped because normal Apple Music playback was routed through MediaRemote rather than the AppleScript fallback.
-- Next-track artwork now prefetches on the normal Apple Music route and whenever source routing changes without a track change.
-- Restored clearly visible, finger-tracked artwork movement for partial swipes while a neighboring cover is still loading or unavailable.
-- Retains the resolved Up Next artwork and stale-response validation introduced in 2.10.71.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.72/Now-2.10.72.zip" length="3234782" type="application/octet-stream" sparkle:edSignature="lXnmgs8Sk50jYp47kzE874x0p65DZiMwGNcBL2n23Zy7ryzXU1MfWIRdlxBARERKZ8InhXgESk01V0laBH5dCg=="/>
         </item>
     </channel>
 </rss>
