@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.71</title>
+            <pubDate>Mon, 20 Jul 2026 21:22:41 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>89</sparkle:version>
+            <sparkle:shortVersionString>2.10.71</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.71
+
+- Fixed the blank cover that appeared while swiping forward in Apple Music.
+- Next-track previews now come from Apple Music's resolved native Up Next queue, with the exact embedded artwork, instead of incorrectly treating the full Music library as the queue.
+- Stale queue responses are rejected when their current-track identity no longer matches the overlay.
+- When a queue preview is genuinely unavailable, the current cover now responds elastically instead of sliding away into a blank tile.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.71/Now-2.10.71.zip" length="3234388" type="application/octet-stream" sparkle:edSignature="e9cSwNX3zZcNjWpMCpQwVSvHH995dAvgD4eTJ3XzGW5X39iWOyC2bxIkTgY3g+Q2nfsjRqZtKK+KrIkxN/3ICA=="/>
+        </item>
+        <item>
             <title>2.10.70</title>
             <pubDate>Mon, 20 Jul 2026 18:49:22 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -36,28 +53,6 @@
 - When Apple Music hides its queue, the previous cover still uses verified playback history instead of an unrelated playlist guess.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.69/Now-2.10.69.zip" length="3231117" type="application/octet-stream" sparkle:edSignature="1isRbo7PD7vwhXQD1zjJObCOKOgO30RX3s8WgVmw2uEmaK1VQEAYRHI5YpkD4EHc6j1q4GRBJZvU2EE5nWnuCQ=="/>
-        </item>
-        <item>
-            <title>2.10.68</title>
-            <pubDate>Mon, 20 Jul 2026 18:26:52 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>86</sparkle:version>
-            <sparkle:shortVersionString>2.10.68</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.68
-
-- Live Lyrics now appears beneath the song title and artist while album artwork remains visible and unchanged.
-- Lyric transitions use a smoother spring handoff: the outgoing line lifts away as the next line rises into place.
-- Synchronized lyric lines stay aligned between browser metadata updates, pauses, and seeks.
-- When synchronized lyrics are unavailable, the overlay now restores the original title-and-artist layout and spacing instead of showing a status message.
-- Long lyric lines now wrap across two readable lines instead of shrinking into tiny, truncated text.
-- Fixed Apple Music lyrics freezing between play/pause events by preserving a monotonic playback clock when MediaRemote repeats a stale elapsed value.
-- Added conservative music-video title and duration matching so official videos can resolve the same synchronized lyrics as their audio release.
-- Lyric rows now use their intrinsic one- or two-line height, removing the empty gap under short lyrics and keeping the title/artist/lyric group optically centered.
-- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.68/Now-2.10.68.zip" length="3220982" type="application/octet-stream" sparkle:edSignature="q89m4mPjg4jr0wqESXLuWOpkrohbKfF/27LtDk56AycTfDvagPYByfNvuvLuVjTk+HKVffy2puNoZv75BUgLAA=="/>
         </item>
     </channel>
 </rss>
