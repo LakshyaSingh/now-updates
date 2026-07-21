@@ -3,6 +3,28 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.68</title>
+            <pubDate>Mon, 20 Jul 2026 18:26:52 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>86</sparkle:version>
+            <sparkle:shortVersionString>2.10.68</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.68
+
+- Live Lyrics now appears beneath the song title and artist while album artwork remains visible and unchanged.
+- Lyric transitions use a smoother spring handoff: the outgoing line lifts away as the next line rises into place.
+- Synchronized lyric lines stay aligned between browser metadata updates, pauses, and seeks.
+- When synchronized lyrics are unavailable, the overlay now restores the original title-and-artist layout and spacing instead of showing a status message.
+- Long lyric lines now wrap across two readable lines instead of shrinking into tiny, truncated text.
+- Fixed Apple Music lyrics freezing between play/pause events by preserving a monotonic playback clock when MediaRemote repeats a stale elapsed value.
+- Added conservative music-video title and duration matching so official videos can resolve the same synchronized lyrics as their audio release.
+- Lyric rows now use their intrinsic one- or two-line height, removing the empty gap under short lyrics and keeping the title/artist/lyric group optically centered.
+- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.68/Now-2.10.68.zip" length="3220982" type="application/octet-stream" sparkle:edSignature="q89m4mPjg4jr0wqESXLuWOpkrohbKfF/27LtDk56AycTfDvagPYByfNvuvLuVjTk+HKVffy2puNoZv75BUgLAA=="/>
+        </item>
+        <item>
             <title>2.10.67</title>
             <pubDate>Mon, 20 Jul 2026 18:20:45 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -40,24 +62,6 @@
 - Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.66/Now-2.10.66.zip" length="3219762" type="application/octet-stream" sparkle:edSignature="DVIUt2IR7B02z+wXRA0nv8xgrRTjnhhoYZGmJ7YE8DZFkrCtjAZ23BCfN17L3Sy81Wv2KmSNrl03Ivb1meAWCA=="/>
-        </item>
-        <item>
-            <title>2.10.65</title>
-            <pubDate>Mon, 20 Jul 2026 18:01:28 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>83</sparkle:version>
-            <sparkle:shortVersionString>2.10.65</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.65
-
-- Live Lyrics now appears beneath the song title and artist while album artwork remains visible and unchanged.
-- Lyric transitions use a smoother spring handoff: the outgoing line lifts away as the next line rises into place.
-- Synchronized lyric lines stay aligned between browser metadata updates, pauses, and seeks.
-- Lyrics matching is deliberately conservative and automatically falls back to album art when synchronized timing is unavailable.
-- Added reduced-motion support, bounded caching, request timeouts, and track-change cancellation for efficient background behavior.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.65/Now-2.10.65.zip" length="3219920" type="application/octet-stream" sparkle:edSignature="Ys9BqzRg9o1OcMt3S4tigqWz3bq3Rq+MIc+37a+8DE1chRQiYbPwS7/yrBFhRVVdo6PxsOK9JCfYSZ5ulPvDBA=="/>
         </item>
     </channel>
 </rss>
