@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.72</title>
+            <pubDate>Mon, 20 Jul 2026 21:29:16 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>90</sparkle:version>
+            <sparkle:shortVersionString>2.10.72</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.72
+
+- Fixed Apple Music's native queue preview being skipped because normal Apple Music playback was routed through MediaRemote rather than the AppleScript fallback.
+- Next-track artwork now prefetches on the normal Apple Music route and whenever source routing changes without a track change.
+- Restored clearly visible, finger-tracked artwork movement for partial swipes while a neighboring cover is still loading or unavailable.
+- Retains the resolved Up Next artwork and stale-response validation introduced in 2.10.71.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.72/Now-2.10.72.zip" length="3234782" type="application/octet-stream" sparkle:edSignature="lXnmgs8Sk50jYp47kzE874x0p65DZiMwGNcBL2n23Zy7ryzXU1MfWIRdlxBARERKZ8InhXgESk01V0laBH5dCg=="/>
+        </item>
+        <item>
             <title>2.10.71</title>
             <pubDate>Mon, 20 Jul 2026 21:22:41 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,24 +52,6 @@
 - Includes Apple Music previous/next artwork previews for album and playlist playback from 2.10.69.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.70/Now-2.10.70.zip" length="3230341" type="application/octet-stream" sparkle:edSignature="0q3irvNORaueeS8BbqX7fLbhLrOm3MKvEW0kb/H9aFD4pRXQI0K9nnTzhH6Kkc+PGUIIJbjU0YuWNZnLCBxqCw=="/>
-        </item>
-        <item>
-            <title>2.10.69</title>
-            <pubDate>Mon, 20 Jul 2026 18:43:12 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>87</sparkle:version>
-            <sparkle:shortVersionString>2.10.69</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.69
-
-- Apple Music album and playlist playback now previews the real previous or next cover while you swipe, using the track's exact embedded artwork.
-- Adjacent covers are prefetched in both directions and handed directly into the completed skip, preventing a duplicate artwork transition.
-- Playlist position is validated before every preview; first/last-track boundaries do not show stale artwork.
-- Shuffled and opaque streaming queues decline speculative next artwork because macOS does not expose their resolved Up Next order.
-- When Apple Music hides its queue, the previous cover still uses verified playback history instead of an unrelated playlist guess.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.69/Now-2.10.69.zip" length="3231117" type="application/octet-stream" sparkle:edSignature="1isRbo7PD7vwhXQD1zjJObCOKOgO30RX3s8WgVmw2uEmaK1VQEAYRHI5YpkD4EHc6j1q4GRBJZvU2EE5nWnuCQ=="/>
         </item>
     </channel>
 </rss>
