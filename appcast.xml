@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.78</title>
+            <pubDate>Wed, 22 Jul 2026 12:00:21 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>96</sparkle:version>
+            <sparkle:shortVersionString>2.10.78</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.78
+
+- Timed lyrics that resolve successfully are now saved on disk, so previously-working songs keep their lyrics across app restarts and updates. A temporary lyrics-service outage can no longer make most songs appear to lose lyrics.
+- Lyrics lookups now run behind a source abstraction with a per-source time limit and a circuit breaker, so one slow or unreachable lyrics service can't stall every lookup (the earlier ~31-second stall is bounded to a few seconds).
+- A genuine "this song has no synced lyrics" result is remembered briefly; a network/outage failure is never cached, so it stays retryable.
+- Groundwork for additional lyrics sources (beyond LRCLIB and the Apple Music local cache) — new providers can now be added without touching the lookup flow.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.78/Now-2.10.78.zip" length="3336386" type="application/octet-stream" sparkle:edSignature="xYAT5st8jChoTa4+ozW6hujX6eaH82qRMTDgvvBbI1G2ZYtMSk3SwjE7CGQ6WcWTNsOQXQbwuXv6UF8W2/WMDA=="/>
+        </item>
+        <item>
             <title>2.10.77</title>
             <pubDate>Wed, 22 Jul 2026 11:42:21 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,24 +51,6 @@
 - Preserved the precise 30 Hz playback clock and source-timestamp compensation; the old variable polling lag has not been restored.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.76/Now-2.10.76.zip" length="3287021" type="application/octet-stream" sparkle:edSignature="UNxNnT9Ft3wMJ1xp/VWk7IE0sOkkQXeVipyE5ePYilZqfJrYx2SYFCFuHhy43I3HJ6PB8VqAJ4n/IJac1Pn3Cg=="/>
-        </item>
-        <item>
-            <title>2.10.75</title>
-            <pubDate>Tue, 21 Jul 2026 01:35:36 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>93</sparkle:version>
-            <sparkle:shortVersionString>2.10.75</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.75
-
-- Fixed synchronized lyric lines appearing slightly after the matching audio in Apple Music and YouTube Music.
-- Playback positions now retain the source timestamp and compensate for MediaRemote, browser, extension, AppleScript, and refresh-debounce transport time.
-- Apple Music’s MediaRemote stream now uses microsecond elapsed and timestamp values instead of anchoring stale raw positions at receipt time.
-- Increased live lyric evaluation from 10 Hz to 30 Hz, reducing the view’s worst-case line handoff delay from 100 ms to about 33 ms.
-- Existing YouTube Music extension installations remain compatible by using their snapshot capture timestamp automatically; no manual extension reload is required.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.75/Now-2.10.75.zip" length="3284245" type="application/octet-stream" sparkle:edSignature="OliATN677Wx2sSJuLIQIEtchRKwVzCaqO5pAuJlHVo6E10efgHeqxHzfTL2WK1HXmLPclC7xOTDOhyUpv7BECg=="/>
         </item>
     </channel>
 </rss>
