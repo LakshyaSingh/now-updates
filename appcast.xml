@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.81</title>
+            <pubDate>Wed, 22 Jul 2026 16:25:06 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>99</sparkle:version>
+            <sparkle:shortVersionString>2.10.81</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.81
+
+- Fixed instrumental tracks showing a stray Chinese line ("pure music, please enjoy") instead of no lyrics. NetEase and QQ Music return that placeholder for songs with no words; Now now recognizes it and falls back to the title/artist view.
+- The lyrics cache is refreshed on this update so any instrumental that already cached that placeholder is cleared automatically.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.81/Now-2.10.81.zip" length="3385696" type="application/octet-stream" sparkle:edSignature="jHTYQB4nCRUjlvpRxYyFVIP/Yb9IKWQ36cdNdXxd1ACAsqb8cGzYVZqXOV//07MCbYMUnmzgX54yCaHIRg3bCQ=="/>
+        </item>
+        <item>
             <title>2.10.80</title>
             <pubDate>Wed, 22 Jul 2026 12:20:43 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,23 +48,6 @@
 - Results still persist on disk and each source is time-limited and circuit-broken, so adding sources does not reintroduce slow or stalled lookups.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.79/Now-2.10.79.zip" length="3383426" type="application/octet-stream" sparkle:edSignature="WraPicE07TAmM/agIxPm3I1Pzs+/SIYh+9t1/Sq6uQheJXCbMvUOYCG+Y7jLJoMtmCaGZrx0JcMWKXp+vrWtAw=="/>
-        </item>
-        <item>
-            <title>2.10.78</title>
-            <pubDate>Wed, 22 Jul 2026 12:00:21 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>96</sparkle:version>
-            <sparkle:shortVersionString>2.10.78</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.78
-
-- Timed lyrics that resolve successfully are now saved on disk, so previously-working songs keep their lyrics across app restarts and updates. A temporary lyrics-service outage can no longer make most songs appear to lose lyrics.
-- Lyrics lookups now run behind a source abstraction with a per-source time limit and a circuit breaker, so one slow or unreachable lyrics service can't stall every lookup (the earlier ~31-second stall is bounded to a few seconds).
-- A genuine "this song has no synced lyrics" result is remembered briefly; a network/outage failure is never cached, so it stays retryable.
-- Groundwork for additional lyrics sources (beyond LRCLIB and the Apple Music local cache) — new providers can now be added without touching the lookup flow.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.78/Now-2.10.78.zip" length="3336386" type="application/octet-stream" sparkle:edSignature="xYAT5st8jChoTa4+ozW6hujX6eaH82qRMTDgvvBbI1G2ZYtMSk3SwjE7CGQ6WcWTNsOQXQbwuXv6UF8W2/WMDA=="/>
         </item>
     </channel>
 </rss>
