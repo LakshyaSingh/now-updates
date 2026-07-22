@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.79</title>
+            <pubDate>Wed, 22 Jul 2026 12:11:42 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>97</sparkle:version>
+            <sparkle:shortVersionString>2.10.79</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.79
+
+- Added two more synchronized-lyrics sources — NetEase Cloud Music and QQ Music — alongside LRCLIB and the Apple Music local cache. Many songs (especially on YouTube Music) that previously had no timed lyrics should now find them.
+- Sources are tried in order (LRCLIB → NetEase → QQ Music) and every match is held to the same strict title/artist/duration check, so a broad catalogue search never attaches the wrong song's lyrics.
+- Only basic track metadata (title, artist) is sent to any source. No audio, cookies, or account data leaves the device.
+- Results still persist on disk and each source is time-limited and circuit-broken, so adding sources does not reintroduce slow or stalled lookups.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.79/Now-2.10.79.zip" length="3383426" type="application/octet-stream" sparkle:edSignature="WraPicE07TAmM/agIxPm3I1Pzs+/SIYh+9t1/Sq6uQheJXCbMvUOYCG+Y7jLJoMtmCaGZrx0JcMWKXp+vrWtAw=="/>
+        </item>
+        <item>
             <title>2.10.78</title>
             <pubDate>Wed, 22 Jul 2026 12:00:21 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -34,23 +51,6 @@
 - The scoped region follows the actual rendered artwork, so it stays correct across every layout preset, widget size, and overlay placement.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.77/Now-2.10.77.zip" length="3295264" type="application/octet-stream" sparkle:edSignature="3n/JGpF9+wg84Nn/YLu14GoqMalUbrE9LAEVCj7Woh5lmVUuDrzETFE53bSvXzq0vX/yr/DfFsH5hTlZjSFkBA=="/>
-        </item>
-        <item>
-            <title>2.10.76</title>
-            <pubDate>Tue, 21 Jul 2026 14:58:34 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>94</sparkle:version>
-            <sparkle:shortVersionString>2.10.76</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.76
-
-- Fixed Apple Music synchronized lyrics sometimes remaining unavailable even though Music had already loaded them.
-- Native Apple Music lyrics now interrupt a slower online fallback as soon as Music writes the matching TTML response to its cache.
-- Added a subtle, stable 120 ms lyric presentation hold so timestamp-corrected lines no longer feel slightly ahead of the audible vocal.
-- Preserved the precise 30 Hz playback clock and source-timestamp compensation; the old variable polling lag has not been restored.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.76/Now-2.10.76.zip" length="3287021" type="application/octet-stream" sparkle:edSignature="UNxNnT9Ft3wMJ1xp/VWk7IE0sOkkQXeVipyE5ePYilZqfJrYx2SYFCFuHhy43I3HJ6PB8VqAJ4n/IJac1Pn3Cg=="/>
         </item>
     </channel>
 </rss>
