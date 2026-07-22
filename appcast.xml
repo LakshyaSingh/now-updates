@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.10.77</title>
+            <pubDate>Wed, 22 Jul 2026 11:42:21 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>95</sparkle:version>
+            <sparkle:shortVersionString>2.10.77</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.10.77
+
+- The two-finger track-change swipe now only starts on the album artwork. Swiping over the title or artist text no longer moves the artwork or skips tracks.
+- Gesture ownership is locked at the start of each swipe, so a swipe that begins on the text is ignored for its whole duration and can't hijack the artwork mid-gesture.
+- The scoped region follows the actual rendered artwork, so it stays correct across every layout preset, widget size, and overlay placement.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.77/Now-2.10.77.zip" length="3295264" type="application/octet-stream" sparkle:edSignature="3n/JGpF9+wg84Nn/YLu14GoqMalUbrE9LAEVCj7Woh5lmVUuDrzETFE53bSvXzq0vX/yr/DfFsH5hTlZjSFkBA=="/>
+        </item>
+        <item>
             <title>2.10.76</title>
             <pubDate>Tue, 21 Jul 2026 14:58:34 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -36,24 +52,6 @@
 - Existing YouTube Music extension installations remain compatible by using their snapshot capture timestamp automatically; no manual extension reload is required.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.75/Now-2.10.75.zip" length="3284245" type="application/octet-stream" sparkle:edSignature="OliATN677Wx2sSJuLIQIEtchRKwVzCaqO5pAuJlHVo6E10efgHeqxHzfTL2WK1HXmLPclC7xOTDOhyUpv7BECg=="/>
-        </item>
-        <item>
-            <title>2.10.74</title>
-            <pubDate>Mon, 20 Jul 2026 21:58:57 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>92</sparkle:version>
-            <sparkle:shortVersionString>2.10.74</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.74
-
-- Fixed Apple Music songs showing no overlay lyrics even while Music displayed synchronized lyrics.
-- Apple Music now uses its locally cached, authenticated timed-lyrics payload first, with strict title, artist, and duration validation and no lyric text written to diagnostics.
-- Added support for both Apple line-timed and word-timed TTML lyric formats.
-- Short retry windows recover when Music writes its lyric response just after playback metadata arrives.
-- YouTube Music’s LRCLIB fallback now checks alternate synchronized records when the canonical record contains only plain lyrics.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.74/Now-2.10.74.zip" length="3278716" type="application/octet-stream" sparkle:edSignature="VfSz/V98XEVztqsUNWyCWdOmKewxAaJk6iWyFrfIHantahoFb4D+at+FgmMFMAJIyKGrp/Pvu580Rl4Wb9KQAQ=="/>
         </item>
     </channel>
 </rss>
