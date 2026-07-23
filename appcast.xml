@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.9</title>
+            <pubDate>Thu, 23 Jul 2026 04:10:35 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>116</sparkle:version>
+            <sparkle:shortVersionString>2.13.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.9
+
+- Full-screen lyric scrolling is now much cheaper during line changes. Instead of animating a scroll view (which re-rendered every visible line each frame), the lyric column is now slid as a single pre-rendered layer, so a line change animates as a lightweight GPU transform. This removes the CPU spikes that occurred each time the lyric advanced, while keeping the smooth Apple-Music-style motion.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.9/Now-2.13.9.zip" length="3494995" type="application/octet-stream" sparkle:edSignature="WOwoScOgm2qNJq7QuxgfYwzep/Yte7YKpB3D3kXfgRzFkgyK5mfYoIK39F+WfPWjO9j3HMIDOSeJmkQBcxNxCg=="/>
+        </item>
+        <item>
             <title>2.13.8</title>
             <pubDate>Thu, 23 Jul 2026 03:58:08 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,21 +43,6 @@
 - Cut CPU while the full-screen view is open. A live profile showed the progress bar was refreshing 4×/second, and each refresh forced the whole full-screen view (all lyric text included) to re-render. The progress line now updates once a second — standard for a time display — which reduces those full-view re-renders roughly 4×.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.7/Now-2.13.7.zip" length="3491544" type="application/octet-stream" sparkle:edSignature="8BeHH7GJJIuJ1aXBT59L6OUq/R3FIWqngBv/X5OoioRlcdsUUMLeEvJWqCD+R9Tm126OZvNaPWy8K7OQTcjSBg=="/>
-        </item>
-        <item>
-            <title>2.13.6</title>
-            <pubDate>Thu, 23 Jul 2026 03:41:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>113</sparkle:version>
-            <sparkle:shortVersionString>2.13.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.6
-
-- Major CPU fix. A live CPU profile revealed the app kept running its lyric render loops even for windows that were hidden or covered — the full-screen view's timers kept firing after it was closed, and the desktop overlay kept animating behind the full-screen view. Simply hiding a window (which the previous fix relied on) does not stop those timers.
-- Now the SwiftUI content is fully torn down when a surface isn't visible: the full-screen view is rebuilt each time it opens and destroyed on close, and the overlay's content is detached whenever it's hidden or covered. Visible, in-use lyrics are unchanged; hidden windows now cost effectively nothing.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.6/Now-2.13.6.zip" length="3491546" type="application/octet-stream" sparkle:edSignature="lSlVP06vkASKpWZ7s+ADjkyxeFEkLju1V6NNec4wXLhWbu2BWHhsuVQCxV1DRRragRC8Oyr7mwBORM84q5aMAQ=="/>
         </item>
     </channel>
 </rss>
