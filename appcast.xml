@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.11.3</title>
+            <pubDate>Wed, 22 Jul 2026 19:25:36 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>103</sparkle:version>
+            <sparkle:shortVersionString>2.11.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.11.3
+
+- Full-screen lyrics now size themselves to the screen so about eight lines are visible at once — matching Apple Music — instead of the line count and font drifting with display size.
+- Larger, more generously spaced lyric type and a slightly larger album art in the full-screen view for a closer match to Apple Music.
+- The native window buttons (close / minimize / zoom) now slide down from the top of the full-screen view when you move the pointer up, so you can close or minimize without pressing Escape. The red button still exits cleanly and leaves the desktop overlay running.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.3/Now-2.11.3.zip" length="3455339" type="application/octet-stream" sparkle:edSignature="p0bms4fix25xcELda+1/6HswI3WwhtBoqF4F5MENKrM0TsDFZBzfv3krQW/QXvqQLSADAMl+/yLNVYiqreEHCw=="/>
+        </item>
+        <item>
             <title>2.11.2</title>
             <pubDate>Wed, 22 Jul 2026 19:18:53 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +49,6 @@
 - Smoother, more alive motion throughout — spring-based lyric scrolling, an artwork crossfade on track changes, and an animated play/pause button.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.1/Now-2.11.1.zip" length="3455233" type="application/octet-stream" sparkle:edSignature="AFLYjAuYsyzPkivkdZtlR1/xJzTxUJxQtzR2UVe200lgloFHUVeT2mYvYQIv6whWnqNekqQ57KQ5rNd3IDnfDg=="/>
-        </item>
-        <item>
-            <title>2.11.0</title>
-            <pubDate>Wed, 22 Jul 2026 18:01:30 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>100</sparkle:version>
-            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.11.0
-
-- New full-screen Now Playing view: a large, immersive display of album art, track info, and auto-scrolling synchronized lyrics — with a clean art-and-info layout when a song has no lyrics.
-- Open it from the menu bar ("Full Screen Lyrics"), the ⌘⇧F shortcut, or the expand button on the overlay. Close it with the ✕ or the Escape key; the desktop overlay keeps working exactly as before.
-- Playback controls (previous, play/pause, next) and volume work from the full-screen view; the progress bar reflects playback position.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.0/Now-2.11.0.zip" length="3444984" type="application/octet-stream" sparkle:edSignature="hT4rz5wxZLSQRbfJnNJEhe6SGuddiL3wXDIdDCkmVL1zKMetQDL7ygLvppgiW+QMryq2P8grpsYZ4nxOHTufAQ=="/>
         </item>
     </channel>
 </rss>
