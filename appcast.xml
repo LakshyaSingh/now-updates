@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.12.0</title>
+            <pubDate>Wed, 22 Jul 2026 23:41:32 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.12.0
+
+- Word-by-word (karaoke) lyrics in the full-screen view: when a track has word-level timing available, brightness sweeps across each word in time with the vocal, Apple-Music-style. Songs without word timing keep the normal line highlight.
+- Word timing loads quietly in the background and upgrades the lyrics in place, so lyrics still appear instantly and only get richer when the data is there.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.12.0/Now-2.12.0.zip" length="3486604" type="application/octet-stream" sparkle:edSignature="Z2rvgSJqRfa8LQ6MPJhSxL6QZ3SxpCvjQ9LlrV17wVa9txIygaRzkV29NWNj+qXhK53/ZI0H8QPhio9QRTS9AQ=="/>
+        </item>
+        <item>
             <title>2.11.5</title>
             <pubDate>Wed, 22 Jul 2026 23:33:42 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,22 +45,6 @@
 - Smoother full-screen lyric scrolling: removed the per-line blur and switched to eager rendering so lines no longer hitch as they're created mid-scroll. Animations run at the display's native refresh rate (including 120 Hz / 100 Hz).
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.4/Now-2.11.4.zip" length="3454531" type="application/octet-stream" sparkle:edSignature="4UyRqvfhLohi6VCcjeOEz1VVIggbZ5kSGBMCfu3MnbURHec80qbd9L9esnYIPrN4v8Usb+H1jyJBgRAARd0BBw=="/>
-        </item>
-        <item>
-            <title>2.11.3</title>
-            <pubDate>Wed, 22 Jul 2026 19:25:36 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>103</sparkle:version>
-            <sparkle:shortVersionString>2.11.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.11.3
-
-- Full-screen lyrics now size themselves to the screen so about eight lines are visible at once — matching Apple Music — instead of the line count and font drifting with display size.
-- Larger, more generously spaced lyric type and a slightly larger album art in the full-screen view for a closer match to Apple Music.
-- The native window buttons (close / minimize / zoom) now slide down from the top of the full-screen view when you move the pointer up, so you can close or minimize without pressing Escape. The red button still exits cleanly and leaves the desktop overlay running.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.3/Now-2.11.3.zip" length="3455339" type="application/octet-stream" sparkle:edSignature="p0bms4fix25xcELda+1/6HswI3WwhtBoqF4F5MENKrM0TsDFZBzfv3krQW/QXvqQLSADAMl+/yLNVYiqreEHCw=="/>
         </item>
     </channel>
 </rss>
