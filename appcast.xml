@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.1</title>
+            <pubDate>Thu, 23 Jul 2026 00:03:55 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>2.13.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.1
+
+- Fixed jittery lyric scrolling in the full-screen view. The animated album-art background was using an expensive per-frame blur that saturated the GPU; it now uses lightweight gradient shaders for the same soft, drifting glow at a fraction of the cost, so line changes scroll smoothly again.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.1/Now-2.13.1.zip" length="3490586" type="application/octet-stream" sparkle:edSignature="0hzwDsxr6+SfI8ccL4zI1yQMeX4XAfJmmlCY4s+yi6JzLRzjReD1BJnFN+H4wt8eAz+PRAg+CpppdFlK27R3Dg=="/>
+        </item>
+        <item>
             <title>2.13.0</title>
             <pubDate>Wed, 22 Jul 2026 23:56:43 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@
 - Word timing loads quietly in the background and upgrades the lyrics in place, so lyrics still appear instantly and only get richer when the data is there.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.12.0/Now-2.12.0.zip" length="3486604" type="application/octet-stream" sparkle:edSignature="Z2rvgSJqRfa8LQ6MPJhSxL6QZ3SxpCvjQ9LlrV17wVa9txIygaRzkV29NWNj+qXhK53/ZI0H8QPhio9QRTS9AQ=="/>
-        </item>
-        <item>
-            <title>2.11.5</title>
-            <pubDate>Wed, 22 Jul 2026 23:33:42 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>105</sparkle:version>
-            <sparkle:shortVersionString>2.11.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.11.5
-
-- The full-screen view now has a living, Apple-Music-style background: soft color blobs sampled from the album art drift slowly behind the lyrics, replacing the static blurred cover. Colors cross-fade smoothly when the track changes.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.5/Now-2.11.5.zip" length="3468133" type="application/octet-stream" sparkle:edSignature="JpH4Gdk0BKt1b3LzdiZ/VuCYjidFm+wdD4GTQcCVPzHYyf7fOYtp2fznE76KHQNrYPtxM8/ub3w0KojOge+KBw=="/>
         </item>
     </channel>
 </rss>
