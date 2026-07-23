@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.0</title>
+            <pubDate>Wed, 22 Jul 2026 23:56:43 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>107</sparkle:version>
+            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.0
+
+- Word-by-word (karaoke) lyrics now work for Apple Music too, using its built-in syllable timing — brightness sweeps across each word as it's sung.
+- Romanization under non-Latin lyrics: songs written in Devanagari, Hangul, kana, hanzi, Cyrillic and more now show a dimmer romanized (Latin) line beneath each lyric. It's done entirely on-device — no network, fully private — so it works for any script and any song. Lyrics already in the Latin alphabet are unchanged.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.0/Now-2.13.0.zip" length="3491458" type="application/octet-stream" sparkle:edSignature="WVi86ZPI6CfGCpeAs8VAPiu6sbsimaUhYf1mrpNoT93ea+QbVJobjt9x9ogSZmrLNCsAOSNH7s+dA8IRLyJMAg=="/>
+        </item>
+        <item>
             <title>2.12.0</title>
             <pubDate>Wed, 22 Jul 2026 23:41:32 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - The full-screen view now has a living, Apple-Music-style background: soft color blobs sampled from the album art drift slowly behind the lyrics, replacing the static blurred cover. Colors cross-fade smoothly when the track changes.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.5/Now-2.11.5.zip" length="3468133" type="application/octet-stream" sparkle:edSignature="JpH4Gdk0BKt1b3LzdiZ/VuCYjidFm+wdD4GTQcCVPzHYyf7fOYtp2fznE76KHQNrYPtxM8/ub3w0KojOge+KBw=="/>
-        </item>
-        <item>
-            <title>2.11.4</title>
-            <pubDate>Wed, 22 Jul 2026 21:06:46 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>104</sparkle:version>
-            <sparkle:shortVersionString>2.11.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.11.4
-
-- Fixed a glitch where a word in a wrapped (two-line) lyric would jump between rows as the line became active and snap back afterward. All lines now use one weight and highlight purely by brightness, like Apple Music, so the text no longer re-wraps.
-- Smoother full-screen lyric scrolling: removed the per-line blur and switched to eager rendering so lines no longer hitch as they're created mid-scroll. Animations run at the display's native refresh rate (including 120 Hz / 100 Hz).
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.4/Now-2.11.4.zip" length="3454531" type="application/octet-stream" sparkle:edSignature="4UyRqvfhLohi6VCcjeOEz1VVIggbZ5kSGBMCfu3MnbURHec80qbd9L9esnYIPrN4v8Usb+H1jyJBgRAARd0BBw=="/>
         </item>
     </channel>
 </rss>
