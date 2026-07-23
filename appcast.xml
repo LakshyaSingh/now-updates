@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.3</title>
+            <pubDate>Thu, 23 Jul 2026 02:58:22 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>2.13.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.3
+
+- Substantially lower CPU use during playback. The Chrome extension was waking the app many times per second (on every small change to the YouTube Music page); Now now processes those updates at most about once per second during steady playback, while still reacting instantly to track changes, play/pause, and seeks. Lyric timing and smoothness are unaffected.
+- The background detection poll runs less often now that live updates are push-driven, further reducing idle CPU.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.3/Now-2.13.3.zip" length="3489861" type="application/octet-stream" sparkle:edSignature="WIWMU0fi/LsIkY69kB0aGVap/1DZljofhT8ZkrKgvXoCIXZW+MNlJzzeGD5I/oZkdEgSV9iq85VSCn9ohx5QAQ=="/>
+        </item>
+        <item>
             <title>2.13.2</title>
             <pubDate>Thu, 23 Jul 2026 02:45:21 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - Fixed jittery lyric scrolling in the full-screen view. The animated album-art background was using an expensive per-frame blur that saturated the GPU; it now uses lightweight gradient shaders for the same soft, drifting glow at a fraction of the cost, so line changes scroll smoothly again.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.1/Now-2.13.1.zip" length="3490586" type="application/octet-stream" sparkle:edSignature="0hzwDsxr6+SfI8ccL4zI1yQMeX4XAfJmmlCY4s+yi6JzLRzjReD1BJnFN+H4wt8eAz+PRAg+CpppdFlK27R3Dg=="/>
-        </item>
-        <item>
-            <title>2.13.0</title>
-            <pubDate>Wed, 22 Jul 2026 23:56:43 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>107</sparkle:version>
-            <sparkle:shortVersionString>2.13.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.0
-
-- Word-by-word (karaoke) lyrics now work for Apple Music too, using its built-in syllable timing — brightness sweeps across each word as it's sung.
-- Romanization under non-Latin lyrics: songs written in Devanagari, Hangul, kana, hanzi, Cyrillic and more now show a dimmer romanized (Latin) line beneath each lyric. It's done entirely on-device — no network, fully private — so it works for any script and any song. Lyrics already in the Latin alphabet are unchanged.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.0/Now-2.13.0.zip" length="3491458" type="application/octet-stream" sparkle:edSignature="WVi86ZPI6CfGCpeAs8VAPiu6sbsimaUhYf1mrpNoT93ea+QbVJobjt9x9ogSZmrLNCsAOSNH7s+dA8IRLyJMAg=="/>
         </item>
     </channel>
 </rss>
