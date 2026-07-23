@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.11.2</title>
+            <pubDate>Wed, 22 Jul 2026 19:18:53 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>2.11.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.11.2
+
+- Full-screen lyrics now use the whole screen like Apple Music: album art and controls sit centered in the left half (title, progress, and buttons aligned to the artwork), lyrics fill the right half, with a clear gutter between. With no lyrics, the art and controls simply center on screen.
+- Larger, uniform lyric type so a comfortable number of lines is visible at once, with the active line emphasized by brightness and weight and kept near the middle.
+- Tightened lyric timing in the full-screen view: the active line is now tracked at 30 Hz (previously ~5 Hz), so the highlight follows the vocal much more closely instead of lagging behind it.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.2/Now-2.11.2.zip" length="3453912" type="application/octet-stream" sparkle:edSignature="6M7Ite2E+/Zoe59X13Jr002nJpRSw6jnJwL4Dx6G1Pdc57w5+kdwAx6P30NjdHhglIKAgdGCtLCuc8bHkFGABg=="/>
+        </item>
+        <item>
             <title>2.11.1</title>
             <pubDate>Wed, 22 Jul 2026 18:13:21 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,21 +49,6 @@
 - Playback controls (previous, play/pause, next) and volume work from the full-screen view; the progress bar reflects playback position.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.0/Now-2.11.0.zip" length="3444984" type="application/octet-stream" sparkle:edSignature="hT4rz5wxZLSQRbfJnNJEhe6SGuddiL3wXDIdDCkmVL1zKMetQDL7ygLvppgiW+QMryq2P8grpsYZ4nxOHTufAQ=="/>
-        </item>
-        <item>
-            <title>2.10.81</title>
-            <pubDate>Wed, 22 Jul 2026 16:25:06 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>99</sparkle:version>
-            <sparkle:shortVersionString>2.10.81</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.81
-
-- Fixed instrumental tracks showing a stray Chinese line ("pure music, please enjoy") instead of no lyrics. NetEase and QQ Music return that placeholder for songs with no words; Now now recognizes it and falls back to the title/artist view.
-- The lyrics cache is refreshed on this update so any instrumental that already cached that placeholder is cleared automatically.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.81/Now-2.10.81.zip" length="3385696" type="application/octet-stream" sparkle:edSignature="jHTYQB4nCRUjlvpRxYyFVIP/Yb9IKWQ36cdNdXxd1ACAsqb8cGzYVZqXOV//07MCbYMUnmzgX54yCaHIRg3bCQ=="/>
         </item>
     </channel>
 </rss>
