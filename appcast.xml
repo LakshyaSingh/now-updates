@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.12</title>
+            <pubDate>Thu, 23 Jul 2026 16:02:06 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>119</sparkle:version>
+            <sparkle:shortVersionString>2.13.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.12
+
+- The full-screen background now shows brighter, more saturated album colors, closer to Apple Music. Extracted colors are normalized to a vivid mid-tone, the color wash is more opaque and fuller, and the darkening overlay is much lighter — so the backdrop no longer looks dull.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.12/Now-2.13.12.zip" length="3488898" type="application/octet-stream" sparkle:edSignature="gsBQCQ854H8/mTFr3+vfZ/15TRWMPWmo/pUr4cVc1xQVji8Eceo8WFZFgKIW+aQ6+SOW3fgoO4+J8DWEFof7Dg=="/>
+        </item>
+        <item>
             <title>2.13.11</title>
             <pubDate>Thu, 23 Jul 2026 12:36:04 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,20 +46,6 @@
 - Made the current lyric line stand out more clearly again — full brightness against distinctly dimmer neighbors.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.10/Now-2.13.10.zip" length="3496321" type="application/octet-stream" sparkle:edSignature="F6GMLB7R0suKCGGMZRnLEu0VxEOek2ikc7gUvrYV/wE8WxHYXL2lbRQtMCWxcsT+oa4kXGkbsyZD+39gZQnUCw=="/>
-        </item>
-        <item>
-            <title>2.13.9</title>
-            <pubDate>Thu, 23 Jul 2026 04:10:35 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>116</sparkle:version>
-            <sparkle:shortVersionString>2.13.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.9
-
-- Full-screen lyric scrolling is now much cheaper during line changes. Instead of animating a scroll view (which re-rendered every visible line each frame), the lyric column is now slid as a single pre-rendered layer, so a line change animates as a lightweight GPU transform. This removes the CPU spikes that occurred each time the lyric advanced, while keeping the smooth Apple-Music-style motion.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.9/Now-2.13.9.zip" length="3494995" type="application/octet-stream" sparkle:edSignature="WOwoScOgm2qNJq7QuxgfYwzep/Yte7YKpB3D3kXfgRzFkgyK5mfYoIK39F+WfPWjO9j3HMIDOSeJmkQBcxNxCg=="/>
         </item>
     </channel>
 </rss>
