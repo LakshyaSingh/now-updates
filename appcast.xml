@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.11</title>
+            <pubDate>Thu, 23 Jul 2026 12:36:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>118</sparkle:version>
+            <sparkle:shortVersionString>2.13.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.11
+
+- Reverted the full-screen lyric scrolling to the smooth, reliable version. The recent offset-based experiment could look glitchy on line changes and dimmed the current line, so it's gone.
+- Removed the romanization line under lyrics.
+- Press the space bar in the full-screen view to play or pause, like Apple Music's Now Playing screen.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.11/Now-2.13.11.zip" length="3488627" type="application/octet-stream" sparkle:edSignature="PaadI5KMLLPb+B7+d7ZAK7YTgayBncI1rTCNrTFlYk2rHCrglWYdhyU+190/85WtaOolllP6S3/+rnr3WU6IBQ=="/>
+        </item>
+        <item>
             <title>2.13.10</title>
             <pubDate>Thu, 23 Jul 2026 04:17:50 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +46,6 @@
 - Full-screen lyric scrolling is now much cheaper during line changes. Instead of animating a scroll view (which re-rendered every visible line each frame), the lyric column is now slid as a single pre-rendered layer, so a line change animates as a lightweight GPU transform. This removes the CPU spikes that occurred each time the lyric advanced, while keeping the smooth Apple-Music-style motion.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.9/Now-2.13.9.zip" length="3494995" type="application/octet-stream" sparkle:edSignature="WOwoScOgm2qNJq7QuxgfYwzep/Yte7YKpB3D3kXfgRzFkgyK5mfYoIK39F+WfPWjO9j3HMIDOSeJmkQBcxNxCg=="/>
-        </item>
-        <item>
-            <title>2.13.8</title>
-            <pubDate>Thu, 23 Jul 2026 03:58:08 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>115</sparkle:version>
-            <sparkle:shortVersionString>2.13.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.8
-
-- Further lowered full-screen CPU during lyric scrolling. The lyric list now only lays out the lines that are actually on screen instead of the entire song, so each line change is much cheaper to render. Diagnosed from a live CPU profile showing the full lyric list being re-laid-out on every scroll frame.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.8/Now-2.13.8.zip" length="3491919" type="application/octet-stream" sparkle:edSignature="Gwo4IGqOeCg5fmCX6TJWva65F2UhoWKfxpDQGp57wc5v4bul5acWomZu+/yX5rNQYDo3NakZt9XR+HgNpUhzDA=="/>
         </item>
     </channel>
 </rss>
