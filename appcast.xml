@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.11.0</title>
+            <pubDate>Wed, 22 Jul 2026 18:01:30 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>100</sparkle:version>
+            <sparkle:shortVersionString>2.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.11.0
+
+- New full-screen Now Playing view: a large, immersive display of album art, track info, and auto-scrolling synchronized lyrics — with a clean art-and-info layout when a song has no lyrics.
+- Open it from the menu bar ("Full Screen Lyrics"), the ⌘⇧F shortcut, or the expand button on the overlay. Close it with the ✕ or the Escape key; the desktop overlay keeps working exactly as before.
+- Playback controls (previous, play/pause, next) and volume work from the full-screen view; the progress bar reflects playback position.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.0/Now-2.11.0.zip" length="3444984" type="application/octet-stream" sparkle:edSignature="hT4rz5wxZLSQRbfJnNJEhe6SGuddiL3wXDIdDCkmVL1zKMetQDL7ygLvppgiW+QMryq2P8grpsYZ4nxOHTufAQ=="/>
+        </item>
+        <item>
             <title>2.10.81</title>
             <pubDate>Wed, 22 Jul 2026 16:25:06 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,23 +47,6 @@
 - Credit trimming only touches the start and end of the lyric and only for those two sources, so real lyrics — and LRCLIB / Apple Music lyrics — are never altered.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.80/Now-2.10.80.zip" length="3385562" type="application/octet-stream" sparkle:edSignature="TajFlb6SWTUcTiv4xB+awvBUyWuUssULib5JrP/NlU4TrBTA6WZoQ51F04FFNS+JiJ7KbzEu4lSxF2A/LjjPAg=="/>
-        </item>
-        <item>
-            <title>2.10.79</title>
-            <pubDate>Wed, 22 Jul 2026 12:11:42 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>97</sparkle:version>
-            <sparkle:shortVersionString>2.10.79</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.79
-
-- Added two more synchronized-lyrics sources — NetEase Cloud Music and QQ Music — alongside LRCLIB and the Apple Music local cache. Many songs (especially on YouTube Music) that previously had no timed lyrics should now find them.
-- Sources are tried in order (LRCLIB → NetEase → QQ Music) and every match is held to the same strict title/artist/duration check, so a broad catalogue search never attaches the wrong song's lyrics.
-- Only basic track metadata (title, artist) is sent to any source. No audio, cookies, or account data leaves the device.
-- Results still persist on disk and each source is time-limited and circuit-broken, so adding sources does not reintroduce slow or stalled lookups.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.79/Now-2.10.79.zip" length="3383426" type="application/octet-stream" sparkle:edSignature="WraPicE07TAmM/agIxPm3I1Pzs+/SIYh+9t1/Sq6uQheJXCbMvUOYCG+Y7jLJoMtmCaGZrx0JcMWKXp+vrWtAw=="/>
         </item>
     </channel>
 </rss>
