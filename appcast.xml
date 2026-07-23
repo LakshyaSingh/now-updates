@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.5</title>
+            <pubDate>Thu, 23 Jul 2026 03:29:25 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>112</sparkle:version>
+            <sparkle:shortVersionString>2.13.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.5
+
+- Large CPU reduction while the full-screen view is open. The desktop overlay was still running its full live-lyrics render loop behind the full-screen window (invisible, but driving a second animation pipeline the whole time). The overlay is now paused while the full-screen view is open and resumes automatically when you close it. Diagnosed from a live CPU profile of the app.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.5/Now-2.13.5.zip" length="3491481" type="application/octet-stream" sparkle:edSignature="1J5ncWPs9Cdll5SZ4Cpm9RYlsqZDio3ySaHjhy2+1xqNGVvSP6yq3f6Z9lQixv3CoJqMs8pq5MUPYZxsJdejCA=="/>
+        </item>
+        <item>
             <title>2.13.4</title>
             <pubDate>Thu, 23 Jul 2026 03:21:15 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +45,6 @@
 - The background detection poll runs less often now that live updates are push-driven, further reducing idle CPU.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.3/Now-2.13.3.zip" length="3489861" type="application/octet-stream" sparkle:edSignature="WIWMU0fi/LsIkY69kB0aGVap/1DZljofhT8ZkrKgvXoCIXZW+MNlJzzeGD5I/oZkdEgSV9iq85VSCn9ohx5QAQ=="/>
-        </item>
-        <item>
-            <title>2.13.2</title>
-            <pubDate>Thu, 23 Jul 2026 02:45:21 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>109</sparkle:version>
-            <sparkle:shortVersionString>2.13.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.2
-
-- Much lower CPU/GPU use while the full-screen view is open. The album-art background no longer animates every frame — it's now painted once per song (still cross-fading when the track changes), which stops the whole display from being recomposited continuously.
-- The word-by-word karaoke highlight now updates at 20 Hz and only for the current line, further reducing work with no visible difference.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.2/Now-2.13.2.zip" length="3489062" type="application/octet-stream" sparkle:edSignature="+rnnfqsEO+9f+19VeS3O3Sk32GKNLd3HVVMVponenvQQBUzxKedFORN+6n7+4WS4mPog4aDuqnYNDQVZd86UAQ=="/>
         </item>
     </channel>
 </rss>
