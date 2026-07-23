@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.4</title>
+            <pubDate>Thu, 23 Jul 2026 03:21:15 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>111</sparkle:version>
+            <sparkle:shortVersionString>2.13.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.4
+
+- Further reduced CPU during playback on busy YouTube Music pages. The extension's queue diagnostics were being written to disk many times per second; that log is now written at most every few seconds (and immediately on a track or play/pause change), removing frequent disk I/O and JSON encoding.
+- The bundled Chrome extension (v1.5.2) now sends updates to Now only when something meaningful changes (track, play/pause, queue, or a seek) plus a light once-a-second heartbeat, instead of on every page change — a large drop in cross-process traffic. Reload the extension in Chrome to get this improvement.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.4/Now-2.13.4.zip" length="3490699" type="application/octet-stream" sparkle:edSignature="RRxlNqg20mAvB3aIpoVqjxFugEuCZT5k12NJUExeZ0EDJrF+F770irNFxwWNsfm6Zo7tnUbVoM31fVDCsCRwAw=="/>
+        </item>
+        <item>
             <title>2.13.3</title>
             <pubDate>Thu, 23 Jul 2026 02:58:22 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +46,6 @@
 - The word-by-word karaoke highlight now updates at 20 Hz and only for the current line, further reducing work with no visible difference.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.2/Now-2.13.2.zip" length="3489062" type="application/octet-stream" sparkle:edSignature="+rnnfqsEO+9f+19VeS3O3Sk32GKNLd3HVVMVponenvQQBUzxKedFORN+6n7+4WS4mPog4aDuqnYNDQVZd86UAQ=="/>
-        </item>
-        <item>
-            <title>2.13.1</title>
-            <pubDate>Thu, 23 Jul 2026 00:03:55 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>108</sparkle:version>
-            <sparkle:shortVersionString>2.13.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.1
-
-- Fixed jittery lyric scrolling in the full-screen view. The animated album-art background was using an expensive per-frame blur that saturated the GPU; it now uses lightweight gradient shaders for the same soft, drifting glow at a fraction of the cost, so line changes scroll smoothly again.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.1/Now-2.13.1.zip" length="3490586" type="application/octet-stream" sparkle:edSignature="0hzwDsxr6+SfI8ccL4zI1yQMeX4XAfJmmlCY4s+yi6JzLRzjReD1BJnFN+H4wt8eAz+PRAg+CpppdFlK27R3Dg=="/>
         </item>
     </channel>
 </rss>
