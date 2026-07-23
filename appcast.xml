@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.10</title>
+            <pubDate>Thu, 23 Jul 2026 04:17:50 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>117</sparkle:version>
+            <sparkle:shortVersionString>2.13.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.10
+
+- Fixed a glitchy full-screen lyric transition where the lines appeared to converge and then split apart on each line change. Only the scroll slide is animated now; line brightness crossfades on its own without moving the layout.
+- Made the current lyric line stand out more clearly again — full brightness against distinctly dimmer neighbors.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.10/Now-2.13.10.zip" length="3496321" type="application/octet-stream" sparkle:edSignature="F6GMLB7R0suKCGGMZRnLEu0VxEOek2ikc7gUvrYV/wE8WxHYXL2lbRQtMCWxcsT+oa4kXGkbsyZD+39gZQnUCw=="/>
+        </item>
+        <item>
             <title>2.13.9</title>
             <pubDate>Thu, 23 Jul 2026 04:10:35 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +44,6 @@
 - Further lowered full-screen CPU during lyric scrolling. The lyric list now only lays out the lines that are actually on screen instead of the entire song, so each line change is much cheaper to render. Diagnosed from a live CPU profile showing the full lyric list being re-laid-out on every scroll frame.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.8/Now-2.13.8.zip" length="3491919" type="application/octet-stream" sparkle:edSignature="Gwo4IGqOeCg5fmCX6TJWva65F2UhoWKfxpDQGp57wc5v4bul5acWomZu+/yX5rNQYDo3NakZt9XR+HgNpUhzDA=="/>
-        </item>
-        <item>
-            <title>2.13.7</title>
-            <pubDate>Thu, 23 Jul 2026 03:50:03 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>114</sparkle:version>
-            <sparkle:shortVersionString>2.13.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.7
-
-- Cut CPU while the full-screen view is open. A live profile showed the progress bar was refreshing 4×/second, and each refresh forced the whole full-screen view (all lyric text included) to re-render. The progress line now updates once a second — standard for a time display — which reduces those full-view re-renders roughly 4×.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.7/Now-2.13.7.zip" length="3491544" type="application/octet-stream" sparkle:edSignature="8BeHH7GJJIuJ1aXBT59L6OUq/R3FIWqngBv/X5OoioRlcdsUUMLeEvJWqCD+R9Tm126OZvNaPWy8K7OQTcjSBg=="/>
         </item>
     </channel>
 </rss>
