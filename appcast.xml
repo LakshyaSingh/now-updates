@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.11.1</title>
+            <pubDate>Wed, 22 Jul 2026 18:13:21 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>101</sparkle:version>
+            <sparkle:shortVersionString>2.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.11.1
+
+- The full-screen view now opens as a true macOS full-screen Space with the standard zoom animation (growing out of the overlay), so a three-finger swipe moves between it and your previous window — with the desktop overlay still waiting on the original Space.
+- Lyrics now animate like Apple Music: the current line sits bright and bold about a third from the top, sung lines rise and fade away, and the next line springs into focus, with distant lines gently dimmed and blurred for depth.
+- Smoother, more alive motion throughout — spring-based lyric scrolling, an artwork crossfade on track changes, and an animated play/pause button.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.1/Now-2.11.1.zip" length="3455233" type="application/octet-stream" sparkle:edSignature="AFLYjAuYsyzPkivkdZtlR1/xJzTxUJxQtzR2UVe200lgloFHUVeT2mYvYQIv6whWnqNekqQ57KQ5rNd3IDnfDg=="/>
+        </item>
+        <item>
             <title>2.11.0</title>
             <pubDate>Wed, 22 Jul 2026 18:01:30 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +48,6 @@
 - The lyrics cache is refreshed on this update so any instrumental that already cached that placeholder is cleared automatically.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.81/Now-2.10.81.zip" length="3385696" type="application/octet-stream" sparkle:edSignature="jHTYQB4nCRUjlvpRxYyFVIP/Yb9IKWQ36cdNdXxd1ACAsqb8cGzYVZqXOV//07MCbYMUnmzgX54yCaHIRg3bCQ=="/>
-        </item>
-        <item>
-            <title>2.10.80</title>
-            <pubDate>Wed, 22 Jul 2026 12:20:43 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>98</sparkle:version>
-            <sparkle:shortVersionString>2.10.80</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.10.80
-
-- Cleaned up lyrics from NetEase and QQ Music: leading and trailing production credits (composer, lyricist, mixing/mastering, and the "Title - Artist" header) are now trimmed, so the overlay shows the actual song from the first sung line.
-- Credit trimming only touches the start and end of the lyric and only for those two sources, so real lyrics — and LRCLIB / Apple Music lyrics — are never altered.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.10.80/Now-2.10.80.zip" length="3385562" type="application/octet-stream" sparkle:edSignature="TajFlb6SWTUcTiv4xB+awvBUyWuUssULib5JrP/NlU4TrBTA6WZoQ51F04FFNS+JiJ7KbzEu4lSxF2A/LjjPAg=="/>
         </item>
     </channel>
 </rss>
