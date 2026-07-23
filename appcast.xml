@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.11.5</title>
+            <pubDate>Wed, 22 Jul 2026 23:33:42 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>105</sparkle:version>
+            <sparkle:shortVersionString>2.11.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.11.5
+
+- The full-screen view now has a living, Apple-Music-style background: soft color blobs sampled from the album art drift slowly behind the lyrics, replacing the static blurred cover. Colors cross-fade smoothly when the track changes.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.5/Now-2.11.5.zip" length="3468133" type="application/octet-stream" sparkle:edSignature="JpH4Gdk0BKt1b3LzdiZ/VuCYjidFm+wdD4GTQcCVPzHYyf7fOYtp2fznE76KHQNrYPtxM8/ub3w0KojOge+KBw=="/>
+        </item>
+        <item>
             <title>2.11.4</title>
             <pubDate>Wed, 22 Jul 2026 21:06:46 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,22 +46,6 @@
 - The native window buttons (close / minimize / zoom) now slide down from the top of the full-screen view when you move the pointer up, so you can close or minimize without pressing Escape. The red button still exits cleanly and leaves the desktop overlay running.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.3/Now-2.11.3.zip" length="3455339" type="application/octet-stream" sparkle:edSignature="p0bms4fix25xcELda+1/6HswI3WwhtBoqF4F5MENKrM0TsDFZBzfv3krQW/QXvqQLSADAMl+/yLNVYiqreEHCw=="/>
-        </item>
-        <item>
-            <title>2.11.2</title>
-            <pubDate>Wed, 22 Jul 2026 19:18:53 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>102</sparkle:version>
-            <sparkle:shortVersionString>2.11.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.11.2
-
-- Full-screen lyrics now use the whole screen like Apple Music: album art and controls sit centered in the left half (title, progress, and buttons aligned to the artwork), lyrics fill the right half, with a clear gutter between. With no lyrics, the art and controls simply center on screen.
-- Larger, uniform lyric type so a comfortable number of lines is visible at once, with the active line emphasized by brightness and weight and kept near the middle.
-- Tightened lyric timing in the full-screen view: the active line is now tracked at 30 Hz (previously ~5 Hz), so the highlight follows the vocal much more closely instead of lagging behind it.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.11.2/Now-2.11.2.zip" length="3453912" type="application/octet-stream" sparkle:edSignature="6M7Ite2E+/Zoe59X13Jr002nJpRSw6jnJwL4Dx6G1Pdc57w5+kdwAx6P30NjdHhglIKAgdGCtLCuc8bHkFGABg=="/>
         </item>
     </channel>
 </rss>
