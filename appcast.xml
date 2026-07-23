@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.6</title>
+            <pubDate>Thu, 23 Jul 2026 03:41:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>113</sparkle:version>
+            <sparkle:shortVersionString>2.13.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.6
+
+- Major CPU fix. A live CPU profile revealed the app kept running its lyric render loops even for windows that were hidden or covered — the full-screen view's timers kept firing after it was closed, and the desktop overlay kept animating behind the full-screen view. Simply hiding a window (which the previous fix relied on) does not stop those timers.
+- Now the SwiftUI content is fully torn down when a surface isn't visible: the full-screen view is rebuilt each time it opens and destroyed on close, and the overlay's content is detached whenever it's hidden or covered. Visible, in-use lyrics are unchanged; hidden windows now cost effectively nothing.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.6/Now-2.13.6.zip" length="3491546" type="application/octet-stream" sparkle:edSignature="lSlVP06vkASKpWZ7s+ADjkyxeFEkLju1V6NNec4wXLhWbu2BWHhsuVQCxV1DRRragRC8Oyr7mwBORM84q5aMAQ=="/>
+        </item>
+        <item>
             <title>2.13.5</title>
             <pubDate>Thu, 23 Jul 2026 03:29:25 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - The bundled Chrome extension (v1.5.2) now sends updates to Now only when something meaningful changes (track, play/pause, queue, or a seek) plus a light once-a-second heartbeat, instead of on every page change — a large drop in cross-process traffic. Reload the extension in Chrome to get this improvement.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.4/Now-2.13.4.zip" length="3490699" type="application/octet-stream" sparkle:edSignature="RRxlNqg20mAvB3aIpoVqjxFugEuCZT5k12NJUExeZ0EDJrF+F770irNFxwWNsfm6Zo7tnUbVoM31fVDCsCRwAw=="/>
-        </item>
-        <item>
-            <title>2.13.3</title>
-            <pubDate>Thu, 23 Jul 2026 02:58:22 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>110</sparkle:version>
-            <sparkle:shortVersionString>2.13.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.3
-
-- Substantially lower CPU use during playback. The Chrome extension was waking the app many times per second (on every small change to the YouTube Music page); Now now processes those updates at most about once per second during steady playback, while still reacting instantly to track changes, play/pause, and seeks. Lyric timing and smoothness are unaffected.
-- The background detection poll runs less often now that live updates are push-driven, further reducing idle CPU.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.3/Now-2.13.3.zip" length="3489861" type="application/octet-stream" sparkle:edSignature="WIWMU0fi/LsIkY69kB0aGVap/1DZljofhT8ZkrKgvXoCIXZW+MNlJzzeGD5I/oZkdEgSV9iq85VSCn9ohx5QAQ=="/>
         </item>
     </channel>
 </rss>
