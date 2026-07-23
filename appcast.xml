@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.2</title>
+            <pubDate>Thu, 23 Jul 2026 02:45:21 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>109</sparkle:version>
+            <sparkle:shortVersionString>2.13.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.2
+
+- Much lower CPU/GPU use while the full-screen view is open. The album-art background no longer animates every frame — it's now painted once per song (still cross-fading when the track changes), which stops the whole display from being recomposited continuously.
+- The word-by-word karaoke highlight now updates at 20 Hz and only for the current line, further reducing work with no visible difference.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.2/Now-2.13.2.zip" length="3489062" type="application/octet-stream" sparkle:edSignature="+rnnfqsEO+9f+19VeS3O3Sk32GKNLd3HVVMVponenvQQBUzxKedFORN+6n7+4WS4mPog4aDuqnYNDQVZd86UAQ=="/>
+        </item>
+        <item>
             <title>2.13.1</title>
             <pubDate>Thu, 23 Jul 2026 00:03:55 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - Romanization under non-Latin lyrics: songs written in Devanagari, Hangul, kana, hanzi, Cyrillic and more now show a dimmer romanized (Latin) line beneath each lyric. It's done entirely on-device — no network, fully private — so it works for any script and any song. Lyrics already in the Latin alphabet are unchanged.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.0/Now-2.13.0.zip" length="3491458" type="application/octet-stream" sparkle:edSignature="WVi86ZPI6CfGCpeAs8VAPiu6sbsimaUhYf1mrpNoT93ea+QbVJobjt9x9ogSZmrLNCsAOSNH7s+dA8IRLyJMAg=="/>
-        </item>
-        <item>
-            <title>2.12.0</title>
-            <pubDate>Wed, 22 Jul 2026 23:41:32 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>106</sparkle:version>
-            <sparkle:shortVersionString>2.12.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.12.0
-
-- Word-by-word (karaoke) lyrics in the full-screen view: when a track has word-level timing available, brightness sweeps across each word in time with the vocal, Apple-Music-style. Songs without word timing keep the normal line highlight.
-- Word timing loads quietly in the background and upgrades the lyrics in place, so lyrics still appear instantly and only get richer when the data is there.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.12.0/Now-2.12.0.zip" length="3486604" type="application/octet-stream" sparkle:edSignature="Z2rvgSJqRfa8LQ6MPJhSxL6QZ3SxpCvjQ9LlrV17wVa9txIygaRzkV29NWNj+qXhK53/ZI0H8QPhio9QRTS9AQ=="/>
         </item>
     </channel>
 </rss>
