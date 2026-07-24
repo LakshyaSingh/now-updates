@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.15</title>
+            <pubDate>Thu, 23 Jul 2026 21:28:17 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>122</sparkle:version>
+            <sparkle:shortVersionString>2.13.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.15
+
+- Full-screen background now matches Apple Music: it's the album artwork itself, heavily blurred and gently enriched, rather than a synthetic color wash. Dark covers now stay genuinely dark (the previous version raised the brightness floor, which washed dark art out with a bright bleed); bright covers stay bright.
+- Showing/hiding lyrics is now animated: the artwork glides from center to the left as the lyrics rise up from below and settle at the line that's playing; hiding them lets the lyrics fall away as the artwork returns to center.
+- The glass volume control is now interactive (it reacts under the pointer), and glass elements refract the new, more faithful backdrop.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.15/Now-2.13.15.zip" length="3499442" type="application/octet-stream" sparkle:edSignature="MWZ9H1RGyXHGrq/+LY138ZAbtc8mqI/PNswx/+sxcBnNipjnzoLV46psdOdexUslBAMRbbWQzeAI8CUbJ5N2Cg=="/>
+        </item>
+        <item>
             <title>2.13.14</title>
             <pubDate>Thu, 23 Jul 2026 21:14:31 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +47,6 @@
 - The dominant tone fills the whole screen (no dark base), so the backdrop reads brighter and fuller — closer to Apple Music.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.13/Now-2.13.13.zip" length="3490721" type="application/octet-stream" sparkle:edSignature="tU2+RBspDMNqQYhIFdzuYfIaXbqWXCcWWrM09Zu4fkG6eUH8/FVSnQwLqS0CooKghf7Xe0C999TYBpGavtA+DA=="/>
-        </item>
-        <item>
-            <title>2.13.12</title>
-            <pubDate>Thu, 23 Jul 2026 16:02:06 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>119</sparkle:version>
-            <sparkle:shortVersionString>2.13.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.12
-
-- The full-screen background now shows brighter, more saturated album colors, closer to Apple Music. Extracted colors are normalized to a vivid mid-tone, the color wash is more opaque and fuller, and the darkening overlay is much lighter — so the backdrop no longer looks dull.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.12/Now-2.13.12.zip" length="3488898" type="application/octet-stream" sparkle:edSignature="gsBQCQ854H8/mTFr3+vfZ/15TRWMPWmo/pUr4cVc1xQVji8Eceo8WFZFgKIW+aQ6+SOW3fgoO4+J8DWEFof7Dg=="/>
         </item>
     </channel>
 </rss>
