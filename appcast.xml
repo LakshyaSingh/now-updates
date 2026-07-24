@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.14</title>
+            <pubDate>Thu, 23 Jul 2026 21:14:31 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>121</sparkle:version>
+            <sparkle:shortVersionString>2.13.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.14
+
+- The full-screen view now uses native macOS Liquid Glass (on macOS 26 and later): the close button and the volume control are real glass elements, matching Apple Music. On older macOS they keep the previous translucent look.
+- Added a lyrics button in the bottom-right corner (glass) to show or hide the lyrics. With lyrics hidden, the view centers the album art and controls.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.14/Now-2.13.14.zip" length="3503102" type="application/octet-stream" sparkle:edSignature="KvZ+Xy+X5GFR+E5JcmNkaQMPy7ulgSQFtYFihEdfjulGTvrF9I9zQp3kdYZRG2cFEwRVNEcK1DsZTpXIdIN0Ag=="/>
+        </item>
+        <item>
             <title>2.13.13</title>
             <pubDate>Thu, 23 Jul 2026 21:04:01 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,22 +45,6 @@
 - The full-screen background now shows brighter, more saturated album colors, closer to Apple Music. Extracted colors are normalized to a vivid mid-tone, the color wash is more opaque and fuller, and the darkening overlay is much lighter — so the backdrop no longer looks dull.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.12/Now-2.13.12.zip" length="3488898" type="application/octet-stream" sparkle:edSignature="gsBQCQ854H8/mTFr3+vfZ/15TRWMPWmo/pUr4cVc1xQVji8Eceo8WFZFgKIW+aQ6+SOW3fgoO4+J8DWEFof7Dg=="/>
-        </item>
-        <item>
-            <title>2.13.11</title>
-            <pubDate>Thu, 23 Jul 2026 12:36:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>118</sparkle:version>
-            <sparkle:shortVersionString>2.13.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.11
-
-- Reverted the full-screen lyric scrolling to the smooth, reliable version. The recent offset-based experiment could look glitchy on line changes and dimmed the current line, so it's gone.
-- Removed the romanization line under lyrics.
-- Press the space bar in the full-screen view to play or pause, like Apple Music's Now Playing screen.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.11/Now-2.13.11.zip" length="3488627" type="application/octet-stream" sparkle:edSignature="PaadI5KMLLPb+B7+d7ZAK7YTgayBncI1rTCNrTFlYk2rHCrglWYdhyU+190/85WtaOolllP6S3/+rnr3WU6IBQ=="/>
         </item>
     </channel>
 </rss>
