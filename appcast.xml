@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.22</title>
+            <pubDate>Sat, 25 Jul 2026 15:24:29 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>129</sparkle:version>
+            <sparkle:shortVersionString>2.13.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.22
+
+- Smoother open/close for the full-screen view: instead of the album art and lyrics reflowing as the window grows out of the overlay, the window now grows from the overlay's spot as a clean backdrop and the content fades in once it settles full-screen. Closing reverses it — the content fades out, then the window shrinks back into the overlay's corner.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.22/Now-2.13.22.zip" length="3531039" type="application/octet-stream" sparkle:edSignature="iZrRsVZ43HZfyZ3s3OOEMhDD/pg/sGESwQc+zLLk2pV4K6sJL9Hv4vzIrHtZ1N2E+qPBJ09fRYfttDAw5LDzCw=="/>
+        </item>
+        <item>
             <title>2.13.21</title>
             <pubDate>Sat, 25 Jul 2026 15:02:03 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +45,6 @@
 - Also fixed a related issue where the lyrics/progress could keep advancing for a moment after playback was paused.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.20/Now-2.13.20.zip" length="3518745" type="application/octet-stream" sparkle:edSignature="spkL6FMHlX+waRmXWTOA+xtjm+NZ20PBujX3kRHTEps/lnIiwW2t3MSXdWpKlwfQeMW8jUwXqAoqhGPc6cmSAg=="/>
-        </item>
-        <item>
-            <title>2.13.19</title>
-            <pubDate>Sat, 25 Jul 2026 14:29:25 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>126</sparkle:version>
-            <sparkle:shortVersionString>2.13.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.19
-
-- Instrumental breaks are now a real part of the lyric script, like Apple Music: the interlude dots have a fixed place in the timeline, sit dimmed in the scroll so you can see a break coming, and light up left-to-right as a countdown to the next line — instead of popping in and out of the middle of the lyrics.
-- Smoother lyric motion: the scroll and the line emphasis now share a single spring, so the whole column moves as one coordinated gesture, and the per-line animation overhead was consolidated. No change to resource usage.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.19/Now-2.13.19.zip" length="3517828" type="application/octet-stream" sparkle:edSignature="c19LLdG37PFWXT3YsHFnNA3UWnyr6LXIQ/b/ZTYM7LkdtB0+cguyDOZuB60R5+HjD0v/J1TxjDS7wuJkndA/AA=="/>
         </item>
     </channel>
 </rss>
