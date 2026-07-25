@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.16</title>
+            <pubDate>Fri, 24 Jul 2026 17:03:27 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>123</sparkle:version>
+            <sparkle:shortVersionString>2.13.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.16
+
+- The full-screen progress bar is now scrubbable: click (or drag and release) anywhere on it to jump playback to that point, like Apple Music. The bar and lyrics jump to the new spot immediately.
+- Lyrics now have a subtle bouncy line change: as each new line takes focus it springs a touch larger — briefly widening the gap to its neighbours before settling — so the scroll feels more alive.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.16/Now-2.13.16.zip" length="3509561" type="application/octet-stream" sparkle:edSignature="zpd3p0aCieFTVFqWsy8qK0hSbJH+efofn/tfiCevwjODJL04tBhFp4+63dDhqwkVrvWuAyRD0j3wY1hR73v4Dg=="/>
+        </item>
+        <item>
             <title>2.13.15</title>
             <pubDate>Thu, 23 Jul 2026 21:28:17 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +47,6 @@
 - Added a lyrics button in the bottom-right corner (glass) to show or hide the lyrics. With lyrics hidden, the view centers the album art and controls.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.14/Now-2.13.14.zip" length="3503102" type="application/octet-stream" sparkle:edSignature="KvZ+Xy+X5GFR+E5JcmNkaQMPy7ulgSQFtYFihEdfjulGTvrF9I9zQp3kdYZRG2cFEwRVNEcK1DsZTpXIdIN0Ag=="/>
-        </item>
-        <item>
-            <title>2.13.13</title>
-            <pubDate>Thu, 23 Jul 2026 21:04:01 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>120</sparkle:version>
-            <sparkle:shortVersionString>2.13.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.13
-
-- The full-screen background now uses the album art's actual dominant colors, so it matches the cover instead of inventing bright hues. A neutral cover gives a soft neutral wash; a colorful cover gives a vivid one.
-- The dominant tone fills the whole screen (no dark base), so the backdrop reads brighter and fuller — closer to Apple Music.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.13/Now-2.13.13.zip" length="3490721" type="application/octet-stream" sparkle:edSignature="tU2+RBspDMNqQYhIFdzuYfIaXbqWXCcWWrM09Zu4fkG6eUH8/FVSnQwLqS0CooKghf7Xe0C999TYBpGavtA+DA=="/>
         </item>
     </channel>
 </rss>
