@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.18</title>
+            <pubDate>Sat, 25 Jul 2026 14:17:29 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>125</sparkle:version>
+            <sparkle:shortVersionString>2.13.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.18
+
+- Smoother lyric scrolling: the full-screen lyric list now lays out eagerly, so the line-change animation lands on a stable target instead of occasionally hitching while off-screen lines were built mid-scroll. No change to resource usage.
+- Instrumental gaps now show animated dots (like Apple Music) instead of holding the last line lit — during a long intro, an interlude between lines, or the outro. The dots animate on their own without any added CPU cost, and appear only when there's a genuine pause in the vocals.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.18/Now-2.13.18.zip" length="3516307" type="application/octet-stream" sparkle:edSignature="jMzzRY/l4+uyqU3FK4r2W2IE70pywUADLRXR+mihfndbtUWgfeh0K8xDHuxFgydLL+NJwjT8BR39EM6657L9Ag=="/>
+        </item>
+        <item>
             <title>2.13.17</title>
             <pubDate>Fri, 24 Jul 2026 18:28:59 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,22 +45,6 @@
 - Lyrics now have a subtle bouncy line change: as each new line takes focus it springs a touch larger — briefly widening the gap to its neighbours before settling — so the scroll feels more alive.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.16/Now-2.13.16.zip" length="3509561" type="application/octet-stream" sparkle:edSignature="zpd3p0aCieFTVFqWsy8qK0hSbJH+efofn/tfiCevwjODJL04tBhFp4+63dDhqwkVrvWuAyRD0j3wY1hR73v4Dg=="/>
-        </item>
-        <item>
-            <title>2.13.15</title>
-            <pubDate>Thu, 23 Jul 2026 21:28:17 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>122</sparkle:version>
-            <sparkle:shortVersionString>2.13.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.15
-
-- Full-screen background now matches Apple Music: it's the album artwork itself, heavily blurred and gently enriched, rather than a synthetic color wash. Dark covers now stay genuinely dark (the previous version raised the brightness floor, which washed dark art out with a bright bleed); bright covers stay bright.
-- Showing/hiding lyrics is now animated: the artwork glides from center to the left as the lyrics rise up from below and settle at the line that's playing; hiding them lets the lyrics fall away as the artwork returns to center.
-- The glass volume control is now interactive (it reacts under the pointer), and glass elements refract the new, more faithful backdrop.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.15/Now-2.13.15.zip" length="3499442" type="application/octet-stream" sparkle:edSignature="MWZ9H1RGyXHGrq/+LY138ZAbtc8mqI/PNswx/+sxcBnNipjnzoLV46psdOdexUslBAMRbbWQzeAI8CUbJ5N2Cg=="/>
         </item>
     </channel>
 </rss>
