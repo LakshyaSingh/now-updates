@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.20</title>
+            <pubDate>Sat, 25 Jul 2026 14:51:21 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>2.13.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.20
+
+- Fixed: quitting the browser mid-song (without pausing first) now stops the overlay properly. Previously it kept showing the song as playing and the lyrics kept scrolling, because the app trusted the browser's last-known state and never noticed the browser was gone. It now detects that the browser hosting playback has quit and pauses immediately.
+- Also fixed a related issue where the lyrics/progress could keep advancing for a moment after playback was paused.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.20/Now-2.13.20.zip" length="3518745" type="application/octet-stream" sparkle:edSignature="spkL6FMHlX+waRmXWTOA+xtjm+NZ20PBujX3kRHTEps/lnIiwW2t3MSXdWpKlwfQeMW8jUwXqAoqhGPc6cmSAg=="/>
+        </item>
+        <item>
             <title>2.13.19</title>
             <pubDate>Sat, 25 Jul 2026 14:29:25 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +46,6 @@
 - Instrumental gaps now show animated dots (like Apple Music) instead of holding the last line lit — during a long intro, an interlude between lines, or the outro. The dots animate on their own without any added CPU cost, and appear only when there's a genuine pause in the vocals.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.18/Now-2.13.18.zip" length="3516307" type="application/octet-stream" sparkle:edSignature="jMzzRY/l4+uyqU3FK4r2W2IE70pywUADLRXR+mihfndbtUWgfeh0K8xDHuxFgydLL+NJwjT8BR39EM6657L9Ag=="/>
-        </item>
-        <item>
-            <title>2.13.17</title>
-            <pubDate>Fri, 24 Jul 2026 18:28:59 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>124</sparkle:version>
-            <sparkle:shortVersionString>2.13.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.17
-
-- Lower CPU while lyrics play: the karaoke word-sweep now redraws at 12 Hz instead of 20 Hz. This is the single biggest cost in the full-screen view (re-rendering the active line's text), so this cuts it by roughly 40% while staying visually smooth.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.17/Now-2.13.17.zip" length="3509523" type="application/octet-stream" sparkle:edSignature="1cRMhw54lpAMqFD0x5X8DsIYSQmLuF+ZjQaWGajJb8KCB5fIIuI2CT8yppT90UkohP7DUMN0SqQIp9ZTkhjrCA=="/>
         </item>
     </channel>
 </rss>
