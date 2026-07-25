@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.21</title>
+            <pubDate>Sat, 25 Jul 2026 15:02:03 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>128</sparkle:version>
+            <sparkle:shortVersionString>2.13.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.21
+
+- New: Now can pause browser music (YouTube Music / Spotify web) while the microphone is in use — dictation apps like Wispr Flow, or calls — the way Apple Music ducks on its own. It resumes automatically a moment after the mic frees. Native apps like Apple Music are left alone since they already handle this themselves.
+- Turn it on or off in Settings → Sources → Microphone (on by default). Any manual play/pause/skip cancels an in-progress auto-pause, so Now never fights you.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.21/Now-2.13.21.zip" length="3529369" type="application/octet-stream" sparkle:edSignature="v4Spudq0D098ydDqTlfpTBRsn9qyh6VX79ZH+HEPvbunNbCfCOlhU3QP/Gq68D19kiSJGAZBWBLEKFXco5SQCw=="/>
+        </item>
+        <item>
             <title>2.13.20</title>
             <pubDate>Sat, 25 Jul 2026 14:51:21 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +46,6 @@
 - Smoother lyric motion: the scroll and the line emphasis now share a single spring, so the whole column moves as one coordinated gesture, and the per-line animation overhead was consolidated. No change to resource usage.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.19/Now-2.13.19.zip" length="3517828" type="application/octet-stream" sparkle:edSignature="c19LLdG37PFWXT3YsHFnNA3UWnyr6LXIQ/b/ZTYM7LkdtB0+cguyDOZuB60R5+HjD0v/J1TxjDS7wuJkndA/AA=="/>
-        </item>
-        <item>
-            <title>2.13.18</title>
-            <pubDate>Sat, 25 Jul 2026 14:17:29 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>125</sparkle:version>
-            <sparkle:shortVersionString>2.13.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.18
-
-- Smoother lyric scrolling: the full-screen lyric list now lays out eagerly, so the line-change animation lands on a stable target instead of occasionally hitching while off-screen lines were built mid-scroll. No change to resource usage.
-- Instrumental gaps now show animated dots (like Apple Music) instead of holding the last line lit — during a long intro, an interlude between lines, or the outro. The dots animate on their own without any added CPU cost, and appear only when there's a genuine pause in the vocals.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.18/Now-2.13.18.zip" length="3516307" type="application/octet-stream" sparkle:edSignature="jMzzRY/l4+uyqU3FK4r2W2IE70pywUADLRXR+mihfndbtUWgfeh0K8xDHuxFgydLL+NJwjT8BR39EM6657L9Ag=="/>
         </item>
     </channel>
 </rss>
