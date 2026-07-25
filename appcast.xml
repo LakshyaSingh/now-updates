@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.17</title>
+            <pubDate>Fri, 24 Jul 2026 18:28:59 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>124</sparkle:version>
+            <sparkle:shortVersionString>2.13.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.17
+
+- Lower CPU while lyrics play: the karaoke word-sweep now redraws at 12 Hz instead of 20 Hz. This is the single biggest cost in the full-screen view (re-rendering the active line's text), so this cuts it by roughly 40% while staying visually smooth.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.17/Now-2.13.17.zip" length="3509523" type="application/octet-stream" sparkle:edSignature="1cRMhw54lpAMqFD0x5X8DsIYSQmLuF+ZjQaWGajJb8KCB5fIIuI2CT8yppT90UkohP7DUMN0SqQIp9ZTkhjrCA=="/>
+        </item>
+        <item>
             <title>2.13.16</title>
             <pubDate>Fri, 24 Jul 2026 17:03:27 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +46,6 @@
 - The glass volume control is now interactive (it reacts under the pointer), and glass elements refract the new, more faithful backdrop.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.15/Now-2.13.15.zip" length="3499442" type="application/octet-stream" sparkle:edSignature="MWZ9H1RGyXHGrq/+LY138ZAbtc8mqI/PNswx/+sxcBnNipjnzoLV46psdOdexUslBAMRbbWQzeAI8CUbJ5N2Cg=="/>
-        </item>
-        <item>
-            <title>2.13.14</title>
-            <pubDate>Thu, 23 Jul 2026 21:14:31 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>121</sparkle:version>
-            <sparkle:shortVersionString>2.13.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.14
-
-- The full-screen view now uses native macOS Liquid Glass (on macOS 26 and later): the close button and the volume control are real glass elements, matching Apple Music. On older macOS they keep the previous translucent look.
-- Added a lyrics button in the bottom-right corner (glass) to show or hide the lyrics. With lyrics hidden, the view centers the album art and controls.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.14/Now-2.13.14.zip" length="3503102" type="application/octet-stream" sparkle:edSignature="KvZ+Xy+X5GFR+E5JcmNkaQMPy7ulgSQFtYFihEdfjulGTvrF9I9zQp3kdYZRG2cFEwRVNEcK1DsZTpXIdIN0Ag=="/>
         </item>
     </channel>
 </rss>
