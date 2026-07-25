@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.19</title>
+            <pubDate>Sat, 25 Jul 2026 14:29:25 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>126</sparkle:version>
+            <sparkle:shortVersionString>2.13.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.19
+
+- Instrumental breaks are now a real part of the lyric script, like Apple Music: the interlude dots have a fixed place in the timeline, sit dimmed in the scroll so you can see a break coming, and light up left-to-right as a countdown to the next line — instead of popping in and out of the middle of the lyrics.
+- Smoother lyric motion: the scroll and the line emphasis now share a single spring, so the whole column moves as one coordinated gesture, and the per-line animation overhead was consolidated. No change to resource usage.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.19/Now-2.13.19.zip" length="3517828" type="application/octet-stream" sparkle:edSignature="c19LLdG37PFWXT3YsHFnNA3UWnyr6LXIQ/b/ZTYM7LkdtB0+cguyDOZuB60R5+HjD0v/J1TxjDS7wuJkndA/AA=="/>
+        </item>
+        <item>
             <title>2.13.18</title>
             <pubDate>Sat, 25 Jul 2026 14:17:29 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - Lower CPU while lyrics play: the karaoke word-sweep now redraws at 12 Hz instead of 20 Hz. This is the single biggest cost in the full-screen view (re-rendering the active line's text), so this cuts it by roughly 40% while staying visually smooth.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.17/Now-2.13.17.zip" length="3509523" type="application/octet-stream" sparkle:edSignature="1cRMhw54lpAMqFD0x5X8DsIYSQmLuF+ZjQaWGajJb8KCB5fIIuI2CT8yppT90UkohP7DUMN0SqQIp9ZTkhjrCA=="/>
-        </item>
-        <item>
-            <title>2.13.16</title>
-            <pubDate>Fri, 24 Jul 2026 17:03:27 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>123</sparkle:version>
-            <sparkle:shortVersionString>2.13.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.16
-
-- The full-screen progress bar is now scrubbable: click (or drag and release) anywhere on it to jump playback to that point, like Apple Music. The bar and lyrics jump to the new spot immediately.
-- Lyrics now have a subtle bouncy line change: as each new line takes focus it springs a touch larger — briefly widening the gap to its neighbours before settling — so the scroll feels more alive.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.16/Now-2.13.16.zip" length="3509561" type="application/octet-stream" sparkle:edSignature="zpd3p0aCieFTVFqWsy8qK0hSbJH+efofn/tfiCevwjODJL04tBhFp4+63dDhqwkVrvWuAyRD0j3wY1hR73v4Dg=="/>
         </item>
     </channel>
 </rss>
