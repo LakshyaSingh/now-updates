@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.24</title>
+            <pubDate>Sun, 26 Jul 2026 13:46:37 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>131</sparkle:version>
+            <sparkle:shortVersionString>2.13.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.24
+
+- Fixed the last word of a wide or wrapping lyric line getting clipped at the right edge when it became the active line. The active line's subtle grow-on-focus now has room to breathe (the lyrics column reserves a right margin, like Apple Music), so nothing is cut off.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.24/Now-2.13.24.zip" length="3533870" type="application/octet-stream" sparkle:edSignature="pdkyPIKX/VS4lQhZqLg+sKJnnajZtAMZ7woSupii3FQtLOI4Al8xIs6LhT6dmnpEyiG+AWz0Gva8uE6OfYLCCA=="/>
+        </item>
+        <item>
             <title>2.13.23</title>
             <pubDate>Sat, 25 Jul 2026 15:31:31 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,21 +43,6 @@
 - Smoother open/close for the full-screen view: instead of the album art and lyrics reflowing as the window grows out of the overlay, the window now grows from the overlay's spot as a clean backdrop and the content fades in once it settles full-screen. Closing reverses it — the content fades out, then the window shrinks back into the overlay's corner.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.22/Now-2.13.22.zip" length="3531039" type="application/octet-stream" sparkle:edSignature="iZrRsVZ43HZfyZ3s3OOEMhDD/pg/sGESwQc+zLLk2pV4K6sJL9Hv4vzIrHtZ1N2E+qPBJ09fRYfttDAw5LDzCw=="/>
-        </item>
-        <item>
-            <title>2.13.21</title>
-            <pubDate>Sat, 25 Jul 2026 15:02:03 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>128</sparkle:version>
-            <sparkle:shortVersionString>2.13.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.21
-
-- New: Now can pause browser music (YouTube Music / Spotify web) while the microphone is in use — dictation apps like Wispr Flow, or calls — the way Apple Music ducks on its own. It resumes automatically a moment after the mic frees. Native apps like Apple Music are left alone since they already handle this themselves.
-- Turn it on or off in Settings → Sources → Microphone (on by default). Any manual play/pause/skip cancels an in-progress auto-pause, so Now never fights you.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.21/Now-2.13.21.zip" length="3529369" type="application/octet-stream" sparkle:edSignature="v4Spudq0D098ydDqTlfpTBRsn9qyh6VX79ZH+HEPvbunNbCfCOlhU3QP/Gq68D19kiSJGAZBWBLEKFXco5SQCw=="/>
         </item>
     </channel>
 </rss>
