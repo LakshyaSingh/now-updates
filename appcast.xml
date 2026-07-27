@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.26</title>
+            <pubDate>Mon, 27 Jul 2026 15:20:54 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>133</sparkle:version>
+            <sparkle:shortVersionString>2.13.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.26
+
+- Fixed the lyric scroll jumping to the previous line and coming back on every line change. A line changed height when it became the active (karaoke) line, which shifted every line below it and made the scroll correct itself mid-glide. Line heights are now fixed for the whole song, so the column moves once, smoothly.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.26/Now-2.13.26.zip" length="3544891" type="application/octet-stream" sparkle:edSignature="omRTBaCaFZxiLYTCqWcpkxAYOjgAxCBviRL4QOqEXIkZj7SmB5/HHBLtk3+TMaLTnORduhEjigUxjBt3I/xKAA=="/>
+        </item>
+        <item>
             <title>2.13.25</title>
             <pubDate>Mon, 27 Jul 2026 15:15:22 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@
 - Fixed the last word of a wide or wrapping lyric line getting clipped at the right edge when it became the active line. The active line's subtle grow-on-focus now has room to breathe (the lyrics column reserves a right margin, like Apple Music), so nothing is cut off.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.24/Now-2.13.24.zip" length="3533870" type="application/octet-stream" sparkle:edSignature="pdkyPIKX/VS4lQhZqLg+sKJnnajZtAMZ7woSupii3FQtLOI4Al8xIs6LhT6dmnpEyiG+AWz0Gva8uE6OfYLCCA=="/>
-        </item>
-        <item>
-            <title>2.13.23</title>
-            <pubDate>Sat, 25 Jul 2026 15:31:31 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>130</sparkle:version>
-            <sparkle:shortVersionString>2.13.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.23
-
-- The full-screen open/close zoom is now an album-colored box, like Apple Music: the window grows out of the overlay tinted with the artwork's color (and shrinks back into it on close) instead of a plain black box. The color matches the full-screen backdrop, so the content fades in seamlessly.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.23/Now-2.13.23.zip" length="3533888" type="application/octet-stream" sparkle:edSignature="fhvKZ5u3wnT7wWeEpKcoT1elbYPDloo/6RjEbRApens28AEwlBLoitSyApNGDsLzJ/abIYethQr8TRqGhW4YBQ=="/>
         </item>
     </channel>
 </rss>
