@@ -3,21 +3,6 @@
     <channel>
         <title>Now</title>
         <item>
-            <title>2.13.25</title>
-            <pubDate>Mon, 27 Jul 2026 15:15:22 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>132</sparkle:version>
-            <sparkle:shortVersionString>2.13.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.25
-- Lyric scrolling is now spring-driven, like Apple Music: the whole lyric column moves as a single spring-animated transform instead of being handed to a scroll view's own animator. Line changes should feel noticeably smoother and more fluid.
-- Each line now settles at the same place whether it's one line or wraps to three, so long lines no longer arrive a beat late.
-- Note: the lyric list is no longer manually scrollable — it follows playback.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.25/Now-2.13.25.zip" length="3544384" type="application/octet-stream" sparkle:edSignature="Jt6hDH/njxDVFTr+F1iHdqyQErc0cK8FG6mGFHzA5k73eHul/Wt2dRJyIbrpbDXRS5Bbk/Vqwk2lnaf/fvGBAQ=="/>
-        </item>
-        <item>
             <title>2.13.24</title>
             <pubDate>Sun, 26 Jul 2026 13:46:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
