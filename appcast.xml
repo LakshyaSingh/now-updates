@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.28</title>
+            <pubDate>Mon, 27 Jul 2026 15:31:35 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>135</sparkle:version>
+            <sparkle:shortVersionString>2.13.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.28
+
+- Fixed the highlight jumping back to the previous line for an instant on every line change. The cause was in the playback clock, not the animation: the browser pushes a fresh position sample about once a second, and a sample landing slightly behind the running clock dragged it backward just enough to re-select the previous line at a line boundary. The active line now only moves forward, unless the clock moves back far enough to mean a real seek.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.28/Now-2.13.28.zip" length="3545051" type="application/octet-stream" sparkle:edSignature="wW/g5TEFbhi1oQoL1bENpJSxcVUNFt6FyrmjbuMv0BrrmCIUbDnaZmghf5XI58uJc78sJ8fXhTeX4vx/0Mz+Bg=="/>
+        </item>
+        <item>
             <title>2.13.27</title>
             <pubDate>Mon, 27 Jul 2026 15:27:17 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,22 +43,6 @@
 - Fixed the lyric scroll jumping to the previous line and coming back on every line change. A line changed height when it became the active (karaoke) line, which shifted every line below it and made the scroll correct itself mid-glide. Line heights are now fixed for the whole song, so the column moves once, smoothly.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.26/Now-2.13.26.zip" length="3544891" type="application/octet-stream" sparkle:edSignature="omRTBaCaFZxiLYTCqWcpkxAYOjgAxCBviRL4QOqEXIkZj7SmB5/HHBLtk3+TMaLTnORduhEjigUxjBt3I/xKAA=="/>
-        </item>
-        <item>
-            <title>2.13.25</title>
-            <pubDate>Mon, 27 Jul 2026 15:15:22 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>132</sparkle:version>
-            <sparkle:shortVersionString>2.13.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.25
-
-- Lyric scrolling is now spring-driven, like Apple Music: the whole lyric column moves as a single spring-animated transform instead of being handed to a scroll view's own animator. Line changes should feel noticeably smoother and more fluid.
-- Each line now settles at the same place whether it's one line or wraps to three, so long lines no longer arrive a beat late.
-- Note: the lyric list is no longer manually scrollable — it follows playback.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.25/Now-2.13.25.zip" length="3544384" type="application/octet-stream" sparkle:edSignature="Jt6hDH/njxDVFTr+F1iHdqyQErc0cK8FG6mGFHzA5k73eHul/Wt2dRJyIbrpbDXRS5Bbk/Vqwk2lnaf/fvGBAQ=="/>
         </item>
     </channel>
 </rss>
