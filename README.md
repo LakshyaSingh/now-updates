@@ -8,7 +8,7 @@ A quiet overlay on your desktop while you work, and a full screen view with time
 
 [**Download the latest release**](https://github.com/LakshyaSingh/now-updates/releases/latest) &nbsp;·&nbsp; macOS 14 or later &nbsp;·&nbsp; Updates itself
 
-<img src="docs/fullscreen-lyrics.jpg" width="100%" alt="Full screen view with synced lyrics, the current line sharp and bright while the rest fall out of focus">
+<img src="docs/desktop-overlay-artist.jpg" width="100%" alt="The Now overlay sitting at the bottom left of the macOS desktop, showing album art, track name, and artist">
 
 </div>
 
@@ -26,9 +26,15 @@ The genuinely hard part isn't showing a song title. It's that Chrome cannot reli
 
 ## Screenshots
 
-### Desktop overlay
+### Full screen lyrics
 
-Pinned to the corner of your desktop, above the wallpaper but below your windows, with the current lyric line moving in time with the song.
+The line being sung stays sharp and bright while the rest fall out of focus, and the backdrop is drawn from the artwork itself.
+
+<img src="docs/fullscreen-lyrics.jpg" width="100%" alt="Full screen view with synced lyrics, the current line sharp and bright while the rest fall out of focus">
+
+### Lyrics in the overlay
+
+The overlay can show the current lyric line under the title, moving in time with the song, without taking over your screen.
 
 <img src="docs/desktop-overlay.jpg" width="100%" alt="Desktop overlay showing album art, track name, and the current lyric line">
 
