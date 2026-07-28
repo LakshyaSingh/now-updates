@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.34</title>
+            <pubDate>Tue, 28 Jul 2026 15:16:50 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>141</sparkle:version>
+            <sparkle:shortVersionString>2.13.34</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.34
+
+- Fixed the remaining stutter on line changes, which was most noticeable when the outgoing and incoming lines were both long enough to wrap. The current line was being scaled up slightly as it took focus, and scaling text that is also blurred forces it to be redrawn on every frame of the transition, with the cost rising as the lines get longer. Focus is now carried by brightness and sharpness alone, and the fade is composited rather than redrawn, so nothing is re-rendered mid-transition regardless of how long the lines are.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.34/Now-2.13.34.zip" length="3539072" type="application/octet-stream" sparkle:edSignature="/wjzPBsXOL1X2ecT7VuBrmi6uBk0RrpdrcL5VW2EB4Er3BPI0WdmtA6IEYpVEYjrA6YLQc6GUAoW3+r3l0KGBg=="/>
+        </item>
+        <item>
             <title>2.13.33</title>
             <pubDate>Tue, 28 Jul 2026 15:10:04 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,23 +43,6 @@
 - The line-to-line transition in the full-screen view is quicker. The highlight was taking longer to settle than the text underneath it took to move, so the change felt like it was playing in slow motion.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.32/Now-2.13.32.zip" length="3539016" type="application/octet-stream" sparkle:edSignature="LyiqMG+jkPxhPP5Y91gWAbfN0nPDbu+HyBH19Bfy71skzUEsy5GtXrQrPw5fne9u1L66ggckrFyJ/biOqpiTBg=="/>
-        </item>
-        <item>
-            <title>2.13.31</title>
-            <pubDate>Tue, 28 Jul 2026 14:57:49 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>138</sparkle:version>
-            <sparkle:shortVersionString>2.13.31</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.31
-
-- Smoother line-to-line transitions in the full-screen view, from three fixes:
-- The playback clock is now monotonic. Position samples from the browser arrive about once a second and can land slightly behind the running clock, which nudged it backward just enough to re-select the previous line at a line boundary and make the word-by-word highlight twitch back mid-line. The clock now only moves forward, unless it moves back far enough to mean a real seek.
-- The lyric list no longer re-renders on unrelated playback updates. It was rebuilding every visible line, sometimes mid-transition, each time a position sample arrived.
-- The focus effect no longer re-renders every line on every frame of a transition, and the highlight now settles once instead of overshooting.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.31/Now-2.13.31.zip" length="3539020" type="application/octet-stream" sparkle:edSignature="9aN+69HT51nYYR1TKLiCucRn3K9iURpBxDpS9mCe3bsIgvI91/8vnwC9EYGjwtPh4ayqzb3PCL7AvaS0v7n7Bw=="/>
         </item>
     </channel>
 </rss>
