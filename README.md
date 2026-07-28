@@ -26,17 +26,17 @@ The genuinely hard part isn't showing a song title. It's that Chrome cannot reli
 
 ## Screenshots
 
+### Full screen
+
+The artwork and controls centre on screen, with the backdrop drawn from the artwork itself. This is also what you get when a track has no synced lyrics, or when you switch them off.
+
+<img src="docs/fullscreen-artwork.jpg" width="100%" alt="Full screen view centred on album artwork with playback controls">
+
 ### Full screen lyrics
 
 The line being sung stays sharp and bright while the rest fall out of focus, and the backdrop is drawn from the artwork itself.
 
 <img src="docs/fullscreen-lyrics.jpg" width="100%" alt="Full screen view with synced lyrics, the current line sharp and bright while the rest fall out of focus">
-
-### Full screen, without lyrics
-
-When a track has no synced lyrics, or you switch them off, the artwork and controls centre on their own.
-
-<img src="docs/fullscreen-artwork.jpg" width="100%" alt="Full screen view centred on album artwork with playback controls">
 
 ### Lyrics in the overlay
 
