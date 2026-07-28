@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.29</title>
+            <pubDate>Tue, 28 Jul 2026 12:59:48 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>136</sparkle:version>
+            <sparkle:shortVersionString>2.13.29</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.29
+
+- Lyrics now use depth of field: the line being sung stays sharp while the rest fall progressively out of focus, so your eye lands on the current line immediately.
+- Refined the full-screen layout. The artwork is larger, and the track title, progress bar, and times now sit in a block slightly wider than the artwork rather than being constrained to its exact width, which gives the whole panel better proportions.
+- Lyrics are set in a heavier weight for a bit more presence.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.29/Now-2.13.29.zip" length="3535843" type="application/octet-stream" sparkle:edSignature="YsvcyMWrFLxjRV+8xLZdvDVExZjhLsBU6a0CPKIyYr1J9WAiiwqvf2eQZOV8VCe1S+e0aD/hd2AbvvP/NM2hAg=="/>
+        </item>
+        <item>
             <title>2.13.24</title>
             <pubDate>Sun, 26 Jul 2026 13:46:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
