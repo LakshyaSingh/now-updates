@@ -32,17 +32,17 @@ The line being sung stays sharp and bright while the rest fall out of focus, and
 
 <img src="docs/fullscreen-lyrics.jpg" width="100%" alt="Full screen view with synced lyrics, the current line sharp and bright while the rest fall out of focus">
 
-### Lyrics in the overlay
-
-The overlay can show the current lyric line under the title, moving in time with the song, without taking over your screen.
-
-<img src="docs/desktop-overlay.jpg" width="100%" alt="Desktop overlay showing album art, track name, and the current lyric line">
-
 ### Full screen, without lyrics
 
 When a track has no synced lyrics, or you switch them off, the artwork and controls centre on their own.
 
 <img src="docs/fullscreen-artwork.jpg" width="100%" alt="Full screen view centred on album artwork with playback controls">
+
+### Lyrics in the overlay
+
+The overlay can show the current lyric line under the title, moving in time with the song, without taking over your screen.
+
+<img src="docs/desktop-overlay.jpg" width="100%" alt="Desktop overlay showing album art, track name, and the current lyric line">
 
 ### Settings
 
