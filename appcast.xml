@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.33</title>
+            <pubDate>Tue, 28 Jul 2026 15:10:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>2.13.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.33
+
+- Fixed the jitter that only appeared when the incoming line was long enough to wrap onto two rows. Such a line could change height at the exact moment it became the current line, which moved the scroll target while the view was still animating toward it. Lines short enough to fit on one row were never affected, which is why the transition felt smooth for some lines and not others. Line heights are now fixed regardless of which line is playing.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.33/Now-2.13.33.zip" length="3539217" type="application/octet-stream" sparkle:edSignature="LuBu6PO2t0PGDayML+ab2r77y/phTZmSMI5+sDpRQbD7CQDZehTiaLvegqD10hKFFXgNh1cbZ2IQ7UcfmB21Dg=="/>
+        </item>
+        <item>
             <title>2.13.32</title>
             <pubDate>Tue, 28 Jul 2026 15:05:33 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +46,6 @@
 - The focus effect no longer re-renders every line on every frame of a transition, and the highlight now settles once instead of overshooting.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.31/Now-2.13.31.zip" length="3539020" type="application/octet-stream" sparkle:edSignature="9aN+69HT51nYYR1TKLiCucRn3K9iURpBxDpS9mCe3bsIgvI91/8vnwC9EYGjwtPh4ayqzb3PCL7AvaS0v7n7Bw=="/>
-        </item>
-        <item>
-            <title>2.13.30</title>
-            <pubDate>Tue, 28 Jul 2026 13:24:44 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>137</sparkle:version>
-            <sparkle:shortVersionString>2.13.30</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.30
-
-- Cut CPU use during playback. Checking whether the browser is still running was asking the system for information about every running app several times a second, which blocked the interface briefly each time. That answer is now cached and refreshed only when an app actually launches or quits.
-- The lyric focus effect no longer applies to lines far from the one playing. Those lines are already faded almost to nothing, so the effect was invisible there while still costing rendering work on every line change.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.30/Now-2.13.30.zip" length="3539255" type="application/octet-stream" sparkle:edSignature="57b1PFs8Up9M0A73dgIVXg1fYO1UaqREY/AF/KO65kUDKBPeoq6WxW3cKKw4jln/IMv/HCvd2iY3wjjhsNxTAg=="/>
         </item>
     </channel>
 </rss>
