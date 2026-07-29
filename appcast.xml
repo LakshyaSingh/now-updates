@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.36</title>
+            <pubDate>Tue, 28 Jul 2026 18:11:59 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>143</sparkle:version>
+            <sparkle:shortVersionString>2.13.36</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.36
+
+- Fixed a crash when opening the full screen view from the overlay. Closing the view left the previous song's lyric layout behind, so reopening it could briefly try to draw that old layout against the new song's lyrics. When the new song had fewer lines than the previous one, the app read past the end of the list and quit. The layout is now cleared when the view closes, rebuilt before the view is drawn, and the drawing code no longer assumes the two are in step.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.36/Now-2.13.36.zip" length="3539542" type="application/octet-stream" sparkle:edSignature="hFJoYA6LePgit7zx/ybdT41Tcw0tYW0AWcf5Y2c7aPkwpgWoClkiHyrNz1B6+2MMg76jDd5OfJzwte+cOnurDQ=="/>
+        </item>
+        <item>
             <title>2.13.35</title>
             <pubDate>Tue, 28 Jul 2026 17:48:02 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Fixed the remaining stutter on line changes, which was most noticeable when the outgoing and incoming lines were both long enough to wrap. The current line was being scaled up slightly as it took focus, and scaling text that is also blurred forces it to be redrawn on every frame of the transition, with the cost rising as the lines get longer. Focus is now carried by brightness and sharpness alone, and the fade is composited rather than redrawn, so nothing is re-rendered mid-transition regardless of how long the lines are.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.34/Now-2.13.34.zip" length="3539072" type="application/octet-stream" sparkle:edSignature="/wjzPBsXOL1X2ecT7VuBrmi6uBk0RrpdrcL5VW2EB4Er3BPI0WdmtA6IEYpVEYjrA6YLQc6GUAoW3+r3l0KGBg=="/>
-        </item>
-        <item>
-            <title>2.13.33</title>
-            <pubDate>Tue, 28 Jul 2026 15:10:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>140</sparkle:version>
-            <sparkle:shortVersionString>2.13.33</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.33
-
-- Fixed the jitter that only appeared when the incoming line was long enough to wrap onto two rows. Such a line could change height at the exact moment it became the current line, which moved the scroll target while the view was still animating toward it. Lines short enough to fit on one row were never affected, which is why the transition felt smooth for some lines and not others. Line heights are now fixed regardless of which line is playing.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.33/Now-2.13.33.zip" length="3539217" type="application/octet-stream" sparkle:edSignature="LuBu6PO2t0PGDayML+ab2r77y/phTZmSMI5+sDpRQbD7CQDZehTiaLvegqD10hKFFXgNh1cbZ2IQ7UcfmB21Dg=="/>
         </item>
     </channel>
 </rss>
