@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.37</title>
+            <pubDate>Wed, 29 Jul 2026 16:25:42 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>144</sparkle:version>
+            <sparkle:shortVersionString>2.13.37</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.37
+
+- Reworded the microphone setting in Settings so it reads more plainly and explains what happens without comparing itself to other players.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.37/Now-2.13.37.zip" length="3539687" type="application/octet-stream" sparkle:edSignature="2wuR5CJwH20e5vx8O1OjkjAd7Oz8R07BHrh5AEIeW6L0nmT6iXOcBGepNlEUlLzyiq2Nej/B6l7/0dTc3bjgDA=="/>
+        </item>
+        <item>
             <title>2.13.36</title>
             <pubDate>Tue, 28 Jul 2026 18:11:59 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Lyrics now size themselves to the width of the space they have, not just its height. On a narrower or higher density display the text was staying nearly as large while having far less room, so lines wrapped about a quarter sooner and two line lyrics became three. Each extra wrapped row is more work for the compositor, which is what made long lines feel choppy on a laptop display while a wider external one stayed smooth. Lines now wrap at a similar point on any display. Wider displays are unaffected.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.35/Now-2.13.35.zip" length="3539155" type="application/octet-stream" sparkle:edSignature="ERhyOiwupmLjEp7Yl3bujJtzF6iUWEgv6irGeHEbmEYfvkAGhrkyDDg8rHBwyBpFvg8QIomqCwQL3SxLdxM1CQ=="/>
-        </item>
-        <item>
-            <title>2.13.34</title>
-            <pubDate>Tue, 28 Jul 2026 15:16:50 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>141</sparkle:version>
-            <sparkle:shortVersionString>2.13.34</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.34
-
-- Fixed the remaining stutter on line changes, which was most noticeable when the outgoing and incoming lines were both long enough to wrap. The current line was being scaled up slightly as it took focus, and scaling text that is also blurred forces it to be redrawn on every frame of the transition, with the cost rising as the lines get longer. Focus is now carried by brightness and sharpness alone, and the fade is composited rather than redrawn, so nothing is re-rendered mid-transition regardless of how long the lines are.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.34/Now-2.13.34.zip" length="3539072" type="application/octet-stream" sparkle:edSignature="/wjzPBsXOL1X2ecT7VuBrmi6uBk0RrpdrcL5VW2EB4Er3BPI0WdmtA6IEYpVEYjrA6YLQc6GUAoW3+r3l0KGBg=="/>
         </item>
     </channel>
 </rss>
