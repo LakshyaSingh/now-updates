@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.35</title>
+            <pubDate>Tue, 28 Jul 2026 17:48:02 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>142</sparkle:version>
+            <sparkle:shortVersionString>2.13.35</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.35
+
+- Lyrics now size themselves to the width of the space they have, not just its height. On a narrower or higher density display the text was staying nearly as large while having far less room, so lines wrapped about a quarter sooner and two line lyrics became three. Each extra wrapped row is more work for the compositor, which is what made long lines feel choppy on a laptop display while a wider external one stayed smooth. Lines now wrap at a similar point on any display. Wider displays are unaffected.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.35/Now-2.13.35.zip" length="3539155" type="application/octet-stream" sparkle:edSignature="ERhyOiwupmLjEp7Yl3bujJtzF6iUWEgv6irGeHEbmEYfvkAGhrkyDDg8rHBwyBpFvg8QIomqCwQL3SxLdxM1CQ=="/>
+        </item>
+        <item>
             <title>2.13.34</title>
             <pubDate>Tue, 28 Jul 2026 15:16:50 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Fixed the jitter that only appeared when the incoming line was long enough to wrap onto two rows. Such a line could change height at the exact moment it became the current line, which moved the scroll target while the view was still animating toward it. Lines short enough to fit on one row were never affected, which is why the transition felt smooth for some lines and not others. Line heights are now fixed regardless of which line is playing.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.33/Now-2.13.33.zip" length="3539217" type="application/octet-stream" sparkle:edSignature="LuBu6PO2t0PGDayML+ab2r77y/phTZmSMI5+sDpRQbD7CQDZehTiaLvegqD10hKFFXgNh1cbZ2IQ7UcfmB21Dg=="/>
-        </item>
-        <item>
-            <title>2.13.32</title>
-            <pubDate>Tue, 28 Jul 2026 15:05:33 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>139</sparkle:version>
-            <sparkle:shortVersionString>2.13.32</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.32
-
-- The line-to-line transition in the full-screen view is quicker. The highlight was taking longer to settle than the text underneath it took to move, so the change felt like it was playing in slow motion.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.32/Now-2.13.32.zip" length="3539016" type="application/octet-stream" sparkle:edSignature="LyiqMG+jkPxhPP5Y91gWAbfN0nPDbu+HyBH19Bfy71skzUEsy5GtXrQrPw5fne9u1L66ggckrFyJ/biOqpiTBg=="/>
         </item>
     </channel>
 </rss>
