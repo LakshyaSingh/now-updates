@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.40</title>
+            <pubDate>Thu, 30 Jul 2026 01:08:32 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>147</sparkle:version>
+            <sparkle:shortVersionString>2.13.40</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.40
+
+- A track name or artist too long for the overlay now fades out softly at the right edge instead of being cut off mid letter. The title still makes its one scrolling pass to reveal the full name, and now its resting state reads as intentional rather than looking like something failed to draw. Text that fits is unchanged and stays crisp to its last character.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.40/Now-2.13.40.zip" length="3542871" type="application/octet-stream" sparkle:edSignature="trh0NFssi6LkiRHM6k7xUBQ72N77ERRYeqrb+E+zZ7oDkGBvUJhspj9bx+PEZYYfjCHF+p2CObGQLD0dspNhDw=="/>
+        </item>
+        <item>
             <title>2.13.39</title>
             <pubDate>Wed, 29 Jul 2026 22:05:35 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - Reworked the opening animation. The album art now grows out of the overlay with the window, and the title, controls, and lyrics arrive once it settles, rather than the window filling with colour first and everything appearing at once. Closing reverses it: the text steps back and the art shrinks into the overlay.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.38/Now-2.13.38.zip" length="3541608" type="application/octet-stream" sparkle:edSignature="htnPHqi+dlvA68Da8frPhuWJC4TOUFbnnHZvKZQ+LeQyinna2XFM2U/wtcDEXuUgcSVS9ok8JCThe9wKRbzqAg=="/>
-        </item>
-        <item>
-            <title>2.13.37</title>
-            <pubDate>Wed, 29 Jul 2026 16:25:42 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>144</sparkle:version>
-            <sparkle:shortVersionString>2.13.37</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.37
-
-- Reworded the microphone setting in Settings so it reads more plainly and explains what happens without comparing itself to other players.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.37/Now-2.13.37.zip" length="3539687" type="application/octet-stream" sparkle:edSignature="2wuR5CJwH20e5vx8O1OjkjAd7Oz8R07BHrh5AEIeW6L0nmT6iXOcBGepNlEUlLzyiq2Nej/B6l7/0dTc3bjgDA=="/>
         </item>
     </channel>
 </rss>
