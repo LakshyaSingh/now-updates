@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.39</title>
+            <pubDate>Wed, 29 Jul 2026 22:05:35 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>146</sparkle:version>
+            <sparkle:shortVersionString>2.13.39</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.39
+
+- Clicking the Dock icon while the full screen view is open now returns to that view instead of opening Settings. Settings was appearing on the desktop while the view you clicked back to sat on its own space, so it had to be hunted down. Settings still opens from the Dock icon when the full screen view is closed.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.39/Now-2.13.39.zip" length="3541973" type="application/octet-stream" sparkle:edSignature="OPcPctSxmMcMsNWc1Oy9S4s4oKdc/n353Mz9ZfVeGApCsSJT75qJAKseLCyiIjh9MHlVo/FEl8E/Nwk3tHNJAg=="/>
+        </item>
+        <item>
             <title>2.13.38</title>
             <pubDate>Wed, 29 Jul 2026 21:59:19 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - Reworded the microphone setting in Settings so it reads more plainly and explains what happens without comparing itself to other players.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.37/Now-2.13.37.zip" length="3539687" type="application/octet-stream" sparkle:edSignature="2wuR5CJwH20e5vx8O1OjkjAd7Oz8R07BHrh5AEIeW6L0nmT6iXOcBGepNlEUlLzyiq2Nej/B6l7/0dTc3bjgDA=="/>
-        </item>
-        <item>
-            <title>2.13.36</title>
-            <pubDate>Tue, 28 Jul 2026 18:11:59 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>143</sparkle:version>
-            <sparkle:shortVersionString>2.13.36</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.36
-
-- Fixed a crash when opening the full screen view from the overlay. Closing the view left the previous song's lyric layout behind, so reopening it could briefly try to draw that old layout against the new song's lyrics. When the new song had fewer lines than the previous one, the app read past the end of the list and quit. The layout is now cleared when the view closes, rebuilt before the view is drawn, and the drawing code no longer assumes the two are in step.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.36/Now-2.13.36.zip" length="3539542" type="application/octet-stream" sparkle:edSignature="hFJoYA6LePgit7zx/ybdT41Tcw0tYW0AWcf5Y2c7aPkwpgWoClkiHyrNz1B6+2MMg76jDd5OfJzwte+cOnurDQ=="/>
         </item>
     </channel>
 </rss>
