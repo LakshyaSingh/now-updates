@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.38</title>
+            <pubDate>Wed, 29 Jul 2026 21:59:19 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>145</sparkle:version>
+            <sparkle:shortVersionString>2.13.38</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.38
+
+- Fixed the full screen view reappearing over the desktop after closing Settings. Closing Settings returned the app to menu bar only mode, which a full screen view cannot survive, so macOS collapsed its space and left the window sitting over the wallpaper until Escape was pressed. The app now stays in the mode the full screen view needs for as long as it is open.
+- Reworked the opening animation. The album art now grows out of the overlay with the window, and the title, controls, and lyrics arrive once it settles, rather than the window filling with colour first and everything appearing at once. Closing reverses it: the text steps back and the art shrinks into the overlay.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.38/Now-2.13.38.zip" length="3541608" type="application/octet-stream" sparkle:edSignature="htnPHqi+dlvA68Da8frPhuWJC4TOUFbnnHZvKZQ+LeQyinna2XFM2U/wtcDEXuUgcSVS9ok8JCThe9wKRbzqAg=="/>
+        </item>
+        <item>
             <title>2.13.37</title>
             <pubDate>Wed, 29 Jul 2026 16:25:42 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +44,6 @@
 - Fixed a crash when opening the full screen view from the overlay. Closing the view left the previous song's lyric layout behind, so reopening it could briefly try to draw that old layout against the new song's lyrics. When the new song had fewer lines than the previous one, the app read past the end of the list and quit. The layout is now cleared when the view closes, rebuilt before the view is drawn, and the drawing code no longer assumes the two are in step.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.36/Now-2.13.36.zip" length="3539542" type="application/octet-stream" sparkle:edSignature="hFJoYA6LePgit7zx/ybdT41Tcw0tYW0AWcf5Y2c7aPkwpgWoClkiHyrNz1B6+2MMg76jDd5OfJzwte+cOnurDQ=="/>
-        </item>
-        <item>
-            <title>2.13.35</title>
-            <pubDate>Tue, 28 Jul 2026 17:48:02 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>142</sparkle:version>
-            <sparkle:shortVersionString>2.13.35</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.35
-
-- Lyrics now size themselves to the width of the space they have, not just its height. On a narrower or higher density display the text was staying nearly as large while having far less room, so lines wrapped about a quarter sooner and two line lyrics became three. Each extra wrapped row is more work for the compositor, which is what made long lines feel choppy on a laptop display while a wider external one stayed smooth. Lines now wrap at a similar point on any display. Wider displays are unaffected.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.35/Now-2.13.35.zip" length="3539155" type="application/octet-stream" sparkle:edSignature="ERhyOiwupmLjEp7Yl3bujJtzF6iUWEgv6irGeHEbmEYfvkAGhrkyDDg8rHBwyBpFvg8QIomqCwQL3SxLdxM1CQ=="/>
         </item>
     </channel>
 </rss>
