@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.42</title>
+            <pubDate>Fri, 31 Jul 2026 12:57:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>149</sparkle:version>
+            <sparkle:shortVersionString>2.13.42</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.42
+
+- The menu bar icon now matches the new app icon. It was still the old speaker and sound waves. It is now the same three lyric lines with the middle one emphasised, drawn to stay legible at menu bar size and to tint correctly in both light and dark menu bars.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.42/Now-2.13.42.zip" length="6971917" type="application/octet-stream" sparkle:edSignature="RTh1Eexa15P0ByrC+tc3Cftx4LOs/eSoBQWzoFRn1LGc5NRmPS0TYn1pbJ6YYlPXvGFLgJDuorkyyN2ukLuvBA=="/>
+        </item>
+        <item>
             <title>2.13.41</title>
             <pubDate>Fri, 31 Jul 2026 12:54:07 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - A track name or artist too long for the overlay now fades out softly at the right edge instead of being cut off mid letter. The title still makes its one scrolling pass to reveal the full name, and now its resting state reads as intentional rather than looking like something failed to draw. Text that fits is unchanged and stays crisp to its last character.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.40/Now-2.13.40.zip" length="3542871" type="application/octet-stream" sparkle:edSignature="trh0NFssi6LkiRHM6k7xUBQ72N77ERRYeqrb+E+zZ7oDkGBvUJhspj9bx+PEZYYfjCHF+p2CObGQLD0dspNhDw=="/>
-        </item>
-        <item>
-            <title>2.13.39</title>
-            <pubDate>Wed, 29 Jul 2026 22:05:35 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>146</sparkle:version>
-            <sparkle:shortVersionString>2.13.39</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.39
-
-- Clicking the Dock icon while the full screen view is open now returns to that view instead of opening Settings. Settings was appearing on the desktop while the view you clicked back to sat on its own space, so it had to be hunted down. Settings still opens from the Dock icon when the full screen view is closed.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.39/Now-2.13.39.zip" length="3541973" type="application/octet-stream" sparkle:edSignature="OPcPctSxmMcMsNWc1Oy9S4s4oKdc/n353Mz9ZfVeGApCsSJT75qJAKseLCyiIjh9MHlVo/FEl8E/Nwk3tHNJAg=="/>
         </item>
     </channel>
 </rss>
