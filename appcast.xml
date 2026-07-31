@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.43</title>
+            <pubDate>Fri, 31 Jul 2026 15:02:53 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>150</sparkle:version>
+            <sparkle:shortVersionString>2.13.43</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.43
+
+- The Chrome extension now has an icon, matching the app. It previously had none, so Chrome showed a generic placeholder for it. The extension is version 1.5.3, and the download below has been updated.
+
+If you already have the extension installed, open `chrome://extensions` and press the reload button on the Now card to pick up the new icon.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.43/Now-2.13.43.zip" length="6995420" type="application/octet-stream" sparkle:edSignature="o3j2EdBwtGqaSpYZj9SiBPOutEw+H/dh/MQjwOP4DF9gPuDfln/krdA38iERI8yWrrSOyUDzyACUDHidwXHbDw=="/>
+        </item>
+        <item>
             <title>2.13.42</title>
             <pubDate>Fri, 31 Jul 2026 12:57:04 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +45,6 @@
 - New app icon. The old one showed a record and sound waves, which said very little about what Now actually does. The new icon shows three lyric lines with the middle one lit, which is the app in a single image: the line that is playing right now. There are light and dark versions, and the icon follows your system appearance as before.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.41/Now-2.13.41.zip" length="6972453" type="application/octet-stream" sparkle:edSignature="nphEbuwCSNJB0F1UXxaS93AZaZHk6fpXEx8SH0uMQo/LrAJkNEcmVH6NBNg3vT/sPJCukmDK56jex/3hkl3KAw=="/>
-        </item>
-        <item>
-            <title>2.13.40</title>
-            <pubDate>Thu, 30 Jul 2026 01:08:32 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>147</sparkle:version>
-            <sparkle:shortVersionString>2.13.40</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.40
-
-- A track name or artist too long for the overlay now fades out softly at the right edge instead of being cut off mid letter. The title still makes its one scrolling pass to reveal the full name, and now its resting state reads as intentional rather than looking like something failed to draw. Text that fits is unchanged and stays crisp to its last character.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.40/Now-2.13.40.zip" length="3542871" type="application/octet-stream" sparkle:edSignature="trh0NFssi6LkiRHM6k7xUBQ72N77ERRYeqrb+E+zZ7oDkGBvUJhspj9bx+PEZYYfjCHF+p2CObGQLD0dspNhDw=="/>
         </item>
     </channel>
 </rss>
