@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.45</title>
+            <pubDate>Fri, 31 Jul 2026 22:19:44 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>152</sparkle:version>
+            <sparkle:shortVersionString>2.13.45</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.45
+
+- The menu bar menu now has an icon beside every action, so it can be scanned at a glance instead of read line by line. Play, previous and next carry the usual transport symbols, the overlay item shows an eye that changes when it is hidden, and the rest follow the standard macOS symbols for refresh, settings, updates, restart and quit.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.45/Now-2.13.45.zip" length="6997549" type="application/octet-stream" sparkle:edSignature="KKU1FJJvOdtYkgQ3kEfHU4Qr6wpI48li0qCMsUgV8oq7ADLvi19Pp0d/GE2elDIRXmdD4iT1SWCEvajWR+FYCg=="/>
+        </item>
+        <item>
             <title>2.13.44</title>
             <pubDate>Fri, 31 Jul 2026 22:13:00 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@
 If you already have the extension installed, open `chrome://extensions` and press the reload button on the Now card to pick up the new icon.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.43/Now-2.13.43.zip" length="6995420" type="application/octet-stream" sparkle:edSignature="o3j2EdBwtGqaSpYZj9SiBPOutEw+H/dh/MQjwOP4DF9gPuDfln/krdA38iERI8yWrrSOyUDzyACUDHidwXHbDw=="/>
-        </item>
-        <item>
-            <title>2.13.42</title>
-            <pubDate>Fri, 31 Jul 2026 12:57:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>149</sparkle:version>
-            <sparkle:shortVersionString>2.13.42</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.42
-
-- The menu bar icon now matches the new app icon. It was still the old speaker and sound waves. It is now the same three lyric lines with the middle one emphasised, drawn to stay legible at menu bar size and to tint correctly in both light and dark menu bars.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.42/Now-2.13.42.zip" length="6971917" type="application/octet-stream" sparkle:edSignature="RTh1Eexa15P0ByrC+tc3Cftx4LOs/eSoBQWzoFRn1LGc5NRmPS0TYn1pbJ6YYlPXvGFLgJDuorkyyN2ukLuvBA=="/>
         </item>
     </channel>
 </rss>
