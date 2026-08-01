@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.46</title>
+            <pubDate>Fri, 31 Jul 2026 22:29:37 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>153</sparkle:version>
+            <sparkle:shortVersionString>2.13.46</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.46
+
+- A track with a long credit list no longer stretches the menu bar menu across the display. macOS sizes a menu to its widest row and never shortens text, so a song crediting a dozen singers pulled every other row out with it. Title, artist and source now clip at a word boundary, and the menu keeps a steady width whatever is playing.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.46/Now-2.13.46.zip" length="6997690" type="application/octet-stream" sparkle:edSignature="5bwJcMl7vNj5vucVu3t9/ZY8Q9mPLIrOHKPeYCaV9zXRU74w/OWdlMxK+ndGhPRWh47aG0W6cU8G9mojlEHEAQ=="/>
+        </item>
+        <item>
             <title>2.13.45</title>
             <pubDate>Fri, 31 Jul 2026 22:19:44 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,22 +43,6 @@
 - Fixed memory growing without limit during long listening sessions. Every album cover Now decoded, including the ones fetched ahead for swiping, was kept for as long as the app stayed open. After a nine hour session the app was holding 190 MB with a 449 MB peak, almost entirely images, which is enough to slow the whole machine down and make the full screen view feel sluggish to leave. Covers are now kept to a fixed recent set, and the one on screen is never discarded.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.44/Now-2.13.44.zip" length="6995516" type="application/octet-stream" sparkle:edSignature="ElHv3ALgHPFi/YiCeX0cHj2sGymnBT2VjZkYkuOK+R97rkYl75roBQm1DjO3xf5AimHJ5nMrq4fR19vrO76OAA=="/>
-        </item>
-        <item>
-            <title>2.13.43</title>
-            <pubDate>Fri, 31 Jul 2026 15:02:53 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>150</sparkle:version>
-            <sparkle:shortVersionString>2.13.43</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.43
-
-- The Chrome extension now has an icon, matching the app. It previously had none, so Chrome showed a generic placeholder for it. The extension is version 1.5.3, and the download below has been updated.
-
-If you already have the extension installed, open `chrome://extensions` and press the reload button on the Now card to pick up the new icon.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.43/Now-2.13.43.zip" length="6995420" type="application/octet-stream" sparkle:edSignature="o3j2EdBwtGqaSpYZj9SiBPOutEw+H/dh/MQjwOP4DF9gPuDfln/krdA38iERI8yWrrSOyUDzyACUDHidwXHbDw=="/>
         </item>
     </channel>
 </rss>
