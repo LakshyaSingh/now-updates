@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.44</title>
+            <pubDate>Fri, 31 Jul 2026 22:13:00 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>151</sparkle:version>
+            <sparkle:shortVersionString>2.13.44</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.44
+
+- Fixed memory growing without limit during long listening sessions. Every album cover Now decoded, including the ones fetched ahead for swiping, was kept for as long as the app stayed open. After a nine hour session the app was holding 190 MB with a 449 MB peak, almost entirely images, which is enough to slow the whole machine down and make the full screen view feel sluggish to leave. Covers are now kept to a fixed recent set, and the one on screen is never discarded.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.44/Now-2.13.44.zip" length="6995516" type="application/octet-stream" sparkle:edSignature="ElHv3ALgHPFi/YiCeX0cHj2sGymnBT2VjZkYkuOK+R97rkYl75roBQm1DjO3xf5AimHJ5nMrq4fR19vrO76OAA=="/>
+        </item>
+        <item>
             <title>2.13.43</title>
             <pubDate>Fri, 31 Jul 2026 15:02:53 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@ If you already have the extension installed, open `chrome://extensions` and pres
 - The menu bar icon now matches the new app icon. It was still the old speaker and sound waves. It is now the same three lyric lines with the middle one emphasised, drawn to stay legible at menu bar size and to tint correctly in both light and dark menu bars.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.42/Now-2.13.42.zip" length="6971917" type="application/octet-stream" sparkle:edSignature="RTh1Eexa15P0ByrC+tc3Cftx4LOs/eSoBQWzoFRn1LGc5NRmPS0TYn1pbJ6YYlPXvGFLgJDuorkyyN2ukLuvBA=="/>
-        </item>
-        <item>
-            <title>2.13.41</title>
-            <pubDate>Fri, 31 Jul 2026 12:54:07 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>148</sparkle:version>
-            <sparkle:shortVersionString>2.13.41</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.41
-
-- New app icon. The old one showed a record and sound waves, which said very little about what Now actually does. The new icon shows three lyric lines with the middle one lit, which is the app in a single image: the line that is playing right now. There are light and dark versions, and the icon follows your system appearance as before.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.41/Now-2.13.41.zip" length="6972453" type="application/octet-stream" sparkle:edSignature="nphEbuwCSNJB0F1UXxaS93AZaZHk6fpXEx8SH0uMQo/LrAJkNEcmVH6NBNg3vT/sPJCukmDK56jex/3hkl3KAw=="/>
         </item>
     </channel>
 </rss>
