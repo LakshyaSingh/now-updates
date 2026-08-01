@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.47</title>
+            <pubDate>Sat, 01 Aug 2026 00:28:37 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>154</sparkle:version>
+            <sparkle:shortVersionString>2.13.47</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.47
+
+- The dark app icon now sits on true black. It was previously a dark purple-grey, which read as washed out beside other dark-mode icons in the Dock. The warm glow behind the lit lyric line is unchanged.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.47/Now-2.13.47.zip" length="7274936" type="application/octet-stream" sparkle:edSignature="vQV0FzCsM3KGuTALSPY1RovczyOyonoujy8SpKxni/rZXzdvSsBa0oLp4KuHh7oCIzibugW1u2gRSRHFUAs8Dw=="/>
+        </item>
+        <item>
             <title>2.13.46</title>
             <pubDate>Fri, 31 Jul 2026 22:29:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The menu bar menu now has an icon beside every action, so it can be scanned at a glance instead of read line by line. Play, previous and next carry the usual transport symbols, the overlay item shows an eye that changes when it is hidden, and the rest follow the standard macOS symbols for refresh, settings, updates, restart and quit.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.45/Now-2.13.45.zip" length="6997549" type="application/octet-stream" sparkle:edSignature="KKU1FJJvOdtYkgQ3kEfHU4Qr6wpI48li0qCMsUgV8oq7ADLvi19Pp0d/GE2elDIRXmdD4iT1SWCEvajWR+FYCg=="/>
-        </item>
-        <item>
-            <title>2.13.44</title>
-            <pubDate>Fri, 31 Jul 2026 22:13:00 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>151</sparkle:version>
-            <sparkle:shortVersionString>2.13.44</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.44
-
-- Fixed memory growing without limit during long listening sessions. Every album cover Now decoded, including the ones fetched ahead for swiping, was kept for as long as the app stayed open. After a nine hour session the app was holding 190 MB with a 449 MB peak, almost entirely images, which is enough to slow the whole machine down and make the full screen view feel sluggish to leave. Covers are now kept to a fixed recent set, and the one on screen is never discarded.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.44/Now-2.13.44.zip" length="6995516" type="application/octet-stream" sparkle:edSignature="ElHv3ALgHPFi/YiCeX0cHj2sGymnBT2VjZkYkuOK+R97rkYl75roBQm1DjO3xf5AimHJ5nMrq4fR19vrO76OAA=="/>
         </item>
     </channel>
 </rss>
