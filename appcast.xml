@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.65</title>
+            <pubDate>Sun, 02 Aug 2026 14:42:02 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>172</sparkle:version>
+            <sparkle:shortVersionString>2.13.65</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.65
+
+- Line changes settle more slowly and more evenly. Every change now takes a little longer to come to rest, which reads as gentler than the same movement done quickly. The variation between a short line change and a long one has also been rebalanced: previously the distance was absorbed almost entirely by how long the change took, so some settled visibly and others seemed to arrive at once. It is now shared evenly between how long a change takes and how fast it moves, which is the closest a line change can get to feeling the same every time.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.65/Now-2.13.65.zip" length="7299144" type="application/octet-stream" sparkle:edSignature="e1pLgiIBZ9Tblbo7H53gH6HpwJgRvFD710hsxi/4r919ZNkEdotWKak1y56CifAAQ43bjZKtkQUHOpS+nt0zAg=="/>
+        </item>
+        <item>
             <title>2.13.64</title>
             <pubDate>Sun, 02 Aug 2026 14:26:41 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Line changes now feel the same each time. The distance a line springs past its resting place was already fixed, but the time taken barely changed with distance, so two long wrapped lines in a row covered twice the ground of a short change in about the same moment and moved twice as fast. Longer changes now take proportionally longer, so every line change moves at close to the same speed.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.63/Now-2.13.63.zip" length="7299155" type="application/octet-stream" sparkle:edSignature="IizVLmgOs3YQbhR0EodYLEpD1N+sOHKn7I9f5Gx6WEMe+ffTbGdvKH3thnpF2AK96c/jqEMALC9Hk6S3qMHmCQ=="/>
-        </item>
-        <item>
-            <title>2.13.62</title>
-            <pubDate>Sun, 02 Aug 2026 14:08:52 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>169</sparkle:version>
-            <sparkle:shortVersionString>2.13.62</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.62
-
-- The blurred background is no longer rebuilt when it does not need to be. It was being generated in full, on the graphics card, every time the artwork was republished, and then discarded if the track had not actually changed.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.62/Now-2.13.62.zip" length="7299072" type="application/octet-stream" sparkle:edSignature="e8JsTyrfo/njJG2CW++mcvjyJxiMKATRKYYzLfbwf3z9xMiRePAmtJlwEwsil7HoYSFWtL5jeGzsGeRMWJ71BA=="/>
         </item>
     </channel>
 </rss>
