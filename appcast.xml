@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.50</title>
+            <pubDate>Sun, 02 Aug 2026 03:15:16 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>157</sparkle:version>
+            <sparkle:shortVersionString>2.13.50</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.50
+
+- Scrolling the lyrics now only works when the pointer is actually over them. The full screen view covers the whole display, so a stray two-finger movement anywhere else, over the artwork or the empty background, used to drag the lyrics and pop up the "Back to current" button.
+- Taking over now needs a deliberate swipe rather than a brush. A resting hand on a trackpad sends a trickle of tiny movements, which was enough to hand control over; the lyrics now wait for a real amount of travel, and a pause resets it rather than adding unrelated nudges together.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.50/Now-2.13.50.zip" length="7292035" type="application/octet-stream" sparkle:edSignature="/TfdB6Dbun9GfkpPPP4A6Ltl5DiRGJ3GZ5f1dZs5d7irQ0CbvrdZnM4WJdhOTixXazTS1V0/UUvfIwwevnCWDA=="/>
+        </item>
+        <item>
             <title>2.13.49</title>
             <pubDate>Sun, 02 Aug 2026 03:00:04 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,20 +48,6 @@
 - The instrumental break marker breathes gently while it waits and scales away as the next line arrives, instead of sitting still and then vanishing.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.48/Now-2.13.48.zip" length="7285975" type="application/octet-stream" sparkle:edSignature="e/KKJ9sUNQ7bnInl3z19qDvyxoDK75YEVj6vzLd4Xm+xNEZq3J20bgbsArL2WxDDqZN/AQktcTY8Qew8zuzvBw=="/>
-        </item>
-        <item>
-            <title>2.13.47</title>
-            <pubDate>Sat, 01 Aug 2026 00:28:37 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>154</sparkle:version>
-            <sparkle:shortVersionString>2.13.47</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.47
-
-- The dark app icon now sits on true black. It was previously a dark purple-grey, which read as washed out beside other dark-mode icons in the Dock. The warm glow behind the lit lyric line is unchanged.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.47/Now-2.13.47.zip" length="7274936" type="application/octet-stream" sparkle:edSignature="vQV0FzCsM3KGuTALSPY1RovczyOyonoujy8SpKxni/rZXzdvSsBa0oLp4KuHh7oCIzibugW1u2gRSRHFUAs8Dw=="/>
         </item>
     </channel>
 </rss>
