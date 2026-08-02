@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.63</title>
+            <pubDate>Sun, 02 Aug 2026 14:21:34 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>170</sparkle:version>
+            <sparkle:shortVersionString>2.13.63</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.63
+
+- Line changes now feel the same each time. The distance a line springs past its resting place was already fixed, but the time taken barely changed with distance, so two long wrapped lines in a row covered twice the ground of a short change in about the same moment and moved twice as fast. Longer changes now take proportionally longer, so every line change moves at close to the same speed.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.63/Now-2.13.63.zip" length="7299155" type="application/octet-stream" sparkle:edSignature="IizVLmgOs3YQbhR0EodYLEpD1N+sOHKn7I9f5Gx6WEMe+ffTbGdvKH3thnpF2AK96c/jqEMALC9Hk6S3qMHmCQ=="/>
+        </item>
+        <item>
             <title>2.13.62</title>
             <pubDate>Sun, 02 Aug 2026 14:08:52 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Clicking a lyric now moves there once, cleanly. After any control action the app re-reads the player three times over the following second and a half to confirm what happened, and those reads could still report the position from before the jump. The lyrics followed each reading, so a single click could move the highlight three times, each with its own animation. Clicking backwards was worst, and would do it even one line at a time. The app now trusts its own jump until the player genuinely catches up.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.61/Now-2.13.61.zip" length="7299097" type="application/octet-stream" sparkle:edSignature="tPmvLCdKmw+KEFdqBO7TvM4oAS/eaP6p8G9n1TKMNWUqTsYIuCyy+mVDSUfMs9SCC5hbDuLpOGK7v23JNQKbCQ=="/>
-        </item>
-        <item>
-            <title>2.13.60</title>
-            <pubDate>Sun, 02 Aug 2026 13:45:37 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>167</sparkle:version>
-            <sparkle:shortVersionString>2.13.60</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.60
-
-- Clicking a lyric while you have scrolled away is now as gentle as any other line change. Two things move on a click: the song jumps to the line, and the scrolling you had done is handed back. They travel in opposite directions and mostly cancel, but only one of them was animated, so a small visible nudge was drawn as though it were a huge leap. Both now move together on a single curve, sized by how far the words actually travel on screen.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.60/Now-2.13.60.zip" length="7298984" type="application/octet-stream" sparkle:edSignature="kpTsrcpP3prvrhz6kdE18SL1cNuDXiJtUkuI/WVT+76Tojh/25VlqBdxep0a0FoBlzCpQHm9fBcyzKlfuWUuAQ=="/>
         </item>
     </channel>
 </rss>
