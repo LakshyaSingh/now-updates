@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.67</title>
+            <pubDate>Sun, 02 Aug 2026 15:19:38 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>174</sparkle:version>
+            <sparkle:shortVersionString>2.13.67</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.67
+
+- Smoother lyrics on high resolution displays. The out of focus effect behind the line being sung is the most demanding thing the view draws, and its cost grows with the number of pixels on screen, so a dense laptop panel was doing roughly three times the work of an external monitor to draw the same frame. The faintest two lines, which sit behind the fade at the edge and are barely visible, no longer receive it on those displays. Lower resolution displays are unchanged.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.67/Now-2.13.67.zip" length="7322311" type="application/octet-stream" sparkle:edSignature="v+O/Epv1SYxcyVm2hpwD2TGcB42w9T/bzG04gmzmto6def69z7Ik8BHhtO+5uUc4amJk1CizjMFCjoz3Go9iCQ=="/>
+        </item>
+        <item>
             <title>2.13.66</title>
             <pubDate>Sun, 02 Aug 2026 14:52:41 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@
 - Line changes settle more slowly and more evenly. Every change now takes a little longer to come to rest, which reads as gentler than the same movement done quickly. The variation between a short line change and a long one has also been rebalanced: previously the distance was absorbed almost entirely by how long the change took, so some settled visibly and others seemed to arrive at once. It is now shared evenly between how long a change takes and how fast it moves, which is the closest a line change can get to feeling the same every time.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.65/Now-2.13.65.zip" length="7299144" type="application/octet-stream" sparkle:edSignature="e1pLgiIBZ9Tblbo7H53gH6HpwJgRvFD710hsxi/4r919ZNkEdotWKak1y56CifAAQ43bjZKtkQUHOpS+nt0zAg=="/>
-        </item>
-        <item>
-            <title>2.13.64</title>
-            <pubDate>Sun, 02 Aug 2026 14:26:41 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>171</sparkle:version>
-            <sparkle:shortVersionString>2.13.64</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.64
-
-- A softer, calmer line change. Lines now settle a little past their resting place rather than springing well beyond it, and the lines around the one being sung move noticeably less, so a change reads as graceful rather than emphatic. The even pacing from the last version is unchanged.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.64/Now-2.13.64.zip" length="7299122" type="application/octet-stream" sparkle:edSignature="uPK7HSvPzsQAx3V4IbkcghywptzBNcPxyusi5pIkhmpPaUNf+1DmyLCQxk3E8Kz69YqO+BHXEkiKrYMUoRE1CA=="/>
         </item>
     </channel>
 </rss>
