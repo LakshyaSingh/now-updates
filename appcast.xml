@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.52</title>
+            <pubDate>Sun, 02 Aug 2026 03:41:16 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>159</sparkle:version>
+            <sparkle:shortVersionString>2.13.52</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.52
+
+- The lyrics keep the elastic, wave-like line change introduced in the last version, but it now costs a fraction of what it did. The previous release computed the motion continuously while the lines moved, which was heavy enough to be worth doing differently; each line now carries its own tuned spring instead, matched against the original simulation so the movement looks the same.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.52/Now-2.13.52.zip" length="7292019" type="application/octet-stream" sparkle:edSignature="4j6Y4YqedC8y9mid9P6v6YSUNrx20yaWziplwSe5kd6Tnqd/84vDjIDUjg+8dImzy9oLyw5x+Nn5nPc/aK9tDg=="/>
+        </item>
+        <item>
             <title>2.13.51</title>
             <pubDate>Sun, 02 Aug 2026 03:30:26 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,22 +44,6 @@
 - Taking over now needs a deliberate swipe rather than a brush. A resting hand on a trackpad sends a trickle of tiny movements, which was enough to hand control over; the lyrics now wait for a real amount of travel, and a pause resets it rather than adding unrelated nudges together.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.50/Now-2.13.50.zip" length="7292035" type="application/octet-stream" sparkle:edSignature="/TfdB6Dbun9GfkpPPP4A6Ltl5DiRGJ3GZ5f1dZs5d7irQ0CbvrdZnM4WJdhOTixXazTS1V0/UUvfIwwevnCWDA=="/>
-        </item>
-        <item>
-            <title>2.13.49</title>
-            <pubDate>Sun, 02 Aug 2026 03:00:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>156</sparkle:version>
-            <sparkle:shortVersionString>2.13.49</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.49
-
-- Lyrics no longer move as one rigid block. Each line now starts travelling a beat after the line above it, so the stack settles like a chain of coupled springs instead of a single sliding panel, and a line change has some give to it. Where the lines end up is unchanged, so nothing drifts out of alignment once it comes to rest.
-- Line changes are interruptible. When lines come fast, each one retargets from wherever it currently is and carries its momentum into the next move rather than restarting.
-- Scrolling by hand now pins the lyrics where you left them, so a line change while you are reading elsewhere no longer drags the view away.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.49/Now-2.13.49.zip" length="7289707" type="application/octet-stream" sparkle:edSignature="Ye48Euv2ES0QrBuMOzppyJLcH39iQbzbY+C9z/VY+p2dK6EjXJdgV5LSozDGMFDNnn78Wc4oLMJB6Ymzsv3NDQ=="/>
         </item>
     </channel>
 </rss>
