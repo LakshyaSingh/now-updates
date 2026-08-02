@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.61</title>
+            <pubDate>Sun, 02 Aug 2026 13:51:51 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>168</sparkle:version>
+            <sparkle:shortVersionString>2.13.61</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.61
+
+- Clicking a lyric now moves there once, cleanly. After any control action the app re-reads the player three times over the following second and a half to confirm what happened, and those reads could still report the position from before the jump. The lyrics followed each reading, so a single click could move the highlight three times, each with its own animation. Clicking backwards was worst, and would do it even one line at a time. The app now trusts its own jump until the player genuinely catches up.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.61/Now-2.13.61.zip" length="7299097" type="application/octet-stream" sparkle:edSignature="tPmvLCdKmw+KEFdqBO7TvM4oAS/eaP6p8G9n1TKMNWUqTsYIuCyy+mVDSUfMs9SCC5hbDuLpOGK7v23JNQKbCQ=="/>
+        </item>
+        <item>
             <title>2.13.60</title>
             <pubDate>Sun, 02 Aug 2026 13:45:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - Scrolling the lyrics no longer blurs and dims the lines you are reading. Focus used to be measured from the line being sung, which is off screen once you scroll away, so the lines you had scrolled to were the faintest on screen. While you are scrolling everything stays sharp and legible, with the line being sung still marked so you can find your way back.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.59/Now-2.13.59.zip" length="7298664" type="application/octet-stream" sparkle:edSignature="XkF/Qx/oGBE0jYmaEP9FV4PvN1tFXgLwQUag2jHyCHGNvgN+OG8A2ixMHmMtj7y90u11TLhnBatSm37OB016BQ=="/>
-        </item>
-        <item>
-            <title>2.13.58</title>
-            <pubDate>Sun, 02 Aug 2026 13:29:49 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>165</sparkle:version>
-            <sparkle:shortVersionString>2.13.58</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.58
-
-- Click any line in the full screen lyrics to jump the song to it. The highlight moves the instant you click rather than waiting for playback to report back, and clicking also hands scrolling back to the song if you had scrolled away to read ahead. Instrumental markers jump to the start of the break.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.58/Now-2.13.58.zip" length="7297374" type="application/octet-stream" sparkle:edSignature="OOynDsGOzaoav34frXXvYhuM6NyY5hahkzgEb3IdaufYej9l083zOCVjSrXkucBWwXIn2gQeKA5CkuNOjSLwDQ=="/>
         </item>
     </channel>
 </rss>
