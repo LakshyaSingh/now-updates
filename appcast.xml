@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.49</title>
+            <pubDate>Sun, 02 Aug 2026 03:00:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>156</sparkle:version>
+            <sparkle:shortVersionString>2.13.49</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.49
+
+- Lyrics no longer move as one rigid block. Each line now starts travelling a beat after the line above it, so the stack settles like a chain of coupled springs instead of a single sliding panel, and a line change has some give to it. Where the lines end up is unchanged, so nothing drifts out of alignment once it comes to rest.
+- Line changes are interruptible. When lines come fast, each one retargets from wherever it currently is and carries its momentum into the next move rather than restarting.
+- Scrolling by hand now pins the lyrics where you left them, so a line change while you are reading elsewhere no longer drags the view away.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.49/Now-2.13.49.zip" length="7289707" type="application/octet-stream" sparkle:edSignature="Ye48Euv2ES0QrBuMOzppyJLcH39iQbzbY+C9z/VY+p2dK6EjXJdgV5LSozDGMFDNnn78Wc4oLMJB6Ymzsv3NDQ=="/>
+        </item>
+        <item>
             <title>2.13.48</title>
             <pubDate>Sun, 02 Aug 2026 02:46:50 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +47,6 @@
 - The dark app icon now sits on true black. It was previously a dark purple-grey, which read as washed out beside other dark-mode icons in the Dock. The warm glow behind the lit lyric line is unchanged.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.47/Now-2.13.47.zip" length="7274936" type="application/octet-stream" sparkle:edSignature="vQV0FzCsM3KGuTALSPY1RovczyOyonoujy8SpKxni/rZXzdvSsBa0oLp4KuHh7oCIzibugW1u2gRSRHFUAs8Dw=="/>
-        </item>
-        <item>
-            <title>2.13.46</title>
-            <pubDate>Fri, 31 Jul 2026 22:29:37 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>153</sparkle:version>
-            <sparkle:shortVersionString>2.13.46</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.46
-
-- A track with a long credit list no longer stretches the menu bar menu across the display. macOS sizes a menu to its widest row and never shortens text, so a song crediting a dozen singers pulled every other row out with it. Title, artist and source now clip at a word boundary, and the menu keeps a steady width whatever is playing.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.46/Now-2.13.46.zip" length="6997690" type="application/octet-stream" sparkle:edSignature="5bwJcMl7vNj5vucVu3t9/ZY8Q9mPLIrOHKPeYCaV9zXRU74w/OWdlMxK+ndGhPRWh47aG0W6cU8G9mojlEHEAQ=="/>
         </item>
     </channel>
 </rss>
