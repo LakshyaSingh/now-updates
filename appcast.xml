@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.58</title>
+            <pubDate>Sun, 02 Aug 2026 13:29:49 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>165</sparkle:version>
+            <sparkle:shortVersionString>2.13.58</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.58
+
+- Click any line in the full screen lyrics to jump the song to it. The highlight moves the instant you click rather than waiting for playback to report back, and clicking also hands scrolling back to the song if you had scrolled away to read ahead. Instrumental markers jump to the start of the break.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.58/Now-2.13.58.zip" length="7297374" type="application/octet-stream" sparkle:edSignature="OOynDsGOzaoav34frXXvYhuM6NyY5hahkzgEb3IdaufYej9l083zOCVjSrXkucBWwXIn2gQeKA5CkuNOjSLwDQ=="/>
+        </item>
+        <item>
             <title>2.13.57</title>
             <pubDate>Sun, 02 Aug 2026 13:21:51 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - Removed the diagnostic instrumentation from the previous build.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.56/Now-2.13.56.zip" length="7294383" type="application/octet-stream" sparkle:edSignature="uXKECdwQGNGT284lxd2DYAuiXL019a0NM8EkjOG3/uPxmCFcKPX3FMo/jZhgItcpkUNimF1J9lLBH2u9GzWFBw=="/>
-        </item>
-        <item>
-            <title>2.13.55</title>
-            <pubDate>Sun, 02 Aug 2026 13:08:49 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>162</sparkle:version>
-            <sparkle:shortVersionString>2.13.55</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.55
-
-- Diagnostic build, same exaggerated lyric spring as the last one, with instrumentation added so the motion can be measured directly. Both will be removed once the cause is found.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.55/Now-2.13.55.zip" length="7295686" type="application/octet-stream" sparkle:edSignature="ncSEahgwWZr8g4a90ro0EByEdfCsjqICV9LE5lWWCqXlgH7xvmBbVT2qJcyz2yPGSZ6yiep6uffLDxLYezxXBw=="/>
         </item>
     </channel>
 </rss>
