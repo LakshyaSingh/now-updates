@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.60</title>
+            <pubDate>Sun, 02 Aug 2026 13:45:37 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>167</sparkle:version>
+            <sparkle:shortVersionString>2.13.60</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.60
+
+- Clicking a lyric while you have scrolled away is now as gentle as any other line change. Two things move on a click: the song jumps to the line, and the scrolling you had done is handed back. They travel in opposite directions and mostly cancel, but only one of them was animated, so a small visible nudge was drawn as though it were a huge leap. Both now move together on a single curve, sized by how far the words actually travel on screen.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.60/Now-2.13.60.zip" length="7298984" type="application/octet-stream" sparkle:edSignature="kpTsrcpP3prvrhz6kdE18SL1cNuDXiJtUkuI/WVT+76Tojh/25VlqBdxep0a0FoBlzCpQHm9fBcyzKlfuWUuAQ=="/>
+        </item>
+        <item>
             <title>2.13.59</title>
             <pubDate>Sun, 02 Aug 2026 13:36:31 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - Click any line in the full screen lyrics to jump the song to it. The highlight moves the instant you click rather than waiting for playback to report back, and clicking also hands scrolling back to the song if you had scrolled away to read ahead. Instrumental markers jump to the start of the break.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.58/Now-2.13.58.zip" length="7297374" type="application/octet-stream" sparkle:edSignature="OOynDsGOzaoav34frXXvYhuM6NyY5hahkzgEb3IdaufYej9l083zOCVjSrXkucBWwXIn2gQeKA5CkuNOjSLwDQ=="/>
-        </item>
-        <item>
-            <title>2.13.57</title>
-            <pubDate>Sun, 02 Aug 2026 13:21:51 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>164</sparkle:version>
-            <sparkle:shortVersionString>2.13.57</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.57
-
-- Line changes are cheaper to draw. Only the lines near enough to be seen now spring into place; the rest, which sit outside the visible area of a long song, simply take their position. On a typical display that is under half as much work per frame, with no visible difference.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.57/Now-2.13.57.zip" length="7294512" type="application/octet-stream" sparkle:edSignature="szP8uBn4ww5LBXrh7q8r2Bv2PFugJ+XRroDakJj/USL2UkQOo5eNkysvmOjLTMIO8a90Ya3nBxl8n319JYJDCg=="/>
         </item>
     </channel>
 </rss>
