@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.48</title>
+            <pubDate>Sun, 02 Aug 2026 02:46:50 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>155</sparkle:version>
+            <sparkle:shortVersionString>2.13.48</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.48
+
+- The album art in the full screen view now responds to play and pause. Pausing settles it backward, with its shadow tightening as it goes; playing springs it forward again. Play bounces a little more than pause does, and both are interruptible, so tapping pause and then play immediately bends the motion from wherever it is rather than snapping back and starting over.
+- Scrolling the lyrics now hands control to you. The view stops chasing the line being sung, a "Back to current" button appears, and follow resumes on its own a few seconds after you stop.
+- The instrumental break marker breathes gently while it waits and scales away as the next line arrives, instead of sitting still and then vanishing.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.48/Now-2.13.48.zip" length="7285975" type="application/octet-stream" sparkle:edSignature="e/KKJ9sUNQ7bnInl3z19qDvyxoDK75YEVj6vzLd4Xm+xNEZq3J20bgbsArL2WxDDqZN/AQktcTY8Qew8zuzvBw=="/>
+        </item>
+        <item>
             <title>2.13.47</title>
             <pubDate>Sat, 01 Aug 2026 00:28:37 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +45,6 @@
 - A track with a long credit list no longer stretches the menu bar menu across the display. macOS sizes a menu to its widest row and never shortens text, so a song crediting a dozen singers pulled every other row out with it. Title, artist and source now clip at a word boundary, and the menu keeps a steady width whatever is playing.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.46/Now-2.13.46.zip" length="6997690" type="application/octet-stream" sparkle:edSignature="5bwJcMl7vNj5vucVu3t9/ZY8Q9mPLIrOHKPeYCaV9zXRU74w/OWdlMxK+ndGhPRWh47aG0W6cU8G9mojlEHEAQ=="/>
-        </item>
-        <item>
-            <title>2.13.45</title>
-            <pubDate>Fri, 31 Jul 2026 22:19:44 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>152</sparkle:version>
-            <sparkle:shortVersionString>2.13.45</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.45
-
-- The menu bar menu now has an icon beside every action, so it can be scanned at a glance instead of read line by line. Play, previous and next carry the usual transport symbols, the overlay item shows an eye that changes when it is hidden, and the rest follow the standard macOS symbols for refresh, settings, updates, restart and quit.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.45/Now-2.13.45.zip" length="6997549" type="application/octet-stream" sparkle:edSignature="KKU1FJJvOdtYkgQ3kEfHU4Qr6wpI48li0qCMsUgV8oq7ADLvi19Pp0d/GE2elDIRXmdD4iT1SWCEvajWR+FYCg=="/>
         </item>
     </channel>
 </rss>
