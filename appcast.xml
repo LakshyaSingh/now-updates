@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.57</title>
+            <pubDate>Sun, 02 Aug 2026 13:21:51 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>164</sparkle:version>
+            <sparkle:shortVersionString>2.13.57</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.57
+
+- Line changes are cheaper to draw. Only the lines near enough to be seen now spring into place; the rest, which sit outside the visible area of a long song, simply take their position. On a typical display that is under half as much work per frame, with no visible difference.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.57/Now-2.13.57.zip" length="7294512" type="application/octet-stream" sparkle:edSignature="szP8uBn4ww5LBXrh7q8r2Bv2PFugJ+XRroDakJj/USL2UkQOo5eNkysvmOjLTMIO8a90Ya3nBxl8n319JYJDCg=="/>
+        </item>
+        <item>
             <title>2.13.56</title>
             <pubDate>Sun, 02 Aug 2026 13:13:27 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - Diagnostic build, same exaggerated lyric spring as the last one, with instrumentation added so the motion can be measured directly. Both will be removed once the cause is found.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.55/Now-2.13.55.zip" length="7295686" type="application/octet-stream" sparkle:edSignature="ncSEahgwWZr8g4a90ro0EByEdfCsjqICV9LE5lWWCqXlgH7xvmBbVT2qJcyz2yPGSZ6yiep6uffLDxLYezxXBw=="/>
-        </item>
-        <item>
-            <title>2.13.54</title>
-            <pubDate>Sun, 02 Aug 2026 13:05:22 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>161</sparkle:version>
-            <sparkle:shortVersionString>2.13.54</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.54
-
-- Diagnostic build: the spring on the lyric line change is deliberately exaggerated so it can be confirmed as working. It will be tuned back to something tasteful once verified.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.54/Now-2.13.54.zip" length="7292032" type="application/octet-stream" sparkle:edSignature="vfhy0FZWoXYYMDnZirs5eGmomYYVEtb7NIJPJIxZGj3YmnB9oD49w6N0w1tuP6DQ14eai66bRGlDsq7FdDtnAA=="/>
         </item>
     </channel>
 </rss>
