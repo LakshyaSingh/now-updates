@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.66</title>
+            <pubDate>Sun, 02 Aug 2026 14:52:41 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>173</sparkle:version>
+            <sparkle:shortVersionString>2.13.66</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.66
+
+- The full screen view now has the same touch feedback as the desktop overlay. Moving the pointer onto any control gives a small tick, with the same distinct feel for previous, play and next.
+- Swipe across the album art in full screen to change track, exactly as in the desktop overlay. The next or previous cover slides in behind your finger as you go, and the gesture springs back if you release early. It only works over the artwork itself, so swiping across the lyrics still scrolls them.
+- The volume slider now closes when you press any other control, including going full screen. Previously it stayed open with no way to dismiss it except returning to the desktop overlay and pressing the same button again.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.66/Now-2.13.66.zip" length="7321477" type="application/octet-stream" sparkle:edSignature="pLk67taRSLvYqokRTne0YsBQcUVoYos0nHOsf9zZI7kPzKmcX7EWto+FhLcY6et1vrXZOKgjkHgtWI73MDYkAg=="/>
+        </item>
+        <item>
             <title>2.13.65</title>
             <pubDate>Sun, 02 Aug 2026 14:42:02 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +45,6 @@
 - A softer, calmer line change. Lines now settle a little past their resting place rather than springing well beyond it, and the lines around the one being sung move noticeably less, so a change reads as graceful rather than emphatic. The even pacing from the last version is unchanged.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.64/Now-2.13.64.zip" length="7299122" type="application/octet-stream" sparkle:edSignature="uPK7HSvPzsQAx3V4IbkcghywptzBNcPxyusi5pIkhmpPaUNf+1DmyLCQxk3E8Kz69YqO+BHXEkiKrYMUoRE1CA=="/>
-        </item>
-        <item>
-            <title>2.13.63</title>
-            <pubDate>Sun, 02 Aug 2026 14:21:34 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>170</sparkle:version>
-            <sparkle:shortVersionString>2.13.63</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.63
-
-- Line changes now feel the same each time. The distance a line springs past its resting place was already fixed, but the time taken barely changed with distance, so two long wrapped lines in a row covered twice the ground of a short change in about the same moment and moved twice as fast. Longer changes now take proportionally longer, so every line change moves at close to the same speed.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.63/Now-2.13.63.zip" length="7299155" type="application/octet-stream" sparkle:edSignature="IizVLmgOs3YQbhR0EodYLEpD1N+sOHKn7I9f5Gx6WEMe+ffTbGdvKH3thnpF2AK96c/jqEMALC9Hk6S3qMHmCQ=="/>
         </item>
     </channel>
 </rss>
