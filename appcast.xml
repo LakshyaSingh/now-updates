@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.55</title>
+            <pubDate>Sun, 02 Aug 2026 13:08:49 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>162</sparkle:version>
+            <sparkle:shortVersionString>2.13.55</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.55
+
+- Diagnostic build, same exaggerated lyric spring as the last one, with instrumentation added so the motion can be measured directly. Both will be removed once the cause is found.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.55/Now-2.13.55.zip" length="7295686" type="application/octet-stream" sparkle:edSignature="ncSEahgwWZr8g4a90ro0EByEdfCsjqICV9LE5lWWCqXlgH7xvmBbVT2qJcyz2yPGSZ6yiep6uffLDxLYezxXBw=="/>
+        </item>
+        <item>
             <title>2.13.54</title>
             <pubDate>Sun, 02 Aug 2026 13:05:22 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The lyrics now visibly spring when the line changes. The motion was correct but far too tightly damped: each line overshot its resting place by about three points, which is not enough to see. Lines now spring roughly four times further past the mark before settling, and the further a line sits from the one being sung, the more it gives.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.53/Now-2.13.53.zip" length="7292054" type="application/octet-stream" sparkle:edSignature="EDmUYY5JSwXhCmoZ2Ikys23rdiK2OKvmtIoM0ncgnlwgmJF5ne9+sdx1hW813UIRzT/uj65dcAtvUZpRJvWiAw=="/>
-        </item>
-        <item>
-            <title>2.13.52</title>
-            <pubDate>Sun, 02 Aug 2026 03:41:16 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>159</sparkle:version>
-            <sparkle:shortVersionString>2.13.52</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.52
-
-- The lyrics keep the elastic, wave-like line change introduced in the last version, but it now costs a fraction of what it did. The previous release computed the motion continuously while the lines moved, which was heavy enough to be worth doing differently; each line now carries its own tuned spring instead, matched against the original simulation so the movement looks the same.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.52/Now-2.13.52.zip" length="7292019" type="application/octet-stream" sparkle:edSignature="4j6Y4YqedC8y9mid9P6v6YSUNrx20yaWziplwSe5kd6Tnqd/84vDjIDUjg+8dImzy9oLyw5x+Nn5nPc/aK9tDg=="/>
         </item>
     </channel>
 </rss>
