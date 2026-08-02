@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.64</title>
+            <pubDate>Sun, 02 Aug 2026 14:26:41 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>171</sparkle:version>
+            <sparkle:shortVersionString>2.13.64</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.64
+
+- A softer, calmer line change. Lines now settle a little past their resting place rather than springing well beyond it, and the lines around the one being sung move noticeably less, so a change reads as graceful rather than emphatic. The even pacing from the last version is unchanged.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.64/Now-2.13.64.zip" length="7299122" type="application/octet-stream" sparkle:edSignature="uPK7HSvPzsQAx3V4IbkcghywptzBNcPxyusi5pIkhmpPaUNf+1DmyLCQxk3E8Kz69YqO+BHXEkiKrYMUoRE1CA=="/>
+        </item>
+        <item>
             <title>2.13.63</title>
             <pubDate>Sun, 02 Aug 2026 14:21:34 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The blurred background is no longer rebuilt when it does not need to be. It was being generated in full, on the graphics card, every time the artwork was republished, and then discarded if the track had not actually changed.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.62/Now-2.13.62.zip" length="7299072" type="application/octet-stream" sparkle:edSignature="e8JsTyrfo/njJG2CW++mcvjyJxiMKATRKYYzLfbwf3z9xMiRePAmtJlwEwsil7HoYSFWtL5jeGzsGeRMWJ71BA=="/>
-        </item>
-        <item>
-            <title>2.13.61</title>
-            <pubDate>Sun, 02 Aug 2026 13:51:51 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>168</sparkle:version>
-            <sparkle:shortVersionString>2.13.61</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.61
-
-- Clicking a lyric now moves there once, cleanly. After any control action the app re-reads the player three times over the following second and a half to confirm what happened, and those reads could still report the position from before the jump. The lyrics followed each reading, so a single click could move the highlight three times, each with its own animation. Clicking backwards was worst, and would do it even one line at a time. The app now trusts its own jump until the player genuinely catches up.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.61/Now-2.13.61.zip" length="7299097" type="application/octet-stream" sparkle:edSignature="tPmvLCdKmw+KEFdqBO7TvM4oAS/eaP6p8G9n1TKMNWUqTsYIuCyy+mVDSUfMs9SCC5hbDuLpOGK7v23JNQKbCQ=="/>
         </item>
     </channel>
 </rss>
