@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.68</title>
+            <pubDate>Sun, 02 Aug 2026 18:29:13 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>175</sparkle:version>
+            <sparkle:shortVersionString>2.13.68</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.68
+
+- A softer, wider line change, guided by measurement rather than guesswork. The give as a line comes to rest is halved, and the lines now start moving in a more clearly staggered sequence from top to bottom, so the stack flexes rather than snapping.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.68/Now-2.13.68.zip" length="7322297" type="application/octet-stream" sparkle:edSignature="6OGHwJwxh5X8oZ/sGks3ICe1AHpKzSUUl5732JvmhXbEki8GRzvI0U3XLlQKjYt7ywQ8OFkYNzjzqLHOonsYDQ=="/>
+        </item>
+        <item>
             <title>2.13.67</title>
             <pubDate>Sun, 02 Aug 2026 15:19:38 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@
 - The volume slider now closes when you press any other control, including going full screen. Previously it stayed open with no way to dismiss it except returning to the desktop overlay and pressing the same button again.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.66/Now-2.13.66.zip" length="7321477" type="application/octet-stream" sparkle:edSignature="pLk67taRSLvYqokRTne0YsBQcUVoYos0nHOsf9zZI7kPzKmcX7EWto+FhLcY6et1vrXZOKgjkHgtWI73MDYkAg=="/>
-        </item>
-        <item>
-            <title>2.13.65</title>
-            <pubDate>Sun, 02 Aug 2026 14:42:02 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>172</sparkle:version>
-            <sparkle:shortVersionString>2.13.65</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.65
-
-- Line changes settle more slowly and more evenly. Every change now takes a little longer to come to rest, which reads as gentler than the same movement done quickly. The variation between a short line change and a long one has also been rebalanced: previously the distance was absorbed almost entirely by how long the change took, so some settled visibly and others seemed to arrive at once. It is now shared evenly between how long a change takes and how fast it moves, which is the closest a line change can get to feeling the same every time.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.65/Now-2.13.65.zip" length="7299144" type="application/octet-stream" sparkle:edSignature="e1pLgiIBZ9Tblbo7H53gH6HpwJgRvFD710hsxi/4r919ZNkEdotWKak1y56CifAAQ43bjZKtkQUHOpS+nt0zAg=="/>
         </item>
     </channel>
 </rss>
