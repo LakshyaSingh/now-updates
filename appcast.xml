@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.70</title>
+            <pubDate>Sun, 02 Aug 2026 18:44:00 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>177</sparkle:version>
+            <sparkle:shortVersionString>2.13.70</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.70
+
+- Fixed the artwork flicker when changing track by swiping in full screen. The new cover arrived, briefly reverted to the previous one, then jumped to the new one again. The swipe was finishing on a fixed timer rather than waiting for the player, which takes up to a second to report a skip, so for a moment the view fell back to showing the cover it still had. It now holds the new cover until the player has genuinely caught up, and the handover is invisible.
+- Removed the tap when changing track by swiping. It was too faint to feel, so it was not earning its place.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.70/Now-2.13.70.zip" length="7324602" type="application/octet-stream" sparkle:edSignature="sOWhKptxdtezUJ9JiZccYZMHrmNW51qKYavaR+gNKn2Ap6CqzyDCrFLKHLNfRqnp94oKQ4i0Hi78n3ES1FYLCQ=="/>
+        </item>
+        <item>
             <title>2.13.69</title>
             <pubDate>Sun, 02 Aug 2026 18:34:07 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +44,6 @@
 - A softer, wider line change, guided by measurement rather than guesswork. The give as a line comes to rest is halved, and the lines now start moving in a more clearly staggered sequence from top to bottom, so the stack flexes rather than snapping.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.68/Now-2.13.68.zip" length="7322297" type="application/octet-stream" sparkle:edSignature="6OGHwJwxh5X8oZ/sGks3ICe1AHpKzSUUl5732JvmhXbEki8GRzvI0U3XLlQKjYt7ywQ8OFkYNzjzqLHOonsYDQ=="/>
-        </item>
-        <item>
-            <title>2.13.67</title>
-            <pubDate>Sun, 02 Aug 2026 15:19:38 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>174</sparkle:version>
-            <sparkle:shortVersionString>2.13.67</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.67
-
-- Smoother lyrics on high resolution displays. The out of focus effect behind the line being sung is the most demanding thing the view draws, and its cost grows with the number of pixels on screen, so a dense laptop panel was doing roughly three times the work of an external monitor to draw the same frame. The faintest two lines, which sit behind the fade at the edge and are barely visible, no longer receive it on those displays. Lower resolution displays are unchanged.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.67/Now-2.13.67.zip" length="7322311" type="application/octet-stream" sparkle:edSignature="v+O/Epv1SYxcyVm2hpwD2TGcB42w9T/bzG04gmzmto6def69z7Ik8BHhtO+5uUc4amJk1CizjMFCjoz3Go9iCQ=="/>
         </item>
     </channel>
 </rss>
