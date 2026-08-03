@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.72</title>
+            <pubDate>Sun, 02 Aug 2026 18:54:23 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>179</sparkle:version>
+            <sparkle:shortVersionString>2.13.72</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.72
+
+- Click the album art in full screen to play or pause. The cover springs forward or settles back as it does, so the click confirms itself.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.72/Now-2.13.72.zip" length="7330489" type="application/octet-stream" sparkle:edSignature="N0HiGhP5KcVYA5PdqhMk3tGX1qSqEsx+Qu1kLyczQPCUkH6mgL1mzpiFnxl3PDqsXS0KpccBYaLtkEewp+9HDA=="/>
+        </item>
+        <item>
             <title>2.13.71</title>
             <pubDate>Sun, 02 Aug 2026 18:49:59 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@
 - Removed the tap when changing track by swiping. It was too faint to feel, so it was not earning its place.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.70/Now-2.13.70.zip" length="7324602" type="application/octet-stream" sparkle:edSignature="sOWhKptxdtezUJ9JiZccYZMHrmNW51qKYavaR+gNKn2Ap6CqzyDCrFLKHLNfRqnp94oKQ4i0Hi78n3ES1FYLCQ=="/>
-        </item>
-        <item>
-            <title>2.13.69</title>
-            <pubDate>Sun, 02 Aug 2026 18:34:07 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>176</sparkle:version>
-            <sparkle:shortVersionString>2.13.69</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.69
-
-- Swiping the artwork to change track now answers with a small tap, in both the desktop overlay and full screen. Going forward and going back feel different, matching the taps the previous and next buttons already give, so a skip is confirmed under your finger the moment it takes.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.69/Now-2.13.69.zip" length="7322388" type="application/octet-stream" sparkle:edSignature="P/gpDAhVxat286mNAg4YRbgewgyfU093I5SbhadIPSGXGaKoTNkWxfDmn2oofBSwhLTSaGUW/O5kfvUsYu6KBQ=="/>
         </item>
     </channel>
 </rss>
