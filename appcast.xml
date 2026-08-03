@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.73</title>
+            <pubDate>Mon, 03 Aug 2026 13:24:50 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>180</sparkle:version>
+            <sparkle:shortVersionString>2.13.73</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.73
+
+- Fixed the overlay controls being cut off. The row of buttons had a fixed width that was wider than the album art it sits on, so the outermost ones, previous and full screen, lost their edges against the artwork's rounded corner. It was worst at the compact size but present at both. The buttons are now sized from the artwork, so the row always fits, and the icons keep their size rather than shrinking with it.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.73/Now-2.13.73.zip" length="7330067" type="application/octet-stream" sparkle:edSignature="r5olR5lNL3WhgQIA1C2HIrUlNeJIwBph5N/4TOV+1x9GrnACjaUmLW9oGAINKxM0IaPytI9AWgUMltbbacg+DA=="/>
+        </item>
+        <item>
             <title>2.13.72</title>
             <pubDate>Sun, 02 Aug 2026 18:54:23 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +44,6 @@
 - A gesture now commits to one direction at the start, so a slightly diagonal swipe changes either the track or the volume, never a bit of both.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.71/Now-2.13.71.zip" length="7326916" type="application/octet-stream" sparkle:edSignature="WpF65mdmothQxDAdyTYEtEin9QmgPL0uqJvpvF8jcqpSGHjceOSTlWPayU+sqks51ro06rxLZiPlQ1piW1YWBg=="/>
-        </item>
-        <item>
-            <title>2.13.70</title>
-            <pubDate>Sun, 02 Aug 2026 18:44:00 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>177</sparkle:version>
-            <sparkle:shortVersionString>2.13.70</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.70
-
-- Fixed the artwork flicker when changing track by swiping in full screen. The new cover arrived, briefly reverted to the previous one, then jumped to the new one again. The swipe was finishing on a fixed timer rather than waiting for the player, which takes up to a second to report a skip, so for a moment the view fell back to showing the cover it still had. It now holds the new cover until the player has genuinely caught up, and the handover is invisible.
-- Removed the tap when changing track by swiping. It was too faint to feel, so it was not earning its place.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.70/Now-2.13.70.zip" length="7324602" type="application/octet-stream" sparkle:edSignature="sOWhKptxdtezUJ9JiZccYZMHrmNW51qKYavaR+gNKn2Ap6CqzyDCrFLKHLNfRqnp94oKQ4i0Hi78n3ES1FYLCQ=="/>
         </item>
     </channel>
 </rss>
