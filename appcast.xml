@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.69</title>
+            <pubDate>Sun, 02 Aug 2026 18:34:07 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>176</sparkle:version>
+            <sparkle:shortVersionString>2.13.69</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.69
+
+- Swiping the artwork to change track now answers with a small tap, in both the desktop overlay and full screen. Going forward and going back feel different, matching the taps the previous and next buttons already give, so a skip is confirmed under your finger the moment it takes.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.69/Now-2.13.69.zip" length="7322388" type="application/octet-stream" sparkle:edSignature="P/gpDAhVxat286mNAg4YRbgewgyfU093I5SbhadIPSGXGaKoTNkWxfDmn2oofBSwhLTSaGUW/O5kfvUsYu6KBQ=="/>
+        </item>
+        <item>
             <title>2.13.68</title>
             <pubDate>Sun, 02 Aug 2026 18:29:13 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,22 +43,6 @@
 - Smoother lyrics on high resolution displays. The out of focus effect behind the line being sung is the most demanding thing the view draws, and its cost grows with the number of pixels on screen, so a dense laptop panel was doing roughly three times the work of an external monitor to draw the same frame. The faintest two lines, which sit behind the fade at the edge and are barely visible, no longer receive it on those displays. Lower resolution displays are unchanged.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.67/Now-2.13.67.zip" length="7322311" type="application/octet-stream" sparkle:edSignature="v+O/Epv1SYxcyVm2hpwD2TGcB42w9T/bzG04gmzmto6def69z7Ik8BHhtO+5uUc4amJk1CizjMFCjoz3Go9iCQ=="/>
-        </item>
-        <item>
-            <title>2.13.66</title>
-            <pubDate>Sun, 02 Aug 2026 14:52:41 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>173</sparkle:version>
-            <sparkle:shortVersionString>2.13.66</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.66
-
-- The full screen view now has the same touch feedback as the desktop overlay. Moving the pointer onto any control gives a small tick, with the same distinct feel for previous, play and next.
-- Swipe across the album art in full screen to change track, exactly as in the desktop overlay. The next or previous cover slides in behind your finger as you go, and the gesture springs back if you release early. It only works over the artwork itself, so swiping across the lyrics still scrolls them.
-- The volume slider now closes when you press any other control, including going full screen. Previously it stayed open with no way to dismiss it except returning to the desktop overlay and pressing the same button again.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.66/Now-2.13.66.zip" length="7321477" type="application/octet-stream" sparkle:edSignature="pLk67taRSLvYqokRTne0YsBQcUVoYos0nHOsf9zZI7kPzKmcX7EWto+FhLcY6et1vrXZOKgjkHgtWI73MDYkAg=="/>
         </item>
     </channel>
 </rss>
