@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.71</title>
+            <pubDate>Sun, 02 Aug 2026 18:49:59 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>178</sparkle:version>
+            <sparkle:shortVersionString>2.13.71</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.71
+
+- Swipe up and down on the album art to change the volume, in both the desktop overlay and full screen. It moves in the same steps the volume keys use, and each step gives a small click, so you can feel how far you have moved without looking. As with changing track, it only works while the pointer is over the artwork.
+- A gesture now commits to one direction at the start, so a slightly diagonal swipe changes either the track or the volume, never a bit of both.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.71/Now-2.13.71.zip" length="7326916" type="application/octet-stream" sparkle:edSignature="WpF65mdmothQxDAdyTYEtEin9QmgPL0uqJvpvF8jcqpSGHjceOSTlWPayU+sqks51ro06rxLZiPlQ1piW1YWBg=="/>
+        </item>
+        <item>
             <title>2.13.70</title>
             <pubDate>Sun, 02 Aug 2026 18:44:00 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +45,6 @@
 - Swiping the artwork to change track now answers with a small tap, in both the desktop overlay and full screen. Going forward and going back feel different, matching the taps the previous and next buttons already give, so a skip is confirmed under your finger the moment it takes.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.69/Now-2.13.69.zip" length="7322388" type="application/octet-stream" sparkle:edSignature="P/gpDAhVxat286mNAg4YRbgewgyfU093I5SbhadIPSGXGaKoTNkWxfDmn2oofBSwhLTSaGUW/O5kfvUsYu6KBQ=="/>
-        </item>
-        <item>
-            <title>2.13.68</title>
-            <pubDate>Sun, 02 Aug 2026 18:29:13 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>175</sparkle:version>
-            <sparkle:shortVersionString>2.13.68</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.68
-
-- A softer, wider line change, guided by measurement rather than guesswork. The give as a line comes to rest is halved, and the lines now start moving in a more clearly staggered sequence from top to bottom, so the stack flexes rather than snapping.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.68/Now-2.13.68.zip" length="7322297" type="application/octet-stream" sparkle:edSignature="6OGHwJwxh5X8oZ/sGks3ICe1AHpKzSUUl5732JvmhXbEki8GRzvI0U3XLlQKjYt7ywQ8OFkYNzjzqLHOonsYDQ=="/>
         </item>
     </channel>
 </rss>
