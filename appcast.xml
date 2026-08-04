@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.83</title>
+            <pubDate>Mon, 03 Aug 2026 23:07:51 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>190</sparkle:version>
+            <sparkle:shortVersionString>2.13.83</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.83
+
+- Lyrics no longer drop back a line and jump forward again. The playback position a source reports is often up to a second and a half behind the audio, and the lyrics were treating any reading more than a second back as a deliberate seek, so an ordinary stale sample pulled the highlighted line backwards before the next one pushed it forward. A backward reading now has to be corroborated by a second one before it is believed, so a stale sample makes the clock pause for a moment instead of jumping. Real seeks and scrubbing still take effect immediately.
+- The same jump on pause is fixed. Pausing adds the command round trip on top of that staleness, which is why it happened almost every time. The position still corrects itself, but the highlighted line no longer moves backwards to do it.
+- Fixed the lyrics snapping to the first line for an instant, once per song, at the moment a source first reported the track length.
+- Swiping to the next song on Spotify no longer slides the artwork away into an empty gap. Spotify does not publish its next track to anything on the Mac — neither the app's AppleScript nor the web player exposes a queue — so Now cannot show the incoming cover there the way it does for Apple Music and YouTube Music. Swiping back works because that cover is in your listening history. Rather than opening a gap a quarter of the artwork wide, the cover now gives a small nudge and settles, and the song still changes on release.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.83/Now-2.13.83.zip" length="7331515" type="application/octet-stream" sparkle:edSignature="WnfirUT5GmU5p5DEYg7yc/t6v/cX2DWixxDk2MYtsmNxdwWXEJvBOcHcpUND70QwTwMzeSFiC4Skbt/KC9+9Dw=="/>
+        </item>
+        <item>
             <title>2.13.82</title>
             <pubDate>Mon, 03 Aug 2026 22:21:15 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,20 +49,6 @@
 - Apple Podcasts transcripts have been removed. They needed Full Disk Access, the timing had to be nudged by hand for each episode, and a wall of speech never scrolled as smoothly as song lyrics. Podcast playback itself is unaffected — episodes still appear in the widget and in the full-screen view. Now no longer asks for Full Disk Access at all.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.81/Now-2.13.81.zip" length="7330765" type="application/octet-stream" sparkle:edSignature="5Q/LECBfI590Vvb7Sg83ActtoNuvDLqdsOt+50ojE3bvzHMO6kKU4SXJwDoqF7dm3/9W8P78O8MvhScMujtQCA=="/>
-        </item>
-        <item>
-            <title>2.13.80</title>
-            <pubDate>Mon, 03 Aug 2026 21:45:51 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>187</sparkle:version>
-            <sparkle:shortVersionString>2.13.80</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.80
-
-- Podcast transcripts now keep pace with the voice. Apple Podcasts only reports its playback position to the system occasionally, so the position available to Now trails the audio and the transcript trailed with it. Measured against Apple's own transcript view, its highlighted line sat between four and six seconds ahead of the position shown on the same screen. The transcript is now brought forward to compensate, with a Sync control under Lyrics in Settings to fine tune it, since the gap varies by episode and with inserted advertising.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.80/Now-2.13.80.zip" length="7352808" type="application/octet-stream" sparkle:edSignature="OKGHb6AsYbVm9hkJbctRpjQoynaOVsmIYY6RCEFKTSiDoM3P+MHDokSuSKTtAEtY74T0jSbaeLF+g7g2d7ZNAA=="/>
         </item>
     </channel>
 </rss>
