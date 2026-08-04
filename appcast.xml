@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.84</title>
+            <pubDate>Mon, 03 Aug 2026 23:52:26 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>191</sparkle:version>
+            <sparkle:shortVersionString>2.13.84</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.84
+
+- Fixed the remaining lyric jump on pause: the once-per-song one, on the first pause after a song starts. Pausing a web player takes an AppleScript round trip, and the lyric clock kept running across it — so by the time the real paused position arrived, the clock had overshot it and had to correct backwards, pulling the highlighted line back a line or two. The first pause after a track change was the visible one because it also pays for browser tab discovery, making it by far the slowest. The clock now stops the instant you ask for a pause rather than when the player confirms, so it stops a fraction early and the correction that follows is forwards, which never jumps. The progress bar stops immediately too.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.84/Now-2.13.84.zip" length="7331696" type="application/octet-stream" sparkle:edSignature="fo9IlecgNcXli8XGjJxKbLlBqvAtm7B6aoKGuuXNxa5eP0AqsZ19vhh7SpWLib5DV1bOhvk70PW+dfZbXAEjDg=="/>
+        </item>
+        <item>
             <title>2.13.83</title>
             <pubDate>Mon, 03 Aug 2026 23:07:51 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +47,6 @@
 - That preview artwork is no longer a blurred thumbnail. The queue only publishes a 60-pixel cover, which was being stretched to fill the tile; Now asks for the same 544-pixel square the player bar already uses for the current track, so the incoming and outgoing covers match mid-swipe.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.82/Now-2.13.82.zip" length="7331187" type="application/octet-stream" sparkle:edSignature="rXKK/ekCAoE0N+Zb/D3eT84OGni66Mp3Te61tuduGMbl5jQbL5LzdxZMt4/O9C4rVyJHqa/6YFNCzOx7SCJqBg=="/>
-        </item>
-        <item>
-            <title>2.13.81</title>
-            <pubDate>Mon, 03 Aug 2026 22:08:06 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>188</sparkle:version>
-            <sparkle:shortVersionString>2.13.81</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.81
-
-- Spotify in the browser is detected again. Spotify's web player runs its audio through Web Audio rather than a page media element, and it never publishes a playback state to the system, so Now read every Spotify tab as paused at 0:00 — which meant it lost to any other music tab, and on its own showed a stalled track with no progress. Position, length and play state are now read from the player bar instead: the overlay follows the song, the progress bar and synced lyrics track it to the millisecond, and the cover art comes through at full resolution rather than as a 300-pixel thumbnail.
-- Play, pause and seeking work on Spotify web. Play and pause check the current state before acting, so pressing play on an already-playing tab no longer pauses it, and scrubbing — including clicking a lyric line to jump — seeks to the exact position rather than the nearest five seconds.
-- Apple Podcasts transcripts have been removed. They needed Full Disk Access, the timing had to be nudged by hand for each episode, and a wall of speech never scrolled as smoothly as song lyrics. Podcast playback itself is unaffected — episodes still appear in the widget and in the full-screen view. Now no longer asks for Full Disk Access at all.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.81/Now-2.13.81.zip" length="7330765" type="application/octet-stream" sparkle:edSignature="5Q/LECBfI590Vvb7Sg83ActtoNuvDLqdsOt+50ojE3bvzHMO6kKU4SXJwDoqF7dm3/9W8P78O8MvhScMujtQCA=="/>
         </item>
     </channel>
 </rss>
