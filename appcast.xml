@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.81</title>
+            <pubDate>Mon, 03 Aug 2026 22:08:06 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>188</sparkle:version>
+            <sparkle:shortVersionString>2.13.81</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.81
+
+- Spotify in the browser is detected again. Spotify's web player runs its audio through Web Audio rather than a page media element, and it never publishes a playback state to the system, so Now read every Spotify tab as paused at 0:00 — which meant it lost to any other music tab, and on its own showed a stalled track with no progress. Position, length and play state are now read from the player bar instead: the overlay follows the song, the progress bar and synced lyrics track it to the millisecond, and the cover art comes through at full resolution rather than as a 300-pixel thumbnail.
+- Play, pause and seeking work on Spotify web. Play and pause check the current state before acting, so pressing play on an already-playing tab no longer pauses it, and scrubbing — including clicking a lyric line to jump — seeks to the exact position rather than the nearest five seconds.
+- Apple Podcasts transcripts have been removed. They needed Full Disk Access, the timing had to be nudged by hand for each episode, and a wall of speech never scrolled as smoothly as song lyrics. Podcast playback itself is unaffected — episodes still appear in the widget and in the full-screen view. Now no longer asks for Full Disk Access at all.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.81/Now-2.13.81.zip" length="7330765" type="application/octet-stream" sparkle:edSignature="5Q/LECBfI590Vvb7Sg83ActtoNuvDLqdsOt+50ojE3bvzHMO6kKU4SXJwDoqF7dm3/9W8P78O8MvhScMujtQCA=="/>
+        </item>
+        <item>
             <title>2.13.80</title>
             <pubDate>Mon, 03 Aug 2026 21:45:51 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +45,6 @@
 - Podcast transcripts now keep up with the speaker. A spoken sentence is far longer than a sung line, so showing one sentence at a time meant the overlay displayed as much as would fit and then sat there, sometimes for twenty seconds, until the whole sentence finished. Long sentences are now broken into shorter lines at natural pauses, each starting exactly when its first word is spoken, so the text advances every couple of seconds and stays with the voice.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.79/Now-2.13.79.zip" length="7347017" type="application/octet-stream" sparkle:edSignature="n6P+fkTpjK9VPyrlDJHmnqOUQAHPk8X8mhYyErLXcvgm7oBVwt5zJszLSOCg0CoLwoKYQHeVQT1kElvOKFijBQ=="/>
-        </item>
-        <item>
-            <title>2.13.78</title>
-            <pubDate>Mon, 03 Aug 2026 21:32:09 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>185</sparkle:version>
-            <sparkle:shortVersionString>2.13.78</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.78
-
-- Podcast transcripts should now actually appear. The episode identifier that locates the transcript was being lost one step before it was used: the track is copied just before the lyrics are looked up, and that copy was not carrying the identifier across. Added a test covering the whole path from the player to the file, since this is the second way the identifier has gone missing.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.78/Now-2.13.78.zip" length="7344718" type="application/octet-stream" sparkle:edSignature="Yu819TRq+40Vhnn/y6PPiVcPuHh5u7oEefohZWEzkav/jNvgQJVZ0PRzKw1zFSvcDPuRLRKFNpqXfbPIBMbDBA=="/>
         </item>
     </channel>
 </rss>
