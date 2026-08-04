@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.77</title>
+            <pubDate>Mon, 03 Aug 2026 21:24:05 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>184</sparkle:version>
+            <sparkle:shortVersionString>2.13.77</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.77
+
+- Fixes podcast transcripts never appearing. The episode identifier used to find the transcript arrives as a number, and was being read as text, so it came through empty every time and the transcript was never looked up. Verified end to end against a real episode.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.77/Now-2.13.77.zip" length="7344859" type="application/octet-stream" sparkle:edSignature="2f+FQb4ZJbTz5dVSFTDadR1pzm1gtfDQxoJh6OkSPJMYbEVBvD8reRXYPjAz7/vH37mGm2+qzFBwjNBlX7XJDA=="/>
+        </item>
+        <item>
             <title>2.13.76</title>
             <pubDate>Mon, 03 Aug 2026 21:16:35 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +44,6 @@
 - Apple Podcasts now actually works, audio and video episodes alike. Podcasts reports every episode as video, and anything reporting video was being turned away before it reached the overlay. That check was both wrong and unnecessary: browsers, the case it was meant for, are handled separately, and genuine video apps are excluded by name. It has been removed, so an episode now appears with its show art, title and progress like anything else.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.75/Now-2.13.75.zip" length="7328605" type="application/octet-stream" sparkle:edSignature="cy+5A3ErDDHbiDefZZL4+xakVs8tPuRfNNsHhaRVGjzbeCgJ+S+p/3c81b89yMfjTJ3DjfwST94Ht2E7vns8Aw=="/>
-        </item>
-        <item>
-            <title>2.13.74</title>
-            <pubDate>Mon, 03 Aug 2026 20:52:51 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>181</sparkle:version>
-            <sparkle:shortVersionString>2.13.74</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.74
-
-- Apple Podcasts now works. The overlay was not appearing for it at all, because Podcasts labels every episode as video, audio-only ones included, and anything labelled video was being turned away. Episodes are now recognised by content type instead, so a podcast shows its show art, title, episode and progress like anything else, with the usual controls.
-- Removed a check that ran against Podcasts on every update and could never succeed, since Podcasts offers nothing for it to query.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.74/Now-2.13.74.zip" length="7329166" type="application/octet-stream" sparkle:edSignature="KStuJOzl3LewLi/cbBoVDR48PKlsMRXCospxRc2Ivwe6eLzg1A98Oukv3fmRz0oaX2zYzVuBOAskM/cFFBevAQ=="/>
         </item>
     </channel>
 </rss>
