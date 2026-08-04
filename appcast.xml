@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.74</title>
+            <pubDate>Mon, 03 Aug 2026 20:52:51 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>181</sparkle:version>
+            <sparkle:shortVersionString>2.13.74</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.74
+
+- Apple Podcasts now works. The overlay was not appearing for it at all, because Podcasts labels every episode as video, audio-only ones included, and anything labelled video was being turned away. Episodes are now recognised by content type instead, so a podcast shows its show art, title, episode and progress like anything else, with the usual controls.
+- Removed a check that ran against Podcasts on every update and could never succeed, since Podcasts offers nothing for it to query.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.74/Now-2.13.74.zip" length="7329166" type="application/octet-stream" sparkle:edSignature="KStuJOzl3LewLi/cbBoVDR48PKlsMRXCospxRc2Ivwe6eLzg1A98Oukv3fmRz0oaX2zYzVuBOAskM/cFFBevAQ=="/>
+        </item>
+        <item>
             <title>2.13.73</title>
             <pubDate>Mon, 03 Aug 2026 13:24:50 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,21 +44,6 @@
 - Click the album art in full screen to play or pause. The cover springs forward or settles back as it does, so the click confirms itself.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.72/Now-2.13.72.zip" length="7330489" type="application/octet-stream" sparkle:edSignature="N0HiGhP5KcVYA5PdqhMk3tGX1qSqEsx+Qu1kLyczQPCUkH6mgL1mzpiFnxl3PDqsXS0KpccBYaLtkEewp+9HDA=="/>
-        </item>
-        <item>
-            <title>2.13.71</title>
-            <pubDate>Sun, 02 Aug 2026 18:49:59 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>178</sparkle:version>
-            <sparkle:shortVersionString>2.13.71</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.71
-
-- Swipe up and down on the album art to change the volume, in both the desktop overlay and full screen. It moves in the same steps the volume keys use, and each step gives a small click, so you can feel how far you have moved without looking. As with changing track, it only works while the pointer is over the artwork.
-- A gesture now commits to one direction at the start, so a slightly diagonal swipe changes either the track or the volume, never a bit of both.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.71/Now-2.13.71.zip" length="7326916" type="application/octet-stream" sparkle:edSignature="WpF65mdmothQxDAdyTYEtEin9QmgPL0uqJvpvF8jcqpSGHjceOSTlWPayU+sqks51ro06rxLZiPlQ1piW1YWBg=="/>
         </item>
     </channel>
 </rss>
