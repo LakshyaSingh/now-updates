@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.79</title>
+            <pubDate>Mon, 03 Aug 2026 21:38:46 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>186</sparkle:version>
+            <sparkle:shortVersionString>2.13.79</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.79
+
+- Podcast transcripts now keep up with the speaker. A spoken sentence is far longer than a sung line, so showing one sentence at a time meant the overlay displayed as much as would fit and then sat there, sometimes for twenty seconds, until the whole sentence finished. Long sentences are now broken into shorter lines at natural pauses, each starting exactly when its first word is spoken, so the text advances every couple of seconds and stays with the voice.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.79/Now-2.13.79.zip" length="7347017" type="application/octet-stream" sparkle:edSignature="n6P+fkTpjK9VPyrlDJHmnqOUQAHPk8X8mhYyErLXcvgm7oBVwt5zJszLSOCg0CoLwoKYQHeVQT1kElvOKFijBQ=="/>
+        </item>
+        <item>
             <title>2.13.78</title>
             <pubDate>Mon, 03 Aug 2026 21:32:09 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,21 +43,6 @@
 - Fixes podcast transcripts never appearing. The episode identifier used to find the transcript arrives as a number, and was being read as text, so it came through empty every time and the transcript was never looked up. Verified end to end against a real episode.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.77/Now-2.13.77.zip" length="7344859" type="application/octet-stream" sparkle:edSignature="2f+FQb4ZJbTz5dVSFTDadR1pzm1gtfDQxoJh6OkSPJMYbEVBvD8reRXYPjAz7/vH37mGm2+qzFBwjNBlX7XJDA=="/>
-        </item>
-        <item>
-            <title>2.13.76</title>
-            <pubDate>Mon, 03 Aug 2026 21:16:35 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>183</sparkle:version>
-            <sparkle:shortVersionString>2.13.76</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.76
-
-- Apple Podcasts transcripts, shown line by line and word by word exactly like lyrics, in the overlay and in full screen. Turn it on under Lyrics in Settings.
-- It is off by default and asks nothing of you until you switch it on. Podcasts keeps transcripts in a protected folder, so reading them needs Full Disk Access, which is far too much to ask of anyone who just wants a now playing widget. Switch it on and Settings explains what to grant and why. Nothing leaves your Mac: the file Podcasts has already downloaded is read locally.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.76/Now-2.13.76.zip" length="7344515" type="application/octet-stream" sparkle:edSignature="BTd+izzb1taslCacYpS64tJsGLdOtS7cYlUAvHo1TuVtrlQGoeeFzw2d2842MaOgbriejyeVjy6UI0BwiYZLBA=="/>
         </item>
     </channel>
 </rss>
