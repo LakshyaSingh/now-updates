@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.80</title>
+            <pubDate>Mon, 03 Aug 2026 21:45:51 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>187</sparkle:version>
+            <sparkle:shortVersionString>2.13.80</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.80
+
+- Podcast transcripts now keep pace with the voice. Apple Podcasts only reports its playback position to the system occasionally, so the position available to Now trails the audio and the transcript trailed with it. Measured against Apple's own transcript view, its highlighted line sat between four and six seconds ahead of the position shown on the same screen. The transcript is now brought forward to compensate, with a Sync control under Lyrics in Settings to fine tune it, since the gap varies by episode and with inserted advertising.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.80/Now-2.13.80.zip" length="7352808" type="application/octet-stream" sparkle:edSignature="OKGHb6AsYbVm9hkJbctRpjQoynaOVsmIYY6RCEFKTSiDoM3P+MHDokSuSKTtAEtY74T0jSbaeLF+g7g2d7ZNAA=="/>
+        </item>
+        <item>
             <title>2.13.79</title>
             <pubDate>Mon, 03 Aug 2026 21:38:46 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Podcast transcripts should now actually appear. The episode identifier that locates the transcript was being lost one step before it was used: the track is copied just before the lyrics are looked up, and that copy was not carrying the identifier across. Added a test covering the whole path from the player to the file, since this is the second way the identifier has gone missing.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.78/Now-2.13.78.zip" length="7344718" type="application/octet-stream" sparkle:edSignature="Yu819TRq+40Vhnn/y6PPiVcPuHh5u7oEefohZWEzkav/jNvgQJVZ0PRzKw1zFSvcDPuRLRKFNpqXfbPIBMbDBA=="/>
-        </item>
-        <item>
-            <title>2.13.77</title>
-            <pubDate>Mon, 03 Aug 2026 21:24:05 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>184</sparkle:version>
-            <sparkle:shortVersionString>2.13.77</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.77
-
-- Fixes podcast transcripts never appearing. The episode identifier used to find the transcript arrives as a number, and was being read as text, so it came through empty every time and the transcript was never looked up. Verified end to end against a real episode.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.77/Now-2.13.77.zip" length="7344859" type="application/octet-stream" sparkle:edSignature="2f+FQb4ZJbTz5dVSFTDadR1pzm1gtfDQxoJh6OkSPJMYbEVBvD8reRXYPjAz7/vH37mGm2+qzFBwjNBlX7XJDA=="/>
         </item>
     </channel>
 </rss>
