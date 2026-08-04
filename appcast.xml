@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.78</title>
+            <pubDate>Mon, 03 Aug 2026 21:32:09 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>185</sparkle:version>
+            <sparkle:shortVersionString>2.13.78</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.78
+
+- Podcast transcripts should now actually appear. The episode identifier that locates the transcript was being lost one step before it was used: the track is copied just before the lyrics are looked up, and that copy was not carrying the identifier across. Added a test covering the whole path from the player to the file, since this is the second way the identifier has gone missing.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.78/Now-2.13.78.zip" length="7344718" type="application/octet-stream" sparkle:edSignature="Yu819TRq+40Vhnn/y6PPiVcPuHh5u7oEefohZWEzkav/jNvgQJVZ0PRzKw1zFSvcDPuRLRKFNpqXfbPIBMbDBA=="/>
+        </item>
+        <item>
             <title>2.13.77</title>
             <pubDate>Mon, 03 Aug 2026 21:24:05 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - It is off by default and asks nothing of you until you switch it on. Podcasts keeps transcripts in a protected folder, so reading them needs Full Disk Access, which is far too much to ask of anyone who just wants a now playing widget. Switch it on and Settings explains what to grant and why. Nothing leaves your Mac: the file Podcasts has already downloaded is read locally.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.76/Now-2.13.76.zip" length="7344515" type="application/octet-stream" sparkle:edSignature="BTd+izzb1taslCacYpS64tJsGLdOtS7cYlUAvHo1TuVtrlQGoeeFzw2d2842MaOgbriejyeVjy6UI0BwiYZLBA=="/>
-        </item>
-        <item>
-            <title>2.13.75</title>
-            <pubDate>Mon, 03 Aug 2026 20:57:52 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>182</sparkle:version>
-            <sparkle:shortVersionString>2.13.75</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.75
-
-- Apple Podcasts now actually works, audio and video episodes alike. Podcasts reports every episode as video, and anything reporting video was being turned away before it reached the overlay. That check was both wrong and unnecessary: browsers, the case it was meant for, are handled separately, and genuine video apps are excluded by name. It has been removed, so an episode now appears with its show art, title and progress like anything else.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.75/Now-2.13.75.zip" length="7328605" type="application/octet-stream" sparkle:edSignature="cy+5A3ErDDHbiDefZZL4+xakVs8tPuRfNNsHhaRVGjzbeCgJ+S+p/3c81b89yMfjTJ3DjfwST94Ht2E7vns8Aw=="/>
         </item>
     </channel>
 </rss>
