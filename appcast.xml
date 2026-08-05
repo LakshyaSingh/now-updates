@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.89</title>
+            <pubDate>Wed, 05 Aug 2026 02:04:23 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>196</sparkle:version>
+            <sparkle:shortVersionString>2.13.89</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.89
+
+- Now uses much less energy while music is playing, and should no longer appear in macOS's significant-energy list. It was checking the player far more often than it needed to; progress and lyrics were never driven by those checks.
+- Cleaned up stray temporary files left behind if Now was force-quit.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.89/Now-2.13.89.zip" length="7338481" type="application/octet-stream" sparkle:edSignature="tJ0dGBfilVKSVfcubwZ7TJo6wy0Sd0J3lT7uX23Qcr+vQODrtZF6vIGT+PGTlZ8rYkfrrstyVlvg5TXgBAu5CA=="/>
+        </item>
+        <item>
             <title>2.13.88</title>
             <pubDate>Tue, 04 Aug 2026 23:20:05 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +44,6 @@
 - Swiping back on the artwork now reaches the previous song from anywhere in the current one. Players treat "previous" as "restart this track" once you are a few seconds in, so the first swipe only started the song again.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.87/Now-2.13.87.zip" length="7336161" type="application/octet-stream" sparkle:edSignature="8rx/qCCnDuNEPufX9gw1fm6RFe2LMMP4AWKBEe/DcipWE4aC+ui6MV8ACmPxDOkdrq1PFVMWCPvbne99rqPxBQ=="/>
-        </item>
-        <item>
-            <title>2.13.86</title>
-            <pubDate>Tue, 04 Aug 2026 22:03:00 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>193</sparkle:version>
-            <sparkle:shortVersionString>2.13.86</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.86
-
-- Fixed cover art sometimes staying blank for a whole song while the title and artist showed correctly. A slow cover download was being restarted every second instead of being left to finish.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.86/Now-2.13.86.zip" length="7333800" type="application/octet-stream" sparkle:edSignature="H+apgC/V/tLnlZz1/71R9X4v1JEaaJH8MqEjGsxjU7LWjatPwL2XR2yb17MvrFcLu645tT5vEpBS8Jm18eTKAQ=="/>
         </item>
     </channel>
 </rss>
