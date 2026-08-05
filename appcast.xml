@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.91</title>
+            <pubDate>Wed, 05 Aug 2026 10:32:00 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>198</sparkle:version>
+            <sparkle:shortVersionString>2.13.91</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.91
+
+- Fixed album covers sometimes staying blank for a whole song. Two separate pieces of cover loading shared one cancel switch, so each could abort the other's download.
+- A cover that is already downloading is now left to finish rather than being restarted.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.91/Now-2.13.91.zip" length="7340742" type="application/octet-stream" sparkle:edSignature="h3MUmfhPoNlq68pibJXV7PSFc6bYTM/2Fld76cjOOAd43FBIdC3fzNLg/Nv7tMbD/7+yzh6l+4fFU86p9l2LAQ=="/>
+        </item>
+        <item>
             <title>2.13.90</title>
             <pubDate>Wed, 05 Aug 2026 10:26:52 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +46,6 @@
 - Cleaned up stray temporary files left behind if Now was force-quit.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.89/Now-2.13.89.zip" length="7338481" type="application/octet-stream" sparkle:edSignature="tJ0dGBfilVKSVfcubwZ7TJo6wy0Sd0J3lT7uX23Qcr+vQODrtZF6vIGT+PGTlZ8rYkfrrstyVlvg5TXgBAu5CA=="/>
-        </item>
-        <item>
-            <title>2.13.88</title>
-            <pubDate>Tue, 04 Aug 2026 23:20:05 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>195</sparkle:version>
-            <sparkle:shortVersionString>2.13.88</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.88
-
-- Swiping back on the artwork now reaches the previous song from anywhere in the current one, rather than restarting the song you are already on.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.88/Now-2.13.88.zip" length="7336208" type="application/octet-stream" sparkle:edSignature="eIJKoqmSlBttnOEGTVxUylfdLtTE41W78VYCN2cAmaWea2fRyecA5cmMg40MKgYWVUhgz9hW43kFcEdIOOlECg=="/>
         </item>
     </channel>
 </rss>
