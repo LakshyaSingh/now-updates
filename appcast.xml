@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.86</title>
+            <pubDate>Tue, 04 Aug 2026 22:03:00 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>193</sparkle:version>
+            <sparkle:shortVersionString>2.13.86</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.86
+
+- Fixed cover art sometimes staying blank for a whole song while the title and artist showed correctly. A slow cover download was being restarted every second instead of being left to finish.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.86/Now-2.13.86.zip" length="7333800" type="application/octet-stream" sparkle:edSignature="H+apgC/V/tLnlZz1/71R9X4v1JEaaJH8MqEjGsxjU7LWjatPwL2XR2yb17MvrFcLu645tT5vEpBS8Jm18eTKAQ=="/>
+        </item>
+        <item>
             <title>2.13.85</title>
             <pubDate>Mon, 03 Aug 2026 23:58:02 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,23 +43,6 @@
 - Fixed the remaining lyric jump on pause: the once-per-song one, on the first pause after a song starts. Pausing a web player takes an AppleScript round trip, and the lyric clock kept running across it — so by the time the real paused position arrived, the clock had overshot it and had to correct backwards, pulling the highlighted line back a line or two. The first pause after a track change was the visible one because it also pays for browser tab discovery, making it by far the slowest. The clock now stops the instant you ask for a pause rather than when the player confirms, so it stops a fraction early and the correction that follows is forwards, which never jumps. The progress bar stops immediately too.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.84/Now-2.13.84.zip" length="7331696" type="application/octet-stream" sparkle:edSignature="fo9IlecgNcXli8XGjJxKbLlBqvAtm7B6aoKGuuXNxa5eP0AqsZ19vhh7SpWLib5DV1bOhvk70PW+dfZbXAEjDg=="/>
-        </item>
-        <item>
-            <title>2.13.83</title>
-            <pubDate>Mon, 03 Aug 2026 23:07:51 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>190</sparkle:version>
-            <sparkle:shortVersionString>2.13.83</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.83
-
-- Lyrics no longer drop back a line and jump forward again. The playback position a source reports is often up to a second and a half behind the audio, and the lyrics were treating any reading more than a second back as a deliberate seek, so an ordinary stale sample pulled the highlighted line backwards before the next one pushed it forward. A backward reading now has to be corroborated by a second one before it is believed, so a stale sample makes the clock pause for a moment instead of jumping. Real seeks and scrubbing still take effect immediately.
-- The same jump on pause is fixed. Pausing adds the command round trip on top of that staleness, which is why it happened almost every time. The position still corrects itself, but the highlighted line no longer moves backwards to do it.
-- Fixed the lyrics snapping to the first line for an instant, once per song, at the moment a source first reported the track length.
-- Swiping to the next song on Spotify no longer slides the artwork away into an empty gap. Spotify does not publish its next track to anything on the Mac — neither the app's AppleScript nor the web player exposes a queue — so Now cannot show the incoming cover there the way it does for Apple Music and YouTube Music. Swiping back works because that cover is in your listening history. Rather than opening a gap a quarter of the artwork wide, the cover now gives a small nudge and settles, and the song still changes on release.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.83/Now-2.13.83.zip" length="7331515" type="application/octet-stream" sparkle:edSignature="WnfirUT5GmU5p5DEYg7yc/t6v/cX2DWixxDk2MYtsmNxdwWXEJvBOcHcpUND70QwTwMzeSFiC4Skbt/KC9+9Dw=="/>
         </item>
     </channel>
 </rss>
