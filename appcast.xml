@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.90</title>
+            <pubDate>Wed, 05 Aug 2026 10:26:52 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>197</sparkle:version>
+            <sparkle:shortVersionString>2.13.90</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.90
+
+- An empty cover tile now retries straight away instead of waiting, so a missing album cover fills in as soon as it can.
+- Added a diagnostic that records why a cover was left blank, to track down a rare case where it stays empty for a whole song.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.90/Now-2.13.90.zip" length="7340606" type="application/octet-stream" sparkle:edSignature="bxqbCHNdCTxPhjjiyQ0L9+wrdk8XXGg5TrEjVjWh02K0AuF2PXaWrk1JISxndBTpxIFNm+DJ/qnsjol+N3rMDw=="/>
+        </item>
+        <item>
             <title>2.13.89</title>
             <pubDate>Wed, 05 Aug 2026 02:04:23 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +45,6 @@
 - Swiping back on the artwork now reaches the previous song from anywhere in the current one, rather than restarting the song you are already on.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.88/Now-2.13.88.zip" length="7336208" type="application/octet-stream" sparkle:edSignature="eIJKoqmSlBttnOEGTVxUylfdLtTE41W78VYCN2cAmaWea2fRyecA5cmMg40MKgYWVUhgz9hW43kFcEdIOOlECg=="/>
-        </item>
-        <item>
-            <title>2.13.87</title>
-            <pubDate>Tue, 04 Aug 2026 23:16:21 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>194</sparkle:version>
-            <sparkle:shortVersionString>2.13.87</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.87
-
-- Swiping back on the artwork now reaches the previous song from anywhere in the current one. Players treat "previous" as "restart this track" once you are a few seconds in, so the first swipe only started the song again.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.87/Now-2.13.87.zip" length="7336161" type="application/octet-stream" sparkle:edSignature="8rx/qCCnDuNEPufX9gw1fm6RFe2LMMP4AWKBEe/DcipWE4aC+ui6MV8ACmPxDOkdrq1PFVMWCPvbne99rqPxBQ=="/>
         </item>
     </channel>
 </rss>
