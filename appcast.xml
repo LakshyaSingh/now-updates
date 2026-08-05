@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.88</title>
+            <pubDate>Tue, 04 Aug 2026 23:20:05 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>195</sparkle:version>
+            <sparkle:shortVersionString>2.13.88</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.88
+
+- Swiping back on the artwork now reaches the previous song from anywhere in the current one, rather than restarting the song you are already on.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.88/Now-2.13.88.zip" length="7336208" type="application/octet-stream" sparkle:edSignature="eIJKoqmSlBttnOEGTVxUylfdLtTE41W78VYCN2cAmaWea2fRyecA5cmMg40MKgYWVUhgz9hW43kFcEdIOOlECg=="/>
+        </item>
+        <item>
             <title>2.13.87</title>
             <pubDate>Tue, 04 Aug 2026 23:16:21 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Fixed cover art sometimes staying blank for a whole song while the title and artist showed correctly. A slow cover download was being restarted every second instead of being left to finish.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.86/Now-2.13.86.zip" length="7333800" type="application/octet-stream" sparkle:edSignature="H+apgC/V/tLnlZz1/71R9X4v1JEaaJH8MqEjGsxjU7LWjatPwL2XR2yb17MvrFcLu645tT5vEpBS8Jm18eTKAQ=="/>
-        </item>
-        <item>
-            <title>2.13.85</title>
-            <pubDate>Mon, 03 Aug 2026 23:58:02 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>192</sparkle:version>
-            <sparkle:shortVersionString>2.13.85</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.85
-
-- Fixed the lyrics jumping back a couple of lines on the first pause of a song when playing through the Spotify desktop app. Position samples could be applied out of order. The first Apple Event to Spotify after it has been idle takes about two seconds, while later ones take five milliseconds, and pausing fires three follow-up reads in quick succession — so several requests were in flight at once and a slow early one could return after a fast later one, moving playback position backwards by seconds. Samples that describe an older moment than the one already applied are now discarded. Web players were unaffected because their bridge already collapses overlapping reads into a single request.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.85/Now-2.13.85.zip" length="7332868" type="application/octet-stream" sparkle:edSignature="XtKhP+wPTOgMdzlw3t+GnNxg6CpcUMCGOMFQm7D5OdNx3id4u19Z1N/NNegz/zPpxrl7Vjd1MRE6mZ6vkgWUCw=="/>
         </item>
     </channel>
 </rss>
