@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.92</title>
+            <pubDate>Thu, 06 Aug 2026 21:48:27 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>199</sparkle:version>
+            <sparkle:shortVersionString>2.13.92</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.92
+
+- Swiping the artwork no longer misbehaves on Apple Podcasts. Podcasts has no previous or next episode to move to, so the swipe was showing the cover of a show you listened to earlier while restarting the episode you were already on, and the mismatch never corrected itself. Swiping is now inactive for podcasts.
+- If a swipe does not actually change the track, the overlay now puts the real cover back instead of keeping the one it previewed.
+- Amazon Music is enabled by default for new installs.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.92/Now-2.13.92.zip" length="7342517" type="application/octet-stream" sparkle:edSignature="JBn/IGHKhT51C2RRV6UqT0Pj2hr+br+pZjRsV1gv4D49SRxThNwzS1A3jMza5id56ZQ5twEXKPNoEdDACi1NDg=="/>
+        </item>
+        <item>
             <title>2.13.91</title>
             <pubDate>Wed, 05 Aug 2026 10:32:00 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +47,6 @@
 - Added a diagnostic that records why a cover was left blank, to track down a rare case where it stays empty for a whole song.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.90/Now-2.13.90.zip" length="7340606" type="application/octet-stream" sparkle:edSignature="bxqbCHNdCTxPhjjiyQ0L9+wrdk8XXGg5TrEjVjWh02K0AuF2PXaWrk1JISxndBTpxIFNm+DJ/qnsjol+N3rMDw=="/>
-        </item>
-        <item>
-            <title>2.13.89</title>
-            <pubDate>Wed, 05 Aug 2026 02:04:23 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>196</sparkle:version>
-            <sparkle:shortVersionString>2.13.89</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.89
-
-- Now uses much less energy while music is playing, and should no longer appear in macOS's significant-energy list. It was checking the player far more often than it needed to; progress and lyrics were never driven by those checks.
-- Cleaned up stray temporary files left behind if Now was force-quit.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.89/Now-2.13.89.zip" length="7338481" type="application/octet-stream" sparkle:edSignature="tJ0dGBfilVKSVfcubwZ7TJo6wy0Sd0J3lT7uX23Qcr+vQODrtZF6vIGT+PGTlZ8rYkfrrstyVlvg5TXgBAu5CA=="/>
         </item>
     </channel>
 </rss>
