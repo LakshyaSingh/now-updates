@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.99</title>
+            <pubDate>Fri, 07 Aug 2026 00:56:19 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>2.13.99</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.99
+
+- Music Sources lists Amazon Music once again, as "Amazon Music (Safari / Chrome)". There is no Apple Silicon build of Amazon's desktop app, so the website is the only way to reach it and a separate entry for the app was misleading. Your existing choice carries over.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.99/Now-2.13.99.zip" length="7348303" type="application/octet-stream" sparkle:edSignature="SSFj/K+FpbD01lj8JjigfDGV5V1StAC58kDDQbRU51hhY2ttUy6hzZg60TIJeQvytILWu3CyklECqLYkLxZTDQ=="/>
+        </item>
+        <item>
             <title>2.13.98</title>
             <pubDate>Fri, 07 Aug 2026 00:50:32 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Lyrics now track the music exactly on Amazon Music. The playback position is read from the player itself rather than from the progress bar, which only reports whole seconds and left the timing up to half a second out either way.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.97/Now-2.13.97.zip" length="7348467" type="application/octet-stream" sparkle:edSignature="4g4BbQfTL7gFUNjMWUsDAYE9vF5VEGtgZNheD24MlDYNPSm6L0gFym/Y4QdgadfkiV3hmJGWuhAuzM/vjp+oBA=="/>
-        </item>
-        <item>
-            <title>2.13.96</title>
-            <pubDate>Fri, 07 Aug 2026 00:31:38 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>203</sparkle:version>
-            <sparkle:shortVersionString>2.13.96</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.96
-
-- Lyrics now keep time on Amazon Music instead of arriving about half a second late. Amazon reports its playback position only to the nearest whole second, always rounding down, so the correction applies to Amazon alone and leaves every other service untouched.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.96/Now-2.13.96.zip" length="7347812" type="application/octet-stream" sparkle:edSignature="w4ewhyxThFIpJAsmAdoUNN6qQ6Rg2ZKmFB0QFQ+l1Njn/7+4S14BO5irffYtQlyuOsX34Gp/OcZ89UZ/T4GsBw=="/>
         </item>
     </channel>
 </rss>
