@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.4</title>
+            <pubDate>Fri, 07 Aug 2026 03:39:38 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>211</sparkle:version>
+            <sparkle:shortVersionString>2.14.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.4
+
+- The full-screen cover no longer squashes as it leans. It was compressing by about 11% across whichever direction you moved, which read as the artwork stretching toward the pointer; it now holds its shape to within half a percent while leaning the same amount.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.4/Now-2.14.4.zip" length="7361227" type="application/octet-stream" sparkle:edSignature="qA7BNKIOsrIRw72Ns6v/wh8j5FwCEISEC5HJ395OXiBfsC+Z1eEM9LWNu4Nvyty5IhLx42ZcEhHjrZlKEqvTAw=="/>
+        </item>
+        <item>
             <title>2.14.3</title>
             <pubDate>Fri, 07 Aug 2026 03:26:27 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The full-screen cover's lean now moves the way TIDAL's does: it glides after the pointer instead of snapping to it, and leans further.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.2/Now-2.14.2.zip" length="7361181" type="application/octet-stream" sparkle:edSignature="M7HyRGpR9yHN2UssNjbLlPOtfNrz422pcFfH8cMUh4l6v/XGYXGbzyN5QqZGmFCEyeBwJFNdcQcbFUfkb63+DA=="/>
-        </item>
-        <item>
-            <title>2.14.1</title>
-            <pubDate>Fri, 07 Aug 2026 01:43:01 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>208</sparkle:version>
-            <sparkle:shortVersionString>2.14.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.1
-
-- The full-screen cover now leans away from your pointer, with a light catching the face that turns toward it. Hovering the artwork tilts it; moving away lets it settle back flat.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.1/Now-2.14.1.zip" length="7361133" type="application/octet-stream" sparkle:edSignature="l7eQHu0Z+nw7pDB9fZA1p89rG9YzXKuntxKs0AD47OBQgoCNecYEy73P2TA9my5ks4m6V0EwCpwzB8uz+Y7oCQ=="/>
         </item>
     </channel>
 </rss>
