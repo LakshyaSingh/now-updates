@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.5</title>
+            <pubDate>Fri, 07 Aug 2026 03:49:55 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>212</sparkle:version>
+            <sparkle:shortVersionString>2.14.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.5
+
+- The cover's lean skips redundant redraws while you move the pointer, without any visible change to how it moves.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.5/Now-2.14.5.zip" length="7361240" type="application/octet-stream" sparkle:edSignature="sBkQPViLj+St+9sFbpCjmRUZ8zARif9tPzGwujNeSsQNll72adtGecyT+JgdaJD27yZcYzb5kMZx3By+D+ozDg=="/>
+        </item>
+        <item>
             <title>2.14.4</title>
             <pubDate>Fri, 07 Aug 2026 03:39:38 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The full-screen cover settles back more naturally when you move the pointer away, and its highlight now fades in step with the lean instead of lingering behind it.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.3/Now-2.14.3.zip" length="7361255" type="application/octet-stream" sparkle:edSignature="3H0q5IVAG8ZEAO4pqfEheKA6v0xOp303cKitulBBwZtiN7fgApSZLLwyFmvAFy6ZX57zDeCi34uSCaVSjx3pAg=="/>
-        </item>
-        <item>
-            <title>2.14.2</title>
-            <pubDate>Fri, 07 Aug 2026 03:16:27 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>209</sparkle:version>
-            <sparkle:shortVersionString>2.14.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.2
-
-- The full-screen cover's lean now moves the way TIDAL's does: it glides after the pointer instead of snapping to it, and leans further.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.2/Now-2.14.2.zip" length="7361181" type="application/octet-stream" sparkle:edSignature="M7HyRGpR9yHN2UssNjbLlPOtfNrz422pcFfH8cMUh4l6v/XGYXGbzyN5QqZGmFCEyeBwJFNdcQcbFUfkb63+DA=="/>
         </item>
     </channel>
 </rss>
