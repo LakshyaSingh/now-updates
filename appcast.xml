@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.0</title>
+            <pubDate>Fri, 07 Aug 2026 00:58:43 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>207</sparkle:version>
+            <sparkle:shortVersionString>2.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.0
+
+- Music Sources lists Amazon Music once, as "Amazon Music (Safari / Chrome)". There is no Apple Silicon build of Amazon's desktop app, so the website is the only way to reach it and a separate entry for the app was misleading. Your existing choice carries over.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.0/Now-2.14.0.zip" length="7348869" type="application/octet-stream" sparkle:edSignature="/3aI9y5Mp/Q7gdDXaiCgDRoRs8MoPjSbi/eV5TnsqYo64OVUhPunXbdMKPDEzNLlKG6V1kdd8JSfrnsxuCKYBA=="/>
+        </item>
+        <item>
             <title>2.13.99</title>
             <pubDate>Fri, 07 Aug 2026 00:56:19 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - TIDAL is now followed out of the box. Everything needed was already in place; the source was simply switched off by default. Turning it off yourself still sticks.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.98/Now-2.13.98.zip" length="7348616" type="application/octet-stream" sparkle:edSignature="E1sFiaUzZwOFdIRTjX5iCv+dmJpq3wef/jwuvZHLL414LOSl752pZjFg0fQIQqSlLbWlzHOS0wr41KhV9RKcDQ=="/>
-        </item>
-        <item>
-            <title>2.13.97</title>
-            <pubDate>Fri, 07 Aug 2026 00:38:14 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>204</sparkle:version>
-            <sparkle:shortVersionString>2.13.97</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.97
-
-- Lyrics now track the music exactly on Amazon Music. The playback position is read from the player itself rather than from the progress bar, which only reports whole seconds and left the timing up to half a second out either way.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.97/Now-2.13.97.zip" length="7348467" type="application/octet-stream" sparkle:edSignature="4g4BbQfTL7gFUNjMWUsDAYE9vF5VEGtgZNheD24MlDYNPSm6L0gFym/Y4QdgadfkiV3hmJGWuhAuzM/vjp+oBA=="/>
         </item>
     </channel>
 </rss>
