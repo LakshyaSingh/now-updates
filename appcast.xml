@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.96</title>
+            <pubDate>Fri, 07 Aug 2026 00:31:38 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>203</sparkle:version>
+            <sparkle:shortVersionString>2.13.96</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.96
+
+- Lyrics now keep time on Amazon Music instead of arriving about half a second late. Amazon reports its playback position only to the nearest whole second, always rounding down, so the correction applies to Amazon alone and leaves every other service untouched.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.96/Now-2.13.96.zip" length="7347812" type="application/octet-stream" sparkle:edSignature="w4ewhyxThFIpJAsmAdoUNN6qQ6Rg2ZKmFB0QFQ+l1Njn/7+4S14BO5irffYtQlyuOsX34Gp/OcZ89UZ/T4GsBw=="/>
+        </item>
+        <item>
             <title>2.13.95</title>
             <pubDate>Thu, 06 Aug 2026 22:22:04 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +44,6 @@
 - Amazon do not ship an Apple Silicon build of their desktop app, so the web player is the way to use Amazon Music on a current Mac.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.94/Now-2.13.94.zip" length="7346823" type="application/octet-stream" sparkle:edSignature="Kx2gkNSfT5CJbMCHbOfeC413QHUAeZickpiGBZJUish2ivqZ5N0tM9ZsHhjEMhfJN8jd3iz3FXAcg1yT4bdIAw=="/>
-        </item>
-        <item>
-            <title>2.13.93</title>
-            <pubDate>Thu, 06 Aug 2026 21:55:59 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>200</sparkle:version>
-            <sparkle:shortVersionString>2.13.93</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.93
-
-- Fixed the artwork getting stuck part-way off the overlay when swiping during a podcast. The swipe is now ignored outright for sources with no episode queue, instead of letting the cover move and then having nothing to complete the gesture.
-- If a swipe finds no cover to move to, the artwork now glides back into place rather than staying where it was left.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.93/Now-2.13.93.zip" length="7343600" type="application/octet-stream" sparkle:edSignature="74IOXVSSlzt7hKSrk0PJcl+pyymdWvsIsatXKK1OTCTmYCa2XEjW0nvhZ/fgTyHY9w28E+oJtiIyuyPIMHQRDg=="/>
         </item>
     </channel>
 </rss>
