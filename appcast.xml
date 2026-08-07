@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.98</title>
+            <pubDate>Fri, 07 Aug 2026 00:50:32 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>205</sparkle:version>
+            <sparkle:shortVersionString>2.13.98</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.98
+
+- TIDAL is now followed out of the box. Everything needed was already in place; the source was simply switched off by default. Turning it off yourself still sticks.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.98/Now-2.13.98.zip" length="7348616" type="application/octet-stream" sparkle:edSignature="E1sFiaUzZwOFdIRTjX5iCv+dmJpq3wef/jwuvZHLL414LOSl752pZjFg0fQIQqSlLbWlzHOS0wr41KhV9RKcDQ=="/>
+        </item>
+        <item>
             <title>2.13.97</title>
             <pubDate>Fri, 07 Aug 2026 00:38:14 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Lyrics now keep time on Amazon Music instead of arriving about half a second late. Amazon reports its playback position only to the nearest whole second, always rounding down, so the correction applies to Amazon alone and leaves every other service untouched.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.96/Now-2.13.96.zip" length="7347812" type="application/octet-stream" sparkle:edSignature="w4ewhyxThFIpJAsmAdoUNN6qQ6Rg2ZKmFB0QFQ+l1Njn/7+4S14BO5irffYtQlyuOsX34Gp/OcZ89UZ/T4GsBw=="/>
-        </item>
-        <item>
-            <title>2.13.95</title>
-            <pubDate>Thu, 06 Aug 2026 22:22:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>202</sparkle:version>
-            <sparkle:shortVersionString>2.13.95</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.95
-
-- Scrubbing and clicking a lyric line on Amazon Music now go through the player's own seek, so they no longer depend on where the progress bar happens to be drawn or fail while it is briefly missing between tracks.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.95/Now-2.13.95.zip" length="7347438" type="application/octet-stream" sparkle:edSignature="+ARDfAzjUPuepzJy2uxIADD1rSmNKPZDMlu0s7atEgz+F6LeROjw0OwPlw87w4ii+45UpePyEqxxXY5R+SW1Bg=="/>
         </item>
     </channel>
 </rss>
