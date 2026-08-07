@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.95</title>
+            <pubDate>Thu, 06 Aug 2026 22:22:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>202</sparkle:version>
+            <sparkle:shortVersionString>2.13.95</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.95
+
+- Scrubbing and clicking a lyric line on Amazon Music now go through the player's own seek, so they no longer depend on where the progress bar happens to be drawn or fail while it is briefly missing between tracks.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.95/Now-2.13.95.zip" length="7347438" type="application/octet-stream" sparkle:edSignature="+ARDfAzjUPuepzJy2uxIADD1rSmNKPZDMlu0s7atEgz+F6LeROjw0OwPlw87w4ii+45UpePyEqxxXY5R+SW1Bg=="/>
+        </item>
+        <item>
             <title>2.13.94</title>
             <pubDate>Thu, 06 Aug 2026 22:12:09 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,22 +45,6 @@
 - If a swipe finds no cover to move to, the artwork now glides back into place rather than staying where it was left.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.93/Now-2.13.93.zip" length="7343600" type="application/octet-stream" sparkle:edSignature="74IOXVSSlzt7hKSrk0PJcl+pyymdWvsIsatXKK1OTCTmYCa2XEjW0nvhZ/fgTyHY9w28E+oJtiIyuyPIMHQRDg=="/>
-        </item>
-        <item>
-            <title>2.13.92</title>
-            <pubDate>Thu, 06 Aug 2026 21:48:27 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>199</sparkle:version>
-            <sparkle:shortVersionString>2.13.92</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.92
-
-- Swiping the artwork no longer misbehaves on Apple Podcasts. Podcasts has no previous or next episode to move to, so the swipe was showing the cover of a show you listened to earlier while restarting the episode you were already on, and the mismatch never corrected itself. Swiping is now inactive for podcasts.
-- If a swipe does not actually change the track, the overlay now puts the real cover back instead of keeping the one it previewed.
-- Amazon Music is enabled by default for new installs.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.92/Now-2.13.92.zip" length="7342517" type="application/octet-stream" sparkle:edSignature="JBn/IGHKhT51C2RRV6UqT0Pj2hr+br+pZjRsV1gv4D49SRxThNwzS1A3jMza5id56ZQ5twEXKPNoEdDACi1NDg=="/>
         </item>
     </channel>
 </rss>
