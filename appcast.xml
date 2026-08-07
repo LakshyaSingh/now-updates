@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.2</title>
+            <pubDate>Fri, 07 Aug 2026 03:16:27 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>209</sparkle:version>
+            <sparkle:shortVersionString>2.14.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.2
+
+- The full-screen cover's lean now moves the way TIDAL's does: it glides after the pointer instead of snapping to it, and leans further.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.2/Now-2.14.2.zip" length="7361181" type="application/octet-stream" sparkle:edSignature="M7HyRGpR9yHN2UssNjbLlPOtfNrz422pcFfH8cMUh4l6v/XGYXGbzyN5QqZGmFCEyeBwJFNdcQcbFUfkb63+DA=="/>
+        </item>
+        <item>
             <title>2.14.1</title>
             <pubDate>Fri, 07 Aug 2026 01:43:01 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Music Sources lists Amazon Music once, as "Amazon Music (Safari / Chrome)". There is no Apple Silicon build of Amazon's desktop app, so the website is the only way to reach it and a separate entry for the app was misleading. Your existing choice carries over.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.0/Now-2.14.0.zip" length="7348869" type="application/octet-stream" sparkle:edSignature="/3aI9y5Mp/Q7gdDXaiCgDRoRs8MoPjSbi/eV5TnsqYo64OVUhPunXbdMKPDEzNLlKG6V1kdd8JSfrnsxuCKYBA=="/>
-        </item>
-        <item>
-            <title>2.13.99</title>
-            <pubDate>Fri, 07 Aug 2026 00:56:19 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>206</sparkle:version>
-            <sparkle:shortVersionString>2.13.99</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.99
-
-- Music Sources lists Amazon Music once again, as "Amazon Music (Safari / Chrome)". There is no Apple Silicon build of Amazon's desktop app, so the website is the only way to reach it and a separate entry for the app was misleading. Your existing choice carries over.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.99/Now-2.13.99.zip" length="7348303" type="application/octet-stream" sparkle:edSignature="SSFj/K+FpbD01lj8JjigfDGV5V1StAC58kDDQbRU51hhY2ttUy6hzZg60TIJeQvytILWu3CyklECqLYkLxZTDQ=="/>
         </item>
     </channel>
 </rss>
