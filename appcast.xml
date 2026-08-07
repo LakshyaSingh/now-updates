@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.1</title>
+            <pubDate>Fri, 07 Aug 2026 01:43:01 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>208</sparkle:version>
+            <sparkle:shortVersionString>2.14.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.1
+
+- The full-screen cover now leans away from your pointer, with a light catching the face that turns toward it. Hovering the artwork tilts it; moving away lets it settle back flat.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.1/Now-2.14.1.zip" length="7361133" type="application/octet-stream" sparkle:edSignature="l7eQHu0Z+nw7pDB9fZA1p89rG9YzXKuntxKs0AD47OBQgoCNecYEy73P2TA9my5ks4m6V0EwCpwzB8uz+Y7oCQ=="/>
+        </item>
+        <item>
             <title>2.14.0</title>
             <pubDate>Fri, 07 Aug 2026 00:58:43 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Music Sources lists Amazon Music once again, as "Amazon Music (Safari / Chrome)". There is no Apple Silicon build of Amazon's desktop app, so the website is the only way to reach it and a separate entry for the app was misleading. Your existing choice carries over.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.99/Now-2.13.99.zip" length="7348303" type="application/octet-stream" sparkle:edSignature="SSFj/K+FpbD01lj8JjigfDGV5V1StAC58kDDQbRU51hhY2ttUy6hzZg60TIJeQvytILWu3CyklECqLYkLxZTDQ=="/>
-        </item>
-        <item>
-            <title>2.13.98</title>
-            <pubDate>Fri, 07 Aug 2026 00:50:32 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>205</sparkle:version>
-            <sparkle:shortVersionString>2.13.98</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.98
-
-- TIDAL is now followed out of the box. Everything needed was already in place; the source was simply switched off by default. Turning it off yourself still sticks.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.98/Now-2.13.98.zip" length="7348616" type="application/octet-stream" sparkle:edSignature="E1sFiaUzZwOFdIRTjX5iCv+dmJpq3wef/jwuvZHLL414LOSl752pZjFg0fQIQqSlLbWlzHOS0wr41KhV9RKcDQ=="/>
         </item>
     </channel>
 </rss>
