@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.93</title>
+            <pubDate>Thu, 06 Aug 2026 21:55:59 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>200</sparkle:version>
+            <sparkle:shortVersionString>2.13.93</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.93
+
+- Fixed the artwork getting stuck part-way off the overlay when swiping during a podcast. The swipe is now ignored outright for sources with no episode queue, instead of letting the cover move and then having nothing to complete the gesture.
+- If a swipe finds no cover to move to, the artwork now glides back into place rather than staying where it was left.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.93/Now-2.13.93.zip" length="7343600" type="application/octet-stream" sparkle:edSignature="74IOXVSSlzt7hKSrk0PJcl+pyymdWvsIsatXKK1OTCTmYCa2XEjW0nvhZ/fgTyHY9w28E+oJtiIyuyPIMHQRDg=="/>
+        </item>
+        <item>
             <title>2.13.92</title>
             <pubDate>Thu, 06 Aug 2026 21:48:27 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +47,6 @@
 - A cover that is already downloading is now left to finish rather than being restarted.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.91/Now-2.13.91.zip" length="7340742" type="application/octet-stream" sparkle:edSignature="h3MUmfhPoNlq68pibJXV7PSFc6bYTM/2Fld76cjOOAd43FBIdC3fzNLg/Nv7tMbD/7+yzh6l+4fFU86p9l2LAQ=="/>
-        </item>
-        <item>
-            <title>2.13.90</title>
-            <pubDate>Wed, 05 Aug 2026 10:26:52 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>197</sparkle:version>
-            <sparkle:shortVersionString>2.13.90</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.90
-
-- An empty cover tile now retries straight away instead of waiting, so a missing album cover fills in as soon as it can.
-- Added a diagnostic that records why a cover was left blank, to track down a rare case where it stays empty for a whole song.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.90/Now-2.13.90.zip" length="7340606" type="application/octet-stream" sparkle:edSignature="bxqbCHNdCTxPhjjiyQ0L9+wrdk8XXGg5TrEjVjWh02K0AuF2PXaWrk1JISxndBTpxIFNm+DJ/qnsjol+N3rMDw=="/>
         </item>
     </channel>
 </rss>
