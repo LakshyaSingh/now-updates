@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.3</title>
+            <pubDate>Fri, 07 Aug 2026 03:26:27 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>210</sparkle:version>
+            <sparkle:shortVersionString>2.14.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.3
+
+- The full-screen cover settles back more naturally when you move the pointer away, and its highlight now fades in step with the lean instead of lingering behind it.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.3/Now-2.14.3.zip" length="7361255" type="application/octet-stream" sparkle:edSignature="3H0q5IVAG8ZEAO4pqfEheKA6v0xOp303cKitulBBwZtiN7fgApSZLLwyFmvAFy6ZX57zDeCi34uSCaVSjx3pAg=="/>
+        </item>
+        <item>
             <title>2.14.2</title>
             <pubDate>Fri, 07 Aug 2026 03:16:27 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The full-screen cover now leans away from your pointer, with a light catching the face that turns toward it. Hovering the artwork tilts it; moving away lets it settle back flat.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.1/Now-2.14.1.zip" length="7361133" type="application/octet-stream" sparkle:edSignature="l7eQHu0Z+nw7pDB9fZA1p89rG9YzXKuntxKs0AD47OBQgoCNecYEy73P2TA9my5ks4m6V0EwCpwzB8uz+Y7oCQ=="/>
-        </item>
-        <item>
-            <title>2.14.0</title>
-            <pubDate>Fri, 07 Aug 2026 00:58:43 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>207</sparkle:version>
-            <sparkle:shortVersionString>2.14.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.0
-
-- Music Sources lists Amazon Music once, as "Amazon Music (Safari / Chrome)". There is no Apple Silicon build of Amazon's desktop app, so the website is the only way to reach it and a separate entry for the app was misleading. Your existing choice carries over.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.0/Now-2.14.0.zip" length="7348869" type="application/octet-stream" sparkle:edSignature="/3aI9y5Mp/Q7gdDXaiCgDRoRs8MoPjSbi/eV5TnsqYo64OVUhPunXbdMKPDEzNLlKG6V1kdd8JSfrnsxuCKYBA=="/>
         </item>
     </channel>
 </rss>
