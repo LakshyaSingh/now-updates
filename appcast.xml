@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.97</title>
+            <pubDate>Fri, 07 Aug 2026 00:38:14 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>204</sparkle:version>
+            <sparkle:shortVersionString>2.13.97</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.97
+
+- Lyrics now track the music exactly on Amazon Music. The playback position is read from the player itself rather than from the progress bar, which only reports whole seconds and left the timing up to half a second out either way.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.97/Now-2.13.97.zip" length="7348467" type="application/octet-stream" sparkle:edSignature="4g4BbQfTL7gFUNjMWUsDAYE9vF5VEGtgZNheD24MlDYNPSm6L0gFym/Y4QdgadfkiV3hmJGWuhAuzM/vjp+oBA=="/>
+        </item>
+        <item>
             <title>2.13.96</title>
             <pubDate>Fri, 07 Aug 2026 00:31:38 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,21 +43,6 @@
 - Scrubbing and clicking a lyric line on Amazon Music now go through the player's own seek, so they no longer depend on where the progress bar happens to be drawn or fail while it is briefly missing between tracks.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.95/Now-2.13.95.zip" length="7347438" type="application/octet-stream" sparkle:edSignature="+ARDfAzjUPuepzJy2uxIADD1rSmNKPZDMlu0s7atEgz+F6LeROjw0OwPlw87w4ii+45UpePyEqxxXY5R+SW1Bg=="/>
-        </item>
-        <item>
-            <title>2.13.94</title>
-            <pubDate>Thu, 06 Aug 2026 22:12:09 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>201</sparkle:version>
-            <sparkle:shortVersionString>2.13.94</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.94
-
-- Amazon Music in Safari or Chrome is now supported: the overlay follows the track, progress and synced lyrics, with play, pause, next, previous and scrubbing, and cover art at full resolution.
-- Amazon do not ship an Apple Silicon build of their desktop app, so the web player is the way to use Amazon Music on a current Mac.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.94/Now-2.13.94.zip" length="7346823" type="application/octet-stream" sparkle:edSignature="Kx2gkNSfT5CJbMCHbOfeC413QHUAeZickpiGBZJUish2ivqZ5N0tM9ZsHhjEMhfJN8jd3iz3FXAcg1yT4bdIAw=="/>
         </item>
     </channel>
 </rss>
