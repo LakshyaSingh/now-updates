@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.13.94</title>
+            <pubDate>Thu, 06 Aug 2026 22:12:09 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>201</sparkle:version>
+            <sparkle:shortVersionString>2.13.94</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.13.94
+
+- Amazon Music in Safari or Chrome is now supported: the overlay follows the track, progress and synced lyrics, with play, pause, next, previous and scrubbing, and cover art at full resolution.
+- Amazon do not ship an Apple Silicon build of their desktop app, so the web player is the way to use Amazon Music on a current Mac.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.94/Now-2.13.94.zip" length="7346823" type="application/octet-stream" sparkle:edSignature="Kx2gkNSfT5CJbMCHbOfeC413QHUAeZickpiGBZJUish2ivqZ5N0tM9ZsHhjEMhfJN8jd3iz3FXAcg1yT4bdIAw=="/>
+        </item>
+        <item>
             <title>2.13.93</title>
             <pubDate>Thu, 06 Aug 2026 21:55:59 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,21 +47,6 @@
 - Amazon Music is enabled by default for new installs.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.92/Now-2.13.92.zip" length="7342517" type="application/octet-stream" sparkle:edSignature="JBn/IGHKhT51C2RRV6UqT0Pj2hr+br+pZjRsV1gv4D49SRxThNwzS1A3jMza5id56ZQ5twEXKPNoEdDACi1NDg=="/>
-        </item>
-        <item>
-            <title>2.13.91</title>
-            <pubDate>Wed, 05 Aug 2026 10:32:00 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>198</sparkle:version>
-            <sparkle:shortVersionString>2.13.91</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.13.91
-
-- Fixed album covers sometimes staying blank for a whole song. Two separate pieces of cover loading shared one cancel switch, so each could abort the other's download.
-- A cover that is already downloading is now left to finish rather than being restarted.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.13.91/Now-2.13.91.zip" length="7340742" type="application/octet-stream" sparkle:edSignature="h3MUmfhPoNlq68pibJXV7PSFc6bYTM/2Fld76cjOOAd43FBIdC3fzNLg/Nv7tMbD/7+yzh6l+4fFU86p9l2LAQ=="/>
         </item>
     </channel>
 </rss>
