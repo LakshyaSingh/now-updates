@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.6</title>
+            <pubDate>Fri, 07 Aug 2026 03:58:49 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>213</sparkle:version>
+            <sparkle:shortVersionString>2.14.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.6
+
+- Swiping toward the next song no longer opens a blank gap on services that do not publish what is coming next, such as Spotify, Amazon Music and TIDAL. The cover now presses inward instead of sliding aside, and the song still changes on release.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.6/Now-2.14.6.zip" length="7361145" type="application/octet-stream" sparkle:edSignature="mnQ7hHzj8VQc+A20C4gcHpEMqBrLLP8QBQQ4mZTpyC6GByT0l5TnbyEST+JHThF5SYBinbV299GES2j+BhAvAw=="/>
+        </item>
+        <item>
             <title>2.14.5</title>
             <pubDate>Fri, 07 Aug 2026 03:49:55 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The full-screen cover no longer squashes as it leans. It was compressing by about 11% across whichever direction you moved, which read as the artwork stretching toward the pointer; it now holds its shape to within half a percent while leaning the same amount.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.4/Now-2.14.4.zip" length="7361227" type="application/octet-stream" sparkle:edSignature="qA7BNKIOsrIRw72Ns6v/wh8j5FwCEISEC5HJ395OXiBfsC+Z1eEM9LWNu4Nvyty5IhLx42ZcEhHjrZlKEqvTAw=="/>
-        </item>
-        <item>
-            <title>2.14.3</title>
-            <pubDate>Fri, 07 Aug 2026 03:26:27 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>210</sparkle:version>
-            <sparkle:shortVersionString>2.14.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.3
-
-- The full-screen cover settles back more naturally when you move the pointer away, and its highlight now fades in step with the lean instead of lingering behind it.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.3/Now-2.14.3.zip" length="7361255" type="application/octet-stream" sparkle:edSignature="3H0q5IVAG8ZEAO4pqfEheKA6v0xOp303cKitulBBwZtiN7fgApSZLLwyFmvAFy6ZX57zDeCi34uSCaVSjx3pAg=="/>
         </item>
     </channel>
 </rss>
