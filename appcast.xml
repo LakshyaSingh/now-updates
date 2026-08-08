@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.11</title>
+            <pubDate>Sat, 08 Aug 2026 13:46:42 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>218</sparkle:version>
+            <sparkle:shortVersionString>2.14.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.11
+
+- Fixed a song set to repeat sitting at the end of the track instead of following it back to the start. The progress bar and lyrics now pick up each replay.
+- Fixed track details failing to load for music with large album art.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.11/Now-2.14.11.zip" length="7366177" type="application/octet-stream" sparkle:edSignature="f/tehI/+1JWdvJBThet2fBzQpM2Fcq+IeQ8dIUoHlmZH6RJzgpKtDWVu8FQrD0+5393vtDe9ERAWq3YVc9QiCQ=="/>
+        </item>
+        <item>
             <title>2.14.10</title>
             <pubDate>Fri, 07 Aug 2026 23:41:05 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +45,6 @@
 - Fixed the widget being woken constantly, and a diagnostics file being rewritten once a second, when more than one YouTube Music tab is open.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.9/Now-2.14.9.zip" length="7363411" type="application/octet-stream" sparkle:edSignature="eXkjmTE9DcNmPE3Me1Z32889nBgO8h8FTFqXW2EKbIUrmJikCXPkWrzQE/bDEh/5y5flYkn+lOvla3fA0TEoBA=="/>
-        </item>
-        <item>
-            <title>2.14.8</title>
-            <pubDate>Fri, 07 Aug 2026 18:10:04 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>215</sparkle:version>
-            <sparkle:shortVersionString>2.14.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.8
-
-- Fixed the album art in the full-screen player resizing and settling a second time after you swipe to change song. The incoming cover now slides in and stays where it lands.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.8/Now-2.14.8.zip" length="7361095" type="application/octet-stream" sparkle:edSignature="pjXh3/ImSj7Vjxg3Z5/bCWG41s5C0UGK//OLOGQP1YM4L7h/gam9xWMkrQbBT0k8YzNjYEwECZ1C6KQjs2jHCg=="/>
         </item>
     </channel>
 </rss>
