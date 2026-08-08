@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.9</title>
+            <pubDate>Fri, 07 Aug 2026 22:52:52 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>216</sparkle:version>
+            <sparkle:shortVersionString>2.14.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.9
+
+- Now uses about half as much CPU while music is playing.
+- Fixed the widget being woken constantly, and a diagnostics file being rewritten once a second, when more than one YouTube Music tab is open.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.9/Now-2.14.9.zip" length="7363411" type="application/octet-stream" sparkle:edSignature="eXkjmTE9DcNmPE3Me1Z32889nBgO8h8FTFqXW2EKbIUrmJikCXPkWrzQE/bDEh/5y5flYkn+lOvla3fA0TEoBA=="/>
+        </item>
+        <item>
             <title>2.14.8</title>
             <pubDate>Fri, 07 Aug 2026 18:10:04 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +44,6 @@
 - The album art in the full-screen player now follows the pointer evenly across the whole cover. It used to hold at full tilt through a wide band and then lean less as the pointer neared the edge, which made the effect look like it only switched on past the halfway point.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.7/Now-2.14.7.zip" length="7360919" type="application/octet-stream" sparkle:edSignature="EZtkPDcInKyG2hVTgcxu5sq3x0/yEcp3mW14MCJ1brm+uYH3ONAwmiagPZwW4x/MFEx4cxQke0wacMYfSV+HAA=="/>
-        </item>
-        <item>
-            <title>2.14.6</title>
-            <pubDate>Fri, 07 Aug 2026 03:58:49 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>213</sparkle:version>
-            <sparkle:shortVersionString>2.14.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.6
-
-- Swiping toward the next song no longer opens a blank gap on services that do not publish what is coming next, such as Spotify, Amazon Music and TIDAL. The cover now presses inward instead of sliding aside, and the song still changes on release.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.6/Now-2.14.6.zip" length="7361145" type="application/octet-stream" sparkle:edSignature="mnQ7hHzj8VQc+A20C4gcHpEMqBrLLP8QBQQ4mZTpyC6GByT0l5TnbyEST+JHThF5SYBinbV299GES2j+BhAvAw=="/>
         </item>
     </channel>
 </rss>
