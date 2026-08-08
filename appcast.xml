@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.10</title>
+            <pubDate>Fri, 07 Aug 2026 23:41:05 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>217</sparkle:version>
+            <sparkle:shortVersionString>2.14.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.10
+
+- Now holds on to less album art during long listening sessions, so memory no longer climbs into the hundreds of megabytes over several hours.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.10/Now-2.14.10.zip" length="7365070" type="application/octet-stream" sparkle:edSignature="dZQ7X8/LrsN5mkBgfAHFhRIsLIrXj2rmnBsNx4cfhjVJuFTSkqalQcOAdMzCyJDulxlvB15DVlT3y7vtiatYCw=="/>
+        </item>
+        <item>
             <title>2.14.9</title>
             <pubDate>Fri, 07 Aug 2026 22:52:52 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +44,6 @@
 - Fixed the album art in the full-screen player resizing and settling a second time after you swipe to change song. The incoming cover now slides in and stays where it lands.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.8/Now-2.14.8.zip" length="7361095" type="application/octet-stream" sparkle:edSignature="pjXh3/ImSj7Vjxg3Z5/bCWG41s5C0UGK//OLOGQP1YM4L7h/gam9xWMkrQbBT0k8YzNjYEwECZ1C6KQjs2jHCg=="/>
-        </item>
-        <item>
-            <title>2.14.7</title>
-            <pubDate>Fri, 07 Aug 2026 15:05:39 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>214</sparkle:version>
-            <sparkle:shortVersionString>2.14.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.7
-
-- The album art in the full-screen player now follows the pointer evenly across the whole cover. It used to hold at full tilt through a wide band and then lean less as the pointer neared the edge, which made the effect look like it only switched on past the halfway point.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.7/Now-2.14.7.zip" length="7360919" type="application/octet-stream" sparkle:edSignature="EZtkPDcInKyG2hVTgcxu5sq3x0/yEcp3mW14MCJ1brm+uYH3ONAwmiagPZwW4x/MFEx4cxQke0wacMYfSV+HAA=="/>
         </item>
     </channel>
 </rss>
