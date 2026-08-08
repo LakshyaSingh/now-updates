@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.8</title>
+            <pubDate>Fri, 07 Aug 2026 18:10:04 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>215</sparkle:version>
+            <sparkle:shortVersionString>2.14.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.8
+
+- Fixed the album art in the full-screen player resizing and settling a second time after you swipe to change song. The incoming cover now slides in and stays where it lands.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.8/Now-2.14.8.zip" length="7361095" type="application/octet-stream" sparkle:edSignature="pjXh3/ImSj7Vjxg3Z5/bCWG41s5C0UGK//OLOGQP1YM4L7h/gam9xWMkrQbBT0k8YzNjYEwECZ1C6KQjs2jHCg=="/>
+        </item>
+        <item>
             <title>2.14.7</title>
             <pubDate>Fri, 07 Aug 2026 15:05:39 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Swiping toward the next song no longer opens a blank gap on services that do not publish what is coming next, such as Spotify, Amazon Music and TIDAL. The cover now presses inward instead of sliding aside, and the song still changes on release.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.6/Now-2.14.6.zip" length="7361145" type="application/octet-stream" sparkle:edSignature="mnQ7hHzj8VQc+A20C4gcHpEMqBrLLP8QBQQ4mZTpyC6GByT0l5TnbyEST+JHThF5SYBinbV299GES2j+BhAvAw=="/>
-        </item>
-        <item>
-            <title>2.14.5</title>
-            <pubDate>Fri, 07 Aug 2026 03:49:55 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>212</sparkle:version>
-            <sparkle:shortVersionString>2.14.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.5
-
-- The cover's lean skips redundant redraws while you move the pointer, without any visible change to how it moves.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.5/Now-2.14.5.zip" length="7361240" type="application/octet-stream" sparkle:edSignature="sBkQPViLj+St+9sFbpCjmRUZ8zARif9tPzGwujNeSsQNll72adtGecyT+JgdaJD27yZcYzb5kMZx3By+D+ozDg=="/>
         </item>
     </channel>
 </rss>
