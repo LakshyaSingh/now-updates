@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.12</title>
+            <pubDate>Sun, 09 Aug 2026 15:25:27 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>219</sparkle:version>
+            <sparkle:shortVersionString>2.14.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.12
+
+- The previous button now restarts the current song, and goes to the song before it when you press it again. Swiping the album art still goes straight back.
+- Fixed music resuming in a browser tab you had paused after a call or other microphone use.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.12/Now-2.14.12.zip" length="7370487" type="application/octet-stream" sparkle:edSignature="41ciIsvaO0YCUUyuwRaMzcGamxpizbSpEtLjhBVLo7CFo8p3fEYWYgD1iJvtG+ouKrZCdjZXC6DydSfa30poDQ=="/>
+        </item>
+        <item>
             <title>2.14.11</title>
             <pubDate>Sat, 08 Aug 2026 13:46:42 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +45,6 @@
 - Now holds on to less album art during long listening sessions, so memory no longer climbs into the hundreds of megabytes over several hours.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.10/Now-2.14.10.zip" length="7365070" type="application/octet-stream" sparkle:edSignature="dZQ7X8/LrsN5mkBgfAHFhRIsLIrXj2rmnBsNx4cfhjVJuFTSkqalQcOAdMzCyJDulxlvB15DVlT3y7vtiatYCw=="/>
-        </item>
-        <item>
-            <title>2.14.9</title>
-            <pubDate>Fri, 07 Aug 2026 22:52:52 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>216</sparkle:version>
-            <sparkle:shortVersionString>2.14.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.9
-
-- Now uses about half as much CPU while music is playing.
-- Fixed the widget being woken constantly, and a diagnostics file being rewritten once a second, when more than one YouTube Music tab is open.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.9/Now-2.14.9.zip" length="7363411" type="application/octet-stream" sparkle:edSignature="eXkjmTE9DcNmPE3Me1Z32889nBgO8h8FTFqXW2EKbIUrmJikCXPkWrzQE/bDEh/5y5flYkn+lOvla3fA0TEoBA=="/>
         </item>
     </channel>
 </rss>
