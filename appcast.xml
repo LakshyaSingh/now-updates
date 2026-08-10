@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.17</title>
+            <pubDate>Mon, 10 Aug 2026 12:42:54 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>224</sparkle:version>
+            <sparkle:shortVersionString>2.14.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.17
+
+- The app icon now follows the Icon and widget style you choose in System Settings, including Light, Dark, Automatic and Tinted, everywhere it appears.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.17/Now-2.14.17.zip" length="8892620" type="application/octet-stream" sparkle:edSignature="nQYkg4knJkP7nCqt9elkr/C4R1fszip9iAChXdRztWgh4E13vwC9xZ2/YsqWBObLxo/Sq/mwowaaa/HVpuTDBg=="/>
+        </item>
+        <item>
             <title>2.14.16</title>
             <pubDate>Mon, 10 Aug 2026 00:54:23 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,22 +44,6 @@
 - Turning on Reduce Motion now stops a long title scrolling straight away.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.15/Now-2.14.15.zip" length="7369070" type="application/octet-stream" sparkle:edSignature="t5tQJ3NyzIGNWzj/yR8rPSPZvgCRpRiJWFCHclAaqK0LobdRobGpr3paTj+m7mZY7EJXR483O1sdut3uofk4AA=="/>
-        </item>
-        <item>
-            <title>2.14.14</title>
-            <pubDate>Sun, 09 Aug 2026 20:23:21 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>221</sparkle:version>
-            <sparkle:shortVersionString>2.14.14</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.14
-
-- Fixed YouTube Music and other browser players not being detected after audio was sent from an iPhone or iPad.
-- The cover from your phone now stays on screen when you pause it, instead of switching back to whatever played before.
-- Fixed the progress bar and lyrics running on, or jumping, while music from your phone was paused.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.14/Now-2.14.14.zip" length="7369018" type="application/octet-stream" sparkle:edSignature="xfleSU1DIKcQ29wpyG1N5mrITBREnDSFpwrlhJ7KzTYP8qYX6eNI/UGKOr8mp4M4EjrNdtOR9de0YrBbcIKCAA=="/>
         </item>
     </channel>
 </rss>
