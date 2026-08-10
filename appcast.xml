@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.16</title>
+            <pubDate>Mon, 10 Aug 2026 00:54:23 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>223</sparkle:version>
+            <sparkle:shortVersionString>2.14.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.16
+
+- Fixed the wrong album art fading in over the closing seconds of a song, showing the track you started listening with.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.16/Now-2.14.16.zip" length="7369186" type="application/octet-stream" sparkle:edSignature="QSg01G8QU2rag8oXsoJUzGOBsieIuzNWIRaySQX/78UcZoHKM3g6sUHbWmKKZ/YxwTnDjEYaxg1k/OFnepLFDw=="/>
+        </item>
+        <item>
             <title>2.14.15</title>
             <pubDate>Mon, 10 Aug 2026 00:25:57 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,20 +46,6 @@
 - Fixed the progress bar and lyrics running on, or jumping, while music from your phone was paused.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.14/Now-2.14.14.zip" length="7369018" type="application/octet-stream" sparkle:edSignature="xfleSU1DIKcQ29wpyG1N5mrITBREnDSFpwrlhJ7KzTYP8qYX6eNI/UGKOr8mp4M4EjrNdtOR9de0YrBbcIKCAA=="/>
-        </item>
-        <item>
-            <title>2.14.13</title>
-            <pubDate>Sun, 09 Aug 2026 18:32:36 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>220</sparkle:version>
-            <sparkle:shortVersionString>2.14.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.13
-
-- Now follows what your iPhone or iPad is playing when you send its audio to this Mac, with cover art and progress like any other source.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.13/Now-2.14.13.zip" length="7370828" type="application/octet-stream" sparkle:edSignature="UtInstcXvYotS8UZcHchFtz+3d9JZfPAf3+c4i3Bv6iyzAqFaLYtyQY+6Q6yzMZhnb4yDks5oNAPccxW6dVtBw=="/>
         </item>
     </channel>
 </rss>
