@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.14</title>
+            <pubDate>Sun, 09 Aug 2026 20:23:21 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>221</sparkle:version>
+            <sparkle:shortVersionString>2.14.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.14
+
+- Fixed YouTube Music and other browser players not being detected after audio was sent from an iPhone or iPad.
+- The cover from your phone now stays on screen when you pause it, instead of switching back to whatever played before.
+- Fixed the progress bar and lyrics running on, or jumping, while music from your phone was paused.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.14/Now-2.14.14.zip" length="7369018" type="application/octet-stream" sparkle:edSignature="xfleSU1DIKcQ29wpyG1N5mrITBREnDSFpwrlhJ7KzTYP8qYX6eNI/UGKOr8mp4M4EjrNdtOR9de0YrBbcIKCAA=="/>
+        </item>
+        <item>
             <title>2.14.13</title>
             <pubDate>Sun, 09 Aug 2026 18:32:36 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +46,6 @@
 - Fixed music resuming in a browser tab you had paused after a call or other microphone use.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.12/Now-2.14.12.zip" length="7370487" type="application/octet-stream" sparkle:edSignature="41ciIsvaO0YCUUyuwRaMzcGamxpizbSpEtLjhBVLo7CFo8p3fEYWYgD1iJvtG+ouKrZCdjZXC6DydSfa30poDQ=="/>
-        </item>
-        <item>
-            <title>2.14.11</title>
-            <pubDate>Sat, 08 Aug 2026 13:46:42 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>218</sparkle:version>
-            <sparkle:shortVersionString>2.14.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.11
-
-- Fixed a song set to repeat sitting at the end of the track instead of following it back to the start. The progress bar and lyrics now pick up each replay.
-- Fixed track details failing to load for music with large album art.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.11/Now-2.14.11.zip" length="7366177" type="application/octet-stream" sparkle:edSignature="f/tehI/+1JWdvJBThet2fBzQpM2Fcq+IeQ8dIUoHlmZH6RJzgpKtDWVu8FQrD0+5393vtDe9ERAWq3YVc9QiCQ=="/>
         </item>
     </channel>
 </rss>
