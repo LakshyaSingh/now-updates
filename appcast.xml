@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.13</title>
+            <pubDate>Sun, 09 Aug 2026 18:32:36 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>220</sparkle:version>
+            <sparkle:shortVersionString>2.14.13</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.13
+
+- Now follows what your iPhone or iPad is playing when you send its audio to this Mac, with cover art and progress like any other source.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.13/Now-2.14.13.zip" length="7370828" type="application/octet-stream" sparkle:edSignature="UtInstcXvYotS8UZcHchFtz+3d9JZfPAf3+c4i3Bv6iyzAqFaLYtyQY+6Q6yzMZhnb4yDks5oNAPccxW6dVtBw=="/>
+        </item>
+        <item>
             <title>2.14.12</title>
             <pubDate>Sun, 09 Aug 2026 15:25:27 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,20 +45,6 @@
 - Fixed track details failing to load for music with large album art.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.11/Now-2.14.11.zip" length="7366177" type="application/octet-stream" sparkle:edSignature="f/tehI/+1JWdvJBThet2fBzQpM2Fcq+IeQ8dIUoHlmZH6RJzgpKtDWVu8FQrD0+5393vtDe9ERAWq3YVc9QiCQ=="/>
-        </item>
-        <item>
-            <title>2.14.10</title>
-            <pubDate>Fri, 07 Aug 2026 23:41:05 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>217</sparkle:version>
-            <sparkle:shortVersionString>2.14.10</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.10
-
-- Now holds on to less album art during long listening sessions, so memory no longer climbs into the hundreds of megabytes over several hours.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.10/Now-2.14.10.zip" length="7365070" type="application/octet-stream" sparkle:edSignature="dZQ7X8/LrsN5mkBgfAHFhRIsLIrXj2rmnBsNx4cfhjVJuFTSkqalQcOAdMzCyJDulxlvB15DVlT3y7vtiatYCw=="/>
         </item>
     </channel>
 </rss>
