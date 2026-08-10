@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.15</title>
+            <pubDate>Mon, 10 Aug 2026 00:25:57 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>222</sparkle:version>
+            <sparkle:shortVersionString>2.14.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.15
+
+- Fixed the small widget keeping the next song's cover when a track repeats instead of moving on.
+- Turning on Reduce Motion now stops a long title scrolling straight away.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.15/Now-2.14.15.zip" length="7369070" type="application/octet-stream" sparkle:edSignature="t5tQJ3NyzIGNWzj/yR8rPSPZvgCRpRiJWFCHclAaqK0LobdRobGpr3paTj+m7mZY7EJXR483O1sdut3uofk4AA=="/>
+        </item>
+        <item>
             <title>2.14.14</title>
             <pubDate>Sun, 09 Aug 2026 20:23:21 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +46,6 @@
 - Now follows what your iPhone or iPad is playing when you send its audio to this Mac, with cover art and progress like any other source.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.13/Now-2.14.13.zip" length="7370828" type="application/octet-stream" sparkle:edSignature="UtInstcXvYotS8UZcHchFtz+3d9JZfPAf3+c4i3Bv6iyzAqFaLYtyQY+6Q6yzMZhnb4yDks5oNAPccxW6dVtBw=="/>
-        </item>
-        <item>
-            <title>2.14.12</title>
-            <pubDate>Sun, 09 Aug 2026 15:25:27 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>219</sparkle:version>
-            <sparkle:shortVersionString>2.14.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.12
-
-- The previous button now restarts the current song, and goes to the song before it when you press it again. Swiping the album art still goes straight back.
-- Fixed music resuming in a browser tab you had paused after a call or other microphone use.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.12/Now-2.14.12.zip" length="7370487" type="application/octet-stream" sparkle:edSignature="41ciIsvaO0YCUUyuwRaMzcGamxpizbSpEtLjhBVLo7CFo8p3fEYWYgD1iJvtG+ouKrZCdjZXC6DydSfa30poDQ=="/>
         </item>
     </channel>
 </rss>
