@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.19</title>
+            <pubDate>Wed, 12 Aug 2026 03:27:13 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>226</sparkle:version>
+            <sparkle:shortVersionString>2.14.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.19
+
+- Fixed the YouTube Music add-on stopping in tabs that were already open when Now updated, until the tab was reloaded.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.19/Now-2.14.19.zip" length="8886740" type="application/octet-stream" sparkle:edSignature="tQ5sVihDGpO440ate1nKmgSrjcvEbpfSqJrXk4/m5GbFUKPiYvuN9KsH82cOX0vvSCddcLE3BX8mAxuqqKqUDg=="/>
+        </item>
+        <item>
             <title>2.14.18</title>
             <pubDate>Wed, 12 Aug 2026 02:21:13 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The app icon now follows the Icon and widget style you choose in System Settings, including Light, Dark, Automatic and Tinted, everywhere it appears.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.17/Now-2.14.17.zip" length="8892620" type="application/octet-stream" sparkle:edSignature="nQYkg4knJkP7nCqt9elkr/C4R1fszip9iAChXdRztWgh4E13vwC9xZ2/YsqWBObLxo/Sq/mwowaaa/HVpuTDBg=="/>
-        </item>
-        <item>
-            <title>2.14.16</title>
-            <pubDate>Mon, 10 Aug 2026 00:54:23 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>223</sparkle:version>
-            <sparkle:shortVersionString>2.14.16</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.16
-
-- Fixed the wrong album art fading in over the closing seconds of a song, showing the track you started listening with.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.16/Now-2.14.16.zip" length="7369186" type="application/octet-stream" sparkle:edSignature="QSg01G8QU2rag8oXsoJUzGOBsieIuzNWIRaySQX/78UcZoHKM3g6sUHbWmKKZ/YxwTnDjEYaxg1k/OFnepLFDw=="/>
         </item>
     </channel>
 </rss>
