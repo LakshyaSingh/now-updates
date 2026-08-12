@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.18</title>
+            <pubDate>Wed, 12 Aug 2026 02:21:13 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>225</sparkle:version>
+            <sparkle:shortVersionString>2.14.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.18
+
+- The YouTube Music add-on carries the new app icon, and its button in Chrome's toolbar is no longer greyed out.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.18/Now-2.14.18.zip" length="8886235" type="application/octet-stream" sparkle:edSignature="/K8l9zJCxXyHvXLWnzeH09+x8vzoEF18AJyHgvMKlQkoXnXEWvN9snkpqzGINfXWKqyZycNdfTuALa3lMW18CA=="/>
+        </item>
+        <item>
             <title>2.14.17</title>
             <pubDate>Mon, 10 Aug 2026 12:42:54 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,21 +43,6 @@
 - Fixed the wrong album art fading in over the closing seconds of a song, showing the track you started listening with.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.16/Now-2.14.16.zip" length="7369186" type="application/octet-stream" sparkle:edSignature="QSg01G8QU2rag8oXsoJUzGOBsieIuzNWIRaySQX/78UcZoHKM3g6sUHbWmKKZ/YxwTnDjEYaxg1k/OFnepLFDw=="/>
-        </item>
-        <item>
-            <title>2.14.15</title>
-            <pubDate>Mon, 10 Aug 2026 00:25:57 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>222</sparkle:version>
-            <sparkle:shortVersionString>2.14.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.15
-
-- Fixed the small widget keeping the next song's cover when a track repeats instead of moving on.
-- Turning on Reduce Motion now stops a long title scrolling straight away.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.15/Now-2.14.15.zip" length="7369070" type="application/octet-stream" sparkle:edSignature="t5tQJ3NyzIGNWzj/yR8rPSPZvgCRpRiJWFCHclAaqK0LobdRobGpr3paTj+m7mZY7EJXR483O1sdut3uofk4AA=="/>
         </item>
     </channel>
 </rss>
