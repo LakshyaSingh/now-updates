@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.20</title>
+            <pubDate>Fri, 14 Aug 2026 10:43:26 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>227</sparkle:version>
+            <sparkle:shortVersionString>2.14.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.20
+
+- Fixed play, pause, next, previous and swipe doing nothing when a second YouTube Music tab was sitting in a collapsed tab group.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.20/Now-2.14.20.zip" length="8888510" type="application/octet-stream" sparkle:edSignature="9Yu0fkfY+W5l+asT7SniucGM4m8BwrXt3as8TbUK0MC620JghsQmrO/JhlJUygefyRJM0kIvPgTbdulf09akCQ=="/>
+        </item>
+        <item>
             <title>2.14.19</title>
             <pubDate>Wed, 12 Aug 2026 03:27:13 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - The YouTube Music add-on carries the new app icon, and its button in Chrome's toolbar is no longer greyed out.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.18/Now-2.14.18.zip" length="8886235" type="application/octet-stream" sparkle:edSignature="/K8l9zJCxXyHvXLWnzeH09+x8vzoEF18AJyHgvMKlQkoXnXEWvN9snkpqzGINfXWKqyZycNdfTuALa3lMW18CA=="/>
-        </item>
-        <item>
-            <title>2.14.17</title>
-            <pubDate>Mon, 10 Aug 2026 12:42:54 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>224</sparkle:version>
-            <sparkle:shortVersionString>2.14.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.17
-
-- The app icon now follows the Icon and widget style you choose in System Settings, including Light, Dark, Automatic and Tinted, everywhere it appears.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.17/Now-2.14.17.zip" length="8892620" type="application/octet-stream" sparkle:edSignature="nQYkg4knJkP7nCqt9elkr/C4R1fszip9iAChXdRztWgh4E13vwC9xZ2/YsqWBObLxo/Sq/mwowaaa/HVpuTDBg=="/>
         </item>
     </channel>
 </rss>
