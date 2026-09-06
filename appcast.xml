@@ -12,8 +12,7 @@
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[# Now 2.14.21
 
-- Removed the Refresh item from the menu bar. It scheduled the same check Now already runs every few seconds, so clicking it never had a visible effect.
-- Now writes its album art diagnostics file in the background instead of on the main thread, so it can no longer hold the interface up while a cover is still loading.
+- Removed the Refresh item from the menu bar, which repeated a check Now already runs on its own.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.21/Now-2.14.21.zip" length="8889929" type="application/octet-stream" sparkle:edSignature="1d40ecW2xLrHJXnmU9MMpF1M3Bk7dy0jYtRQijZnIw5KGTRwc2izF/xp4j9mnGEnBIGlp7uf/5K0CPy2gyo3Ag=="/>
         </item>
