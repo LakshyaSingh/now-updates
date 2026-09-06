@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.21</title>
+            <pubDate>Sun, 06 Sep 2026 15:49:48 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>228</sparkle:version>
+            <sparkle:shortVersionString>2.14.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.21
+
+- Removed the Refresh item from the menu bar. It scheduled the same check Now already runs every few seconds, so clicking it never had a visible effect.
+- Now writes its album art diagnostics file in the background instead of on the main thread, so it can no longer hold the interface up while a cover is still loading.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.21/Now-2.14.21.zip" length="8889929" type="application/octet-stream" sparkle:edSignature="1d40ecW2xLrHJXnmU9MMpF1M3Bk7dy0jYtRQijZnIw5KGTRwc2izF/xp4j9mnGEnBIGlp7uf/5K0CPy2gyo3Ag=="/>
+        </item>
+        <item>
             <title>2.14.20</title>
             <pubDate>Fri, 14 Aug 2026 10:43:26 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +44,6 @@
 - Fixed the YouTube Music add-on stopping in tabs that were already open when Now updated, until the tab was reloaded.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.19/Now-2.14.19.zip" length="8886740" type="application/octet-stream" sparkle:edSignature="tQ5sVihDGpO440ate1nKmgSrjcvEbpfSqJrXk4/m5GbFUKPiYvuN9KsH82cOX0vvSCddcLE3BX8mAxuqqKqUDg=="/>
-        </item>
-        <item>
-            <title>2.14.18</title>
-            <pubDate>Wed, 12 Aug 2026 02:21:13 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>225</sparkle:version>
-            <sparkle:shortVersionString>2.14.18</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.18
-
-- The YouTube Music add-on carries the new app icon, and its button in Chrome's toolbar is no longer greyed out.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.18/Now-2.14.18.zip" length="8886235" type="application/octet-stream" sparkle:edSignature="/K8l9zJCxXyHvXLWnzeH09+x8vzoEF18AJyHgvMKlQkoXnXEWvN9snkpqzGINfXWKqyZycNdfTuALa3lMW18CA=="/>
         </item>
     </channel>
 </rss>
