@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.24</title>
+            <pubDate>Sun, 27 Sep 2026 22:08:02 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>231</sparkle:version>
+            <sparkle:shortVersionString>2.14.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.24
+
+- Apple Music and other desktop apps now pause while your microphone is in use.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.24/Now-2.14.24.zip" length="8910736" type="application/octet-stream" sparkle:edSignature="c1B+ABX8Ka1ONZQzY7dIbY5bY/UjKXJMxzQ/pTUkvJsKDO3h5RDUco/XZXJ8kRnpZ+U3oBhgNlYa5+fPgDcUDQ=="/>
+        </item>
+        <item>
             <title>2.14.23</title>
             <pubDate>Sun, 27 Sep 2026 21:58:06 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Full screen now says when nothing is playing, instead of showing the last song.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.22/Now-2.14.22.zip" length="8898558" type="application/octet-stream" sparkle:edSignature="D5sk+EgPT2c6ZwAco/muVhleZaSyjZ0rgJ4pNAAZyo9cCOa+JOqOfu0XWsUP25dUEJ4Z53Q+e0LgImONEpZsCQ=="/>
-        </item>
-        <item>
-            <title>2.14.21</title>
-            <pubDate>Sun, 06 Sep 2026 15:49:48 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>228</sparkle:version>
-            <sparkle:shortVersionString>2.14.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.21
-
-- Removed the Refresh item from the menu bar, which repeated a check Now already runs on its own.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.21/Now-2.14.21.zip" length="8889929" type="application/octet-stream" sparkle:edSignature="1d40ecW2xLrHJXnmU9MMpF1M3Bk7dy0jYtRQijZnIw5KGTRwc2izF/xp4j9mnGEnBIGlp7uf/5K0CPy2gyo3Ag=="/>
         </item>
     </channel>
 </rss>
