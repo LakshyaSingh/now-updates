@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.23</title>
+            <pubDate>Sun, 27 Sep 2026 21:58:06 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>230</sparkle:version>
+            <sparkle:shortVersionString>2.14.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.23
+
+- Now can open automatically when you log in, from Settings → General.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.23/Now-2.14.23.zip" length="8910431" type="application/octet-stream" sparkle:edSignature="BXEJsa79iDV1nBXFtYjgO9QD7xEVBEm5/yfEsXIfhtNp36mRGUOgr1u+r6Yq2lJY7ALHczccfxhTDz7ZvEqjAg=="/>
+        </item>
+        <item>
             <title>2.14.22</title>
             <pubDate>Sun, 27 Sep 2026 21:52:56 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Removed the Refresh item from the menu bar, which repeated a check Now already runs on its own.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.21/Now-2.14.21.zip" length="8889929" type="application/octet-stream" sparkle:edSignature="1d40ecW2xLrHJXnmU9MMpF1M3Bk7dy0jYtRQijZnIw5KGTRwc2izF/xp4j9mnGEnBIGlp7uf/5K0CPy2gyo3Ag=="/>
-        </item>
-        <item>
-            <title>2.14.20</title>
-            <pubDate>Fri, 14 Aug 2026 10:43:26 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>227</sparkle:version>
-            <sparkle:shortVersionString>2.14.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.20
-
-- Fixed play, pause, next, previous and swipe doing nothing when a second YouTube Music tab was sitting in a collapsed tab group.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.20/Now-2.14.20.zip" length="8888510" type="application/octet-stream" sparkle:edSignature="9Yu0fkfY+W5l+asT7SniucGM4m8BwrXt3as8TbUK0MC620JghsQmrO/JhlJUygefyRJM0kIvPgTbdulf09akCQ=="/>
         </item>
     </channel>
 </rss>
