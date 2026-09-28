@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.22</title>
+            <pubDate>Sun, 27 Sep 2026 21:52:56 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>229</sparkle:version>
+            <sparkle:shortVersionString>2.14.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.22
+
+- Full screen now says when nothing is playing, instead of showing the last song.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.22/Now-2.14.22.zip" length="8898558" type="application/octet-stream" sparkle:edSignature="D5sk+EgPT2c6ZwAco/muVhleZaSyjZ0rgJ4pNAAZyo9cCOa+JOqOfu0XWsUP25dUEJ4Z53Q+e0LgImONEpZsCQ=="/>
+        </item>
+        <item>
             <title>2.14.21</title>
             <pubDate>Sun, 06 Sep 2026 15:49:48 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Fixed play, pause, next, previous and swipe doing nothing when a second YouTube Music tab was sitting in a collapsed tab group.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.20/Now-2.14.20.zip" length="8888510" type="application/octet-stream" sparkle:edSignature="9Yu0fkfY+W5l+asT7SniucGM4m8BwrXt3as8TbUK0MC620JghsQmrO/JhlJUygefyRJM0kIvPgTbdulf09akCQ=="/>
-        </item>
-        <item>
-            <title>2.14.19</title>
-            <pubDate>Wed, 12 Aug 2026 03:27:13 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>226</sparkle:version>
-            <sparkle:shortVersionString>2.14.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.19
-
-- Fixed the YouTube Music add-on stopping in tabs that were already open when Now updated, until the tab was reloaded.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.19/Now-2.14.19.zip" length="8886740" type="application/octet-stream" sparkle:edSignature="tQ5sVihDGpO440ate1nKmgSrjcvEbpfSqJrXk4/m5GbFUKPiYvuN9KsH82cOX0vvSCddcLE3BX8mAxuqqKqUDg=="/>
         </item>
     </channel>
 </rss>
