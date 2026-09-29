@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.27</title>
+            <pubDate>Tue, 29 Sep 2026 15:05:45 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>234</sparkle:version>
+            <sparkle:shortVersionString>2.14.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.27
+
+- Fixed videos from Safari web apps, such as X, appearing in the widget after the app was quit.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.27/Now-2.14.27.zip" length="8924166" type="application/octet-stream" sparkle:edSignature="7tKzJ5uNXf5bPPEHDY67X03w9vJKvrCl9EBjtWyhyMTkXg+xZGuqDej+A0qb4+FH4IMDaeFvncGAMM2GYoEfCw=="/>
+        </item>
+        <item>
             <title>2.14.26</title>
             <pubDate>Tue, 29 Sep 2026 12:03:39 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - New readability options in Settings → Track Info keep the widget clear on light wallpapers.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.25/Now-2.14.25.zip" length="8928902" type="application/octet-stream" sparkle:edSignature="bZLh2Vyy1IudMBs3D5wLW/s5ITJx0LcLWsjdmU3Po8Qp04NCUiVac1tv9gVOCildNMamyys0dzxgud6XcfudAA=="/>
-        </item>
-        <item>
-            <title>2.14.24</title>
-            <pubDate>Sun, 27 Sep 2026 22:08:02 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>231</sparkle:version>
-            <sparkle:shortVersionString>2.14.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.24
-
-- Apple Music and other desktop apps now pause while your microphone is in use.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.24/Now-2.14.24.zip" length="8910736" type="application/octet-stream" sparkle:edSignature="c1B+ABX8Ka1ONZQzY7dIbY5bY/UjKXJMxzQ/pTUkvJsKDO3h5RDUco/XZXJ8kRnpZ+U3oBhgNlYa5+fPgDcUDQ=="/>
         </item>
     </channel>
 </rss>
