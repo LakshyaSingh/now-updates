@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.14.26</title>
+            <pubDate>Tue, 29 Sep 2026 12:03:39 -0700</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>233</sparkle:version>
+            <sparkle:shortVersionString>2.14.26</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.14.26
+
+- Simplified the readability setting to Standard and Glow.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.26/Now-2.14.26.zip" length="8924291" type="application/octet-stream" sparkle:edSignature="ZohxKGc7zpu9JwhXhwEQZv3gwsVhQ7IolUFT9eT0GJgkUM0NTNxFvsPNOZek3Bs1/iWDdwl87txnT1zarJNxCQ=="/>
+        </item>
+        <item>
             <title>2.14.25</title>
             <pubDate>Tue, 29 Sep 2026 11:59:17 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +43,6 @@
 - Apple Music and other desktop apps now pause while your microphone is in use.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.24/Now-2.14.24.zip" length="8910736" type="application/octet-stream" sparkle:edSignature="c1B+ABX8Ka1ONZQzY7dIbY5bY/UjKXJMxzQ/pTUkvJsKDO3h5RDUco/XZXJ8kRnpZ+U3oBhgNlYa5+fPgDcUDQ=="/>
-        </item>
-        <item>
-            <title>2.14.23</title>
-            <pubDate>Sun, 27 Sep 2026 21:58:06 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>230</sparkle:version>
-            <sparkle:shortVersionString>2.14.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.23
-
-- Now can open automatically when you log in, from Settings → General.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.23/Now-2.14.23.zip" length="8910431" type="application/octet-stream" sparkle:edSignature="BXEJsa79iDV1nBXFtYjgO9QD7xEVBEm5/yfEsXIfhtNp36mRGUOgr1u+r6Yq2lJY7ALHczccfxhTDz7ZvEqjAg=="/>
         </item>
     </channel>
 </rss>
