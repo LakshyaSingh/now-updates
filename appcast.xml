@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.15.2</title>
+            <pubDate>Sun, 08 Nov 2026 01:19:28 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>237</sparkle:version>
+            <sparkle:shortVersionString>2.15.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.15.2
+
+- A new menu bar panel shows what is playing, with playback controls, volume and quick toggles for the widget, lyrics and full screen.
+- The full screen player looks as it did before 2.15.1.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.2/Now-2.15.2.zip" length="8953035" type="application/octet-stream" sparkle:edSignature="yiXxadzv7cpJcSw7r6sV3vSXOd66t3ATaYVFKihfJh7iLFLJZqSWQFOZJXOLCCy/7rfr8NZ19prlqhJcc5FYBw=="/>
+        </item>
+        <item>
             <title>2.15.1</title>
             <pubDate>Sat, 07 Nov 2026 17:50:17 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -35,20 +50,6 @@
 - The preview shows the widget at its real size.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.0/Now-2.15.0.zip" length="8874202" type="application/octet-stream" sparkle:edSignature="KK2AM28T28cBE8kZJQ2XUKB25Vx90EP5fND9ymUJU9bvcyFeyZk6tnaoBJM8cMyDtj3XKj8GA5WSTkMe+oAiDw=="/>
-        </item>
-        <item>
-            <title>2.14.27</title>
-            <pubDate>Tue, 29 Sep 2026 15:05:45 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>234</sparkle:version>
-            <sparkle:shortVersionString>2.14.27</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.27
-
-- Fixed videos from Safari web apps, such as X, appearing in the widget after the app was quit.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.27/Now-2.14.27.zip" length="8924166" type="application/octet-stream" sparkle:edSignature="7tKzJ5uNXf5bPPEHDY67X03w9vJKvrCl9EBjtWyhyMTkXg+xZGuqDej+A0qb4+FH4IMDaeFvncGAMM2GYoEfCw=="/>
         </item>
     </channel>
 </rss>
