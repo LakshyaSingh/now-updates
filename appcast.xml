@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.15.1</title>
+            <pubDate>Sat, 07 Nov 2026 17:50:17 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>236</sparkle:version>
+            <sparkle:shortVersionString>2.15.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.15.1
+
+- Text in the full screen player is easier to read over bright album art.
+- Better VoiceOver support, including seeking with the progress bar.
+- Respects Reduce Motion and Increase Contrast.
+- New shortcuts: Command with the arrow keys changes track and volume.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.1/Now-2.15.1.zip" length="8891712" type="application/octet-stream" sparkle:edSignature="EJ8nUaHRPr88F8L04Xb5YsGeGh73TJ8/zgvMTajhjGolB32C+xsLkdZI+9VoWV3mqnz5YD/gCX0FpTt/525vDA=="/>
+        </item>
+        <item>
             <title>2.15.0</title>
             <pubDate>Sat, 07 Nov 2026 17:35:07 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,20 +49,6 @@
 - Fixed videos from Safari web apps, such as X, appearing in the widget after the app was quit.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.27/Now-2.14.27.zip" length="8924166" type="application/octet-stream" sparkle:edSignature="7tKzJ5uNXf5bPPEHDY67X03w9vJKvrCl9EBjtWyhyMTkXg+xZGuqDej+A0qb4+FH4IMDaeFvncGAMM2GYoEfCw=="/>
-        </item>
-        <item>
-            <title>2.14.26</title>
-            <pubDate>Tue, 29 Sep 2026 12:03:39 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>233</sparkle:version>
-            <sparkle:shortVersionString>2.14.26</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.26
-
-- Simplified the readability setting to Standard and Glow.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.26/Now-2.14.26.zip" length="8924291" type="application/octet-stream" sparkle:edSignature="ZohxKGc7zpu9JwhXhwEQZv3gwsVhQ7IolUFT9eT0GJgkUM0NTNxFvsPNOZek3Bs1/iWDdwl87txnT1zarJNxCQ=="/>
         </item>
     </channel>
 </rss>
