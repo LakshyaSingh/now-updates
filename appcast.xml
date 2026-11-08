@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.15.0</title>
+            <pubDate>Sat, 07 Nov 2026 17:35:07 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>235</sparkle:version>
+            <sparkle:shortVersionString>2.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.15.0
+
+- Redesigned Settings to look and work like the rest of macOS, with a standard sidebar and grouped options.
+- Settings now reopens on the page you last used, and the window title shows where you are.
+- Setup options, keyboard shortcuts and the welcome guide now live in General.
+- The preview shows the widget at its real size.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.0/Now-2.15.0.zip" length="8874202" type="application/octet-stream" sparkle:edSignature="KK2AM28T28cBE8kZJQ2XUKB25Vx90EP5fND9ymUJU9bvcyFeyZk6tnaoBJM8cMyDtj3XKj8GA5WSTkMe+oAiDw=="/>
+        </item>
+        <item>
             <title>2.14.27</title>
             <pubDate>Tue, 29 Sep 2026 15:05:45 -0700</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -29,20 +46,6 @@
 - Simplified the readability setting to Standard and Glow.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.26/Now-2.14.26.zip" length="8924291" type="application/octet-stream" sparkle:edSignature="ZohxKGc7zpu9JwhXhwEQZv3gwsVhQ7IolUFT9eT0GJgkUM0NTNxFvsPNOZek3Bs1/iWDdwl87txnT1zarJNxCQ=="/>
-        </item>
-        <item>
-            <title>2.14.25</title>
-            <pubDate>Tue, 29 Sep 2026 11:59:17 -0700</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>232</sparkle:version>
-            <sparkle:shortVersionString>2.14.25</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.14.25
-
-- New readability options in Settings → Track Info keep the widget clear on light wallpapers.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.14.25/Now-2.14.25.zip" length="8928902" type="application/octet-stream" sparkle:edSignature="bZLh2Vyy1IudMBs3D5wLW/s5ITJx0LcLWsjdmU3Po8Qp04NCUiVac1tv9gVOCildNMamyys0dzxgud6XcfudAA=="/>
         </item>
     </channel>
 </rss>
