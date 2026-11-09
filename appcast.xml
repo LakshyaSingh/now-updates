@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.15.4</title>
+            <pubDate>Mon, 09 Nov 2026 13:01:06 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>239</sparkle:version>
+            <sparkle:shortVersionString>2.15.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.15.4
+
+- The Full Screen button in the menu bar panel now turns blue while the full screen player is open, like the other buttons.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.4/Now-2.15.4.zip" length="8957393" type="application/octet-stream" sparkle:edSignature="lgw8j4SmevhSt+qC2zcC+X+gIi43gQKiM9YL4NDfyhX+ixllC9YnhBJTJuTNCoLWbhNzNsSX5fPKcUXUQMZWBg=="/>
+        </item>
+        <item>
             <title>2.15.3</title>
             <pubDate>Mon, 09 Nov 2026 12:51:57 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -32,23 +46,6 @@
 - The full screen player looks as it did before 2.15.1.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.2/Now-2.15.2.zip" length="8953035" type="application/octet-stream" sparkle:edSignature="yiXxadzv7cpJcSw7r6sV3vSXOd66t3ATaYVFKihfJh7iLFLJZqSWQFOZJXOLCCy/7rfr8NZ19prlqhJcc5FYBw=="/>
-        </item>
-        <item>
-            <title>2.15.1</title>
-            <pubDate>Sat, 07 Nov 2026 17:50:17 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>236</sparkle:version>
-            <sparkle:shortVersionString>2.15.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.15.1
-
-- Text in the full screen player is easier to read over bright album art.
-- Better VoiceOver support, including seeking with the progress bar.
-- Respects Reduce Motion and Increase Contrast.
-- New shortcuts: Command with the arrow keys changes track and volume.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.1/Now-2.15.1.zip" length="8891712" type="application/octet-stream" sparkle:edSignature="EJ8nUaHRPr88F8L04Xb5YsGeGh73TJ8/zgvMTajhjGolB32C+xsLkdZI+9VoWV3mqnz5YD/gCX0FpTt/525vDA=="/>
         </item>
     </channel>
 </rss>
