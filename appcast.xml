@@ -3,6 +3,22 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.15.3</title>
+            <pubDate>Mon, 09 Nov 2026 12:51:57 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>238</sparkle:version>
+            <sparkle:shortVersionString>2.15.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.15.3
+
+- The full screen player has a larger cover, and background colors that better match the album art.
+- The title and progress bar now line up with the cover.
+- Long titles and artist names scroll instead of being cut off.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.3/Now-2.15.3.zip" length="8958123" type="application/octet-stream" sparkle:edSignature="Ugb2+K1p10BKX5zdgy640adNo06duvQT2C2v0m1aDW9kAcv0JAVe726Nd33kHLGNXYO5/gwT/qvGe08CXAmUBw=="/>
+        </item>
+        <item>
             <title>2.15.2</title>
             <pubDate>Sun, 08 Nov 2026 01:19:28 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,23 +49,6 @@
 - New shortcuts: Command with the arrow keys changes track and volume.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.1/Now-2.15.1.zip" length="8891712" type="application/octet-stream" sparkle:edSignature="EJ8nUaHRPr88F8L04Xb5YsGeGh73TJ8/zgvMTajhjGolB32C+xsLkdZI+9VoWV3mqnz5YD/gCX0FpTt/525vDA=="/>
-        </item>
-        <item>
-            <title>2.15.0</title>
-            <pubDate>Sat, 07 Nov 2026 17:35:07 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>235</sparkle:version>
-            <sparkle:shortVersionString>2.15.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.15.0
-
-- Redesigned Settings to look and work like the rest of macOS, with a standard sidebar and grouped options.
-- Settings now reopens on the page you last used, and the window title shows where you are.
-- Setup options, keyboard shortcuts and the welcome guide now live in General.
-- The preview shows the widget at its real size.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.0/Now-2.15.0.zip" length="8874202" type="application/octet-stream" sparkle:edSignature="KK2AM28T28cBE8kZJQ2XUKB25Vx90EP5fND9ymUJU9bvcyFeyZk6tnaoBJM8cMyDtj3XKj8GA5WSTkMe+oAiDw=="/>
         </item>
     </channel>
 </rss>
