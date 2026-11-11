@@ -3,6 +3,23 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.1</title>
+            <pubDate>Wed, 11 Nov 2026 15:15:00 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>241</sparkle:version>
+            <sparkle:shortVersionString>2.16.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.1
+
+- Fades are smoother in Apple Music, Spotify and your browser, and only the music fades, not other sounds.
+- Focus filters now hide the widget and pause music, and music resumes when the Focus ends.
+- The keyboard's play/pause key can fade too. Turn it on in Settings.
+- Hovering a full screen lyric now highlights it like the line being sung.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.1/Now-2.16.1.zip" length="9092026" type="application/octet-stream" sparkle:edSignature="Ry8QolluNxFPeQXhlzm7bao8WhMDPQpLebVI6T5WD77GG0UozLLqZJQCyzLiWDJqUR63q6GyAC9p5Q++rUFoDg=="/>
+        </item>
+        <item>
             <title>2.16.0</title>
             <pubDate>Wed, 11 Nov 2026 14:14:08 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,22 +50,6 @@
 - The Full Screen button in the menu bar panel now turns blue while the full screen player is open, like the other buttons.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.4/Now-2.15.4.zip" length="8957393" type="application/octet-stream" sparkle:edSignature="lgw8j4SmevhSt+qC2zcC+X+gIi43gQKiM9YL4NDfyhX+ixllC9YnhBJTJuTNCoLWbhNzNsSX5fPKcUXUQMZWBg=="/>
-        </item>
-        <item>
-            <title>2.15.3</title>
-            <pubDate>Mon, 09 Nov 2026 12:51:57 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>238</sparkle:version>
-            <sparkle:shortVersionString>2.15.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.15.3
-
-- The full screen player has a larger cover, and background colors that better match the album art.
-- The title and progress bar now line up with the cover.
-- Long titles and artist names scroll instead of being cut off.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.3/Now-2.15.3.zip" length="8958123" type="application/octet-stream" sparkle:edSignature="Ugb2+K1p10BKX5zdgy640adNo06duvQT2C2v0m1aDW9kAcv0JAVe726Nd33kHLGNXYO5/gwT/qvGe08CXAmUBw=="/>
         </item>
     </channel>
 </rss>
