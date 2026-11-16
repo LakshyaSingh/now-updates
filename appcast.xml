@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.2</title>
+            <pubDate>Mon, 16 Nov 2026 00:23:31 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>242</sparkle:version>
+            <sparkle:shortVersionString>2.16.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.2
+
+- Now works with the YT Music desktop app (ytm-rs).
+- Pause and play fade smoothly in apps like ytm-rs and TIDAL, without a sudden drop or jump in volume.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.2/Now-2.16.2.zip" length="9089320" type="application/octet-stream" sparkle:edSignature="e41RJ3mRbpeCN3tckE7hKirCiRllD2UturfnJ2MMjtWDt1sYi/UMgYw0epQNpL9T2eGrgrezb03Glx4yym2BCA=="/>
+        </item>
+        <item>
             <title>2.16.1</title>
             <pubDate>Wed, 11 Nov 2026 15:15:00 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -36,20 +51,6 @@
 - Full screen lyrics light up under your pointer, and the widget picks up the album's color.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.0/Now-2.16.0.zip" length="9065928" type="application/octet-stream" sparkle:edSignature="3g2rzC/2+DPd0BYfsJxNsoOCfyHriWxqQNErqa8KLNzgTs91F1EwHQAGyuK4Yc1VcImI4mAcvemUuj1uP8erBQ=="/>
-        </item>
-        <item>
-            <title>2.15.4</title>
-            <pubDate>Mon, 09 Nov 2026 13:01:06 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>239</sparkle:version>
-            <sparkle:shortVersionString>2.15.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.15.4
-
-- The Full Screen button in the menu bar panel now turns blue while the full screen player is open, like the other buttons.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.15.4/Now-2.15.4.zip" length="8957393" type="application/octet-stream" sparkle:edSignature="lgw8j4SmevhSt+qC2zcC+X+gIi43gQKiM9YL4NDfyhX+ixllC9YnhBJTJuTNCoLWbhNzNsSX5fPKcUXUQMZWBg=="/>
         </item>
     </channel>
 </rss>
