@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.5</title>
+            <pubDate>Tue, 17 Nov 2026 14:45:28 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>245</sparkle:version>
+            <sparkle:shortVersionString>2.16.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.5
+
+- Word-by-word lyrics now light up in a smooth, flowing sweep instead of letter by letter.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.5/Now-2.16.5.zip" length="9189074" type="application/octet-stream" sparkle:edSignature="3MJCWZnxOwb4cySgUffO1yI/ibxE4nMANgX6fwKVYhi0a8UcYV/YbPcm2kIZ37KylgEsDHrG1m0KTcD/nz9IAA=="/>
+        </item>
+        <item>
             <title>2.16.4</title>
             <pubDate>Tue, 17 Nov 2026 14:38:46 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,21 +45,6 @@
 - Lyrics are found for more songs, with new sources including Better Lyrics and KuGou.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.3/Now-2.16.3.zip" length="9186832" type="application/octet-stream" sparkle:edSignature="lCQVSgItx4xljKSYlmkVI5h8ncV32ItEFhpFprudTC3dFKTe92SNvY6OX1igtJaGl5YRirRX6RHFXm9O+q/bAg=="/>
-        </item>
-        <item>
-            <title>2.16.2</title>
-            <pubDate>Mon, 16 Nov 2026 00:23:31 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>242</sparkle:version>
-            <sparkle:shortVersionString>2.16.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.16.2
-
-- Now works with the YT Music desktop app (ytm-rs).
-- Pause and play fade smoothly in apps like ytm-rs and TIDAL, without a sudden drop or jump in volume.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.2/Now-2.16.2.zip" length="9089320" type="application/octet-stream" sparkle:edSignature="e41RJ3mRbpeCN3tckE7hKirCiRllD2UturfnJ2MMjtWDt1sYi/UMgYw0epQNpL9T2eGrgrezb03Glx4yym2BCA=="/>
         </item>
     </channel>
 </rss>
