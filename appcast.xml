@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.4</title>
+            <pubDate>Tue, 17 Nov 2026 14:38:46 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>244</sparkle:version>
+            <sparkle:shortVersionString>2.16.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.4
+
+- Swiping to the next or previous song with YouTube Music now slides the cover both ways.
+- Word-by-word lyrics fill in place without moving, and only long-held words glow.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.4/Now-2.16.4.zip" length="9187548" type="application/octet-stream" sparkle:edSignature="NZ7T/MvV8ZGEcsYab2GTsJ+oscK77GYT9DhrdQjhLw5FLnxVNACIf4yqdD+bi0M4KRCBSdsBN/5tcHSPe7ivBA=="/>
+        </item>
+        <item>
             <title>2.16.3</title>
             <pubDate>Tue, 17 Nov 2026 14:24:02 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -31,23 +46,6 @@
 - Pause and play fade smoothly in apps like ytm-rs and TIDAL, without a sudden drop or jump in volume.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.2/Now-2.16.2.zip" length="9089320" type="application/octet-stream" sparkle:edSignature="e41RJ3mRbpeCN3tckE7hKirCiRllD2UturfnJ2MMjtWDt1sYi/UMgYw0epQNpL9T2eGrgrezb03Glx4yym2BCA=="/>
-        </item>
-        <item>
-            <title>2.16.1</title>
-            <pubDate>Wed, 11 Nov 2026 15:15:00 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>241</sparkle:version>
-            <sparkle:shortVersionString>2.16.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.16.1
-
-- Fades are smoother in Apple Music, Spotify and your browser, and only the music fades, not other sounds.
-- Focus filters now hide the widget and pause music, and music resumes when the Focus ends.
-- The keyboard's play/pause key can fade too. Turn it on in Settings.
-- Hovering a full screen lyric now highlights it like the line being sung.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.1/Now-2.16.1.zip" length="9092026" type="application/octet-stream" sparkle:edSignature="Ry8QolluNxFPeQXhlzm7bao8WhMDPQpLebVI6T5WD77GG0UozLLqZJQCyzLiWDJqUR63q6GyAC9p5Q++rUFoDg=="/>
         </item>
     </channel>
 </rss>
