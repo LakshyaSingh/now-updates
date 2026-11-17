@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.3</title>
+            <pubDate>Tue, 17 Nov 2026 14:24:02 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>243</sparkle:version>
+            <sparkle:shortVersionString>2.16.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.3
+
+- Full-screen lyrics now light up word by word as they're sung, on macOS 15 and later.
+- Lyrics are found for more songs, with new sources including Better Lyrics and KuGou.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.3/Now-2.16.3.zip" length="9186832" type="application/octet-stream" sparkle:edSignature="lCQVSgItx4xljKSYlmkVI5h8ncV32ItEFhpFprudTC3dFKTe92SNvY6OX1igtJaGl5YRirRX6RHFXm9O+q/bAg=="/>
+        </item>
+        <item>
             <title>2.16.2</title>
             <pubDate>Mon, 16 Nov 2026 00:23:31 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -33,24 +48,6 @@
 - Hovering a full screen lyric now highlights it like the line being sung.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.1/Now-2.16.1.zip" length="9092026" type="application/octet-stream" sparkle:edSignature="Ry8QolluNxFPeQXhlzm7bao8WhMDPQpLebVI6T5WD77GG0UozLLqZJQCyzLiWDJqUR63q6GyAC9p5Q++rUFoDg=="/>
-        </item>
-        <item>
-            <title>2.16.0</title>
-            <pubDate>Wed, 11 Nov 2026 14:14:08 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>240</sparkle:version>
-            <sparkle:shortVersionString>2.16.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.16.0
-
-- Music fades in and out when you play or pause.
-- Music pauses when your Mac locks or sleeps, and resumes when you come back.
-- The widget hides during calls, and any Focus can now hide it too.
-- Save songs to your library with the new heart on the widget.
-- Full screen lyrics light up under your pointer, and the widget picks up the album's color.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.0/Now-2.16.0.zip" length="9065928" type="application/octet-stream" sparkle:edSignature="3g2rzC/2+DPd0BYfsJxNsoOCfyHriWxqQNErqa8KLNzgTs91F1EwHQAGyuK4Yc1VcImI4mAcvemUuj1uP8erBQ=="/>
         </item>
     </channel>
 </rss>
