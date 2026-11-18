@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.6</title>
+            <pubDate>Tue, 17 Nov 2026 16:26:28 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>246</sparkle:version>
+            <sparkle:shortVersionString>2.16.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.6
+
+- Pause and play fade smoothly with YouTube Music in Safari, just like in Chrome.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.6/Now-2.16.6.zip" length="9189361" type="application/octet-stream" sparkle:edSignature="YInZ5ogS75ssLek+aFH0yviKEsHK8TrXbRLyE6tONlPhww8kchPLXyjS+CuAKJ3V2zp4sQV+N/VusAT46HuYAQ=="/>
+        </item>
+        <item>
             <title>2.16.5</title>
             <pubDate>Tue, 17 Nov 2026 14:45:28 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +44,6 @@
 - Word-by-word lyrics fill in place without moving, and only long-held words glow.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.4/Now-2.16.4.zip" length="9187548" type="application/octet-stream" sparkle:edSignature="NZ7T/MvV8ZGEcsYab2GTsJ+oscK77GYT9DhrdQjhLw5FLnxVNACIf4yqdD+bi0M4KRCBSdsBN/5tcHSPe7ivBA=="/>
-        </item>
-        <item>
-            <title>2.16.3</title>
-            <pubDate>Tue, 17 Nov 2026 14:24:02 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>243</sparkle:version>
-            <sparkle:shortVersionString>2.16.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.16.3
-
-- Full-screen lyrics now light up word by word as they're sung, on macOS 15 and later.
-- Lyrics are found for more songs, with new sources including Better Lyrics and KuGou.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.3/Now-2.16.3.zip" length="9186832" type="application/octet-stream" sparkle:edSignature="lCQVSgItx4xljKSYlmkVI5h8ncV32ItEFhpFprudTC3dFKTe92SNvY6OX1igtJaGl5YRirRX6RHFXm9O+q/bAg=="/>
         </item>
     </channel>
 </rss>
