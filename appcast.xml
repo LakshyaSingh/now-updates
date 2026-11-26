@@ -3,6 +3,21 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.11</title>
+            <pubDate>Thu, 26 Nov 2026 15:14:48 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>251</sparkle:version>
+            <sparkle:shortVersionString>2.16.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.11
+
+- The widget now clears when you close the browser or the song's tab, instead of showing the old song until restart.
+- Fixed album art sometimes staying blank for a song.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.11/Now-2.16.11.zip" length="9213032" type="application/octet-stream" sparkle:edSignature="GU/9Lg4NhQqxIzo/ctTj7btRFagOh0i8hvzBuynN1LLpU4dsuP60oXRAoyV08ko2jbnHCP+Dg/QiDFdrIwmDCw=="/>
+        </item>
+        <item>
             <title>2.16.10</title>
             <pubDate>Sun, 22 Nov 2026 12:47:46 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,20 +45,6 @@
 - The background now always changes to the new song's colours.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.9/Now-2.16.9.zip" length="9211507" type="application/octet-stream" sparkle:edSignature="+mjTReNWkjU8TB1BtKAUh5R7wTPTeJ4hQ5IgmpRP6IDyBaib8mQU3wwHeYzbYaiYsCotujYPFkR79IiHnQSdAw=="/>
-        </item>
-        <item>
-            <title>2.16.8</title>
-            <pubDate>Fri, 20 Nov 2026 12:17:54 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>248</sparkle:version>
-            <sparkle:shortVersionString>2.16.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.16.8
-
-- Fixed the full-screen player sometimes freezing for a second, with the lyrics then jumping ahead.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.8/Now-2.16.8.zip" length="9211240" type="application/octet-stream" sparkle:edSignature="I5tLfeKSbP80ZXCgwxdyJ9By1pKT53JjHD5f3fFnzsWb3g0wqeacD6Ej7OMG77Q3JdyBEr3XGOHjlEyqtvLcCA=="/>
         </item>
     </channel>
 </rss>
