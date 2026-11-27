@@ -3,6 +3,20 @@
     <channel>
         <title>Now</title>
         <item>
+            <title>2.16.12</title>
+            <pubDate>Fri, 27 Nov 2026 11:44:39 -0800</pubDate>
+            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
+            <sparkle:version>252</sparkle:version>
+            <sparkle:shortVersionString>2.16.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Now 2.16.12
+
+- Fixed the widget sometimes showing a zoomed, faded version of the album art after swiping to a song.
+]]></description>
+            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.12/Now-2.16.12.zip" length="9215452" type="application/octet-stream" sparkle:edSignature="/L4adsenb8w6jgmxN+1m/+zPrF6PYiEHXvOFwCNqpaRT7rALa2v4Nt58uXALhkZ0Y5EEsVZUFAZ0ApYGliLoCw=="/>
+        </item>
+        <item>
             <title>2.16.11</title>
             <pubDate>Thu, 26 Nov 2026 15:14:48 -0800</pubDate>
             <link>https://github.com/LakshyaSingh/now-updates/releases</link>
@@ -30,21 +44,6 @@
 - Music now pauses when any microphone is in use, not just the default one. Dictating into your Mac's microphone with headphones connected pauses it again.
 ]]></description>
             <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.10/Now-2.16.10.zip" length="9212999" type="application/octet-stream" sparkle:edSignature="iKGel7CU1GHTJsfsK24InlmiRt0k5j9ZPkDW/IDz6lZjW24AEqyeyRMI8k+GlA8INQJFhfNKlNHFnJVltIRfCw=="/>
-        </item>
-        <item>
-            <title>2.16.9</title>
-            <pubDate>Fri, 20 Nov 2026 12:55:46 -0800</pubDate>
-            <link>https://github.com/LakshyaSingh/now-updates/releases</link>
-            <sparkle:version>249</sparkle:version>
-            <sparkle:shortVersionString>2.16.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Now 2.16.9
-
-- Fixed the full-screen player's background sometimes staying black.
-- The background now always changes to the new song's colours.
-]]></description>
-            <enclosure url="https://github.com/LakshyaSingh/now-updates/releases/download/v2.16.9/Now-2.16.9.zip" length="9211507" type="application/octet-stream" sparkle:edSignature="+mjTReNWkjU8TB1BtKAUh5R7wTPTeJ4hQ5IgmpRP6IDyBaib8mQU3wwHeYzbYaiYsCotujYPFkR79IiHnQSdAw=="/>
         </item>
     </channel>
 </rss>
